@@ -1,0 +1,58 @@
+.integerInputContainer {
+  display: flex;
+  width: 100%;
+  // justify-content: space-e;
+  align-items: center;
+  padding: 4px 9px;
+
+  label {
+    // line-height: 39px;
+    font-size: 24px;
+    align-self: flex-start;
+  }
+
+  .integerInput {
+    display: flex;
+    justify-content: center;
+
+    // .step {
+    //   padding: 0 12px 6px 12px;
+    //   user-select: none;
+    //   font-size: 24px;
+    //   margin: 0 3px;
+    //   border-radius: 4px;
+    // }
+
+    // .disabled {
+    //   background-color: rgb(75, 75, 75);
+    //   border: 1px solid #7a7a7a;
+    // }
+
+    // .enabled {
+    //   cursor: pointer;
+    //   border: 1px solid #03d8ff;
+    //   background-color: #327fcc;
+
+    //   &:hover {
+    //     border-color: lighten(#03d8ff, 30%);
+    //     background-color: lighten(#327fcc, 10%);
+    //   }
+    // }
+
+    .input {
+      width: 50px;
+      height: 25px;
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+      color: white;
+      border: 1px solid #03d8ff;
+      background-color: darken(#030b30, 2%);
+      border-radius: 4px;
+
+      &:focus {
+        border-color: lighten(#03d8ff, 30%);
+      }
+    }
+  }
+}

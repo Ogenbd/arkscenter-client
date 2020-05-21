@@ -1,0 +1,94 @@
+.anchor {
+  position: absolute;
+  pointer-events: none;
+  z-index: 5000;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.defaultContainer {
+  position: absolute;
+  min-width: 25rem;
+  flex: 1;
+}
+
+.title {
+  border: 1px solid #297ad6;
+  background-color: rgb(3, 11, 48);
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+.content {
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  white-space: pre-line;
+  text-align: start;
+
+  .skillDesc {
+    padding: 10px;
+    background-color: rgb(3, 11, 48);
+    border-bottom: 1px solid #297ad6;
+    border-right: 1px solid #297ad6;
+    border-left: 1px solid #297ad6;
+  }
+}
+
+.container {
+  position: absolute;
+}
+
+.skillTable {
+  display: flex;
+}
+
+.headers {
+  border-right: 1px solid #297ad6;
+  border-bottom: 1px solid #297ad6;
+  border-left: 1px solid #297ad6;
+  background-color: rgb(3, 11, 48);
+
+  p {
+    padding: 0 7px;
+    font-size: 14px;
+    text-align: right;
+    white-space: nowrap;
+    font-weight: bolder;
+  }
+
+  p:not(:last-of-type) {
+    border-bottom: 1px solid #297ad6;
+  }
+}
+
+.tableContent {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  border-right: 1px solid #297ad6;
+  border-bottom: 1px solid #297ad6;
+  background-color: rgb(3, 11, 48);
+}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+  p:not(:first-of-type) {
+    border-left: 1px solid #297ad6;
+  }
+  p {
+    padding: 0 3px;
+    text-align: center;
+    flex-basis: 100%;
+    width: 40px;
+    font-size: 14px;
+  }
+}
+
+.row:not(:last-of-type) {
+  border-bottom: 1px solid #297ad6;
+}
+
+.active {
+  background-color: rgba(#070, 0.5);
+}

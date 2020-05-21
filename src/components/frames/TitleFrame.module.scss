@@ -1,0 +1,105 @@
+.title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 210px;
+    min-height: 50px;
+    // height: 100%;
+    // padding: 10px 5px 5px 5px;
+    background: radial-gradient(ellipse, rgb(10, 40, 85) 0%, rgb(3,11,48) 60%);
+    border-radius: 15px;
+  }
+  
+  .frame {
+    position: absolute;
+  }
+  
+  .top {
+    background-image: url('../../assets/images/general/top.png');
+    background-repeat: repeat;
+    height: 5px;
+    width: calc(100% - 48px);
+    top: 0;
+  }
+  
+  .side {
+    background-image: url('../../assets/images/general/side.png');
+    background-repeat: repeat;
+    width: 5px;
+    height: calc(100% - 24px);
+    bottom: 0;
+  }
+  
+  .bottom {
+    background-image: url('../../assets/images/general/bottom.png');
+    background-repeat: repeat;
+    background-position: center;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    transform: scaleX(-1);
+    right: 0;
+  }
+  
+  .topleft {
+    background-image: url('../../assets/images/general/topcorner.png');
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    left: 0;
+    top: 0;
+  }
+  
+  .topright {
+    background-image: url('../../assets/images/general/topcorner.png');
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    right: 0;
+    top: 0;
+    transform: scaleX(-1);
+  }
+  
+  .topcenter {
+    background-image: url('../../assets/images/general/center.png');
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 148px;
+    left: calc(50% - 74px);
+    top: 0;
+  }
+  
+  .bottomleft {
+    background-image: url('../../assets/images/general/bottomcorner.png');
+    background-repeat: no-repeat;
+    height: 4px;
+    width: 27px;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .bottomright {
+    background-image: url('../../assets/images/general/bottomcorner.png');
+    background-repeat: no-repeat;
+    height: 4px;
+    width: 27px;
+    right: 0;
+    bottom: 0;
+    transform: scaleX(-1);
+  }
+
+  h1 {
+    font-size: 26px;
+    color: white;
+    font-family: 'leaguegothic';
+    letter-spacing: 1px;
+  }

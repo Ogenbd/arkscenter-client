@@ -1,0 +1,72 @@
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  height: 103px;
+  width: 100%;
+  background-image: url("../../assets/images/general/gnav.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  z-index: 100;
+  pointer-events: none;
+  // padding-top: 6px;
+  // background: linear-gradient(0deg, rgba(14,54,116,1) 0%, rgba(3,11,48,1) 100%);
+
+  // .overlay {
+  //     display: flex;
+  //     justify-content: center;
+  //     // align-items: center;
+  //     height: 100%;
+  //     width: 100%;
+  //     max-width: 1020px;
+
+  // }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1050px;
+    height: 55px;
+    pointer-events: all;
+
+    .item a {
+      color: white;
+      font-family: "leaguegothic";
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    .main {
+      // position: absolute;
+      font-size: 34px;
+      margin-top: 6px;
+      text-shadow: 0 0 3px #000, 0 0 5px #000, 0 0 8px #000;
+      min-width: 167px;
+      max-width: 167px;
+
+      @media screen and (max-width: 590px) {
+        // font-size: 34px;
+        // align-self: center;
+      }
+    }
+
+    .sub {
+      min-width: 167px;
+      max-width: 167px;
+      font-size: 28px;
+      text-shadow: 0 0 2px #000, 0 0 3px #000, 0 0 5px #000;
+      margin-top: 12px;
+    }
+
+    // .skillsim {
+    //     margin-right: 20px;
+    // }
+
+    // .guides {
+    //     margin-left: 20px;
+    // }
+  }
+}

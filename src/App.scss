@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  width: 100%;
+  color: white;
+  // letter-spacing: 0.5px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 80px;
+}
+
+.content {
+  width: 100%;
+  max-width: 1060px;
+  min-height: calc(100vh - 80px); // add footer height when known
+  margin: 0 10px;
+}
