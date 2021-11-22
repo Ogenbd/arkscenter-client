@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import s from "./SkillTree.module.scss";
 
-import data from "../data/data.json";
+import data from "../data/data.js";
 import {
+  MAX_NA_LVL,
   completedBackground,
   completedFont,
   completedBorder,
@@ -34,63 +35,72 @@ const SkillTree = ({
   sub,
   mainLvl,
   subLvl,
-  mainCOSP,
-  subCOSP,
+  mainMaxPoints,
+  subMaxPoints,
+  mainUsedPoints,
+  subUsedPoints,
   treeState,
   onChange,
+  readOnly,
 }) => {
   const [selected, setSelected] = useState(0);
 
   const selectedIndex = selected ? sub : main;
   const selectedLevel = selected ? subLvl : mainLvl;
-  const mainMaxPoints = mainLvl + mainCOSP;
-  const subMaxPoints = subLvl + subCOSP;
 
-  useEffect(() => {
-    if (selected === 1 && sub === -1) {
-      setSelected(0);
-    }
-    if (selected === 0 && main === -1 && sub > -1) {
-      setSelected(1);
-    }
-  }, [sub, main, selected]);
-
-  const removeLocked = () => {
-    const checkLocked = (classIndex) => {
-      if (classIndex === -1) return;
-      if (treeState[classIndex]) {
-        for (let key in treeState[classIndex]) {
-          if (data[classIndex].skills[key].req === 80) {
-            let treeStateCopy = JSON.parse(JSON.stringify(treeState));
-            delete treeStateCopy[classIndex][key];
-            onChange(treeStateCopy);
-          }
+  const removePointsFromLockedSkills = (classIndex) => {
+    if (treeState[classIndex]) {
+      for (let skillIndex in treeState[classIndex]) {
+        if (data[classIndex].skills[skillIndex].req === 80) {
+          let treeStateCopy = JSON.parse(JSON.stringify(treeState));
+          delete treeStateCopy[classIndex][skillIndex];
+          onChange(treeStateCopy);
         }
       }
-    };
-    if (subLvl < 80 && sub !== -1) checkLocked(sub);
-    if (mainLvl < 80) checkLocked(main);
+    }
   };
 
-  useEffect(removeLocked, [main, mainLvl, sub, subLvl]);
+  const switchCheck = () => {
+    if (selected === 1 && sub === -1) setSelected(0);
+    if (selected === 0 && main === -1 && sub > -1) setSelected(1);
+    if (mainLvl < 80) removePointsFromLockedSkills(main);
+    if (subLvl < 80) removePointsFromLockedSkills(sub);
+  };
+
+  useEffect(switchCheck, [mainLvl, main, subLvl, sub, selected]);
+
+  const lastRow = useMemo(() => {
+    let biggest = 1;
+    data[selectedIndex].skills.forEach((skill) => {
+      if (skill.loc[2] > biggest) biggest = skill.loc[2];
+    });
+    return biggest;
+  }, [selectedIndex]);
+
+  // const removeLocked = () => {
+  //   const checkLocked = (classIndex) => {
+  //     if (classIndex === -1) return;
+  //     if (treeState[classIndex]) {
+  //       for (let key in treeState[classIndex]) {
+  //         if (data[classIndex].skills[key].req === 80) {
+  //           let treeStateCopy = JSON.parse(JSON.stringify(treeState));
+  //           delete treeStateCopy[classIndex][key];
+  //           onChange(treeStateCopy);
+  //         }
+  //       }
+  //     }
+  //   };
+  //   if (subLvl < 80 && sub !== -1) checkLocked(sub);
+  //   if (mainLvl < 80) checkLocked(main);
+  // };
+
+  // useEffect(removeLocked, [main, mainLvl, sub, subLvl]);
 
   const getSkillPoints = (skill) => {
     if (!treeState[selectedIndex] || !treeState[selectedIndex][skill.id])
       return skill.min;
     return treeState[selectedIndex][skill.id];
   };
-
-  const calcPointsUsed = (classIndex) => {
-    if (classIndex === -1) return 0;
-    let sum = 0;
-    for (let key in treeState[classIndex]) {
-      sum += treeState[classIndex][key];
-    }
-    return sum;
-  };
-
-  const mainUsedPoints = calcPointsUsed(main);
-  const subUsedPoints = calcPointsUsed(sub);
 
   const generatePips = (skill) => {
     if (!skill) return null;
@@ -105,11 +115,26 @@ const SkillTree = ({
           className={`${s.pip} ${
             getSkillPoints(skill) > skill.max - i ? s.litPip : s.unlitPip
           }`}
+          style={{ cursor: readOnly ? "auto" : "pointer" }}
           onClick={(e) => setSkillAt(skill, skill.max - i + 1, e)}
         />
       );
     }
     return pips;
+  };
+
+  const getUnlockPath = (skill) => {
+    if (skill.unlockImg === "forkcustom") return null;
+    const state = getSkillPoints(skill) > 0 ? "lit" : "unlit";
+    const style = skill.unlockImg.includes("left") ? -94 : 83;
+    return (
+      <img
+        className={s.path}
+        style={{ transform: `translate(${style}px, 59px)` }}
+        src={require(`../assets/images/paths/${skill.unlockImg}${state}.png`)}
+        alt=""
+      />
+    );
   };
 
   const generateStyle = (skill) => {
@@ -147,6 +172,7 @@ const SkillTree = ({
     e.stopPropagation();
     if (skill.min === skill.max || num > skill.max) return;
     if (skill.req > selectedLevel) return;
+    if (readOnly) return;
     let treeStateCopy = JSON.parse(JSON.stringify(treeState));
     let newTreeState = generateNewSkillTree(treeStateCopy, skill, num);
     num === 0
@@ -162,6 +188,7 @@ const SkillTree = ({
   };
 
   const generateNewSkillTree = (treeStateCopy, skill, num) => {
+    console.log(skill);
     let newTreeState = treeStateCopy;
     const currSkillPoints = getSkillPoints(skill);
     const currPrereqSkillPoints = skill.prereqs
@@ -234,7 +261,10 @@ const SkillTree = ({
           </p>
         </div>
       </div>
-      <div className={s.skillTree}>
+      <div
+        className={s.skillTree}
+        style={{ gridTemplateRows: `repeat(${lastRow}, 1fr)` }}
+      >
         {selectedIndex !== -1 &&
           data[selectedIndex].skills.map((skill) => (
             <Tooltip
@@ -243,19 +273,40 @@ const SkillTree = ({
               style={{
                 gridColumn: `${skill.loc[0]}/${skill.loc[0] + 1}`,
                 gridRow: `${skill.loc[1]}/${skill.loc[1] + 1}`,
-                opacity: lang === 0 && skill.req > 75 ? 0 : 1,
-                pointerEvents: lang === 0 && skill.req > 75 ? "none" : "all",
+                opacity: lang === 0 && skill.req > MAX_NA_LVL ? 0 : 1,
+                pointerEvents:
+                  lang === 0 && skill.req > MAX_NA_LVL ? "none" : "all",
               }}
               skill={skill}
               level={getSkillPoints(skill)}
             >
               <div
                 className={s.skillContainer}
-                onClick={(e) => setSkillAt(skill, getSkillPoints(skill) + 1, e)}
                 onContextMenu={(e) => setSkillAt(skill, skill.min, e)}
               >
+                {skill.prereqs && skill.prereqs[1] > 0 && (
+                  <div className={s.requirementsBlock}>
+                    <p
+                      className={
+                        getSkillPoints(
+                          data[selectedIndex].skills[skill.prereqs[0]]
+                        ) >= skill.prereqs[1]
+                          ? s.litNum
+                          : s.unlitNum
+                      }
+                    >
+                      {skill.prereqs[1]}
+                    </p>
+                  </div>
+                )}
                 <div className={s.skill} style={generateStyle(skill)}>
-                  <div className={s.skillDisplay}>
+                  <div
+                    onClick={(e) =>
+                      setSkillAt(skill, getSkillPoints(skill) + 1, e)
+                    }
+                    className={s.skillDisplay}
+                    style={{ cursor: readOnly ? "auto" : "pointer" }}
+                  >
                     <img
                       src={require(`../assets/images/skills/${skill.img}.png`)}
                       alt={skill.name[lang]}
@@ -283,6 +334,7 @@ const SkillTree = ({
                     </div>
                   )}
                 </div>
+                {skill.unlockImg && getUnlockPath(skill)}
               </div>
             </Tooltip>
           ))}

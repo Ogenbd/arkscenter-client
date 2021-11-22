@@ -1,0 +1,143 @@
+@import "../../variables.scss";
+
+.guides {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-image: url("../../assets/images/general/maincls.png");
+  margin-right: 3px;
+}
+
+.sub {
+  background-image: url("../../assets/images/general/subcls.png");
+  margin-right: 3px;
+}
+
+.maxLevel {
+  div {
+    flex-direction: column;
+
+    label {
+      position: relative;
+      top: -16px;
+      font-family: "leaguegothic";
+      //   font-weight: bold;
+      font-size: 26px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 12px;
+
+  h1 {
+    position: relative;
+    top: -3px;
+    user-select: none;
+  }
+
+  .filterInput {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    // flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    padding: 3px;
+    margin: 10px 0;
+    border: 1px solid $windowBorderColor;
+    overflow: hidden;
+    font-size: 14px;
+
+    .check {
+      pointer-events: none;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: $windowBorderColor;
+      z-index: 0;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .checked {
+      transform: scale(100%);
+    }
+
+    .unchecked {
+      transform: scale(0);
+    }
+  }
+}
+
+.saveButton {
+  width: 244px;
+  height: 54px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/images/general/buttonmiddark.png");
+  cursor: pointer;
+  p {
+    font-family: "leaguegothic";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 28px;
+  }
+
+  &:hover {
+    background-image: url("../../assets/images/general/buttonmidlight.png");
+    p {
+      text-shadow: 0 0 5px white;
+    }
+  }
+}
+
+.result {
+  width: 100%;
+  max-width: 1060px;
+  border: 1px solid $glow;
+  box-shadow: 0 0 3px $glow;
+  background-color: $windowBackgroundColor;
+}
+
+.title {
+  border-bottom: 1px solid $glow;
+  text-align: start;
+  padding-left: 10px;
+  // box-shadow: 0 0 3px $glow;
+}

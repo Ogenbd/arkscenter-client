@@ -1,0 +1,1699 @@
+{
+  "id": 11,
+  "version": 1,
+  "name": ["Etoile", "Etoile", "エトワール"],
+  "abrvName": "ET",
+  "img": "class11",
+  "mainOnly": false,
+  "hasSub": false,
+  "boost": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "stats": [
+    [244, 100, 106, 106, 106, 114, 114, 114, 114],
+    [250, 100, 118, 118, 118, 121, 127, 127, 127],
+    [257, 100, 129, 129, 129, 128, 139, 139, 139],
+    [263, 100, 141, 141, 141, 135, 152, 152, 152],
+    [269, 100, 153, 153, 153, 142, 164, 164, 164],
+    [275, 100, 164, 164, 164, 149, 177, 177, 177],
+    [281, 100, 176, 176, 176, 156, 190, 190, 190],
+    [287, 100, 188, 188, 188, 163, 202, 202, 202],
+    [293, 100, 199, 199, 199, 170, 215, 215, 215],
+    [299, 100, 211, 211, 211, 177, 227, 227, 227],
+    [306, 100, 223, 223, 223, 184, 240, 240, 240],
+    [312, 100, 234, 234, 234, 191, 253, 253, 253],
+    [318, 100, 246, 246, 246, 198, 265, 265, 265],
+    [324, 100, 258, 258, 258, 204, 278, 278, 278],
+    [330, 100, 269, 269, 269, 211, 290, 290, 290],
+    [336, 100, 281, 281, 281, 218, 303, 303, 303],
+    [342, 100, 292, 292, 292, 225, 316, 316, 316],
+    [348, 100, 304, 304, 304, 232, 328, 328, 328],
+    [354, 100, 316, 316, 316, 239, 341, 341, 341],
+    [361, 100, 327, 327, 327, 246, 353, 353, 353],
+    [367, 100, 332, 332, 332, 250, 359, 359, 359],
+    [373, 100, 337, 337, 337, 254, 364, 364, 364],
+    [379, 100, 342, 342, 342, 258, 369, 369, 369],
+    [385, 100, 347, 347, 347, 262, 374, 374, 374],
+    [391, 100, 352, 352, 352, 266, 380, 380, 380],
+    [397, 100, 356, 356, 356, 270, 385, 385, 385],
+    [403, 100, 361, 361, 361, 274, 390, 390, 390],
+    [410, 100, 366, 366, 366, 278, 395, 395, 395],
+    [416, 100, 371, 371, 371, 282, 401, 401, 401],
+    [422, 100, 376, 376, 376, 286, 406, 406, 406],
+    [428, 100, 381, 381, 381, 290, 411, 411, 411],
+    [434, 100, 386, 386, 386, 294, 416, 416, 416],
+    [440, 100, 390, 390, 390, 297, 422, 422, 422],
+    [446, 100, 395, 395, 395, 301, 427, 427, 427],
+    [452, 100, 400, 400, 400, 305, 432, 432, 432],
+    [459, 100, 405, 405, 405, 309, 437, 437, 437],
+    [465, 100, 410, 410, 410, 313, 443, 443, 443],
+    [471, 100, 415, 415, 415, 317, 448, 448, 448],
+    [477, 100, 420, 420, 420, 321, 453, 453, 453],
+    [483, 100, 424, 424, 424, 325, 458, 458, 458],
+    [489, 100, 429, 429, 429, 329, 464, 464, 464],
+    [495, 100, 434, 434, 434, 333, 469, 469, 469],
+    [501, 100, 439, 439, 439, 337, 474, 474, 474],
+    [507, 100, 444, 444, 444, 341, 479, 479, 479],
+    [514, 100, 449, 449, 449, 345, 485, 485, 485],
+    [520, 100, 453, 453, 453, 349, 490, 490, 490],
+    [526, 100, 458, 458, 458, 353, 495, 495, 495],
+    [532, 100, 463, 463, 463, 357, 500, 500, 500],
+    [538, 100, 468, 468, 468, 361, 506, 506, 506],
+    [544, 100, 473, 473, 473, 365, 511, 511, 511],
+    [550, 100, 478, 478, 478, 369, 516, 516, 516],
+    [556, 100, 483, 483, 483, 373, 521, 521, 521],
+    [563, 100, 487, 487, 487, 377, 527, 527, 527],
+    [569, 100, 492, 492, 492, 381, 532, 532, 532],
+    [575, 100, 497, 497, 497, 385, 537, 537, 537],
+    [581, 100, 502, 502, 502, 389, 542, 542, 542],
+    [587, 100, 507, 507, 507, 393, 548, 548, 548],
+    [593, 100, 512, 512, 512, 396, 553, 553, 553],
+    [599, 100, 517, 517, 517, 400, 558, 558, 558],
+    [605, 100, 521, 521, 521, 404, 563, 563, 563],
+    [612, 100, 526, 526, 526, 408, 569, 569, 569],
+    [618, 100, 531, 531, 531, 412, 574, 574, 574],
+    [624, 100, 536, 536, 536, 416, 579, 579, 579],
+    [630, 100, 541, 541, 541, 420, 584, 584, 584],
+    [636, 100, 546, 546, 546, 424, 590, 590, 590],
+    [642, 100, 550, 550, 550, 428, 595, 595, 595],
+    [648, 100, 555, 555, 555, 432, 600, 600, 600],
+    [654, 100, 560, 560, 560, 436, 605, 605, 605],
+    [660, 100, 565, 565, 565, 440, 611, 611, 611],
+    [667, 100, 570, 570, 570, 444, 616, 616, 616],
+    [673, 100, 575, 575, 575, 448, 621, 621, 621],
+    [679, 100, 580, 580, 580, 452, 626, 626, 626],
+    [685, 100, 584, 584, 584, 456, 632, 632, 632],
+    [691, 100, 589, 589, 589, 460, 637, 637, 637],
+    [697, 100, 594, 594, 594, 464, 642, 642, 642],
+    [703, 100, 599, 599, 599, 468, 647, 647, 647],
+    [709, 100, 604, 604, 604, 472, 653, 653, 653],
+    [716, 100, 609, 609, 609, 476, 658, 658, 658],
+    [722, 100, 614, 614, 614, 480, 663, 663, 663],
+    [728, 100, 618, 618, 618, 484, 668, 668, 668],
+    [734, 100, 622, 622, 622, 488, 673, 673, 673],
+    [740, 100, 626, 626, 626, 492, 677, 677, 677],
+    [746, 100, 630, 630, 630, 495, 681, 681, 681],
+    [752, 100, 634, 634, 634, 499, 685, 685, 685],
+    [758, 100, 638, 638, 638, 503, 689, 689, 689],
+    [765, 100, 642, 642, 642, 507, 694, 694, 694],
+    [771, 100, 646, 646, 646, 511, 698, 698, 698],
+    [777, 100, 649, 649, 649, 515, 702, 702, 702],
+    [783, 100, 653, 653, 653, 519, 706, 706, 706],
+    [789, 100, 657, 657, 657, 523, 710, 710, 710],
+    [795, 100, 661, 661, 661, 527, 715, 715, 715],
+    [801, 100, 665, 665, 665, 531, 719, 719, 719],
+    [807, 100, 669, 669, 669, 535, 723, 723, 723],
+    [813, 100, 673, 673, 673, 539, 727, 727, 727],
+    [820, 100, 677, 677, 677, 543, 731, 731, 731],
+    [826, 100, 680, 680, 680, 547, 736, 736, 736],
+    [832, 100, 684, 684, 684, 551, 740, 740, 740],
+    [838, 100, 688, 688, 688, 555, 744, 744, 744],
+    [844, 100, 692, 692, 692, 559, 748, 748, 748],
+    [850, 100, 696, 696, 696, 563, 752, 752, 752]
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "name": ["Recast Save", "Recast Save", "リキャストセイブ"],
+      "desc": [
+        [
+          "Reduces the cooldown of Active Skills from non-Etoile Party Members in the area. ",
+          "Main class only."
+        ],
+        [
+          "Reduces the cooldown of Active Skills from non-Etoile Party Members in the area. ",
+          "Main class only."
+        ],
+        [
+          "エリア内にいるエトワール以外のパーティーメンバーのクラスが持つアクティブスキルのリキャストを軽減する。",
+          "メインクラスのみ適用"
+        ]
+      ],
+      "img": "skill_etoile_recast_save",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        { "header": ["Cooldown", "Cooldown", "リキャスト"], "stats": ["90%"] }
+      ],
+      "loc": [1, 1],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [12, 1],
+        [13, 1],
+        [14, 1],
+        [15, 1]
+      ],
+      "unlockImg": "forkrightfourextralong"
+    },
+    {
+      "id": 1,
+      "name": ["Dash Jump", "Dash Jump", "ステップジャンプ"],
+      "desc": [
+        ["Passive\nJumping during a recovery action switches to sprinting."],
+        ["Passive\nJumping during a recovery action switches to sprinting."],
+        ["回避アクション中にジャンプを行うことでダッシユ状態へ移行する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 1],
+      "req": 10,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 2,
+      "name": ["First Blood", "First Blood", "ファーストブラッド"],
+      "desc": [
+        [
+          "Passive\nFirst attack becomes a Just Attack. Cooldown begins after activation. Takt, Pet Attacks and Techs do not apply."
+        ],
+        [
+          "Passive\nFirst attack becomes a Just Attack. Cooldown begins after activation. Takt, Pet Attacks and Techs do not apply."
+        ],
+        [
+          "最初に放つ攻撃が、ジャストアタックになる。発動後にリキャストが発生する。タクトやペットの攻撃とテクニックは無効"
+        ]
+      ],
+      "img": "UISkillFirstArtsJustAttack",
+      "min": 1,
+      "max": 1,
+      "loc": [3, 1],
+      "req": 20,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 3,
+      "name": ["Air Reversal", "Air Reversal", "エアリバーサル"],
+      "desc": [
+        ["Passive\nAllows you to perform a break-fall while in the air."],
+        ["Passive\nEnables recovery midair."],
+        ["空中で受け身がとれるようになる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 4,
+      "name": [
+        "Perf. Recovery & ATK Combo",
+        "J Reversal JA Combo",
+        "JリバーサルJAコンボ"
+      ],
+      "desc": [
+        ["Passive\nThe Just Attack circle appears after Just Reversal."],
+        ["Passive\nThe Just Attack circle appears after Just Reversal."],
+        ["ジャストリバーサル後にジャストアタックタイミングが発生"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 5,
+      "name": ["Double Jump", "Next Jump", "ネクストジャンプ"],
+      "desc": [
+        [
+          "Passive\nAllow jumping in midair when equipped with sword, twin machine gun or talis."
+        ],
+        [
+          "Passive\nAllow jumping in midair when equipped with sword, twin machine gun or talis."
+        ],
+        ["ソード、Tマシンガン、タリス装備時に、空中でジャンプが可能になる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 1],
+      "req": 40,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 6,
+      "name": ["Etoile Will", "Etoile Will", "エトワールウィル"],
+      "desc": [
+        [
+          "Upon nearly dying, become invincible for a short time, recover all HP/PP, and restore Gear. Once per quest.",
+          "Main class only."
+        ],
+        [
+          "Upon nearly dying, become invincible for a short time, recover all HP/PP, and restore Gear. Once per quest.",
+          "Main class only."
+        ],
+        [
+          "戦闘不能となるダメージを受けたとき、一度だけ無敵時間が発生し、HPとPP、ギアゲージが全回復する。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_common_0101",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        { "header": ["Proc Rate", "Proc Rate", "発動率"], "stats": ["100%"] },
+        {
+          "header": ["Effect Duration", "Effect Duration", "効果時間"],
+          "stats": ["5 sec"]
+        }
+      ],
+      "loc": [2, 2],
+      "req": 85,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 7,
+      "name": [
+        "High Level Bonus ET",
+        "High Level Bonus ET",
+        "ハイレベルボーナスEt"
+      ],
+      "desc": [
+        ["Grants a bonus to all damage you deal."],
+        ["Grants a bonus to all damage you deal."],
+        ["プレイヤーが与えるダメージにボーナスを得る"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [3, 2],
+      "req": 80,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 8,
+      "name": ["Step JA Combo", "Step JA Combo", "ステップJAコンボ"],
+      "desc": [
+        ["Passive\nMakes Perfect-Attack timing apply during a Sidestep."],
+        ["Passive\nThe JA circle appears during Step."],
+        ["ステップ時にJAタイミングが発生するようになる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 2],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 9,
+      "name": [
+        "Wand Special Ability Plus",
+        "Wand Special Ability Plus",
+        "ウォンド特殊能力プラス"
+      ],
+      "desc": [
+        [
+          "While using a Wand, change the highest attack stat of Striking & Technique Special Abilities on the weapon.",
+          "Main class only."
+        ],
+        [
+          "While using a Wand, change the highest attack stat of Striking & Technique Special Abilities on the weapon.",
+          "Main class only."
+        ],
+        [
+          "ウォンドでの攻撃時、武器に付与された特殊能力の打撃力と法撃力でステータス変化が高い方を参照する。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_hunter-p_0005",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 10,
+      "name": ["Etoile Mag", "Etoile Mag", "エトワールマグ"],
+      "desc": [
+        [
+          "Converts your mag's total attack stats and redistributes them into Striking, Ranged and Technique."
+        ],
+        [
+          "Converts your mag's total attack stats and redistributes them into Striking, Ranged and Technique."
+        ],
+        ["装備しているマグの全攻撃力の合計を打・射・法撃力にそれぞれ変換する"]
+      ],
+      "img": "UISkillHrHeroMag",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["S-ATK Rate", "S-ATK Rate", "打撃力変換率"],
+          "stats": ["100%"]
+        },
+        {
+          "header": ["R-ATK Rate", "R-ATK Rate", "射撃力変換率"],
+          "stats": ["100%"]
+        },
+        {
+          "header": ["T-ATK Rate", "T-ATK Rate", "法撃力変換率"],
+          "stats": ["100%"]
+        }
+      ],
+      "loc": [5, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 11,
+      "name": ["Step", "Step", "ステップ"],
+      "desc": [
+        ["Active\nMove forward a short distance."],
+        ["Active\nMove forward a short distance."],
+        ["軽快な動作で踏み込み短距離を素早く移動する"]
+      ],
+      "img": "skill_hunter-a_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[16, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 12,
+      "name": [
+        "Etoile HP Restorate",
+        "Etoile HP Restorate",
+        "エトワールＨＰリストレイト"
+      ],
+      "desc": [
+        ["Gradually recover HP when HP drops below a certain level."],
+        ["Gradually recover HP when HP drops below a certain level."],
+        ["プレイヤーのHPが一定以下になると、HPが徐々に回復するようになる"]
+      ],
+      "img": "skill_etoile_et_hp_restore",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["HP Threshold", "HP Threshold", "発動HP"],
+          "stats": [
+            "5%",
+            "10%",
+            "15%",
+            "20%",
+            "25%",
+            "30%",
+            "35%",
+            "40%",
+            "45%",
+            "50%"
+          ]
+        },
+        {
+          "header": ["Recovery Interval", "Recovery Interval", "回復間隔"],
+          "stats": [
+            "5 sec",
+            "5 sec",
+            "5 sec",
+            "5 sec",
+            "5 sec",
+            "3 sec",
+            "3 sec",
+            "3 sec",
+            "3 sec",
+            "3 sec"
+          ]
+        },
+        {
+          "header": ["Recovery", "Recovery", "回復量"],
+          "stats": [
+            "2.5%",
+            "2.5%",
+            "2.5%",
+            "2.5%",
+            "2.5%",
+            "2.5%",
+            "2.5%",
+            "2.5%",
+            "2.5%",
+            "2.5%"
+          ]
+        }
+      ],
+      "loc": [1, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 1],
+      "unlocks": [
+        [17, 1],
+        [18, 1],
+        [19, 1]
+      ],
+      "unlockImg": "forkrightthree"
+    },
+    {
+      "id": 13,
+      "name": ["Over Drive", "Over Drive", "オーバードライブ"],
+      "desc": [
+        [
+          "Activate to recover the HP/PP of your Party Members and increase their Maximum PP for a duration.",
+          "Main class only."
+        ],
+        [
+          "Activate to recover the HP/PP of your Party Members and increase their Maximum PP for a duration.",
+          "Main class only."
+        ],
+        [
+          "エリア内のパーティーメンバー全員のＰＰ最大値を一定時間上昇させ、ＨＰとＰＰを全回復させる。時間経過で使用回数が増加。",
+          "メインクラスのみ適用"
+        ]
+      ],
+      "img": "skill_etoile_overdrive",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Effect Duration", "効果時間"],
+          "stats": ["20 sec"]
+        },
+        { "header": ["Max PP", "Max PP", ""], "stats": ["+50"] },
+        {
+          "header": ["Stock Number", "Stock Number", ""],
+          "stats": ["2 time(s)"]
+        }
+      ],
+      "loc": [2, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 1],
+      "unlocks": null
+    },
+    {
+      "id": 14,
+      "name": [
+        "Just Guard PP Aile",
+        "Just Guard PP Aile",
+        "ジャストガードＰＰエール"
+      ],
+      "desc": [
+        [
+          "A successful Just Guard will restore a certain amount of PP for all Party Members in the area.",
+          "Main class only."
+        ],
+        [
+          "A successful Just Guard will restore a certain amount of PP for all Party Members in the area.",
+          "Main class only."
+        ],
+        [
+          "ジャストガードを成功させるとエリア内のパーティーメンバー全員のPPが一定量回復する。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_hunter-p_0022",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["PP Recovery", "PP Recovery", "PP回復量"],
+          "stats": ["+10"]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["1 sec"]
+        }
+      ],
+      "loc": [3, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 1],
+      "unlocks": null
+    },
+    {
+      "id": 15,
+      "name": ["Around Mate Up", "Around Mate Up", "アラウンドメイトアップ"],
+      "desc": [
+        [
+          "Increases the HP/PP recovery effect when players in the area use Recovery Items.",
+          "Main class only."
+        ],
+        [
+          "Increases the HP/PP recovery effect when players in the area use Recovery Items.",
+          "Main class only."
+        ],
+        [
+          "エリア内にいるメンバーが回復アイテム使用時、HP回復量上昇とPP回復効果が追加される。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_common_0102",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["HP Recovery", "HP Recovery", "HP回復量"],
+          "stats": ["110%"]
+        }
+      ],
+      "loc": [4, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 1],
+      "unlocks": null
+    },
+    {
+      "id": 16,
+      "name": [
+        "Step Roll Advance",
+        "Step Roll Advance",
+        "ステップロールアドバンス"
+      ],
+      "desc": [
+        ["Extends invincibility during Step and Dive Roll."],
+        ["Extends invincibility during Step and Dive Roll."],
+        [
+          "威力6％上昇。強化ゼロディスタンス使用時リキャストが発生。ダイブロール回避成功でリキャスト時間短縮。"
+        ]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 4],
+      "mobileLoc": [],
+      "prereqs": [11, 1],
+      "unlocks": null
+    },
+    {
+      "id": 17,
+      "name": [
+        "All Attack Bonus ET",
+        "All Attack Bonus ET",
+        "オールアタックボーナスＥｔ"
+      ],
+      "desc": [
+        ["Gain a damage bonus for your attacks and pets."],
+        ["Gain a damage bonus for your attacks and pets."],
+        ["ペットとプレイヤーが与えるダメージにボーナスを得る"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Strike Power", "Strike Power", "打撃威力"],
+          "stats": [
+            "117%",
+            "119%",
+            "121%",
+            "123%",
+            "125%",
+            "127%",
+            "129%",
+            "131%",
+            "133%",
+            "135%"
+          ]
+        },
+        {
+          "header": ["Ranged Power", "Ranged Power", "射撃威力"],
+          "stats": [
+            "112%",
+            "114%",
+            "116%",
+            "118%",
+            "120%",
+            "122%",
+            "124%",
+            "126%",
+            "128%",
+            "130%"
+          ]
+        },
+        {
+          "header": ["Tech Damage", "Tech Damage", "法撃威力"],
+          "stats": [
+            "127%",
+            "129%",
+            "131%",
+            "133%",
+            "135%",
+            "137%",
+            "139%",
+            "141%",
+            "143%",
+            "145%"
+          ]
+        },
+        {
+          "header": ["Potency", "Pet Power", "ペット威力"],
+          "stats": [
+            "112%",
+            "114%",
+            "116%",
+            "118%",
+            "120%",
+            "122%",
+            "124%",
+            "126%",
+            "128%",
+            "130%"
+          ]
+        }
+      ],
+      "loc": [1, 5],
+      "mobileLoc": [],
+      "prereqs": [12, 1],
+      "unlocks": [
+        [21, 1],
+        [22, 1],
+        [23, 1]
+      ],
+      "unlockImg": "forkrightthree"
+    },
+    {
+      "id": 18,
+      "name": [
+        "Flat Attack Bonus",
+        "Flat Attack Bonus",
+        "フラットアタックボーナス"
+      ],
+      "desc": [
+        [
+          "Gain a bonus to your PAs and Normal Attacks when you miss a Just Attack."
+        ],
+        [
+          "Gain a bonus to your PAs and Normal Attacks when you miss a Just Attack."
+        ],
+        [
+          "ジャストアタックに失敗した時の通常攻撃とフォトンアーツのダメージにボーナスを得る"
+        ]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["110%", "115%", "120%", "125%", "130%"]
+        }
+      ],
+      "loc": [2, 5],
+      "mobileLoc": [],
+      "prereqs": [12, 1],
+      "unlocks": null
+    },
+    {
+      "id": 19,
+      "name": [
+        "Standing Massive",
+        "Standing Massive",
+        "スタンディングマッシブ"
+      ],
+      "desc": [
+        ["Prevents knockback/launches while stationary."],
+        ["Prevents knockback/launches while stationary."],
+        ["静止した状態の時、打ち上げや吹き飛ばしを防ぐ"]
+      ],
+      "img": "skill_hunter-a_0006",
+      "min": 0,
+      "max": 1,
+      "loc": [3, 5],
+      "mobileLoc": [],
+      "prereqs": [12, 1],
+      "unlocks": null
+    },
+    {
+      "id": 20,
+      "name": ["Step Attack", "Step Attack", "ステップアタック"],
+      "desc": [
+        ["Passive\nAllows you to perform an attack during a Step."],
+        ["Passive\nAllows you to perform an attack during a Step."],
+        ["ステップ中の攻撃アクションが可能となる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 21,
+      "name": ["Etoile JA Bonus", "Etoile JA Bonus", "エトワールＪＡボーナス"],
+      "desc": [
+        ["Grants a damage bonus to Just Attacks."],
+        ["Grants a damage bonus to Just Attacks."],
+        ["ジャストアタックにダメージボーナスを得る"]
+      ],
+      "img": "skill_hunter-p_0003",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Strike Power", "Strike Power", "打撃威力"],
+          "stats": [
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%",
+            "111%",
+            "112%",
+            "113%",
+            "115%"
+          ]
+        },
+        {
+          "header": ["Ranged Power", "Ranged Power", "射撃威力"],
+          "stats": [
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%",
+            "111%",
+            "112%",
+            "113%",
+            "115%"
+          ]
+        },
+        {
+          "header": ["Tech Damage", "Tech Damage", "法撃威力"],
+          "stats": [
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%",
+            "111%",
+            "112%",
+            "113%",
+            "115%"
+          ]
+        }
+      ],
+      "loc": [1, 6],
+      "mobileLoc": [],
+      "prereqs": [17, 1],
+      "unlocks": [[25, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 22,
+      "name": [
+        "Same Arts PP Save",
+        "Same Arts PP Save",
+        "セイムアーツＰＰセイブ"
+      ],
+      "desc": [
+        [
+          "Reduces the amount of PP consumed when a PA is used consecutively during a combo. PP reduction is limited to a certain rate."
+        ],
+        [
+          "Reduces the amount of PP consumed when a PA is used consecutively during a combo. PP reduction is limited to a certain rate."
+        ],
+        [
+          "コンボ中に同じＰＡを連続で使用した回数によって消費ＰＰを減少する。消費ＰＰの減少には上限がある"
+        ]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Reduction Rate", "Reduction Rate", "軽減率"],
+          "stats": ["10%", "9%", "8%", "7%", "6%", "5%", "5%", "5%", "5%", "5%"]
+        },
+        {
+          "header": ["Rate Limit", "Rate Limit", ""],
+          "stats": [
+            "10%",
+            "15%",
+            "25%",
+            "35%",
+            "45%",
+            "55%",
+            "60%",
+            "65%",
+            "70%",
+            "80%"
+          ]
+        }
+      ],
+      "loc": [2, 6],
+      "mobileLoc": [],
+      "prereqs": [17, 1],
+      "unlocks": [[26, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 23,
+      "name": ["Damage Balancer", "Damage Balancer", "ダメージバランサー"],
+      "desc": [
+        [
+          "Significantly reduces damage taken. Reduces the amount of HP you heal from everything not Consumables, Objects & ET Skills."
+        ],
+        [
+          "Significantly reduces damage taken. Reduces the amount of HP you heal from everything not Consumables, Objects & ET Skills."
+        ],
+        [
+          "自分が受けるダメージを大幅に軽減するが、アイテムやオブジェクト、エトワールのクラススキル以外からのＨＰ回復効果が減少する"
+        ]
+      ],
+      "img": "skill_hunter-a_0006",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Reduction", "Reduction", "軽減率"],
+          "stats": [
+            "25%",
+            "30%",
+            "35%",
+            "40%",
+            "45%",
+            "50%",
+            "55%",
+            "60%",
+            "65%",
+            "70%"
+          ]
+        },
+        {
+          "header": ["Recovery Reduction Rate", "Recovery Reduction Rate", ""],
+          "stats": [
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%"
+          ]
+        }
+      ],
+      "loc": [3, 6],
+      "mobileLoc": [],
+      "prereqs": [17, 1],
+      "unlocks": [
+        [27, 1],
+        [28, 1],
+        [29, 1]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 24,
+      "name": ["Just Reversal", "Just Reversal", "ジャストリバーサル"],
+      "desc": [
+        [
+          "Allows you to quickly jump up after being knocked back onto the ground."
+        ],
+        [
+          "Passive\nPress the jump button to quickly recover when knocked down."
+        ],
+        ["吹き飛ばされてダウンしたときにジャンプ操作で素早く起き上がる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 6],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 25,
+      "name": ["JA Critical", "JA Critical", "ＪＡクリティカル"],
+      "desc": [
+        ["Gain a critical bonus when you perform a Just Attack."],
+        ["Gain a critical bonus when you perform a Just Attack."],
+        ["ジャストアタックにクリティカル率ボーナスを得る"]
+      ],
+      "img": "skill_hunter-p_0003",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Proc Rate", "Proc Rate", "発動率"],
+          "stats": [
+            "15%",
+            "20%",
+            "25%",
+            "30%",
+            "34%",
+            "38%",
+            "42%",
+            "46%",
+            "48%",
+            "50%"
+          ]
+        }
+      ],
+      "loc": [1, 7],
+      "mobileLoc": [],
+      "prereqs": [21, 1],
+      "unlocks": null
+    },
+    {
+      "id": 26,
+      "name": [
+        "Tech Arts Count Bonus",
+        "Tech Arts Count Bonus",
+        "テックアーツカウントボーナス"
+      ],
+      "desc": [
+        [
+          "Gain a damage bonus and reduce PP usage when you use different PAs continuously during a combo."
+        ],
+        [
+          "Gain a damage bonus and reduce PP usage when you use different PAs continuously during a combo."
+        ],
+        [
+          "コンボ中に異なるＰＡを連続で使用すると、そこから一定回数のPAに対してPP消費が軽減されダメージボーナスを得る"
+        ]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "115%",
+            "115%",
+            "115%",
+            "115%",
+            "115%",
+            "115%",
+            "115%",
+            "115%",
+            "115%",
+            "115%"
+          ]
+        },
+        {
+          "header": ["PP Cost", "PP Cost", "消費ＰＰ"],
+          "stats": [
+            "100%",
+            "99%",
+            "98%",
+            "97%",
+            "96%",
+            "95%",
+            "94%",
+            "93%",
+            "92%",
+            "90%"
+          ]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "1 time",
+            "1 time",
+            "1 time",
+            "1 time",
+            "2 times",
+            "2 times",
+            "2 times",
+            "2 times",
+            "2 times",
+            "3 times"
+          ]
+        }
+      ],
+      "loc": [2, 7],
+      "mobileLoc": [],
+      "prereqs": [22, 1],
+      "unlocks": null
+    },
+    {
+      "id": 27,
+      "name": [
+        "ET Weapon Bonus 1",
+        "ET Weapon Bonus 1",
+        "Ｅｔウェポンボーナス１"
+      ],
+      "desc": [
+        ["By equipping Etoile weapons, damage increases.", "Main class only."],
+        ["By equipping Etoile weapons, damage increases.", "Main class only."],
+        [
+          "エトワール武器を装備した時、威力が上昇する。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "UISkillHrHeroWeaponBonus",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "110%",
+            "115%",
+            "120%",
+            "125%",
+            "130%",
+            "135%",
+            "140%",
+            "145%",
+            "150%",
+            "155%"
+          ]
+        }
+      ],
+      "loc": [3, 7],
+      "mobileLoc": [],
+      "prereqs": [23, 1],
+      "unlocks": [[29, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 28,
+      "name": ["Etoile Boost", "Etoile Boost", "エトワールブースト"],
+      "desc": [
+        [
+          "Reduces the damage you take every time you get hit. Reduction rate decreases over time."
+        ],
+        [
+          "Reduces the damage you take every time you get hit. Reduction rate decreases over time."
+        ],
+        [
+          "ダメージを受ける度にダメージ軽減にボーナスを得る。時間経過で徐々に軽減率が減少"
+        ]
+      ],
+      "img": "skill_common_0101",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Reduction Rate", "Reduction Rate", "軽減率"],
+          "stats": ["15%"]
+        },
+        {
+          "header": ["Max Rate", "Max Rate", "発動率上限"],
+          "stats": ["75%"]
+        },
+        {
+          "header": ["Rate per second", "Rate Per Second", ""],
+          "stats": ["25%"]
+        }
+      ],
+      "loc": [4, 7],
+      "mobileLoc": [],
+      "prereqs": [23, 1],
+      "unlocks": null
+    },
+    {
+      "id": 29,
+      "name": [
+        "ET Weapon Bonus 2",
+        "ET Weapon Bonus 2",
+        "Ｅｔウェポンボーナス２"
+      ],
+      "desc": [
+        ["By equipping Etoile weapons, damage increases.", "Main class only."],
+        ["By equipping Etoile weapons, damage increases.", "Main class only."],
+        [
+          "エトワール武器を装備した時、威力が上昇する。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "UISkillHrHeroWeaponBonus",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "110%",
+            "115%",
+            "120%",
+            "125%",
+            "130%",
+            "135%",
+            "140%",
+            "145%",
+            "150%",
+            "155%"
+          ]
+        }
+      ],
+      "loc": [3, 8],
+      "mobileLoc": [],
+      "prereqs": [27, 1],
+      "unlocks": null
+    },
+    {
+      "id": 30,
+      "name": ["Etoile DS Gear", "Etoile DS Gear", "エトワールＤＳギア"],
+      "desc": [
+        [
+          "Uses gear and reduces damage taken while attacked. Use Gear by holding Normal Attack to do an extra attack.",
+          "Main class only."
+        ],
+        [
+          "Uses gear and reduces damage taken while attacked. Use Gear by holding Normal Attack to do an extra attack.",
+          "Main class only."
+        ],
+        [
+          "攻撃を受ける時にギアを１つ消費してダメージを軽減する。通常攻撃を長押しするとギアを１つ消費して強力な攻撃を行う。",
+          "メインクラスのみ適用"
+        ]
+      ],
+      "img": "skill_dsaber_0000",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        { "header": ["Reduction", "Reduction", "軽減率"], "stats": ["30%"] }
+      ],
+      "loc": [1, 9],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [31, 1],
+        [32, 1],
+        [33, 1],
+        [34, 1]
+      ],
+      "unlockImg": "forkrightfour"
+    },
+    {
+      "id": 31,
+      "name": [
+        "Double Saber Skip Arts",
+        "Double Saber Skip Arts",
+        "ダブルセイバースキップアーツ"
+      ],
+      "desc": [
+        [
+          "Skip the first half of a PA by activating it without any direction input.",
+          "Main class only."
+        ],
+        [
+          "Skip the first half of a PA by activating it without any direction input.",
+          "Main class only."
+        ],
+        [
+          "ダブルセイバー装備時、方向入力を行わずＰＡを使用すると、ＰＡの後半部分から発動する。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_dsaber_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [1, 10],
+      "mobileLoc": [],
+      "prereqs": [30, 1],
+      "unlocks": null
+    },
+    {
+      "id": 32,
+      "name": [
+        "Double Saber Step Slide",
+        "Double Saber Step Slide",
+        "ダブルセイバーステップスライド"
+      ],
+      "desc": [
+        [
+          "While a Double Saber is equipped, using Step again during Step will allow you to Slide in a fixed motion.",
+          "Main class only."
+        ],
+        [
+          "While a Double Saber is equipped, using Step again during Step will allow you to Slide in a fixed motion.",
+          "Main class only."
+        ],
+        [
+          "ダブルセイバー装備時、ステップ中に再度ステップを使用すると、滑らかな動作で一定距離を移動する。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_dsaber_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [2, 10],
+      "mobileLoc": [],
+      "prereqs": [30, 1],
+      "unlocks": null
+    },
+    {
+      "id": 33,
+      "name": [
+        "Double Saber Quick Take",
+        "Double Saber Quick Take",
+        "ダブルセイバークイックテイク"
+      ],
+      "desc": [
+        [
+          "Quickly approach the enemy by pressing the Weapon Action or Normal Attack button during a certain time frame.",
+          "Main class only."
+        ],
+        [
+          "Quickly approach the enemy by pressing the Weapon Action or Normal Attack button during a certain time frame.",
+          "Main class only."
+        ],
+        [
+          "ダブルセイバー装備時、特定タイミングで行う通常攻撃と武器アクションに、高速移動する効果が追加。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_dsaber_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [3, 10],
+      "mobileLoc": [],
+      "prereqs": [30, 1],
+      "unlocks": null
+    },
+    {
+      "id": 34,
+      "name": [
+        "Double Saber Step Guard",
+        "Double Saber Step Guard",
+        "ダブルセイバーステップガード"
+      ],
+      "desc": [
+        [
+          "While a Double Saber is equipped, launch a counterattack to locked on enemies when you Step forward.",
+          "Main class only."
+        ],
+        [
+          "While a Double Saber is equipped, launch a counterattack to locked on enemies when you Step forward.",
+          "Main class only."
+        ],
+        [
+          "ダブルセイバー装備時、ロックオン中に敵の攻撃に合わせて前方へステップすると特殊な反撃が発生する。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_dsaber_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [4, 10],
+      "mobileLoc": [],
+      "prereqs": [30, 1],
+      "unlocks": null
+    },
+    {
+      "id": 35,
+      "name": ["Etoile DB Gear", "Etoile DB Gear", "エトワールＤＢギア"],
+      "desc": [
+        [
+          "Use Gear to activate a Connect. Activate a Full Connect by using the entire gauge.",
+          "Main class only."
+        ],
+        [
+          "Use Gear to activate a Connect. Activate a Full Connect by using the entire gauge.",
+          "Main class only."
+        ],
+        [
+          "ギアゲージを1つ消費してコネクトを発動する。更にギアゲージを消費することでフルコネクトを発動する。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_dblade_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [1, 11],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [37, 1],
+        [38, 1]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 36,
+      "name": [
+        "Etoile Wand Gear",
+        "Etoile Wand Gear",
+        "エトワールウォンドギア"
+      ],
+      "desc": [
+        [
+          "Long press Weapon Action uses gear to enable an extended Just Guard. Perform powerful attacks each time gear is used.",
+          "Main class only."
+        ],
+        [
+          "Long press Weapon Action uses gear to enable an extended Just Guard. Perform powerful attacks each time gear is used.",
+          "Main class only."
+        ],
+        [
+          "武器アクションを長押しすることでギアを消費し、長時間ジャストガードが可能になる。ギアの消費量に応じて強力な攻撃を行う。",
+          "メインクラスのみ適用"
+        ]
+      ],
+      "img": "skill_wand_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [3, 11],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [39, 1],
+        [40, 1]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 37,
+      "name": [
+        "DB Lock-on Chase",
+        "DB Lock-on Chase",
+        "ＤＢロックオンチェイス"
+      ],
+      "desc": [
+        [
+          "While a Dual Blade is equipped, Normal Attacks will advance you towards a locked-on enemy.",
+          "Main class only."
+        ],
+        [
+          "While a Dual Blade is equipped, Normal Attacks will advance you towards a locked-on enemy.",
+          "Main class only."
+        ],
+        [
+          "デュアルブレード装備時、通常攻撃にロックした敵へ近づく挙動が追加される。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_dblade_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [1, 12],
+      "mobileLoc": [],
+      "prereqs": [35, 1],
+      "unlocks": null
+    },
+    {
+      "id": 38,
+      "name": [
+        "DB Gear Heat Up",
+        "DB Gear Heat Up",
+        "Ｄブレードギアヒートアップ"
+      ],
+      "desc": [
+        [
+          "While a Dual Blade is equipped, using a Connect or Full Connect will boost gear gain for a certain period of time.",
+          "Main class only."
+        ],
+        [
+          "While a Dual Blade is equipped, using a Connect or Full Connect will boost gear gain for a certain period of time.",
+          "Main class only."
+        ],
+        [
+          "デュアルブレード装備時、コネクト、フルコネクトを使用すると一定時間ギア増加量にボーナスを得る。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_dblade_0000",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Gear Gain", "Gear Gain", "ギア増加量"],
+          "stats": ["150%"]
+        }
+      ],
+      "loc": [2, 12],
+      "mobileLoc": [],
+      "prereqs": [35, 1],
+      "unlocks": null
+    },
+    {
+      "id": 39,
+      "name": ["Wand F. Dash", "Wand F. Dash", "ウォンドＦダッシュ"],
+      "desc": [
+        [
+          "While a Wand is equipped, during a Focus PA, movement speed is boosted for a short time during a combo.",
+          "Main class only."
+        ],
+        [
+          "While a Wand is equipped, during a Focus PA, movement speed is boosted for a short time during a combo.",
+          "Main class only."
+        ],
+        [
+          "ウォンド装備時、ＰＡのフォーカスに成功すると、コンボ継続中に限り一定時間移動速度が上昇。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_wand_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [3, 12],
+      "mobileLoc": [],
+      "prereqs": [36, 1],
+      "unlocks": null
+    },
+    {
+      "id": 40,
+      "name": ["Wand Teleport", "Wand Teleport", "ウォンドテレポート"],
+      "desc": [
+        [
+          "While a Wand is equipped, hold and release the weapon action to warp in a direction and attack.",
+          "Main class only."
+        ],
+        [
+          "While a Wand is equipped, hold and release the weapon action to warp in a direction and attack.",
+          "Main class only."
+        ],
+        [
+          "ウォンド装備時、武器アクションを短時間押し続けて離すと、入力方向に応じて一定距離を移動し攻撃する。",
+          "このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_wand_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [4, 12],
+      "mobileLoc": [],
+      "prereqs": [36, 1],
+      "unlocks": null
+    },
+    {
+      "id": 41,
+      "name": ["HP Up", "HP Up", "ＨＰアップ"],
+      "desc": [["Increases HP."], ["Increases HP."], ["ＨＰ最大値が上昇する"]],
+      "img": "skill_common_0000",
+      "min": 0,
+      "max": 10,
+      "stat": [[0, 1]],
+      "effects": [
+        {
+          "header": ["Max HP", "Maximum HP", "HP最大値"],
+          "stats": [
+            "+5",
+            "+10",
+            "+15",
+            "+20",
+            "+25",
+            "+30",
+            "+35",
+            "+40",
+            "+45",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [1, 13],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 42,
+      "name": ["PP Up", "PP Up", "ＰＰアップ"],
+      "desc": [["Increases PP."], ["Increases PP."], ["ＰＰ最大値が上昇する"]],
+      "img": "skill_common_0001",
+      "min": 0,
+      "max": 10,
+      "stat": [[1, 0]],
+      "effects": [
+        {
+          "header": ["Max PP", "Maximum PP", "PP最大値"],
+          "stats": ["+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10"]
+        }
+      ],
+      "loc": [2, 13],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 43,
+      "name": ["All Attack Up", "All Attack Up", "全攻撃力アップ"],
+      "desc": [
+        ["Increases Attack power."],
+        ["Increases Attack power."],
+        ["打・射・法撃力が上昇する"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 10,
+      "stat": [
+        [2, 7],
+        [3, 7],
+        [4, 7]
+      ],
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+5",
+            "+10",
+            "+15",
+            "+20",
+            "+25",
+            "+30",
+            "+35",
+            "+40",
+            "+45",
+            "+50"
+          ]
+        },
+        {
+          "header": ["RNG Pwr", "R-ATK", "射撃力"],
+          "stats": [
+            "+5",
+            "+10",
+            "+15",
+            "+20",
+            "+25",
+            "+30",
+            "+35",
+            "+40",
+            "+45",
+            "+50"
+          ]
+        },
+        {
+          "header": ["TEC Pwr", "T-ATK", "法撃力"],
+          "stats": [
+            "+5",
+            "+10",
+            "+15",
+            "+20",
+            "+25",
+            "+30",
+            "+35",
+            "+40",
+            "+45",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [3, 13],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 44,
+      "name": ["All Defense Up", "All Defense Up", "全防御力アップ"],
+      "desc": [
+        ["Boosts all defense and DEX."],
+        ["Boosts all defense and DEX."],
+        ["打・射・法撃防御力と技量が上昇する"]
+      ],
+      "img": "skill_summoner-p_0002",
+      "min": 0,
+      "max": 10,
+      "stat": [
+        [5, 7],
+        [6, 7],
+        [7, 7],
+        [8, 7]
+      ],
+      "effects": [
+        {
+          "header": ["MEL Def", "S-DEF", "打撃防御"],
+          "stats": [
+            "+5",
+            "+10",
+            "+15",
+            "+20",
+            "+25",
+            "+30",
+            "+35",
+            "+40",
+            "+45",
+            "+50"
+          ]
+        },
+        {
+          "header": ["RNG Def", "R-DEF", "射撃防御"],
+          "stats": [
+            "+5",
+            "+10",
+            "+15",
+            "+20",
+            "+25",
+            "+30",
+            "+35",
+            "+40",
+            "+45",
+            "+50"
+          ]
+        },
+        {
+          "header": ["TEC Def", "T-DEF", "法撃防御"],
+          "stats": [
+            "+5",
+            "+10",
+            "+15",
+            "+20",
+            "+25",
+            "+30",
+            "+35",
+            "+40",
+            "+45",
+            "+50"
+          ]
+        },
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+5",
+            "+10",
+            "+15",
+            "+20",
+            "+25",
+            "+30",
+            "+35",
+            "+40",
+            "+45",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [4, 13],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    }
+  ]
+}

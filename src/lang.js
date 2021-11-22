@@ -16,3 +16,5 @@ export const raceNames = [
   ["CAST", "CAST", "キャスト"],
   ["Deuman", "Dewman", "デューマン"],
 ];
+
+export const languages = ["English (NA)", "English (JP)", "日本語 (JP)"];

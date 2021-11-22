@@ -1,0 +1,1537 @@
+{
+  "id": 7,
+  "version": 1,
+  "name": ["Bouncer", "Bouncer", "バウンサー"],
+  "abrvName": "BO",
+  "img": "class7",
+  "mainOnly": false,
+  "hasSub": true,
+  "boost": [0, 2, 20, 0, 20, 30, 0, 0, 0],
+  "stats": [
+    [190, 100, 85, 72, 85, 96, 78, 78, 78],
+    [195, 100, 95, 80, 95, 102, 88, 88, 88],
+    [200, 100, 105, 88, 105, 108, 98, 98, 98],
+    [205, 100, 115, 96, 115, 113, 108, 108, 108],
+    [210, 100, 125, 104, 125, 119, 118, 118, 118],
+    [215, 100, 135, 112, 135, 125, 128, 128, 128],
+    [220, 100, 145, 120, 145, 130, 138, 138, 138],
+    [225, 100, 155, 128, 155, 136, 148, 148, 148],
+    [230, 100, 165, 136, 165, 142, 158, 158, 158],
+    [235, 100, 175, 144, 175, 148, 168, 168, 168],
+    [240, 100, 185, 152, 185, 153, 178, 178, 178],
+    [245, 100, 195, 160, 195, 159, 188, 188, 188],
+    [250, 100, 205, 168, 205, 165, 198, 198, 198],
+    [255, 100, 215, 176, 215, 170, 208, 208, 208],
+    [260, 100, 225, 184, 225, 176, 218, 218, 218],
+    [265, 100, 235, 192, 235, 182, 228, 228, 228],
+    [270, 100, 245, 200, 245, 187, 238, 238, 238],
+    [275, 100, 255, 208, 255, 193, 248, 248, 248],
+    [280, 100, 265, 216, 265, 199, 258, 258, 258],
+    [285, 100, 275, 224, 275, 205, 268, 268, 268],
+    [290, 100, 279, 227, 279, 207, 271, 271, 271],
+    [295, 100, 283, 230, 283, 210, 274, 274, 274],
+    [300, 100, 287, 234, 287, 213, 277, 277, 277],
+    [305, 100, 291, 237, 291, 216, 280, 280, 280],
+    [310, 100, 295, 240, 295, 219, 283, 283, 283],
+    [315, 100, 299, 243, 299, 222, 286, 286, 286],
+    [320, 100, 303, 246, 303, 224, 289, 289, 289],
+    [325, 100, 307, 250, 307, 227, 292, 292, 292],
+    [330, 100, 311, 253, 311, 230, 295, 295, 295],
+    [335, 100, 315, 256, 315, 233, 298, 298, 298],
+    [340, 100, 318, 259, 318, 236, 301, 301, 301],
+    [345, 100, 321, 262, 321, 239, 304, 304, 304],
+    [350, 100, 324, 265, 324, 242, 307, 307, 307],
+    [355, 100, 327, 268, 327, 244, 310, 310, 310],
+    [360, 100, 330, 271, 330, 247, 313, 313, 313],
+    [365, 100, 333, 274, 333, 250, 316, 316, 316],
+    [370, 100, 336, 277, 336, 253, 319, 319, 319],
+    [375, 100, 339, 280, 339, 256, 322, 322, 322],
+    [380, 100, 342, 283, 342, 259, 325, 325, 325],
+    [385, 100, 345, 286, 345, 262, 328, 328, 328],
+    [390, 100, 348, 289, 348, 264, 331, 331, 331],
+    [395, 100, 351, 292, 351, 267, 334, 334, 334],
+    [400, 100, 354, 295, 354, 270, 337, 337, 337],
+    [405, 100, 357, 298, 357, 273, 340, 340, 340],
+    [410, 100, 360, 301, 360, 276, 343, 343, 343],
+    [415, 100, 363, 304, 363, 279, 346, 346, 346],
+    [420, 100, 366, 307, 366, 281, 349, 349, 349],
+    [425, 100, 369, 310, 369, 284, 352, 352, 352],
+    [430, 100, 372, 313, 372, 287, 355, 355, 355],
+    [435, 100, 375, 316, 375, 290, 358, 358, 358],
+    [440, 100, 378, 319, 378, 293, 361, 361, 361],
+    [445, 100, 381, 322, 381, 296, 364, 364, 364],
+    [450, 100, 384, 325, 384, 299, 367, 367, 367],
+    [455, 100, 387, 328, 387, 302, 370, 370, 370],
+    [460, 100, 390, 331, 390, 305, 373, 373, 373],
+    [465, 100, 393, 334, 393, 308, 376, 376, 376],
+    [470, 100, 396, 337, 396, 311, 379, 379, 379],
+    [475, 100, 399, 340, 399, 314, 382, 382, 382],
+    [480, 100, 402, 343, 402, 317, 385, 385, 385],
+    [485, 100, 405, 346, 405, 320, 388, 388, 388],
+    [490, 100, 409, 350, 409, 323, 391, 391, 391],
+    [495, 100, 413, 354, 413, 326, 394, 394, 394],
+    [500, 100, 417, 358, 417, 329, 397, 397, 397],
+    [505, 100, 421, 362, 421, 332, 400, 400, 400],
+    [510, 100, 425, 366, 425, 335, 403, 403, 403],
+    [515, 100, 429, 370, 429, 338, 406, 406, 406],
+    [520, 100, 433, 374, 433, 341, 409, 409, 409],
+    [525, 100, 437, 378, 437, 344, 412, 412, 412],
+    [530, 100, 441, 382, 441, 347, 415, 415, 415],
+    [535, 100, 445, 386, 445, 350, 418, 418, 418],
+    [540, 100, 449, 390, 449, 353, 421, 421, 421],
+    [545, 100, 453, 394, 453, 356, 424, 424, 424],
+    [550, 100, 457, 398, 457, 359, 427, 427, 427],
+    [555, 100, 461, 402, 461, 362, 430, 430, 430],
+    [560, 100, 465, 406, 465, 365, 433, 433, 433],
+    [565, 100, 469, 410, 469, 368, 436, 436, 436],
+    [570, 100, 473, 414, 473, 371, 439, 439, 439],
+    [575, 100, 477, 418, 477, 374, 442, 442, 442],
+    [580, 100, 481, 422, 481, 377, 445, 445, 445],
+    [585, 100, 485, 426, 485, 380, 448, 448, 448],
+    [590, 100, 489, 430, 489, 383, 451, 451, 451],
+    [595, 100, 493, 434, 493, 386, 454, 454, 454],
+    [600, 100, 497, 438, 497, 389, 457, 457, 457],
+    [605, 100, 501, 442, 501, 392, 460, 460, 460],
+    [610, 100, 505, 446, 505, 395, 463, 463, 463],
+    [615, 100, 509, 450, 509, 398, 466, 466, 466],
+    [620, 100, 513, 454, 513, 401, 469, 469, 469],
+    [625, 100, 517, 458, 517, 404, 472, 472, 472],
+    [630, 100, 521, 462, 521, 407, 475, 475, 475],
+    [635, 100, 525, 466, 525, 410, 478, 478, 478],
+    [640, 100, 529, 470, 529, 413, 481, 481, 481],
+    [645, 100, 533, 474, 533, 416, 484, 484, 484],
+    [650, 100, 537, 478, 537, 419, 487, 487, 487],
+    [655, 100, 541, 482, 541, 422, 490, 490, 490],
+    [660, 100, 545, 486, 545, 425, 493, 493, 493],
+    [665, 100, 549, 490, 549, 428, 496, 496, 496],
+    [670, 100, 553, 494, 553, 431, 499, 499, 499],
+    [675, 100, 557, 498, 557, 434, 502, 502, 502],
+    [680, 100, 561, 502, 561, 437, 505, 505, 505],
+    [685, 100, 565, 506, 565, 440, 508, 508, 508]
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "name": ["Blinding Sidestep", "Mirage Step", "ミラージュステップ"],
+      "desc": [
+        ["Swiftly move a short distance by moving in deftly."],
+        ["Active\nMove forward a short distance."],
+        ["軽快な動作で踏み込み短距離を素早く移動する"]
+      ],
+      "img": "skill_hunter-a_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[1, 0]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 1,
+      "name": ["Advanced Dodge", "Step Advance", "ステップアドバンス"],
+      "desc": [
+        ["Extends the duration of invulnerability during a Sidestep."],
+        ["Passive\nExtends the invulnerability during Step."],
+        ["ステップ中の無敵時間を延長する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "0.05 s",
+            "0.09 s",
+            "0.11 s",
+            "0.13 s",
+            "0.14 s",
+            "0.15 s",
+            "0.16 s",
+            "0.17 s",
+            "0.18 s",
+            "0.20 s"
+          ]
+        }
+      ],
+      "loc": [6, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 0],
+      "unlocks": null
+    },
+    {
+      "id": 2,
+      "name": ["Dodge Attack", "Step Attack", "ステップアタック"],
+      "desc": [
+        ["Allows you to attack while performing a Sidestep."],
+        ["Passive\nAllows you to perform an attack during a Step."],
+        ["ステップ中の攻撃アクションが可能となる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 6],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 3,
+      "name": ["Perfect Recovery", "Just Reversal", "ジャストリバーサル"],
+      "desc": [
+        [
+          "Allows you to quickly jump up after being knocked back onto the ground."
+        ],
+        [
+          "Passive\nPress the jump button to quickly recover when knocked down."
+        ],
+        ["吹き飛ばされてダウンしたときにジャンプ操作で素早く起き上がる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 8],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[4, 0]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 4,
+      "name": [
+        "Perfect Recovery PP Gain",
+        "J Reversal PP Gain",
+        "JリバーサルPPゲイン"
+      ],
+      "desc": [
+        ["Recovers PP when a Perfect Recovery is activated."],
+        ["Passive\nRecover PP when using Just Reversal."],
+        ["ジャストリバーサル発動時に、PPが回復するようになる"]
+      ],
+      "img": "skill_bouncer-p_0003",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["PP Recovery", "PP Recovery Rate", "PP回復率"],
+          "stats": ["10%", "12%", "14%", "16%", "20%"]
+        }
+      ],
+      "loc": [6, 9],
+      "mobileLoc": [],
+      "prereqs": [3, 0],
+      "unlocks": null
+    },
+    {
+      "id": 5,
+      "name": ["Crafting Mastery", "Craft Mastery", "クラフトマスタリー"],
+      "desc": [
+        [
+          "Grants a bonus to your equipment stats when you equip a crafted weapon or armor."
+        ],
+        [
+          "Passive\nGain a bonus to your equipment's status when equipping crafted weapons or armour."
+        ],
+        ["クラフト武器や防具を装備すると装備のステータスにボーナスを得る"]
+      ],
+      "img": "skill_bouncer-p_0002",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Crafting Bonus", "Craft Bonus", "クラフトボーナス"],
+          "stats": ["1%", "2%", "3%", "4%", "5%", "6%", "7%", "8%", "9%", "10%"]
+        }
+      ],
+      "loc": [4, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 6,
+      "name": ["Bouncer Mag", "Bouncer Mag", "バウンサーマグ"],
+      "desc": [
+        [
+          "Adds a set percentage of an equipped Mag's Dexterity to Melee Power and Technique Power."
+        ],
+        [
+          "Passive\nAdds S-ATK and T-ATK by a fixed rate depending on the DEX of your equipped Mag."
+        ],
+        ["装備しているマグの技量から一定割合を打撃力と法撃力に加える"]
+      ],
+      "img": "skill_bouncer-p_0001",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": [
+            "MEL Conversion Rate",
+            "S-ATK Conversion Rate",
+            "打撃力変換率"
+          ],
+          "stats": ["100%"]
+        },
+        {
+          "header": [
+            "TEC Conversion Rate",
+            "T-ATK Conversion Rate",
+            "法撃力変換率"
+          ],
+          "stats": ["100%"]
+        }
+      ],
+      "loc": [5, 4],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 7,
+      "name": [
+        "Arms Enthusiast: Bouncer",
+        "Rare Mastery Bouncer",
+        "レアマスタリーバウンサー"
+      ],
+      "desc": [
+        [
+          "Boosts the damage you deal when a weapon of Rarity 10★ or greater is equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen equipped with a ★10 or higher weapon or crafted weapon, gain a damage bonus. ",
+          "Main class only."
+        ],
+        [
+          "レアリティ★10以上の武器を装備していると、打撃力と法撃力が上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_techer-p_0020",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 8,
+      "name": ["Dexterity Up 1", "Dexterity Up 1", "技量アップ1"],
+      "desc": [
+        ["Boosts your Dexterity."],
+        ["Passive\nIncrease your DEX."],
+        ["技量が上昇する"]
+      ],
+      "img": "skill_common_0005",
+      "min": 0,
+      "max": 10,
+      "stat": [[5, 1]],
+      "effects": [
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [1, 1],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [9, 3],
+        [10, 3],
+        [12, 1],
+        [13, 1],
+        [14, 3],
+        [15, 3],
+        [16, 3],
+        [18, 3],
+        [19, 3],
+        [20, 3],
+        [21, 3],
+        [23, 3],
+        [24, 3],
+        [25, 3],
+        [27, 3],
+        [30, 3],
+        [33, 3],
+        [35, 3],
+        [37, 3]
+      ],
+      "unlockImg": "bouncermain"
+    },
+    {
+      "id": 9,
+      "name": ["Tech. Power Up 1", "Technique Up 1", "法撃アップ1"],
+      "desc": [
+        ["Boosts your Technique Power."],
+        ["Passive\nIncrease your T-ATK."],
+        ["法撃力が上昇する"]
+      ],
+      "img": "skill_common_0004",
+      "min": 0,
+      "max": 10,
+      "stat": [[4, 1]],
+      "effects": [
+        {
+          "header": ["TEC Pwr", "T-ATK", "法撃力"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [3, 4],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 10,
+      "name": ["Melee Power Up 1", "Striking Up 1", "打撃アップ1"],
+      "desc": [
+        ["Boosts your Melee Power."],
+        ["Passive\nIncrease your S-ATK."],
+        ["打撃力が上昇する"]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 10,
+      "stat": [[2, 1]],
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [2, 4],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": [[11, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 11,
+      "name": ["Melee Power Up 2", "Striking Up 2", "打撃アップ2"],
+      "desc": [
+        ["Boosts your Melee Power."],
+        ["Passive\nIncrease your S-ATK."],
+        ["打撃力が上昇する"]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 10,
+      "stat": [[2, 2]],
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+4",
+            "+9",
+            "+14",
+            "+19",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [2, 5],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": null
+    },
+    {
+      "id": 12,
+      "name": [
+        "Soaring Blades Focus",
+        "Dual Blade Gear",
+        "デュアルブレードギア"
+      ],
+      "desc": [
+        [
+          "Boosts the potency of your Photon Arts based on Focus level and makes it possible to consume the Focus Gauge to throw Photon Blades at the enemy with a Weapon Action. Further attacks against the area hit by your Photon Blades will boost PP recovery."
+        ],
+        [
+          "Passive\nCharge gear whenever you attack. Using your weapon action will hurl photon blades towards your enemy and consume gear. Attacking pinned parts will increase your PP recovery."
+        ],
+        [
+          "攻撃を当てるとギアが溜まり、武器アクションでギアを消費して敵にフォトンブレードを飛ばす。刺さった部位に対しての攻撃はPP回復量が上昇する"
+        ]
+      ],
+      "img": "skill_dblade_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [5, 6],
+      "mobileLoc": [],
+      "prereqs": [8, 1],
+      "unlocks": null
+    },
+    {
+      "id": 13,
+      "name": ["Jet Boots Focus", "Jet Boots Gear", "ジェットブーツギア"],
+      "desc": [
+        [
+          "Bonus Focus when you successfully land an attack or charge a Technique. Applies the element of the last technique you charged to your weapon and boosts attack potency."
+        ],
+        [
+          "Passive\nCharge gear whenever you attack or charge a technique. Increase the power your attacks and change your weapon's attribute to the one of your last charged technique."
+        ],
+        [
+          "攻撃を当てるかテクニックをチャージするとギアが溜まる。武器の属性が最後にチャージしたテクニックと同じ属性になり、攻撃の威力が上昇する"
+        ]
+      ],
+      "img": "skill_jboots_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [2, 6],
+      "mobileLoc": [],
+      "prereqs": [8, 1],
+      "unlocks": [[36, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 14,
+      "name": ["Critical Field", "Critical Field", "クリティカルフィールド"],
+      "desc": [
+        ["Deploys a field around you that boosts your critical rate."],
+        [
+          "Active\nCreate a field around yourself that increases critical rate."
+        ],
+        ["自分の周囲にクリティカル率が上昇するフィールドを発生させる"]
+      ],
+      "img": "skill_bouncer-a_0003",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["5%", "10%", "15%", "20%", "30%"]
+        },
+        {
+          "header": ["Activation Time", "Occurrence Duration", "発生時間"],
+          "stats": ["30 s", "37 s", "44 s", "51 s", "60 s"]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["90 s", "90 s", "90 s", "90 s", "90 s"]
+        }
+      ],
+      "loc": [3, 8],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 15,
+      "name": [
+        "Elemental PP Restorate Field",
+        "Elemental PP Restorate F",
+        "エレメンタルPPリストレイトF"
+      ],
+      "desc": [
+        [
+          "Deploys a field around you that increases PP recovery when you connect an attack exploiting the enemy's Elemental Weakness."
+        ],
+        [
+          "Active\nCreate a field around yourself that increases the amount of PP recovered by attacks using an enemy's attribute weakness."
+        ],
+        [
+          "自分の周囲に、エネミーの弱点属性で攻撃を当てた場合PP回復量が上昇するフィールドを発生させる"
+        ]
+      ],
+      "img": "skill_bouncer-a_0004",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["PP Recovery", "PP Recovery Amount", "PP回復量"],
+          "stats": ["+1", "+1", "+2", "+2", "+3"]
+        },
+        {
+          "header": ["Activation Time", "Occurrence Duration", "発生時間"],
+          "stats": ["30 s", "37 s", "44 s", "51 s", "60 s"]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["90 s", "90 s", "90 s", "90 s", "90 s"]
+        }
+      ],
+      "loc": [2, 8],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 16,
+      "name": ["Heal Sharing", "Heal Share", "ヒールシェア"],
+      "desc": [
+        [
+          "When you recover HP, surrounding characters will also be healed by a set percentage of the amount of HP you recovered."
+        ],
+        [
+          "Passive\nWhen recovering HP, heal surrounding players by a fixed percentage of the original healing."
+        ],
+        ["HPを回復した際、回復した値の一定割合分、周囲のキャラクターを回復する"]
+      ],
+      "img": "skill_bouncer-p_0013",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["HP Recovery Rate", "HP Recovery Rate", "HP回復率"],
+          "stats": ["3%", "6%", "9%", "12%", "20%"]
+        }
+      ],
+      "loc": [5, 10],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": [[17, 5]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 17,
+      "name": ["Healing Bonus", "Heal Bonus", "ヒールボーナス"],
+      "desc": [
+        ["Grants a recovery bonus when you recover HP."],
+        ["Passive\nWhen recovering HP, gain a bonus to the recovered amount."],
+        ["HPを回復する際に回復量にボーナスを得る"]
+      ],
+      "img": "skill_bouncer-p_0014",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": [
+            "HP Recovery Improvement",
+            "HP Recovery Improvement",
+            "HP回復量補正"
+          ],
+          "stats": ["105%", "106%", "108%", "111%", "115%"]
+        }
+      ],
+      "loc": [5, 11],
+      "mobileLoc": [],
+      "prereqs": [16, 5],
+      "unlocks": null
+    },
+    {
+      "id": 18,
+      "name": [
+        "Deband Attack PP Restorate",
+        "Deband Attack PP Restorate",
+        "デバンドPPリストレイト"
+      ],
+      "desc": [
+        ["Boosts the PP recovery of Normal Attacks while Deband is in effect."],
+        [
+          "Passive\nIncrease the amount of PP recovered by normal attacks during Deband."
+        ],
+        ["デバンド効果中、通常攻撃によるPP回復量が上昇する"]
+      ],
+      "img": "skill_bouncer-p_0006",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["PP Recovery", "PP Recovery Amount", "PP回復量"],
+          "stats": ["+1", "+2", "+3", "+4", "+5"]
+        }
+      ],
+      "loc": [4, 10],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 19,
+      "name": [
+        "Shifta Air Attack Boost",
+        "Shifta Air Attack Boost",
+        "シフタエアアタックブースト"
+      ],
+      "desc": [
+        [
+          "Grants a damage bonus to attacks performed in the air while Shifta is in effect."
+        ],
+        ["Passive\nGain a damage bonus to mid-air attacks during Shifta."],
+        ["シフタ効果中、空中での攻撃にダメージボーナスを得る"]
+      ],
+      "img": "skill_bouncer-p_0005",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [2, 10],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 20,
+      "name": [
+        "Photon Blades Escape",
+        "Photon Blade Escape",
+        "フォトンブレードエスケープ"
+      ],
+      "desc": [
+        [
+          "Activates a period of invulnerability when you move while using Photon Blades."
+        ],
+        [
+          "Passive\nGain invulnerability to the movement after photon blade usage."
+        ],
+        ["フォトンブレード使用時の移動に無敵時間が発生する"]
+      ],
+      "img": "skill_bouncer-p_0008",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["0.15 s", "0.19 s", "0.24 s", "0.29 s", "0.35 s"]
+        }
+      ],
+      "loc": [6, 12],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 21,
+      "name": [
+        "Photon Blades Fever",
+        "Photon Blade Fever",
+        "フォトンブレードフィーバー"
+      ],
+      "desc": [
+        ["Doubles the number of Photon Blade attacks while in effect."],
+        [
+          "Active\nDuring the effect duration, double the amount of fired photon blades."
+        ],
+        ["効果時間中、フォトンブレードの発射数が倍になる"]
+      ],
+      "img": "skill_bouncer-a_0005",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["30 s", "33 s", "36 s", "39 s", "45 s"]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["120 s", "120 s", "120 s", "120 s", "120 s"]
+        }
+      ],
+      "loc": [5, 12],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": [[22, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 22,
+      "name": [
+        "Photon Blades Fever Up",
+        "Photon Blade Fever Up 1",
+        "フォトンブレードフィーバーアップ1"
+      ],
+      "desc": [
+        [
+          "Increases the potency of your Photon Blades while Photon Blade Fever is in effect."
+        ],
+        [
+          "Passive\nIncrease the power of photon blades during Photon Blade Fever."
+        ],
+        ["フォトンブレードフィーバー中、フォトンブレードの威力がアップする"]
+      ],
+      "img": "skill_bouncer-p_0009",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["105%", "110%", "115%", "120%", "130%"]
+        }
+      ],
+      "loc": [5, 13],
+      "mobileLoc": [],
+      "prereqs": [21, 3],
+      "unlocks": null
+    },
+    {
+      "id": 23,
+      "name": ["Switch Strike", "Jet Boots Strike", "ジェットブーツストライク"],
+      "desc": [
+        [
+          "Causes attacks performed using Jet Boots to be executed using Melee Power. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Active\nJet boots exclusive skill. Change jet boots attacks so that they are influenced by your S-ATK. ",
+          "Main class only."
+        ],
+        [
+          "ジェットブーツ専用スキル　ジェットブーツによる攻撃を打撃力によって行うように切り替える。このスキルはメインクラスのみ有効"
+        ]
+      ],
+      "img": "skill_bouncer-a_0007",
+      "min": 0,
+      "max": 1,
+      "loc": [4, 12],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 24,
+      "name": ["Elemental Burst", "Elemental Burst", "エレメンタルバースト"],
+      "desc": [
+        [
+          "Triggers an elemental blast which can inflict a status ailment when a Weapon Action cancels an Element stored in your Focus Gauge. Jet Boots Focus required."
+        ],
+        [
+          "Passive\nWhen the attribute obtained by the gear is released with your weapon action, cause an attribute explosion that has a fixed chance to apply a status abnormality. Only takes effect if Jet Boots Gear is learnt."
+        ],
+        [
+          "ギアに保存された属性を武器アクションで破棄した時、属性爆発を発生させ、一定確率で状態異常が発動する。ジェットブーツギア習得時のみ有効"
+        ]
+      ],
+      "img": "skill_bouncer-p_0007",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["200%", "220%", "250%", "320%", "400%"]
+        },
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["10%", "15%", "18%", "19%", "20%"]
+        }
+      ],
+      "loc": [3, 12],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 25,
+      "name": ["Rapid Boost", "Rapid Boost", "ラピッドブースト"],
+      "desc": [
+        [
+          "Greatly boosts your Jet Boots PA charge speed while in effect. Also slightly boosts your Technique charge speed."
+        ],
+        ["Active\nFor a certain time, increase Jet Boots PA charge speed."],
+        [
+          "効果時間中、ジェットブーツの攻撃速度とテクニック・PAのチャージ速度上昇"
+        ]
+      ],
+      "img": "skill_bouncer-a_0006",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["45 s", "48 s", "51 s", "54 s", "60 s"]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["120 s", "120 s", "120 s", "120 s", "120 s"]
+        }
+      ],
+      "loc": [2, 12],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": [[26, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 26,
+      "name": [
+        "Rapid Boost JA Bonus",
+        "Rapid Boost JA Bonus",
+        "ラピッドブーストJAボーナス"
+      ],
+      "desc": [
+        [
+          "Jet Boots only. Grants a potency bonus to Perfect Attacks performed during Rapid Boost."
+        ],
+        ["Passive\nJust Attacks during Rapid Burst gain a power bonus."],
+        ["ラピッドブースト中のジャストアタックに威力ボーナス"]
+      ],
+      "img": "skill_bouncer-p_0010",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["105%", "106%", "108%", "111%", "115%"]
+        }
+      ],
+      "loc": [2, 13],
+      "mobileLoc": [],
+      "prereqs": [25, 3],
+      "unlocks": null
+    },
+    {
+      "id": 27,
+      "name": ["Break Stance", "Break Stance", "ブレイクスタンス"],
+      "desc": [
+        [
+          "Active Stance skill that increases the damage you deal to destructible body parts. Renders Elemental Stance ineffective."
+        ],
+        [
+          "Active\nStance which increases damage when attacking breakable parts."
+        ],
+        ["部位破壊可能箇所へのダメージが増加するスタンススキル"]
+      ],
+      "img": "skill_bouncer-a_0002",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": [
+            "Un-Destroyed Site Potency",
+            "Unbroken Part Power",
+            "未破壊部位威力"
+          ],
+          "stats": [
+            "103%",
+            "105%",
+            "109%",
+            "112%",
+            "115%",
+            "119%",
+            "123%",
+            "127%",
+            "131%",
+            "135%"
+          ]
+        },
+        {
+          "header": [
+            "Non-Destroyable Site Potency",
+            "Non-Breakable Part Power",
+            "非破壊部位威力"
+          ],
+          "stats": [
+            "90%",
+            "91%",
+            "92%",
+            "93%",
+            "94%",
+            "95%",
+            "96%",
+            "97%",
+            "98%",
+            "100%"
+          ]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s"
+          ]
+        }
+      ],
+      "loc": [3, 14],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": [
+        [28, 3],
+        [29, 5],
+        [34, 1]
+      ],
+      "unlockImg": "forkrightdouble"
+    },
+    {
+      "id": 28,
+      "name": [
+        "Break Stance Critical",
+        "Break S Critical",
+        "ブレイクSクリティカル"
+      ],
+      "desc": [
+        [
+          "Boosts your critical hit rate when you attack a destructible body part while Break Stance is active."
+        ],
+        [
+          "Passive\nDuring Break Stance, increase your critical hit rate when attacking breakable parts."
+        ],
+        [
+          "ブレイクスタンス中、部位破壊可能箇所へ攻撃した際にクリティカルヒット確率が上昇する"
+        ]
+      ],
+      "img": "skill_bouncer-p_0012",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["10%", "16%", "20%", "23%", "25%"]
+        }
+      ],
+      "loc": [4, 16],
+      "mobileLoc": [],
+      "prereqs": [27, 3],
+      "unlocks": null
+    },
+    {
+      "id": 29,
+      "name": [
+        "Break Stance Up",
+        "Break Stance Up 1",
+        "ブレイクスタンスアップ1"
+      ],
+      "desc": [
+        [
+          "Grants a damage bonus when you attack a destructible body part while Break Stance is active."
+        ],
+        [
+          "Passive\nDuring Break Stance, gain a damage bonus when attacking breakable parts."
+        ],
+        [
+          "ブレイクスタンス中、部位破壊可能箇所へ攻撃した際にダメージボーナスを得る"
+        ]
+      ],
+      "img": "skill_bouncer-p_0012",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["102%", "104%", "106%", "108%", "110%"]
+        }
+      ],
+      "loc": [3, 16],
+      "mobileLoc": [],
+      "prereqs": [27, 5],
+      "unlocks": null
+    },
+    {
+      "id": 30,
+      "name": ["Elemental Stance", "Elemental Stance", "エレメンタルスタンス"],
+      "desc": [
+        [
+          "Passive Stance Skill that boosts damage dealt when you exploit an enemy's Elemental Weakness with a Technique, or when you attack the enemy with a weapon that has an Element the enemy is weak against."
+        ],
+        [
+          "Active\nStance which increases the damage when attacking an enemy with a weapon of its attribute weakness and casting techniques of weak attribute."
+        ],
+        [
+          "エネミー弱点属性武器で攻撃した時と、法撃で弱点属性へ攻撃したときのダメージが増加するスタンススキル"
+        ]
+      ],
+      "img": "skill_bouncer-a_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": [
+            "Elemental Weakness Potency",
+            "Weakness Weapon Power",
+            "弱点武器威力"
+          ],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "108%",
+            "111%",
+            "114%",
+            "117%",
+            "120%"
+          ]
+        },
+        {
+          "header": [
+            "Non-Elemental Weakness Potency",
+            "Non-Weakness Weapon Power",
+            "非弱点武器威力"
+          ],
+          "stats": [
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "103%",
+            "106%",
+            "109%",
+            "112%",
+            "115%"
+          ]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s"
+          ]
+        }
+      ],
+      "loc": [1, 14],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": [
+        [31, 3],
+        [32, 5]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 31,
+      "name": [
+        "Elemental Stance Critical",
+        "Elemental S Critical",
+        "エレメンタルSクリティカル"
+      ],
+      "desc": [
+        [
+          "While Elemental Stance is active, boosts your Critical Hit Rate when you exploit an enemy's Elemental Weakness with a Technique, or when you attack the enemy with a weapon that has an element the enemy is weak against."
+        ],
+        [
+          "Passive\nDuring Elemental Stance, increase your critical hit rate when attacking an enemy with a weapon of its attribute weakness."
+        ],
+        [
+          "エレメンタルスタンス中、エネミーの弱点属性武器で攻撃した際にクリティカルヒット確率が上昇する。"
+        ]
+      ],
+      "img": "skill_bouncer-p_0011",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["10%", "16%", "20%", "23%", "25%"]
+        }
+      ],
+      "loc": [2, 15],
+      "mobileLoc": [],
+      "prereqs": [30, 3],
+      "unlocks": null
+    },
+    {
+      "id": 32,
+      "name": [
+        "Elemental Stance Up",
+        "Elemental Stance Up 1",
+        "エレメンタルスタンスアップ1"
+      ],
+      "desc": [
+        [
+          "While Elemental Stance is active, grants a damage bonus when you exploit an enemy's Elemental Weakness with a Technique, or when you attack the enemy with a weapon that has an element the enemy is weak against."
+        ],
+        [
+          "Passive\nDuring Elemental Stance, gain a damage bonus when attacking an enemy with a weapon of its attribute weakness."
+        ],
+        [
+          "エレメンタルスタンス中、エネミーの弱点属性武器で攻撃した際にダメージボーナスを得る"
+        ]
+      ],
+      "img": "skill_bouncer-p_0011",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["102%", "104%", "106%", "108%", "110%"]
+        }
+      ],
+      "loc": [1, 15],
+      "mobileLoc": [],
+      "prereqs": [30, 5],
+      "unlocks": null
+    },
+    {
+      "id": 33,
+      "name": ["Field Remain", "Field Remain", "フィールドリメイン"],
+      "desc": [
+        [
+          "Maintains a field effect for a set time even outside the area of effect of a field used by the learner. Only effective for fields that produce player-enhancing effects."
+        ],
+        [
+          "Passive\nMaintains the effect of fields for a fixed period of time for players that have left your field."
+        ],
+        [
+          "習得者が使用するフィールドの効果範囲外に出ても、一定時間フィールド効果が維持される"
+        ]
+      ],
+      "img": "skill_bouncer-p_0016",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["30 s"]
+        }
+      ],
+      "loc": [5, 8],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 34,
+      "name": ["Break Stance D Bonus", "Break S D Bonus", "ブレイクSDボーナス"],
+      "desc": [
+        [
+          "Makes the skill (Break Stance] effective against areas that can't be destroyed while Soaring Blades are equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen equipped with D Blades, the effect of Break Stance also takes effect on non-breakable parts. ",
+          "Main class only."
+        ],
+        [
+          "Dブレード装備時、スキル「ブレイクスタンス」の効果のみが破壊可能箇所以外にも有効になる。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_bouncer-p_0015",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Efficacy Percentage", "Effectiveness", "有効割合"],
+          "stats": ["90%"]
+        }
+      ],
+      "loc": [4, 15],
+      "mobileLoc": [],
+      "prereqs": [27, 1],
+      "unlocks": null
+    },
+    {
+      "id": 35,
+      "name": [
+        "Jet Boots Escape",
+        "Jet Boots Escape",
+        "ジェットブーツエスケープ"
+      ],
+      "desc": [
+        [
+          "Makes you invulnerable for a period of time when you perform a Normal Attack or Photon Art while Jet Boots are equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen using Jet Boots, makes you invincible during PA and normal attack Shift Actions.",
+          "Main class only."
+        ],
+        [
+          "ジェットブーツ装備時、PAの派生を行った時に無敵時間が発生する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_bouncer-p_0017",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Invulnerability Duration", "無敵時間"],
+          "stats": ["0.20 s", "0.22 s", "0.25 s", "0.29 s", "0.35 s"]
+        }
+      ],
+      "loc": [3, 6],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 36,
+      "name": [
+        "Jet Boots Focus Boost",
+        "Jet Boots Gear Boost",
+        "ジェットブーツギアブースト"
+      ],
+      "desc": [
+        [
+          "Boosts the increment by which your Focus Gauge increases due to attacks while Shifta or Deband are in effect and Jet Boots are equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nIncrease the gear gauge increase rate for attacks while under the effect of Shifta or Deband when equipped with jet boots. ",
+          "Main class only."
+        ],
+        [
+          "ジェットブーツ装備時、シフタ及はデバンド効果中、攻撃によるギア増加量が上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_bouncer-p_0018",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Focus Gauge Boost", "Gear Growth Rate", "ギア上昇率"],
+          "stats": ["150%"]
+        }
+      ],
+      "loc": [2, 7],
+      "mobileLoc": [],
+      "prereqs": [13, 1],
+      "unlocks": null
+    },
+    {
+      "id": 37,
+      "name": ["Encore Jump", "One More Jump", "ワンモアジャンプ"],
+      "desc": [
+        [
+          "Allows for an additional jump to be performed when you land a <something> attack using 1 Focus Gauge accumulation or while performing a Normal Attack or Photon Art with Jet Boots equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nAllow another jump if the second jump hits an enemy while Jet Boots Gear is active. ",
+          "Main class only."
+        ],
+        [
+          "ジェットブーツギア蓄積時に2段ジャンプでエネミーを踏むと、再度ジャンプが可能になる。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_bouncer-p_0019",
+      "min": 0,
+      "max": 1,
+      "loc": [4, 6],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 38,
+      "name": [
+        "High Level Bonus Bo",
+        "High Level Bonus Bo",
+        "ハイレベルボーナスBo"
+      ],
+      "desc": [
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["プレイヤーが与えるダメージにボーナスを得る"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [3, 2],
+      "req": 80,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 39,
+      "name": [
+        "Dodge Auto Field",
+        "Dodge Auto Field",
+        "ドッジオートフィールド"
+      ],
+      "desc": [
+        [
+          "Passive\nWhen dodging with Mirage Step, all learnt fields are deployed automatically. The cooldowns of the respective skills is unaffected. ",
+          "Main class only."
+        ],
+        [
+          "Passive\nWhen dodging with Mirage Step, all learnt fields are deployed automatically. The cooldowns of the respective skills is unaffected. ",
+          "Main class only."
+        ],
+        [
+          "ミラージュステップで回避時、習得したフィールドが自動発動する。スキルのリキャストは発生しない。このスキルはメインクラスのみ適用される。"
+        ]
+      ],
+      "img": "BoDodgeAutoField",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 2],
+      "req": 85,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 40,
+      "name": [
+        "First Arts Perfect Attack Addition",
+        "First Arts JA Addition",
+        "ファーストアーツJAアディション"
+      ],
+      "desc": [
+        [
+          "Passive\nTurns your first attack into a Perfect Attack. A cooldown is applied after activation. Doesn't affect Harmonizer attacks, pet attacks, or Techniques."
+        ],
+        [
+          "Passive\nFirst attack becomes a Just Attack. Cooldown begins after activation. Takt, Pet Attacks and Techs do not apply."
+        ],
+        [
+          "最初に放つ攻撃が、ジャストアタックになる。発動後にリキャストが発生する。タクトやペットの攻撃とテクニックは無効"
+        ]
+      ],
+      "img": "UISkillFirstArtsJustAttack",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["0.25 s"]
+        }
+      ],
+      "loc": [3, 1],
+      "req": 20,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 41,
+      "name": ["Double Jump", "Next Jump", "ネクストジャンプ"],
+      "desc": [
+        ["Passive\nEnables two-stage jumping."],
+        ["Passive\nEnables two-stage jumping."],
+        ["２段ジャンプが可能になる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 1],
+      "req": 40,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 42,
+      "name": ["Sidestep Jump", "Step Jump", "ステップジャンプ"],
+      "desc": [
+        ["Passive\nJumping during a Dodge Action transitions you into a dash."],
+        ["Passive\nJumping during a recovery action switches to sprinting."],
+        ["回避アクション中にジャンプを行うことでダッシユ状態へ移行する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 1],
+      "req": 10,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 43,
+      "name": ["Air Reversal", "Air Reversal", "エアリバーサル"],
+      "desc": [
+        ["Passive\nAllows you to perform a break-fall while in the air."],
+        ["Passive\nEnables recovery midair."],
+        ["空中で受け身がとれるようになる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 44,
+      "name": [
+        "Perf. Recovery & ATK Combo",
+        "J Reversal JA Combo",
+        "JリバーサルJAコンボ"
+      ],
+      "desc": [
+        [
+          "Passive\nMakes Perfect-Attack timing apply after a Perfect Recovery."
+        ],
+        ["Passive\nThe Just Attack circle appears after Just Reversal."],
+        ["ジャストリバーサル後にジャストアタックタイミングが発生"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 45,
+      "name": [
+        "Sidestep & Perf. ATK Combo",
+        "Step JA Combo",
+        "ステップJAコンボ"
+      ],
+      "desc": [
+        ["Passive\nMakes Perfect-Attack timing apply during a Sidestep."],
+        ["Passive\nThe JA circle appears during Step."],
+        ["ステップ時にJAタイミングが発生するようになる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 2],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    }
+  ]
+}

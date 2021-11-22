@@ -8,7 +8,11 @@ import s from "./MarkdownRenderer.module.scss";
 const ShortcodeRenderer = ({ identifier, attributes }) => {
   switch (identifier) {
     case "youtube":
-      return <YouTube className={s.youtubeContainer} videoId={attributes.id} />;
+      return (
+        <div className={s.youtubeContainer}>
+          <YouTube videoId={attributes.id} />
+        </div>
+      );
     default:
       return null;
   }

@@ -1,0 +1,1684 @@
+{
+  "id": 1,
+  "version": 1,
+  "name": ["Fighter", "Fighter", "ファイター"],
+  "abrvName": "FI",
+  "img": "class1",
+  "mainOnly": false,
+  "hasSub": true,
+  "boost": [0, 2, 50, 0, 15, 0, 0, 0, 10],
+  "stats": [
+    [190, 100, 90, 72, 81, 91, 90, 72, 72],
+    [195, 100, 100, 80, 90, 97, 100, 80, 80],
+    [200, 100, 110, 88, 99, 103, 110, 88, 88],
+    [205, 100, 120, 96, 108, 108, 120, 96, 96],
+    [210, 100, 130, 104, 117, 114, 130, 104, 104],
+    [215, 100, 140, 112, 126, 120, 140, 112, 112],
+    [220, 100, 150, 120, 135, 125, 150, 120, 120],
+    [225, 100, 160, 128, 144, 131, 160, 128, 128],
+    [230, 100, 170, 136, 153, 137, 170, 136, 136],
+    [235, 100, 180, 144, 162, 143, 180, 144, 144],
+    [240, 100, 190, 152, 171, 148, 190, 152, 152],
+    [245, 100, 200, 160, 180, 154, 200, 160, 160],
+    [250, 100, 210, 168, 189, 160, 210, 168, 168],
+    [255, 100, 220, 176, 198, 165, 220, 176, 176],
+    [260, 100, 230, 184, 207, 171, 230, 184, 184],
+    [265, 100, 240, 192, 216, 177, 240, 192, 192],
+    [270, 100, 250, 200, 225, 182, 250, 200, 200],
+    [275, 100, 260, 208, 234, 188, 260, 208, 208],
+    [280, 100, 270, 216, 243, 194, 270, 216, 216],
+    [285, 100, 280, 224, 252, 200, 280, 224, 224],
+    [290, 100, 284, 227, 256, 202, 284, 227, 227],
+    [295, 100, 288, 230, 259, 205, 288, 230, 230],
+    [300, 100, 292, 234, 263, 208, 292, 234, 234],
+    [305, 100, 296, 237, 266, 211, 296, 237, 237],
+    [310, 100, 300, 240, 270, 214, 300, 240, 240],
+    [315, 100, 304, 243, 274, 217, 304, 243, 243],
+    [320, 100, 308, 246, 277, 219, 308, 246, 246],
+    [325, 100, 312, 250, 281, 222, 312, 250, 250],
+    [330, 100, 316, 253, 284, 225, 316, 253, 253],
+    [335, 100, 320, 256, 288, 228, 320, 256, 256],
+    [340, 100, 324, 259, 292, 231, 324, 259, 259],
+    [345, 100, 328, 262, 295, 234, 328, 262, 262],
+    [350, 100, 332, 266, 299, 237, 332, 266, 266],
+    [355, 100, 336, 269, 302, 239, 336, 269, 269],
+    [360, 100, 340, 272, 306, 242, 340, 272, 272],
+    [365, 100, 344, 275, 310, 245, 344, 275, 275],
+    [370, 100, 348, 278, 313, 248, 348, 278, 278],
+    [375, 100, 352, 282, 317, 251, 352, 282, 282],
+    [380, 100, 356, 285, 320, 254, 356, 285, 285],
+    [385, 100, 360, 288, 324, 257, 360, 288, 288],
+    [390, 100, 364, 291, 328, 259, 364, 291, 291],
+    [395, 100, 368, 294, 331, 262, 368, 294, 294],
+    [400, 100, 372, 298, 335, 265, 372, 298, 298],
+    [405, 100, 376, 301, 338, 268, 376, 301, 301],
+    [410, 100, 380, 304, 342, 271, 380, 304, 304],
+    [415, 100, 384, 307, 346, 274, 384, 307, 307],
+    [420, 100, 388, 310, 349, 276, 388, 310, 310],
+    [425, 100, 392, 314, 353, 279, 392, 314, 314],
+    [430, 100, 396, 317, 356, 282, 396, 317, 317],
+    [435, 100, 400, 320, 360, 285, 400, 320, 320],
+    [440, 100, 404, 323, 364, 288, 404, 323, 323],
+    [445, 100, 408, 326, 368, 291, 408, 326, 326],
+    [450, 100, 412, 329, 372, 294, 412, 329, 329],
+    [455, 100, 416, 332, 376, 297, 416, 332, 332],
+    [460, 100, 420, 335, 380, 300, 420, 335, 335],
+    [465, 100, 424, 338, 384, 303, 424, 338, 338],
+    [470, 100, 428, 341, 388, 306, 428, 341, 341],
+    [475, 100, 432, 344, 392, 309, 432, 344, 344],
+    [480, 100, 436, 347, 396, 312, 436, 347, 347],
+    [485, 100, 440, 350, 400, 315, 440, 350, 350],
+    [490, 100, 444, 353, 404, 318, 444, 353, 353],
+    [495, 100, 448, 356, 408, 321, 448, 356, 356],
+    [500, 100, 452, 359, 412, 324, 452, 359, 359],
+    [505, 100, 456, 362, 416, 327, 456, 362, 362],
+    [510, 100, 460, 365, 420, 330, 460, 365, 365],
+    [515, 100, 464, 368, 424, 333, 464, 368, 368],
+    [520, 100, 468, 371, 428, 336, 468, 371, 371],
+    [525, 100, 472, 374, 432, 339, 472, 374, 374],
+    [530, 100, 476, 377, 436, 342, 476, 377, 377],
+    [535, 100, 480, 380, 440, 345, 480, 380, 380],
+    [540, 100, 484, 383, 444, 348, 484, 383, 383],
+    [545, 100, 488, 386, 448, 351, 488, 386, 386],
+    [550, 100, 492, 389, 452, 354, 492, 389, 389],
+    [555, 100, 496, 392, 456, 357, 496, 392, 392],
+    [560, 100, 500, 395, 460, 360, 500, 395, 395],
+    [565, 100, 504, 398, 464, 363, 504, 398, 398],
+    [570, 100, 508, 401, 468, 366, 508, 401, 401],
+    [575, 100, 512, 404, 472, 369, 512, 404, 404],
+    [580, 100, 516, 407, 476, 372, 516, 407, 407],
+    [585, 100, 520, 410, 480, 375, 520, 410, 410],
+    [590, 100, 524, 413, 484, 378, 524, 413, 413],
+    [595, 100, 528, 416, 488, 381, 528, 416, 416],
+    [600, 100, 532, 419, 492, 384, 532, 419, 419],
+    [605, 100, 536, 422, 496, 387, 536, 422, 422],
+    [610, 100, 540, 425, 500, 390, 540, 425, 425],
+    [615, 100, 544, 428, 504, 393, 544, 428, 428],
+    [620, 100, 548, 431, 508, 396, 548, 431, 431],
+    [625, 100, 552, 434, 512, 399, 552, 434, 434],
+    [630, 100, 556, 437, 516, 402, 556, 437, 437],
+    [635, 100, 560, 440, 520, 405, 560, 440, 440],
+    [640, 100, 564, 443, 524, 408, 564, 443, 443],
+    [645, 100, 568, 446, 528, 411, 568, 446, 446],
+    [650, 100, 572, 449, 532, 414, 572, 449, 449],
+    [655, 100, 576, 452, 536, 417, 576, 452, 452],
+    [660, 100, 580, 455, 540, 420, 580, 455, 455],
+    [665, 100, 584, 458, 544, 423, 584, 458, 458],
+    [670, 100, 588, 461, 548, 426, 588, 461, 461],
+    [675, 100, 592, 464, 552, 429, 592, 464, 464],
+    [680, 100, 596, 467, 556, 432, 596, 467, 467],
+    [685, 100, 600, 470, 560, 435, 600, 470, 470]
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "name": ["Sidestep", "Step", "ステップ"],
+      "desc": [
+        ["Swiftly move a short distance by moving in deftly."],
+        ["Active\nMove forward a short distance."],
+        ["軽快な動作で踏み込み短距離を素早く移動する"]
+      ],
+      "img": "skill_hunter-a_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[1, 0]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 1,
+      "name": ["Sidestep Plus", "Step Advance", "ステップアドバンス"],
+      "desc": [
+        ["Extends the duration of invulnerability during a Sidestep."],
+        ["Passive\nExtends the invulnerability during Step."],
+        ["ステップ中の無敵時間を延長する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "0.05 s",
+            "0.09 s",
+            "0.11 s",
+            "0.13 s",
+            "0.14 s",
+            "0.15 s",
+            "0.16 s",
+            "0.17 s",
+            "0.18 s",
+            "0.20 s"
+          ]
+        }
+      ],
+      "loc": [6, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 0],
+      "unlocks": null
+    },
+    {
+      "id": 2,
+      "name": ["Sidestep Strike", "Step Attack", "ステップアタック"],
+      "desc": [
+        ["Allows you to attack while performing a Sidestep."],
+        ["Passive\nAllows you to perform an attack during a Step."],
+        ["ステップ中の攻撃アクションが可能となる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 3,
+      "name": ["Melee Defense Up", "Striking Defense Up 1", "打撃防御アップ1"],
+      "desc": [
+        ["Boosts your Melee Defense."],
+        ["Passive\nIncrease your S-DEF."],
+        ["打撃防御力が上昇する"]
+      ],
+      "img": "skill_common_0006",
+      "min": 0,
+      "max": 10,
+      "stat": [[6, 1]],
+      "effects": [
+        {
+          "header": ["MEL Def", "S-DEF", "打撃防御"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [5, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 4,
+      "name": ["Perfect Recovery", "Just Reversal", "ジャストリバーサル"],
+      "desc": [
+        [
+          "Allows you to quickly jump up after being knocked back onto the ground."
+        ],
+        [
+          "Passive\nPress the jump button to quickly recover when knocked down."
+        ],
+        ["吹き飛ばされてダウンしたときにジャンプ操作で素早く起き上がる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 5,
+      "name": [
+        "Arms Enthusiast: Fighter",
+        "Rare Mastery Fighter",
+        "レアマスタリーファイター"
+      ],
+      "desc": [
+        [
+          "Boosts the damage you deal when a weapon of Rarity 10★ or greater is equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen equipped with a ★10 or higher weapon or crafted weapon, gain a damage bonus. ",
+          "Main class only."
+        ],
+        [
+          "レアリティ★10以上の武器を装備していると、打撃力が上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_hunter-p_0005",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 6,
+      "name": ["Critical Strike", "Critical Strike", "クリティカルストライク"],
+      "desc": [
+        [
+          "Increases your critical hit rate and grants a critical damage bonus. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nIncrease your critical hit rate and gain a damage bonus to criticals. ",
+          "Main class only."
+        ],
+        [
+          "クリティカルヒット確率が上昇し、クリティカル時にダメージボーナスを得る。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["103%", "106%", "109%", "112%", "115%"]
+        },
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["3%", "6%", "9%", "12%", "15%"]
+        }
+      ],
+      "loc": [4, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 7,
+      "name": ["HP Up 1", "HP Up 1", "HPアップ1"],
+      "desc": [
+        ["Boosts your max HP."],
+        ["Passive\nIncrease your maximum HP."],
+        ["HP最大値が上昇する"]
+      ],
+      "img": "skill_common_0000",
+      "min": 0,
+      "max": 10,
+      "stat": [[0, 1]],
+      "effects": [
+        {
+          "header": ["Max HP", "Maximum HP", "HP最大値"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [3, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 8,
+      "name": ["HP Up 2", "HP Up 2", "HPアップ2"],
+      "desc": [
+        ["Boosts your max HP. Produces a stronger effect than HP Up 1."],
+        ["Passive\nIncrease your maximum HP."],
+        ["HP最大値が上昇する"]
+      ],
+      "img": "skill_common_0000",
+      "min": 0,
+      "max": 10,
+      "stat": [[0, 1]],
+      "effects": [
+        {
+          "header": ["Max HP", "Maximum HP", "HP最大値"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [3, 4],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 9,
+      "name": ["Dexterity Up", "Dexterity Up 1", "技量アップ1"],
+      "desc": [
+        ["Boosts your Dexterity."],
+        ["Passive\nIncrease your DEX."],
+        ["技量が上昇する"]
+      ],
+      "img": "skill_common_0005",
+      "min": 0,
+      "max": 10,
+      "stat": [[5, 1]],
+      "effects": [
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [2, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 10,
+      "name": ["Melee Power Up 1", "Striking Up 1", "打撃アップ1"],
+      "desc": [
+        ["Boosts your Melee Power."],
+        ["Passive\nIncrease your S-ATK."],
+        ["打撃力が上昇する"]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 10,
+      "stat": [[2, 1]],
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [1, 1],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [11, 3],
+        [12, 3],
+        [13, 1],
+        [14, 1],
+        [15, 1],
+        [16, 3],
+        [17, 2],
+        [18, 3],
+        [21, 3],
+        [24, 5],
+        [25, 3],
+        [28, 3],
+        [30, 3],
+        [31, 3]
+      ],
+      "unlockImg": "fightermain"
+    },
+    {
+      "id": 11,
+      "name": ["Melee Power Up 2", "Striking Up 2", "打撃アップ2"],
+      "desc": [
+        [
+          "Boosts your Melee Power. Produces a stronger effect than Melee Power Up 1."
+        ],
+        ["Passive\nIncrease your S-ATK."],
+        ["打撃力が上昇する"]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 10,
+      "stat": [[2, 2]],
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+4",
+            "+9",
+            "+14",
+            "+19",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [2, 4],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": null
+    },
+    {
+      "id": 12,
+      "name": ["Melee Power Up 3", "Striking Up 3", "打撃アップ3"],
+      "desc": [
+        [
+          "Boosts your Melee Power. Produces a stronger effect than Melee Power Up 2."
+        ],
+        ["Passive\nIncrease your S-ATK."],
+        ["打撃力が上昇する"]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 10,
+      "stat": [[2, 2]],
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+4",
+            "+9",
+            "+14",
+            "+19",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [2, 5],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": null
+    },
+    {
+      "id": 13,
+      "name": ["Knuckles Focus", "Knuckle Gear", "ナックルギア"],
+      "desc": [
+        [
+          "Charges your Focus Gauge according to the number of attacks performed during a combo and then boosts your attack speed accordingly."
+        ],
+        [
+          "Passive\nAccumulate Gear according to the number of consecutive attacks. Increases attack speed depending on the number of Gears."
+        ],
+        [
+          "連続攻撃の段数に応じて、ギアが溜まり、ギア数に応じて攻撃速度が上昇する"
+        ]
+      ],
+      "img": "skill_knuckle_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [4, 6],
+      "mobileLoc": [],
+      "prereqs": [10, 1],
+      "unlocks": [[36, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 14,
+      "name": ["Twin Daggers Focus", "Twin Dagger Gear", "ツインダガーギア"],
+      "desc": [
+        [
+          "Charges your Focus Gauge according to the number of jumps you perform and then boosts the potency of your Photon Arts accordingly."
+        ],
+        [
+          "Passive\nAccumulates Gear according to the number of jumps. Increases the power of PAs depending on the number of Gears."
+        ],
+        ["ジャンプ回数に応じて、ギアが溜まり、ギア数に応じてPAの威力が上昇する"]
+      ],
+      "img": "skill_tdagger_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [3, 6],
+      "mobileLoc": [],
+      "prereqs": [10, 1],
+      "unlocks": [[35, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 15,
+      "name": ["Double Saber Focus", "Double Saber Gear", "ダブルセイバーギア"],
+      "desc": [
+        [
+          "Charges your Focus Gauge with each attack you land, then lets you use a weapon action to unleash a damaging wind, the power of which is based on the gauge charge."
+        ],
+        [
+          "Passive\nAccumumulate Gear whenever attacks hit and release with weapon action. Damage and area of the razor-sharp wind around you depend on the number of Gears."
+        ],
+        [
+          "攻撃を当てるとギアが溜まり、武器アクションで解放。ギアの段数に応じて、ダメージを与えるかまいたちを周囲にまとう"
+        ]
+      ],
+      "img": "skill_dsaber_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [2, 6],
+      "mobileLoc": [],
+      "prereqs": [10, 1],
+      "unlocks": [[34, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 16,
+      "name": [
+        "Tech Arts Perfect Attack Bonus",
+        "Tech Arts JA Bonus",
+        "テックアーツJAボーナス"
+      ],
+      "desc": [
+        [
+          "Grants a damage bonus when you perform a Perfect Attack while stringing together different Photon Arts and Techniques."
+        ],
+        [
+          "Passive\nGain a damage bonus when using different PAs or Techniques in succession with Just Attacks."
+        ],
+        [
+          "異なるPAやテクニックを連続でジャストアタックするとダメージボーナスを得る"
+        ]
+      ],
+      "img": "skill_fighter-p_0014",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["105%", "106%", "108%", "110%", "115%"]
+        }
+      ],
+      "loc": [6, 8],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": [[38, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 17,
+      "name": ["Adrenaline", "Adrenaline", "アドレナリン"],
+      "desc": [
+        ["Increases the effect duration of each Shifta or Deband you receive."],
+        [
+          "Passive\nIncreases Shifta and Deband effect duration invoked on yourself."
+        ],
+        ["自分が受けるシフタ・デバンド1回あたりの効果時間を増加する"]
+      ],
+      "img": "skill_techer-p_0012",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["+ 30s"]
+        }
+      ],
+      "loc": [5, 8],
+      "mobileLoc": [],
+      "prereqs": [10, 2],
+      "unlocks": null
+    },
+    {
+      "id": 18,
+      "name": ["Wise Stance", "Wise Stance", "ワイズスタンス"],
+      "desc": [
+        [
+          "Active Stance skill that increases the damage you deal from behind an enemy. Renders Valiant Stance ineffective."
+        ],
+        [
+          "Active\nStance which increases damage inflicted from the back while decreasing damage inflicted the front."
+        ],
+        [
+          "背後から与えるダメージが増加するスタンススキル。正面から与えるダメージは減少する"
+        ]
+      ],
+      "img": "skill_fighter-a_0002",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Rear Attack Potency", "Rear Power", "背面威力"],
+          "stats": [
+            "115%",
+            "117%",
+            "119%",
+            "122%",
+            "125%",
+            "127%",
+            "129%",
+            "131%",
+            "133%",
+            "135%"
+          ]
+        },
+        {
+          "header": ["Front Attack Potency", "Front Power", "正面威力"],
+          "stats": [
+            "95%",
+            "96%",
+            "97%",
+            "98%",
+            "100%",
+            "110%",
+            "115%",
+            "120%",
+            "125%",
+            "130%"
+          ]
+        }
+      ],
+      "loc": [4, 8],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": [
+        [19, 3],
+        [20, 5]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 19,
+      "name": ["Wise Critical", "Wise Critical", "ワイズクリティカル"],
+      "desc": [
+        [
+          "Increases the critical hit rate when dealing damage from behind an enemy while Wise Stance is active."
+        ],
+        [
+          "Passive\nIncreases your critical hit rate during Wise Stance when attacking from the back."
+        ],
+        [
+          "ワイズスタンス中、エネミーの背後からダメージを与えたときのクリティカルヒット確率が上昇する"
+        ]
+      ],
+      "img": "skill_fighter-p_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["10%", "16%", "20%", "23%", "25%"]
+        }
+      ],
+      "loc": [5, 9],
+      "mobileLoc": [],
+      "prereqs": [18, 3],
+      "unlocks": null
+    },
+    {
+      "id": 20,
+      "name": ["Wise Stance Up", "Wise Stance Up", "ワイズスタンスアップ1"],
+      "desc": [
+        [
+          "Grants a bonus to damage dealt from behind an enemy while Wise Stance is active."
+        ],
+        [
+          "Passive\nIncreases damage during Wise Stance when attacking from the back."
+        ],
+        [
+          "ワイズスタンス中、エネミーの背後からダメージを与えたときにボーナスを得る"
+        ]
+      ],
+      "img": "skill_fighter-p_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["110%", "115%", "120%", "125%", "130%"]
+        }
+      ],
+      "loc": [4, 9],
+      "mobileLoc": [],
+      "prereqs": [18, 5],
+      "unlocks": null
+    },
+    {
+      "id": 21,
+      "name": ["Valiant Stance", "Brave Stance", "ブレイブスタンス"],
+      "desc": [
+        [
+          "Passive Stance skill that increases the damage you deal from the front side of an enemy."
+        ],
+        [
+          "Active\nStance which increases damage inflicted from the front while decreasing damage inflicted the back."
+        ],
+        [
+          "正面から与えるダメージが増加するスタンススキル。背後から与えるダメージは減少する"
+        ]
+      ],
+      "img": "skill_fighter-a_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Front Attack Potency", "Front Power", "正面威力"],
+          "stats": [
+            "120%",
+            "125%",
+            "130%",
+            "135%",
+            "140%",
+            "140%",
+            "140%",
+            "140%",
+            "140%",
+            "140%"
+          ]
+        },
+        {
+          "header": ["Rear Attack Potency", "Rear Power", "背面威力"],
+          "stats": [
+            "95%",
+            "96%",
+            "97%",
+            "98%",
+            "100%",
+            "110%",
+            "120%",
+            "125%",
+            "130%",
+            "135%"
+          ]
+        }
+      ],
+      "loc": [2, 8],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": [
+        [22, 3],
+        [23, 5]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 22,
+      "name": ["Valiant Critical", "Brave Critical", "ブレイブクリティカル"],
+      "desc": [
+        [
+          "Increases the critical hit rate when dealing damage from the front side of an enemy while Valiant Stance is active."
+        ],
+        [
+          "Passive\nIncreases your critical hit rate during Brave Stance when attacking from the front."
+        ],
+        [
+          "ブレイブスタンス中、エネミーの前面からダメージを与えたときのクリティカルヒット確率が上昇する"
+        ]
+      ],
+      "img": "skill_fighter-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["10%", "16%", "20%", "23%", "25%"]
+        }
+      ],
+      "loc": [3, 9],
+      "mobileLoc": [],
+      "prereqs": [21, 3],
+      "unlocks": null
+    },
+    {
+      "id": 23,
+      "name": ["Valiant Stance Up", "Brave S Up", "ブレイブSアップ1"],
+      "desc": [
+        [
+          "Grants a bonus to damage dealt from the front side of an enemy while Valiant Stance is active."
+        ],
+        [
+          "Passive\nIncreases damage during Brave Stance when attacking from the front."
+        ],
+        [
+          "ブレイブスタンス中、エネミーの前面からダメージを与えたときにボーナスを得る"
+        ]
+      ],
+      "img": "skill_fighter-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["102%", "104%", "106%", "108%", "110%"]
+        }
+      ],
+      "loc": [2, 9],
+      "mobileLoc": [],
+      "prereqs": [21, 5],
+      "unlocks": null
+    },
+    {
+      "id": 24,
+      "name": ["Overload", "Limit Break", "リミットブレイク"],
+      "desc": [
+        [
+          "Grants a temporary damage bonus to your Melee Potency and reduces your Max HP. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Active\nReduce your maximum HP and temporarily gain a damage bonus for striking attacks. ",
+          "Main class only."
+        ],
+        [
+          "一時的に打撃威力にダメージボーナスを得るが、最大HPが減少する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_fighter-a_0003",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "10 s",
+            "15 s",
+            "20 s",
+            "25 s",
+            "30 s",
+            "35 s",
+            "40 s",
+            "45 s",
+            "50 s",
+            "60 s"
+          ]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "60 s",
+            "60 s",
+            "60 s",
+            "60 s",
+            "60 s",
+            "65 s",
+            "70 s",
+            "75 s",
+            "80 s",
+            "90 s"
+          ]
+        },
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "104%",
+            "108%",
+            "112%",
+            "116%",
+            "120%",
+            "120%",
+            "120%",
+            "120%",
+            "120%",
+            "120%"
+          ]
+        },
+        {
+          "header": ["Max HP", "Maximum HP", "HP最大値"],
+          "stats": [
+            "25%",
+            "25%",
+            "25%",
+            "25%",
+            "25%",
+            "25%",
+            "25%",
+            "25%",
+            "25%",
+            "25%"
+          ]
+        }
+      ],
+      "loc": [6, 10],
+      "mobileLoc": [],
+      "prereqs": [10, 5],
+      "unlocks": [[37, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 25,
+      "name": ["Halfline Slayer", "Halfline Slayer", "ハーフラインスレイヤー"],
+      "desc": [
+        [
+          "Boosts your Melee Power, Ranged Power, and Technique Power when your HP falls below 50%."
+        ],
+        ["Passive\nIncreases S-ATK and R-ATK when HP fall below 50%."],
+        ["HPが50%以下になったとき、打撃力と射撃力が上昇する"]
+      ],
+      "img": "skill_fighter-p_0005",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+20",
+            "+22",
+            "+24",
+            "+26",
+            "+28",
+            "+34",
+            "+40",
+            "+60",
+            "+80",
+            "+100"
+          ]
+        },
+        {
+          "header": ["RNG Pwr", "R-ATK", "射撃力"],
+          "stats": [
+            "+20",
+            "+22",
+            "+24",
+            "+26",
+            "+28",
+            "+34",
+            "+40",
+            "+60",
+            "+80",
+            "+100"
+          ]
+        },
+        {
+          "header": ["TEC Pwr", "T-ATK", "法撃力"],
+          "stats": [
+            "+20",
+            "+22",
+            "+24",
+            "+26",
+            "+28",
+            "+34",
+            "+40",
+            "+60",
+            "+80",
+            "+100"
+          ]
+        }
+      ],
+      "loc": [4, 10],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": [
+        [26, 4],
+        [27, 2]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 26,
+      "name": ["Crazy Beat", "Crazy Beat", "クレイジービート"],
+      "desc": [
+        ["Boosts your Melee Power while you have a status ailment."],
+        [
+          "Passive\nWhen suffering under a status abnormality, increases your attack."
+        ],
+        ["自分が状態異常の間、打撃力が上昇する"]
+      ],
+      "img": "skill_fighter-p_0012",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": ["+100", "+120", "+140", "+160", "+200"]
+        }
+      ],
+      "loc": [5, 11],
+      "mobileLoc": [],
+      "prereqs": [25, 4],
+      "unlocks": null
+    },
+    {
+      "id": 27,
+      "name": ["Crazy Heart", "Crazy Heart", "クレイジーハート"],
+      "desc": [
+        [
+          "Boosts automatic PP recovery as well as PP recovery following an attack while you have a status ailment."
+        ],
+        [
+          "Passive\nWhen suffering under a status abnormality, increases your normal PP regeneration as well as PP regenerated by attacks."
+        ],
+        ["自分が状態異常の間、PP自動回復量と攻撃によるPP回復量が上昇する"]
+      ],
+      "img": "skill_fighter-p_0011",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["PP Increase Rate", "PP Increase Rate", "PP増加率"],
+          "stats": ["150%", "160%", "170%", "180%", "200%"]
+        }
+      ],
+      "loc": [4, 11],
+      "mobileLoc": [],
+      "prereqs": [25, 2],
+      "unlocks": null
+    },
+    {
+      "id": 28,
+      "name": ["Deadline Slayer", "Deadline Slayer", "デッドラインスレイヤー"],
+      "desc": [
+        [
+          "Boosts your Melee Power, Ranged Power, and Technique Power when your HP falls below 25%."
+        ],
+        ["Passive\nIncreases S-ATK and R-ATK when HP fall below 25%."],
+        ["HPが25%以下になったとき、打撃力と射撃力が上昇する"]
+      ],
+      "img": "skill_fighter-p_0005",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+40",
+            "+44",
+            "+49",
+            "+54",
+            "+60",
+            "+67",
+            "+75",
+            "+100",
+            "+125",
+            "+150"
+          ]
+        },
+        {
+          "header": ["RNG Pwr", "R-ATK", "射撃力"],
+          "stats": [
+            "+40",
+            "+44",
+            "+49",
+            "+54",
+            "+60",
+            "+67",
+            "+75",
+            "+100",
+            "+125",
+            "+150"
+          ]
+        },
+        {
+          "header": ["TEC Pwr", "T-ATK", "法撃力"],
+          "stats": [
+            "+40",
+            "+44",
+            "+49",
+            "+54",
+            "+60",
+            "+67",
+            "+75",
+            "+100",
+            "+125",
+            "+150"
+          ]
+        }
+      ],
+      "loc": [3, 10],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": [[29, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 29,
+      "name": ["Photon Slayer", "PP Slayer", "PPスレイヤー"],
+      "desc": [
+        [
+          "Boosts your Melee Power, Ranged Power, and Technique Power when your PP falls below 50%."
+        ],
+        ["Passive\nIncreases S-ATK and R-ATK when PP fall below 50%."],
+        ["PPが50%以下になったとき、打撃力と射撃力が上昇する"]
+      ],
+      "img": "skill_fighter-p_0006",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+50",
+            "+65",
+            "+80",
+            "+95",
+            "+110",
+            "+125",
+            "+140",
+            "+155",
+            "+170",
+            "+200"
+          ]
+        },
+        {
+          "header": ["RNG Pwr", "R-ATK", "射撃力"],
+          "stats": [
+            "+50",
+            "+65",
+            "+80",
+            "+95",
+            "+110",
+            "+125",
+            "+140",
+            "+155",
+            "+170",
+            "+200"
+          ]
+        },
+        {
+          "header": ["TEC Pwr", "T-ATK", "法撃力"],
+          "stats": [
+            "+50",
+            "+65",
+            "+80",
+            "+95",
+            "+110",
+            "+125",
+            "+140",
+            "+155",
+            "+170",
+            "+200"
+          ]
+        }
+      ],
+      "loc": [3, 11],
+      "mobileLoc": [],
+      "prereqs": [28, 3],
+      "unlocks": null
+    },
+    {
+      "id": 30,
+      "name": ["Halfline Boost", "Half Line Boost", "ハーフラインブースト"],
+      "desc": [
+        [
+          "Boosts the chance of inflicting status ailments when your HP falls below 50%."
+        ],
+        [
+          "Passive\nIncreases your chance to inflict a status abnormality when your HP are below 50%."
+        ],
+        ["HPが50%未満になったとき、状態異常の付与確率が上昇する"]
+      ],
+      "img": "skill_fighter-p_0008",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["150%", "160%", "170%", "180%", "200%"]
+        }
+      ],
+      "loc": [2, 10],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": null
+    },
+    {
+      "id": 31,
+      "name": ["Chaser Damage", "Chase Advance", "チェイスアドバンス"],
+      "desc": [
+        [
+          "Grants a damage bonus when performing a melee attack on an enemy that is affected by a status ailment."
+        ],
+        [
+          "Passive\nIncreases your damage against enemies suffering under status abnormalities using striking attacks."
+        ],
+        [
+          "状態異常を受けているエネミーに対して打撃攻撃を行うとダメージボーナスを得る"
+        ]
+      ],
+      "img": "skill_fighter-p_0003",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "110%",
+            "111%",
+            "112%",
+            "113%",
+            "115%",
+            "117%",
+            "119%",
+            "121%",
+            "123%",
+            "125%"
+          ]
+        }
+      ],
+      "loc": [1, 10],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": [
+        [32, 5],
+        [33, 3]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 32,
+      "name": ["Chaser Bind", "Chase Bind", "チェイスバインド"],
+      "desc": [
+        [
+          "Grants a chance of triggering a bind state when performing a melee attack on an enemy that is affected by a status ailment."
+        ],
+        [
+          "Passive\nAttacking enemies suffering under status abnormalities with striking attacks may cause bind status."
+        ],
+        [
+          "状態異常を受けているエネミーに対して打撃攻撃を行うとバインド状態にすることがある"
+        ]
+      ],
+      "img": "skill_fighter-p_0004",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "20%",
+            "22%",
+            "24%",
+            "26%",
+            "28%",
+            "30%",
+            "36%",
+            "42%",
+            "54%",
+            "70%"
+          ]
+        }
+      ],
+      "loc": [2, 11],
+      "mobileLoc": [],
+      "prereqs": [31, 5],
+      "unlocks": null
+    },
+    {
+      "id": 33,
+      "name": [
+        "Extra Chaser Damage",
+        "Chase Advance Plus",
+        "チェイスアドバンスプラス"
+      ],
+      "desc": [
+        [
+          "Grants a damage bonus when performing an attack on an enemy that is affected by a status ailment."
+        ],
+        [
+          "Passive\nGain a damage bonus when attacking an enemy suffering under a status abnormality."
+        ],
+        [
+          "状態異常を受けているエネミーに対して攻撃を行うとダメージボーナスを得る"
+        ]
+      ],
+      "img": "skill_fighter-p_0003",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["105%", "107%", "109%", "111%", "115%"]
+        }
+      ],
+      "loc": [1, 11],
+      "mobileLoc": [],
+      "prereqs": [31, 3],
+      "unlocks": null
+    },
+    {
+      "id": 34,
+      "name": [
+        "Double Saber Wind Parry",
+        "D Saber Wind Parrying",
+        "Dセイバーウィンドパリング"
+      ],
+      "desc": [
+        [
+          "Allows you to perform a Perfect Guard the instant you unleash a whirlwind attack with a Double Saber."
+        ],
+        [
+          "Passive\nJust Guard becomes possible at the beginning of the weapon action of double sabers."
+        ],
+        [
+          "ダブルセイバーでかまいたちを発生させた瞬間にジャストガードが可能になる"
+        ]
+      ],
+      "img": "skill_fighter-p_0015",
+      "min": 0,
+      "max": 1,
+      "loc": [2, 7],
+      "mobileLoc": [],
+      "prereqs": [15, 1],
+      "unlocks": null
+    },
+    {
+      "id": 35,
+      "name": [
+        "Twin Daggers Somersault",
+        "T Dagger Spin Move",
+        "Tダガースピンムーブ"
+      ],
+      "desc": [
+        [
+          "Allows you to move in any direction you choose while performing a spin with Twin Daggers."
+        ],
+        [
+          "Passive\nMovement in every direction becomes possible during the twin dagger spin."
+        ],
+        ["ツインダガーのスピン中に任意の方向に移動が可能になる"]
+      ],
+      "img": "skill_fighter-p_0017",
+      "min": 0,
+      "max": 1,
+      "loc": [3, 7],
+      "mobileLoc": [],
+      "prereqs": [14, 1],
+      "unlocks": null
+    },
+    {
+      "id": 36,
+      "name": [
+        "Knuckles Focus Boost",
+        "Knuckle Gear Boost",
+        "ナックルギアブースト"
+      ],
+      "desc": [
+        ["Increases your Knuckles Focus by a factor of two."],
+        [
+          "Passive\nIncreases knuckle gear generation at double its normal speed."
+        ],
+        ["ナックルギアが通常の倍、増加するようになる"]
+      ],
+      "img": "skill_fighter-p_0016",
+      "min": 0,
+      "max": 1,
+      "loc": [4, 7],
+      "mobileLoc": [],
+      "prereqs": [13, 1],
+      "unlocks": null
+    },
+    {
+      "id": 37,
+      "name": [
+        "Overload Photon Charge",
+        "Limit Break Photon Charge",
+        "リミットブレイクフォトンチャージ"
+      ],
+      "desc": [
+        [
+          "Completely restores your PP upon completion of an Overload. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nRecover all PP after Limit Break ends. ",
+          "Main class only."
+        ],
+        [
+          "リミットブレイク終了時にPPが全回復する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_fighter-p_0018",
+      "min": 0,
+      "max": 1,
+      "loc": [6, 11],
+      "mobileLoc": [],
+      "prereqs": [24, 3],
+      "unlocks": null
+    },
+    {
+      "id": 38,
+      "name": [
+        "Combo Var. P. Attack PP Save",
+        "Tech Arts JA PP Save",
+        "テックアーツJAPPセイブ"
+      ],
+      "desc": [
+        [
+          "Reduces you PP consumption when you perform a Perfect Attack while stringing together different Photon Arts and Techniques."
+        ],
+        [
+          "Passive\nReduce PP consumption when using different PAs or Techniques in succession with Just Attacks."
+        ],
+        ["異なるPAやテクニックを連続でジャストアタックするとPP消費が軽減される"]
+      ],
+      "img": "skill_fighter-p_0019",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": [
+            "FI Weapon PP Consumation Rate",
+            "Fi Weapon PP Consumption Rate",
+            "Fi武器PP消費率"
+          ],
+          "stats": ["90%", "86%", "82%", "78%", "75%"]
+        },
+        {
+          "header": [
+            "Other Weapon PP Consumption Rate",
+            "Other Weapon PP Consumption Rate",
+            "他武器PP消費率"
+          ],
+          "stats": ["95%", "93%", "90%", "87%", "85%"]
+        }
+      ],
+      "loc": [6, 9],
+      "mobileLoc": [],
+      "prereqs": [16, 3],
+      "unlocks": null
+    },
+    {
+      "id": 39,
+      "name": [
+        "High Level Bonus Fi",
+        "High Level Bonus Fi",
+        "ハイレベルボーナスFi"
+      ],
+      "desc": [
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["プレイヤーが与えるダメージにボーナスを得る"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [3, 2],
+      "req": 80,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 40,
+      "name": [
+        "Limit Break Insurance",
+        "Limit Break Insurance",
+        "リミットブレイクインシュランス"
+      ],
+      "desc": [
+        [
+          "Passive\nDuring Limit Break, when you receive damage that would incapacitate you, turn of Limit Break instead and survive with 1 HP instead. Every time this effect takes place the cooldown is increased. ",
+          "Main class only."
+        ],
+        [
+          "Passive\nDuring Limit Break, when you receive damage that would incapacitate you, turn of Limit Break instead and survive with 1 HP instead. Every time this effect takes place the cooldown is increased. ",
+          "Main class only."
+        ],
+        [
+          "LB中に戦闘不能となるダメージを受けてもLBが解除され、HPが1残る。効果が適用される度に発動時のリキャスト時間が延びる。このスキルはメインクラスのみ適用される。"
+        ]
+      ],
+      "img": "FiLimitBreakInsurance",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Invulnerability Duration", "無敵時間"],
+          "stats": ["5 s"]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["85 s"]
+        }
+      ],
+      "loc": [2, 2],
+      "req": 85,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 41,
+      "name": [
+        "First Arts Perfect Attack Addition",
+        "First Arts JA Addition",
+        "ファーストアーツJAアディション"
+      ],
+      "desc": [
+        [
+          "Passive\nTurns your first attack into a Perfect Attack. A cooldown is applied after activation. Doesn't affect Harmonizer attacks, pet attacks, or Techniques."
+        ],
+        [
+          "Passive\nFirst attack becomes a Just Attack. Cooldown begins after activation. Takt, Pet Attacks and Techs do not apply."
+        ],
+        [
+          "最初に放つ攻撃が、ジャストアタックになる。発動後にリキャストが発生する。タクトやペットの攻撃とテクニックは無効"
+        ]
+      ],
+      "img": "UISkillFirstArtsJustAttack",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["0.25 s"]
+        }
+      ],
+      "loc": [3, 1],
+      "req": 20,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 42,
+      "name": ["Double Jump", "Next Jump", "ネクストジャンプ"],
+      "desc": [
+        ["Passive\nEnables two-stage jumping."],
+        ["Passive\nEnables two-stage jumping."],
+        ["２段ジャンプが可能になる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 1],
+      "req": 40,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 43,
+      "name": ["Sidestep Jump", "Step Jump", "ステップジャンプ"],
+      "desc": [
+        ["Passive\nJumping during a Dodge Action transitions you into a dash."],
+        ["Passive\nJumping during a recovery action switches to sprinting."],
+        ["回避アクション中にジャンプを行うことでダッシユ状態へ移行する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 1],
+      "req": 10,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 44,
+      "name": ["Air Reversal", "Air Reversal", "エアリバーサル"],
+      "desc": [
+        ["Passive\nAllows you to perform a break-fall while in the air."],
+        ["Passive\nEnables recovery midair."],
+        ["空中で受け身がとれるようになる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 45,
+      "name": [
+        "Perf. Recovery & ATK Combo",
+        "J Reversal JA Combo",
+        "JリバーサルJAコンボ"
+      ],
+      "desc": [
+        [
+          "Passive\nMakes Perfect-Attack timing apply after a Perfect Recovery."
+        ],
+        ["Passive\nThe Just Attack circle appears after Just Reversal."],
+        ["ジャストリバーサル後にジャストアタックタイミングが発生"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 46,
+      "name": [
+        "Sidestep & Perf. ATK Combo",
+        "Step JA Combo",
+        "ステップJAコンボ"
+      ],
+      "desc": [
+        ["Passive\nMakes Perfect-Attack timing apply during a Sidestep."],
+        ["Passive\nThe JA circle appears during Step."],
+        ["ステップ時にJAタイミングが発生するようになる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 2],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    }
+  ]
+}

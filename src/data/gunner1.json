@@ -1,0 +1,1470 @@
+{
+  "id": 3,
+  "version": 1,
+  "name": ["Gunner", "Gunner", "ガンナー"],
+  "abrvName": "GU",
+  "img": "class3",
+  "mainOnly": false,
+  "hasSub": true,
+  "boost": [0, 2, 15, 50, 0, 0, 10, 0, 0],
+  "stats": [
+    [185, 100, 81, 90, 72, 91, 72, 90, 72],
+    [190, 100, 90, 100, 80, 97, 80, 100, 80],
+    [195, 100, 99, 110, 88, 103, 88, 110, 88],
+    [200, 100, 108, 120, 96, 108, 96, 120, 96],
+    [205, 100, 117, 130, 104, 114, 104, 130, 104],
+    [210, 100, 126, 140, 112, 120, 112, 140, 112],
+    [215, 100, 135, 150, 120, 125, 120, 150, 120],
+    [220, 100, 144, 160, 128, 131, 128, 160, 128],
+    [225, 100, 153, 170, 136, 137, 136, 170, 136],
+    [230, 100, 162, 180, 144, 143, 144, 180, 144],
+    [235, 100, 171, 190, 152, 148, 152, 190, 152],
+    [240, 100, 180, 200, 160, 154, 160, 200, 160],
+    [245, 100, 189, 210, 168, 160, 168, 210, 168],
+    [250, 100, 198, 220, 176, 165, 176, 220, 176],
+    [255, 100, 207, 230, 184, 171, 184, 230, 184],
+    [260, 100, 216, 240, 192, 177, 192, 240, 192],
+    [265, 100, 225, 250, 200, 182, 200, 250, 200],
+    [270, 100, 234, 260, 208, 188, 208, 260, 208],
+    [275, 100, 243, 270, 216, 194, 216, 270, 216],
+    [280, 100, 252, 280, 224, 200, 224, 280, 224],
+    [285, 100, 256, 284, 227, 202, 227, 284, 227],
+    [290, 100, 259, 288, 230, 205, 230, 288, 230],
+    [295, 100, 263, 292, 234, 208, 234, 292, 234],
+    [300, 100, 266, 296, 237, 211, 237, 296, 237],
+    [305, 100, 270, 300, 240, 214, 240, 300, 240],
+    [310, 100, 274, 304, 243, 217, 243, 304, 243],
+    [315, 100, 277, 308, 246, 219, 246, 308, 246],
+    [320, 100, 281, 312, 250, 222, 250, 312, 250],
+    [325, 100, 284, 316, 253, 225, 253, 316, 253],
+    [330, 100, 288, 320, 256, 228, 256, 320, 256],
+    [335, 100, 292, 324, 259, 231, 259, 324, 259],
+    [340, 100, 295, 328, 262, 234, 262, 328, 262],
+    [345, 100, 299, 332, 266, 237, 266, 332, 266],
+    [350, 100, 302, 336, 269, 239, 269, 336, 269],
+    [355, 100, 306, 340, 272, 242, 272, 340, 272],
+    [360, 100, 310, 344, 275, 245, 275, 344, 275],
+    [365, 100, 313, 348, 278, 248, 278, 348, 278],
+    [370, 100, 317, 352, 282, 251, 282, 352, 282],
+    [375, 100, 320, 356, 285, 254, 285, 356, 285],
+    [380, 100, 324, 360, 288, 257, 288, 360, 288],
+    [385, 100, 328, 364, 291, 259, 291, 364, 291],
+    [390, 100, 331, 368, 294, 262, 294, 368, 294],
+    [395, 100, 335, 372, 298, 265, 298, 372, 298],
+    [400, 100, 338, 376, 301, 268, 301, 376, 301],
+    [405, 100, 342, 380, 304, 271, 304, 380, 304],
+    [410, 100, 346, 384, 307, 274, 307, 384, 307],
+    [415, 100, 349, 388, 310, 276, 310, 388, 310],
+    [420, 100, 353, 392, 314, 279, 314, 392, 314],
+    [425, 100, 356, 396, 317, 282, 317, 396, 317],
+    [430, 100, 360, 400, 320, 285, 320, 400, 320],
+    [435, 100, 364, 404, 323, 288, 323, 404, 323],
+    [440, 100, 368, 408, 326, 291, 326, 408, 326],
+    [445, 100, 372, 412, 329, 294, 329, 412, 329],
+    [450, 100, 376, 416, 332, 297, 332, 416, 332],
+    [455, 100, 380, 420, 335, 300, 335, 420, 335],
+    [460, 100, 384, 424, 338, 303, 338, 424, 338],
+    [465, 100, 388, 428, 341, 306, 341, 428, 341],
+    [470, 100, 392, 432, 344, 309, 344, 432, 344],
+    [475, 100, 396, 436, 347, 312, 347, 436, 347],
+    [480, 100, 400, 440, 350, 315, 350, 440, 350],
+    [485, 100, 404, 444, 353, 318, 353, 444, 353],
+    [490, 100, 408, 448, 356, 321, 356, 448, 356],
+    [495, 100, 412, 452, 359, 324, 359, 452, 359],
+    [500, 100, 416, 456, 362, 327, 362, 456, 362],
+    [505, 100, 420, 460, 365, 330, 365, 460, 365],
+    [510, 100, 424, 464, 368, 333, 368, 464, 368],
+    [515, 100, 428, 468, 371, 336, 371, 468, 371],
+    [520, 100, 432, 472, 374, 339, 374, 472, 374],
+    [525, 100, 436, 476, 377, 342, 377, 476, 377],
+    [530, 100, 440, 480, 380, 345, 380, 480, 380],
+    [535, 100, 444, 484, 383, 348, 383, 484, 383],
+    [540, 100, 448, 488, 386, 351, 386, 488, 386],
+    [545, 100, 452, 492, 389, 354, 389, 492, 389],
+    [550, 100, 456, 496, 392, 357, 392, 496, 392],
+    [555, 100, 460, 500, 395, 360, 395, 500, 395],
+    [560, 100, 464, 504, 398, 363, 398, 504, 398],
+    [565, 100, 468, 508, 401, 366, 401, 508, 401],
+    [570, 100, 472, 512, 404, 369, 404, 512, 404],
+    [575, 100, 476, 516, 407, 372, 407, 516, 407],
+    [580, 100, 480, 520, 410, 375, 410, 520, 410],
+    [585, 100, 484, 524, 413, 378, 413, 524, 413],
+    [590, 100, 488, 528, 416, 381, 416, 528, 416],
+    [595, 100, 492, 532, 419, 384, 419, 532, 419],
+    [600, 100, 496, 536, 422, 387, 422, 536, 422],
+    [605, 100, 500, 540, 425, 390, 425, 540, 425],
+    [610, 100, 504, 544, 428, 393, 428, 544, 428],
+    [615, 100, 508, 548, 431, 396, 431, 548, 431],
+    [620, 100, 512, 552, 434, 399, 434, 552, 434],
+    [625, 100, 516, 556, 437, 402, 437, 556, 437],
+    [630, 100, 520, 560, 440, 405, 440, 560, 440],
+    [635, 100, 524, 564, 443, 408, 443, 564, 443],
+    [640, 100, 528, 568, 446, 411, 446, 568, 446],
+    [645, 100, 532, 572, 449, 414, 449, 572, 449],
+    [650, 100, 536, 576, 452, 417, 452, 576, 452],
+    [655, 100, 540, 580, 455, 420, 455, 580, 455],
+    [660, 100, 544, 584, 458, 423, 458, 584, 458],
+    [665, 100, 548, 588, 461, 426, 461, 588, 461],
+    [670, 100, 552, 592, 464, 429, 464, 592, 464],
+    [675, 100, 556, 596, 467, 432, 467, 596, 467],
+    [680, 100, 560, 600, 470, 435, 470, 600, 470]
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "name": ["Dive Roll", "Dive Roll", "ダイブロール"],
+      "desc": [
+        [
+          "Allows you to move quickly over short distances by performing a jump-dive-like movement."
+        ],
+        ["Active\nMove forward a short distance by dive rolling."],
+        ["飛び込むような挙動で短距離を素早く移動する"]
+      ],
+      "img": "skill_ranger-a_0000",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[1, 0]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 1,
+      "name": [
+        "Advanced Dive Roll",
+        "Dive Roll Advance",
+        "ダイブロールアドバンス"
+      ],
+      "desc": [
+        ["Extends the duration of invulnerability during a Dive Roll."],
+        ["Passive\nExtends the invulnerability during Dive Roll."],
+        ["ダイブロール中の無敵時間を延長する"]
+      ],
+      "img": "skill_ranger-p_0000",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "0.05 s",
+            "0.09 s",
+            "0.11 s",
+            "0.13 s",
+            "0.14 s",
+            "0.15 s",
+            "0.16 s",
+            "0.17 s",
+            "0.18 s",
+            "0.2 s"
+          ]
+        }
+      ],
+      "loc": [6, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 0],
+      "unlocks": null
+    },
+    {
+      "id": 2,
+      "name": ["Perfect Recovery", "Just Reversal", "ジャストリバーサル"],
+      "desc": [
+        [
+          "Allows you to quickly jump up after being knocked back onto the ground."
+        ],
+        [
+          "Passive\nPress the jump button to quickly recover when knocked down."
+        ],
+        ["吹き飛ばされてダウンしたときにジャンプ操作で素早く起き上がる"]
+      ],
+      "img": "skill_ranger-p_0000",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 6],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 3,
+      "name": [
+        "Arms Enthusiast: Gunner",
+        "Rare Mastery Gunner",
+        "レアマスタリーガンナー"
+      ],
+      "desc": [
+        [
+          "Boosts the damage you deal when a weapon of Rarity 10★ or greater is equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen equipped with a ★10 or higher weapon or crafted weapon, gain a damage bonus. ",
+          "Main class only."
+        ],
+        [
+          "レアリティ★10以上の武器を装備していると、射撃力が上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_ranger-p_0008",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 4,
+      "name": ["Ranged DEF Up 1", "Shooting Defense Up 1", "射撃防御アップ1"],
+      "desc": [
+        ["Boosts your Ranged Defense."],
+        ["Passive\nIncrease your R-DEF."],
+        ["射撃防御力が上昇する"]
+      ],
+      "img": "skill_common_0007",
+      "min": 0,
+      "max": 10,
+      "stat": [[7, 1]],
+      "effects": [
+        {
+          "header": ["RNG Def", "R-DEF", "射撃防御"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [4, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 5,
+      "name": ["Ranged DEF Up 2", "Shooting Defense Up 2", "射撃防御アップ2"],
+      "desc": [
+        ["Boosts your Ranged Defense."],
+        ["Passive\nIncrease your R-DEF."],
+        ["射撃防御力が上昇する"]
+      ],
+      "img": "skill_common_0007",
+      "min": 0,
+      "max": 10,
+      "stat": [[7, 1]],
+      "effects": [
+        {
+          "header": ["RNG Def", "R-DEF", "射撃防御"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [4, 4],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 6,
+      "name": ["Dexterity Up 1", "Dexterity Up 1", "技量アップ1"],
+      "desc": [
+        ["Boosts your Dexterity."],
+        ["Passive\nIncrease your DEX."],
+        ["技量が上昇する"]
+      ],
+      "img": "skill_common_0005",
+      "min": 0,
+      "max": 10,
+      "stat": [[5, 1]],
+      "effects": [
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [3, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[7, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 7,
+      "name": ["Dexterity Up 2", "Dexterity Up 2", "技量アップ2"],
+      "desc": [
+        ["Boosts your Dexterity."],
+        ["Passive\nIncrease your DEX."],
+        ["技量が上昇する"]
+      ],
+      "img": "skill_common_0005",
+      "min": 0,
+      "max": 10,
+      "stat": [[5, 2]],
+      "effects": [
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+4",
+            "+9",
+            "+14",
+            "+19",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [3, 4],
+      "mobileLoc": [],
+      "prereqs": [6, 3],
+      "unlocks": null
+    },
+    {
+      "id": 8,
+      "name": ["HP Up 1", "HP Up 1", "HPアップ1"],
+      "desc": [
+        ["Boosts your max HP."],
+        ["Passive\nIncrease your maximum HP."],
+        ["HP最大値が上昇する"]
+      ],
+      "img": "skill_common_0000",
+      "min": 0,
+      "max": 10,
+      "stat": [[0, 1]],
+      "effects": [
+        {
+          "header": ["Max HP", "Maximum HP", "HP最大値"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [3, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 9,
+      "name": ["Ranged PWR Up 1", "Shooting Up 1", "射撃アップ1"],
+      "desc": [
+        ["Boosts your Ranged Power."],
+        ["Passive\nIncrease your R-ATK."],
+        ["射撃力が上昇する"]
+      ],
+      "img": "skill_common_0003",
+      "min": 0,
+      "max": 10,
+      "stat": [[3, 1]],
+      "effects": [
+        {
+          "header": ["RNG Pwr", "R-ATK", "射撃力"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [1, 1],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [10, 3],
+        [11, 3],
+        [12, 1],
+        [13, 3],
+        [17, 3],
+        [21, 3],
+        [22, 3],
+        [23, 3]
+      ],
+      "unlockImg": "gunnermain"
+    },
+    {
+      "id": 10,
+      "name": ["Ranged PWR Up 2", "Shooting Up 2", "射撃アップ2"],
+      "desc": [
+        ["Boosts your Ranged Power."],
+        ["Passive\nIncrease your R-ATK."],
+        ["射撃力が上昇する"]
+      ],
+      "img": "skill_common_0003",
+      "min": 0,
+      "max": 10,
+      "stat": [[3, 2]],
+      "effects": [
+        {
+          "header": ["RNG Pwr", "R-ATK", "射撃力"],
+          "stats": [
+            "+4",
+            "+9",
+            "+14",
+            "+19",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [2, 4],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 11,
+      "name": ["Ranged PWR Up 3", "Shooting Up 3", "射撃アップ3"],
+      "desc": [
+        ["Boosts your Ranged Power."],
+        ["Passive\nIncrease your R-ATK."],
+        ["射撃力が上昇する"]
+      ],
+      "img": "skill_common_0003",
+      "min": 0,
+      "max": 10,
+      "stat": [[3, 2]],
+      "effects": [
+        {
+          "header": ["RNG Pwr", "R-ATK", "射撃力"],
+          "stats": [
+            "+4",
+            "+9",
+            "+14",
+            "+19",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [2, 5],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 12,
+      "name": [
+        "Twin Machine Guns Focus",
+        "Twin Machine Gun Gear",
+        "ツインマシンガンギア"
+      ],
+      "desc": [
+        [
+          "Charges your Focus Gauge and boosts attack potency when you successfully land an attack."
+        ],
+        [
+          "Passive\nAccumulate Gear whenever attacks hit. Increases power of attacks."
+        ],
+        ["攻撃を当てるとギアが溜まり、攻撃の威力が上昇する"]
+      ],
+      "img": "skill_tmachinegun_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [2, 6],
+      "mobileLoc": [],
+      "prereqs": [9, 1],
+      "unlocks": null
+    },
+    {
+      "id": 13,
+      "name": ["Chain Trigger", "Chain Trigger", "チェイントリガー"],
+      "desc": [
+        [
+          "Starts a chain when you score a hit with a Normal Attack following Skill Activation."
+        ],
+        [
+          "Active\nAfter activating the skill, your next hit starts a chain counter."
+        ],
+        ["スキル発動後に通常攻撃をヒットさせるとチェインを開始する"]
+      ],
+      "img": "skill_gunner-a_0002",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "135 s",
+            "125 s",
+            "115 s",
+            "105 s",
+            "95 s",
+            "85 s",
+            "75 s",
+            "65 s",
+            "55 s",
+            "45 s"
+          ]
+        }
+      ],
+      "loc": [5, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": [
+        [14, 5],
+        [15, 3]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 14,
+      "name": ["Chain Finisher Bonus", "Chain F Bonus", "チェインFボーナス"],
+      "desc": [
+        [
+          "Reduces the cooldown time of the Chain Trigger according to chain length when a Chain Finisher Boost is activated."
+        ],
+        [
+          "Passive\nWhen using Chain Finish, reduce the cooldown of Chain Trigger according to the accumulated chain count."
+        ],
+        [
+          "チェインフィニッシュ発動時、チェイン数に応じてチェイントリガーのリキャスト時間が軽減される"
+        ]
+      ],
+      "img": "skill_gunner-p_0016",
+      "min": 0,
+      "max": 1,
+      "loc": [6, 8],
+      "mobileLoc": [],
+      "prereqs": [13, 5],
+      "unlocks": null
+    },
+    {
+      "id": 15,
+      "name": ["Chain Finish", "Chain Finish", "チェインフィニッシュ"],
+      "desc": [
+        [
+          "Boosts the damage dealt by a Chain Finisher Boost performed using a melee attack or ranged attack while Twin Machine Guns are equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nIncreases striking and shooting damage of Chain Finish when equipped with a twin machine gun. ",
+          "Main class only."
+        ],
+        [
+          "ツインマシンガン装備時、打撃と射撃によるチェインフィニッシュダメージが上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_gunner-p_0002",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "150%",
+            "160%",
+            "170%",
+            "180%",
+            "190%",
+            "200%",
+            "210%",
+            "220%",
+            "230%",
+            "250%"
+          ]
+        }
+      ],
+      "loc": [5, 8],
+      "mobileLoc": [],
+      "prereqs": [13, 3],
+      "unlocks": [[16, 5]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 16,
+      "name": ["Double Chain", "Twice Chain", "トワイスチェイン"],
+      "desc": [
+        [
+          "Doubles the chain length built up when attacking while Twin Machine Guns are equipped."
+        ],
+        [
+          "Passive\nWhen equipped with twin machine guns, double the accumulated chain count from attacks."
+        ],
+        ["ツインマシンガン装備時、攻撃で溜まるチェイン数が倍になる"]
+      ],
+      "img": "skill_gunner-p_0015",
+      "min": 0,
+      "max": 1,
+      "loc": [5, 9],
+      "mobileLoc": [],
+      "prereqs": [15, 5],
+      "unlocks": null
+    },
+    {
+      "id": 17,
+      "name": ["Showtime", "Showtime", "ショウタイム"],
+      "desc": [
+        [
+          "Twin Machine Guns only. Greatly boosts your Focus Gauge charge rate in exchange for an increased threat level against you for a set time."
+        ],
+        [
+          "Active\nTwin machine gun exclusive skill. Increases your gear gauge fill rate and attracts the enemy's attention."
+        ],
+        [
+          "ツインマシンガン専用スキル 一定時間エネミーの自分に対するヘイト効果を上昇する代わりに、ギアの上昇率を大きく上げる"
+        ]
+      ],
+      "img": "skill_gunner-a_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Threat Level", "Hate", "ヘイト効果"],
+          "stats": [
+            "200%",
+            "220%",
+            "240%",
+            "260%",
+            "280%",
+            "300%",
+            "320%",
+            "340%",
+            "360%",
+            "400%"
+          ]
+        },
+        {
+          "header": ["Focus Gauge Boost", "Gear Growth Rate", "ギア上昇率"],
+          "stats": [
+            "110%",
+            "120%",
+            "130%",
+            "140%",
+            "150%",
+            "160%",
+            "170%",
+            "180%",
+            "190%",
+            "200%"
+          ]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s"
+          ]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s"
+          ]
+        }
+      ],
+      "loc": [4, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": [[18, 2]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 18,
+      "name": ["Showtime Star", "Showtime Star", "ショウタイムスター"],
+      "desc": [
+        ["Boosts Max PP when Twin Machine Guns are equipped during Showtime."],
+        [
+          "Passive\nIncreases your maximum PP when equipped with twin machine guns during Showtime."
+        ],
+        ["ショウタイム中、ツインマシンガン装備時にPP最大値が上昇する"]
+      ],
+      "img": "skill_gunner-p_0013",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Max PP", "Maximum PP", "PP最大値"],
+          "stats": ["+25", "+30", "+35", "+40", "+50"]
+        }
+      ],
+      "loc": [4, 8],
+      "mobileLoc": [],
+      "prereqs": [17, 2],
+      "unlocks": [
+        [19, 3],
+        [32, 3]
+      ],
+      "unlockImg": "forkleft"
+    },
+    {
+      "id": 19,
+      "name": ["Time Save", "Toughness Time", "タフネスタイム"],
+      "desc": [
+        [
+          "Decreases the Focus Gauge reduction occurring when you take damage during Showtime. Only works if Twin Machine Guns Focus has been learned."
+        ],
+        [
+          "Passive\nDuring Showtime, reduces the amount your Gear decreases based on damage. Works only after learning Twin Machinegun Gear."
+        ],
+        [
+          "ショウタイム中、被ダメージによるギア減少量を軽減する。ツインマシンガンギア習得時のみ有効"
+        ]
+      ],
+      "img": "skill_gunner-p_0011",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": [
+            "Focus Gauge Reduction",
+            "Gear Reduction Rate",
+            "ギア減少量"
+          ],
+          "stats": ["0%"]
+        }
+      ],
+      "loc": [4, 9],
+      "mobileLoc": [],
+      "prereqs": [18, 3],
+      "unlocks": null
+    },
+    {
+      "id": 20,
+      "name": ["High Time", "High Time", "ハイタイム"],
+      "desc": [
+        [
+          "Gradually boosts your potency using Showtime. Resets when you take damage corresponding to a set percentage of your HP over a short period of time. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nDuring Showtime, gradually get a power bonus. The power bonus is reset if you receive a certain amount of damage in a short time. ",
+          "Main class only."
+        ],
+        [
+          "ショウタイム中、徐々に威力ボーナスが増加していく。短時間でHPの一定割合のダメージを受けるとリセットされる。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_gunner-p_0011",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Power/Sec", "Power/Sec", "秒間威力上昇量"],
+          "stats": ["1%", "1.5%", "2%", "2%", "3%"]
+        },
+        {
+          "header": ["Potency Boost Maximum", "Max Bonus", "威力上昇量上限"],
+          "stats": ["10%", "10%", "10%", "15%", "20%"]
+        },
+        {
+          "header": [
+            "Maximum Reception Time",
+            "Maximum Reception Time",
+            "上限到達時間"
+          ],
+          "stats": ["10 s", "7 s", "5 s", "8 s", "7 s"]
+        }
+      ],
+      "loc": [4, 10],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 21,
+      "name": [
+        "Auto-Mate Deadline",
+        "Automate Deadline",
+        "オートメイトデッドライン"
+      ],
+      "desc": [
+        ["Automatically uses a \"-mate\" item when your HP falls below 25%."],
+        [
+          "Passive\nWhen your HP fall below 25%, automatically use a Mate item on yourself."
+        ],
+        ["HPが25%未満になったとき、自動でメイト系アイテムを使用する"]
+      ],
+      "img": "skill_common_0102",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "20%",
+            "24%",
+            "28%",
+            "32%",
+            "36%",
+            "42%",
+            "47%",
+            "62%",
+            "80%",
+            "100%"
+          ]
+        }
+      ],
+      "loc": [3, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 22,
+      "name": ["Advanced Aerial", "Aerial Advance", "エアリアルアドバンス"],
+      "desc": [
+        [
+          "Boosts the damage you deal when you hit an enemy in the air with an attack."
+        ],
+        ["Passive\nIncreases damage inflicted to enemies midair."],
+        ["空中にいるエネミーに攻撃をヒットさせたときダメージが上昇する"]
+      ],
+      "img": "skill_gunner-p_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "102%",
+            "104%",
+            "106%",
+            "108%",
+            "110%",
+            "112%",
+            "114%",
+            "116%",
+            "118%",
+            "120%"
+          ]
+        }
+      ],
+      "loc": [2, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 23,
+      "name": [
+        "Point Blank Boost 1",
+        "Zero Range Advance 1",
+        "ゼロレンジアドバンス1"
+      ],
+      "desc": [
+        [
+          "Boosts damage dealt when you hit an enemy with a ranged attack at close range."
+        ],
+        [
+          "Passive\nIncreases your damage using shooting attacks in close range."
+        ],
+        ["近距離で射撃攻撃をヒットするとダメージが上昇する"]
+      ],
+      "img": "skill_common_0003",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        }
+      ],
+      "loc": [1, 8],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": [
+        [24, 3],
+        [25, 5],
+        [26, 5],
+        [27, 3]
+      ],
+      "unlockImg": "forkrightfourextralong"
+    },
+    {
+      "id": 24,
+      "name": ["Perfectionist", "Perfect Keeper", "パーフェクトキーパー"],
+      "desc": [
+        [
+          "Increases the damage you deal to enemies when your HP is 75% or greater."
+        ],
+        ["Passive\nIncreases damage to enemies when HP is at 75% or higher."],
+        ["HPが100%のとき、エネミーへのダメージが増加する"]
+      ],
+      "img": "skill_common_0003",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "110%",
+            "111%",
+            "112%",
+            "113%",
+            "114%",
+            "115%",
+            "116%",
+            "117%",
+            "118%",
+            "120%"
+          ]
+        }
+      ],
+      "loc": [4, 11],
+      "mobileLoc": [],
+      "prereqs": [23, 3],
+      "unlocks": null
+    },
+    {
+      "id": 25,
+      "name": [
+        "Attack PP Restorate",
+        "Attack PP Restorate",
+        "アタックPPリストレイト"
+      ],
+      "desc": [
+        ["Boosts PP recovery when you hit an enemy with a Normal Attack."],
+        ["Passive\nIncreases the PP restoration of normal attacks."],
+        ["通常攻撃をヒットさせたときのPP回復量が増加する"]
+      ],
+      "img": "skill_common_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["PP Increase Rate", "PP Increase Rate", "PP増加率"],
+          "stats": [
+            "110%",
+            "120%",
+            "130%",
+            "140%",
+            "150%",
+            "160%",
+            "170%",
+            "180%",
+            "190%",
+            "200%"
+          ]
+        }
+      ],
+      "loc": [3, 11],
+      "mobileLoc": [],
+      "prereqs": [23, 5],
+      "unlocks": null
+    },
+    {
+      "id": 26,
+      "name": [
+        "Point Blank Boost 2",
+        "Zero Range Advance 2",
+        "ゼロレンジアドバンス2"
+      ],
+      "desc": [
+        [
+          "Boosts damage dealt when you hit an enemy with a ranged attack at close range."
+        ],
+        [
+          "Passive\nIncreases your damage using shooting attacks in close range."
+        ],
+        ["近距離で射撃攻撃をヒットするとダメージが上昇する"]
+      ],
+      "img": "skill_common_0003",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["102%", "104%", "106%", "108%", "110%"]
+        }
+      ],
+      "loc": [1, 11],
+      "mobileLoc": [],
+      "prereqs": [23, 5],
+      "unlocks": null
+    },
+    {
+      "id": 27,
+      "name": [
+        "Zero Range Critical",
+        "Zero Range Critical",
+        "ゼロレンジクリティカル"
+      ],
+      "desc": [
+        [
+          "Boosts your critical rate when you hit an enemy with a ranged attack at close range."
+        ],
+        [
+          "Passive\nIncreases critical rate when hitting with shooting attacks at close range."
+        ],
+        ["近距離で射撃攻撃をヒットするとクリティカル率が上昇する"]
+      ],
+      "img": "skill_common_0003",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["20%", "25%", "32%", "40%", "50%"]
+        }
+      ],
+      "loc": [2, 11],
+      "mobileLoc": [],
+      "prereqs": [23, 3],
+      "unlocks": null
+    },
+    {
+      "id": 28,
+      "name": ["Stylish Roll Up", "S Roll Up", "Sロールアップ"],
+      "desc": [
+        [
+          "Boosts the damage you deal to enemies while performing Stylish Roll."
+        ],
+        ["Passive\nIncreases damage inflicted to enemies during Stylish Roll."],
+        ["スタイリッシュロール中、エネミーへのダメージが上昇する"]
+      ],
+      "img": "skill_gunner-p_0007",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["130%", "135%", "140%", "145%", "150%"]
+        }
+      ],
+      "loc": [6, 9],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[29, 2]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 29,
+      "name": ["Stylish Roll Finisher", "S Roll Arts", "Sロールアーツ"],
+      "desc": [
+        [
+          "Consumes PP to unleash a potent attack if you launch it with the PA button while performing Stylish Roll."
+        ],
+        [
+          "Passive\nPressing the PA button during Stylish Roll consumes PP and makes you perform a powerful attack."
+        ],
+        [
+          "スタイリッシュロール中にPAボタンで攻撃を行うことにより、PPを消費して威力の高い攻撃を行う"
+        ]
+      ],
+      "img": "skill_gunner-p_0007",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["130%", "135%", "140%", "145%", "150%"]
+        },
+        {
+          "header": ["PP Consumption", "PP Consumption", "消費PP"],
+          "stats": ["10", "10", "10", "10", "10"]
+        }
+      ],
+      "loc": [6, 10],
+      "mobileLoc": [],
+      "prereqs": [28, 2],
+      "unlocks": [[30, 2]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 30,
+      "name": [
+        "Stylish Roll Perf. Atk Bonus",
+        "S Roll JA Bonus",
+        "SロールJAボーナス"
+      ],
+      "desc": [
+        [
+          "Grants a potency bonus to Perfect Attacks performed during Stylish Roll."
+        ],
+        ["Passive\nJust Attacks after Stylish Roll gain a power bonus."],
+        ["スタイリッシュロールからのジャストアタックに威力ボーナスを得る"]
+      ],
+      "img": "skill_gunner-p_0007",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["102%", "104%", "106%", "108%", "110%"]
+        }
+      ],
+      "loc": [6, 11],
+      "mobileLoc": [],
+      "prereqs": [29, 2],
+      "unlocks": null
+    },
+    {
+      "id": 31,
+      "name": ["Dive Roll Shot", "Dive Roll Shoot", "ダイブロールシュート"],
+      "desc": [
+        ["Allows you to attack while performing a Dive Roll."],
+        ["Passive\nAllows attack actions during Dive Roll."],
+        ["ダイブロール中の攻撃アクションが可能となる"]
+      ],
+      "img": "skill_ranger-p_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [6, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 32,
+      "name": ["Encore Time", "One More Time", "ワンモアタイム"],
+      "desc": [
+        [
+          "Re-activates Showtime one time only if you take no damage for the entire duration of a Showtime effect."
+        ],
+        [
+          "Passive\nReactivates Show Time again once if no damage was received during Show Time."
+        ],
+        [
+          "ショウタイム効果終了時までダメージを受けなかった場合、一度だけショウタイムが再発動する"
+        ]
+      ],
+      "img": "skill_gunner-p_0017",
+      "min": 0,
+      "max": 1,
+      "loc": [3, 9],
+      "mobileLoc": [],
+      "prereqs": [18, 3],
+      "unlocks": null
+    },
+    {
+      "id": 33,
+      "name": [
+        "Twin Machine Guns Mastery",
+        "T Machine Gun Mastery",
+        "Tマシンガンマスタリー"
+      ],
+      "desc": [
+        [
+          "Increases PP recovery and grants a critical damage bonus when Twin Machine Guns are equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nIncrease PP recovery rate and gain a damage bonus to critical hits when equipped with twin machine guns. ",
+          "Main class only."
+        ],
+        [
+          "ツインマシンガン装備時、PP回復量が増加し、クリティカル時にダメージボーナスを得る。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_gunner-p_0018",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Critical Hit Power", "クリティカル威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        },
+        {
+          "header": [
+            "PP Recovery Maximum",
+            "Maximum PP Recovery Amount",
+            "PP回復量上限"
+          ],
+          "stats": ["+0.20", "+0.40", "+0.60", "+0.80", "+1.00"]
+        }
+      ],
+      "loc": [5, 4],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 34,
+      "name": [
+        "Twin Mach. Guns Stylish Charge",
+        "T Machine Gun Arts S Charge",
+        "TマシンガンアーツSチャージ"
+      ],
+      "desc": [
+        [
+          "Eliminates Charge Time incurred when a Photon Art or Technique is chained to a different charged PA while Twin Machine Guns are equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nRemove the charge time for charging PAs when in succession of a different PA while using twin machine guns. ",
+          "Main class only."
+        ],
+        [
+          "ツインマシンガン装備時に異なるPAからチャージPAへ繋いだ時にチャージ時間がなくなる。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_gunner-p_0019",
+      "min": 0,
+      "max": 1,
+      "loc": [5, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 35,
+      "name": [
+        "High Level Bonus Gu",
+        "High Level Bonus Gu",
+        "ハイレベルボーナスGu"
+      ],
+      "desc": [
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["プレイヤーが与えるダメージにボーナスを得る"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [3, 2],
+      "req": 80,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 36,
+      "name": [
+        "Another S Roll Arts Mode",
+        "Another S Roll Arts Mode",
+        "アナザーSロールアーツモード"
+      ],
+      "desc": [
+        [
+          "Passive\nIncreases the power of S Roll Arts and changes its attack to an area attack. ",
+          "Main class only."
+        ],
+        [
+          "Passive\nIncreases the power of S Roll Arts and changes its attack to an area attack. ",
+          "Main class only."
+        ],
+        [
+          "Sロールアーツの威力が上昇し、攻撃が範囲攻撃に変化する。このスキルはメインクラスのみ適用される。"
+        ]
+      ],
+      "img": "GuAnotherSRollArtsMode",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        { "header": ["Potency", "Power", "威力"], "stats": ["160%"] }
+      ],
+      "loc": [2, 2],
+      "req": 85,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 37,
+      "name": [
+        "First Arts Perfect Attack Addition",
+        "First Arts JA Addition",
+        "ファーストアーツJAアディション"
+      ],
+      "desc": [
+        [
+          "Passive\nTurns your first attack into a Perfect Attack. A cooldown is applied after activation. Doesn't affect Harmonizer attacks, pet attacks, or Techniques."
+        ],
+        [
+          "Passive\nFirst attack becomes a Just Attack. Cooldown begins after activation. Takt, Pet Attacks and Techs do not apply."
+        ],
+        [
+          "最初に放つ攻撃が、ジャストアタックになる。発動後にリキャストが発生する。タクトやペットの攻撃とテクニックは無効"
+        ]
+      ],
+      "img": "UISkillFirstArtsJustAttack",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["0.25 s"]
+        }
+      ],
+      "loc": [3, 1],
+      "req": 20,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 38,
+      "name": ["Double Jump", "Next Jump", "ネクストジャンプ"],
+      "desc": [
+        ["Passive\nEnables two-stage jumping."],
+        ["Passive\nEnables two-stage jumping."],
+        ["２段ジャンプが可能になる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 1],
+      "req": 40,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 39,
+      "name": ["Sidestep Jump", "Step Jump", "ステップジャンプ"],
+      "desc": [
+        ["Passive\nJumping during a Dodge Action transitions you into a dash."],
+        ["Passive\nJumping during a recovery action switches to sprinting."],
+        ["回避アクション中にジャンプを行うことでダッシユ状態へ移行する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 1],
+      "req": 10,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 40,
+      "name": ["Air Reversal", "Air Reversal", "エアリバーサル"],
+      "desc": [
+        ["Passive\nAllows you to perform a break-fall while in the air."],
+        ["Passive\nEnables recovery midair."],
+        ["空中で受け身がとれるようになる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 41,
+      "name": [
+        "Perf. Recovery & ATK Combo",
+        "J Reversal JA Combo",
+        "JリバーサルJAコンボ"
+      ],
+      "desc": [
+        [
+          "Passive\nMakes Perfect-Attack timing apply after a Perfect Recovery."
+        ],
+        ["Passive\nThe Just Attack circle appears after Just Reversal."],
+        ["ジャストリバーサル後にジャストアタックタイミングが発生"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 42,
+      "name": [
+        "Sidestep & Perf. ATK Combo",
+        "Step JA Combo",
+        "ステップJAコンボ"
+      ],
+      "desc": [
+        ["Passive\nMakes Perfect-Attack timing apply during a Sidestep."],
+        ["Passive\nThe JA circle appears during Step."],
+        ["ステップ時にJAタイミングが発生するようになる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 2],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    }
+  ]
+}

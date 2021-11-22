@@ -565,7 +565,7 @@
           [25, 3],
           [36, 5]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "huntermain"
       },
       {
         "id": 16,
@@ -977,7 +977,7 @@
           [33, 3],
           [44, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "guardstance"
       },
       {
         "id": 26,
@@ -1266,7 +1266,7 @@
           [35, 5],
           [32, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightthree"
       },
       {
         "id": 34,
@@ -1420,7 +1420,7 @@
           [37, 3],
           [38, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightlong"
       },
       {
         "id": 37,
@@ -1549,7 +1549,7 @@
           [41, 5],
           [42, 5]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrighttriple"
       },
       {
         "id": 39,
@@ -2442,7 +2442,7 @@
           [30, 3],
           [31, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "fightermain"
       },
       {
         "id": 11,
@@ -4113,7 +4113,7 @@
           [21, 3],
           [22, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "rangermain"
       },
       {
         "id": 10,
@@ -4486,7 +4486,7 @@
           [36, 3],
           [37, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "advancedprecision"
       },
       {
         "id": 23,
@@ -4945,7 +4945,7 @@
         "mobileLoc": [],
         "prereqs": null,
         "unlocks": [[38, 1]],
-        "unlockImg": "forkcustom"
+        "unlockImg": "zigzagleft"
       },
       {
         "id": 36,
@@ -5637,7 +5637,7 @@
           [22, 3],
           [23, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "gunnermain"
       },
       {
         "id": 10,
@@ -6164,7 +6164,7 @@
           [26, 5],
           [27, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightfourextralong"
       },
       {
         "id": 24,
@@ -7157,7 +7157,7 @@
           [27, 3],
           [33, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forcemain"
       },
       {
         "id": 11,
@@ -7619,7 +7619,7 @@
           [25, 3],
           [26, 2]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightdouble"
       },
       {
         "id": 24,
@@ -7739,7 +7739,7 @@
           [30, 5],
           [32, 2]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrighttriple"
       },
       {
         "id": 28,
@@ -7947,7 +7947,7 @@
           [35, 3],
           [36, 2]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightdouble"
       },
       {
         "id": 34,
@@ -8767,11 +8767,11 @@
           [38, 3],
           [39, 5]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "techtermain"
       },
       {
         "id": 10,
-        "name": ["Tech. Power Up 1", "Technique Up 2", "法撃アップ2"],
+        "name": ["Tech. Power Up 2", "Technique Up 2", "法撃アップ2"],
         "desc": [
           ["Boosts your Technique Power."],
           ["Passive\nIncrease your T-ATK."],
@@ -9406,7 +9406,7 @@
           [30, 5],
           [31, 2]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightdouble"
       },
       {
         "id": 29,
@@ -10442,7 +10442,7 @@
           [29, 3],
           [34, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "bravermain"
       },
       {
         "id": 9,
@@ -10691,7 +10691,7 @@
           [17, 3],
           [19, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightlong"
       },
       {
         "id": 17,
@@ -11250,7 +11250,7 @@
           [31, 3],
           [32, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightlong"
       },
       {
         "id": 31,
@@ -12013,7 +12013,7 @@
           [35, 3],
           [37, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "bouncermain"
       },
       {
         "id": 9,
@@ -12644,7 +12644,7 @@
           [29, 5],
           [34, 1]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightdouble"
       },
       {
         "id": 28,
@@ -13416,7 +13416,7 @@
           [5, 1],
           [6, 1]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "summonermain"
       },
       {
         "id": 4,
@@ -13523,16 +13523,16 @@
           {
             "header": ["Recovery", "Recovery", "回復量"],
             "stats": [
-              "5.00%",
-              "5.00%",
-              "5.00%",
-              "5.00%",
-              "5.00%",
-              "5.50%",
-              "6.00%",
-              "6.50%",
-              "7.00%",
-              "7.50%"
+              "5%",
+              "5%",
+              "5%",
+              "5%",
+              "5%",
+              "5.5%",
+              "6%",
+              "6.5%",
+              "7%",
+              "7.5%"
             ]
           }
         ],
@@ -13544,7 +13544,7 @@
           [8, 1],
           [9, 1]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightthree"
       },
       {
         "id": 7,
@@ -13735,7 +13735,7 @@
           [15, 3],
           [33, 1]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightfour"
       },
       {
         "id": 12,
@@ -13961,7 +13961,7 @@
           [19, 3],
           [20, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightdouble"
       },
       {
         "id": 18,
@@ -14009,7 +14009,7 @@
         "effects": [
           {
             "header": ["HP Recovery", "HP Recovery", "HP回復量"],
-            "stats": ["7.50%"]
+            "stats": ["7.5%"]
           }
         ],
         "loc": [2, 11],
@@ -14039,7 +14039,7 @@
         "effects": [
           {
             "header": ["Recovery", "Recovery", "回復量"],
-            "stats": ["1.00%", "1.50%", "2.00%", "2.50%", "3.00%"]
+            "stats": ["1%", "1.5%", "2%", "2.5%", "3%"]
           },
           {
             "header": ["Recovery Interval", "Recovery Interval", "回復間隔"],
@@ -14059,7 +14059,7 @@
           [30, 3],
           [31, 3]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "petrecovery"
       },
       {
         "id": 21,
@@ -14132,7 +14132,7 @@
       {
         "id": 23,
         "name": [
-          "Total Defense/Dexterity Up",
+          "Total Defense / Dexterity Up",
           "All Defenses and Dexterity Up",
           "全防御・技量アップ"
         ],
@@ -14171,7 +14171,7 @@
       {
         "id": 24,
         "name": [
-          "Total Defense/Dexterity Mega-Up",
+          "Total Defense / Dexterity Mega-Up",
           "All Defenses and Dexterity High Up",
           "全防御・技量ハイアップ"
         ],
@@ -15032,16 +15032,16 @@
           {
             "header": ["Power/Sec", "Power/Sec", "秒間威力上昇量"],
             "stats": [
-              "0.20%",
-              "0.40%",
-              "0.60%",
-              "0.80%",
-              "1.00%",
-              "1.00%",
-              "1.00%",
-              "1.00%",
-              "1.00%",
-              "1.00%"
+              "0.2%",
+              "0.4%",
+              "0.6%",
+              "0.8%",
+              "1%",
+              "1%",
+              "1%",
+              "1%",
+              "1%",
+              "1%"
             ]
           },
           {
@@ -15083,7 +15083,7 @@
           [8, 1],
           [16, 5]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightthreeextralong"
       },
       {
         "id": 7,
@@ -15160,7 +15160,7 @@
           [10, 1],
           [11, 1]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightthree"
       },
       {
         "id": 9,
@@ -15238,7 +15238,7 @@
           [14, 1],
           [15, 1]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightfour"
       },
       {
         "id": 12,
@@ -16275,7 +16275,7 @@
           [35, 1],
           [36, 1]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "phantommarker"
       },
       {
         "id": 1,
@@ -17377,11 +17377,11 @@
         "effects": [
           {
             "header": ["PP Conversion Rate", "PP Conversion Rate", "威力変換"],
-            "stats": ["4.00%", "4.20%", "4.40%", "4.60%", "5.00%"]
+            "stats": ["4%", "4.2%", "4.4%", "4.6%", "5%"]
           },
           {
             "header": ["Max Bonus", "Max Bonus", "威力上昇量上限"],
-            "stats": ["10.00%", "10.00%", "10.00%", "10.00%", "10.00%"]
+            "stats": ["10%", "10%", "10%", "10%", "10%"]
           }
         ],
         "loc": [2, 9],
@@ -17513,15 +17513,15 @@
               "Trigger Conversion Rate",
               "発動率変換"
             ],
-            "stats": ["10.00%", "12.00%", "14.00%", "16.00%", "20.00%"]
+            "stats": ["10%", "12%", "14%", "16%", "20%"]
           },
           {
             "header": ["Max Rate", "Max Rate", "発動率上限"],
-            "stats": ["60.00%", "60.00%", "60.00%", "60.00%", "60.00%"]
+            "stats": ["60%", "60%", "60%", "60%", "60%"]
           },
           {
             "header": ["Power Conversion", "Power Conversion", "威力変換"],
-            "stats": ["2.00%", "2.20%", "2.40%", "2.60%", "3.00%"]
+            "stats": ["2%", "2.2%", "2.4%", "2.6%", "3%"]
           },
           {
             "header": [
@@ -17529,7 +17529,7 @@
               "Critical ATP Rate",
               "威力上昇量上限"
             ],
-            "stats": ["5.00%", "5.00%", "5.00%", "5.00%", "5.00%"]
+            "stats": ["5%", "5%", "5%", "5%", "5%"]
           }
         ],
         "loc": [2, 10],
@@ -17715,7 +17715,7 @@
           [14, 1],
           [15, 1]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightfourextralong"
       },
       {
         "id": 1,
@@ -18021,16 +18021,16 @@
           {
             "header": ["Recovery", "Recovery", "回復量"],
             "stats": [
-              "2.50%",
-              "2.50%",
-              "2.50%",
-              "2.50%",
-              "2.50%",
-              "2.50%",
-              "2.50%",
-              "2.50%",
-              "2.50%",
-              "2.50%"
+              "2.5%",
+              "2.5%",
+              "2.5%",
+              "2.5%",
+              "2.5%",
+              "2.5%",
+              "2.5%",
+              "2.5%",
+              "2.5%",
+              "2.5%"
             ]
           }
         ],
@@ -18042,7 +18042,7 @@
           [18, 1],
           [19, 1]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightthree"
       },
       {
         "id": 13,
@@ -18257,7 +18257,7 @@
           [22, 1],
           [23, 1]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightthree"
       },
       {
         "id": 18,
@@ -18515,7 +18515,7 @@
           [28, 1],
           [29, 1]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkright"
       },
       {
         "id": 24,
@@ -18804,7 +18804,7 @@
           [33, 1],
           [34, 1]
         ],
-        "unlockImg": "forkcustom"
+        "unlockImg": "forkrightfour"
       },
       {
         "id": 31,

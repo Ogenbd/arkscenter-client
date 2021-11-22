@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import s from "./ClassBoosts.module.scss";
 
-import data from "../data/data.json";
+import data from "../data/data.js";
 
 import TitleFrame from "./frames/TitleFrame";
 import BoxFrame from "./frames/BoxFrame";
@@ -31,9 +31,7 @@ const ClassBoosts = ({ lang, classBoosts, onChange }) => {
   return (
     <>
       <TitleFrame>
-        <div className={s.titleContainer}>
-          <h1>Class Boosts</h1>
-        </div>
+        <h1>Class Boosts</h1>
       </TitleFrame>
       <BoxFrame>
         <div className={s.classBoostOptions}>

@@ -1,0 +1,1702 @@
+{
+  "id": 5,
+  "version": 1,
+  "name": ["Techter", "Techer", "テクター"],
+  "abrvName": "TE",
+  "img": "class5",
+  "mainOnly": false,
+  "hasSub": true,
+  "boost": [0, 2, 15, 0, 50, 0, 0, 10, 0],
+  "stats": [
+    [160, 100, 81, 72, 90, 91, 90, 72, 72],
+    [164, 100, 90, 80, 100, 97, 100, 80, 80],
+    [168, 100, 99, 88, 110, 103, 110, 88, 88],
+    [172, 100, 108, 96, 120, 108, 120, 96, 96],
+    [176, 100, 117, 104, 130, 114, 130, 104, 104],
+    [180, 100, 126, 112, 140, 120, 140, 112, 112],
+    [184, 100, 135, 120, 150, 125, 150, 120, 120],
+    [188, 100, 144, 128, 160, 131, 160, 128, 128],
+    [192, 100, 153, 136, 170, 137, 170, 136, 136],
+    [196, 100, 162, 144, 180, 143, 180, 144, 144],
+    [200, 100, 171, 152, 190, 148, 190, 152, 152],
+    [204, 100, 180, 160, 200, 154, 200, 160, 160],
+    [208, 100, 189, 168, 210, 160, 210, 168, 168],
+    [212, 100, 198, 176, 220, 165, 220, 176, 176],
+    [216, 100, 207, 184, 230, 171, 230, 184, 184],
+    [220, 100, 216, 192, 240, 177, 240, 192, 192],
+    [224, 100, 225, 200, 250, 182, 250, 200, 200],
+    [228, 100, 234, 208, 260, 188, 260, 208, 208],
+    [232, 100, 243, 216, 270, 194, 270, 216, 216],
+    [236, 100, 252, 224, 280, 200, 280, 224, 224],
+    [240, 100, 256, 227, 284, 202, 284, 227, 227],
+    [244, 100, 259, 230, 288, 205, 288, 230, 230],
+    [248, 100, 263, 234, 292, 208, 292, 234, 234],
+    [252, 100, 266, 237, 296, 211, 296, 237, 237],
+    [256, 100, 270, 240, 300, 214, 300, 240, 240],
+    [260, 100, 274, 243, 304, 217, 304, 243, 243],
+    [264, 100, 277, 246, 308, 219, 308, 246, 246],
+    [268, 100, 281, 250, 312, 222, 312, 250, 250],
+    [272, 100, 284, 253, 316, 225, 316, 253, 253],
+    [276, 100, 288, 256, 320, 228, 320, 256, 256],
+    [280, 100, 292, 259, 324, 231, 324, 259, 259],
+    [284, 100, 295, 262, 328, 234, 328, 262, 262],
+    [288, 100, 299, 266, 332, 237, 332, 266, 266],
+    [292, 100, 302, 269, 336, 239, 336, 269, 269],
+    [296, 100, 306, 272, 340, 242, 340, 272, 272],
+    [300, 100, 310, 275, 344, 245, 344, 275, 275],
+    [304, 100, 313, 278, 348, 248, 348, 278, 278],
+    [308, 100, 317, 282, 352, 251, 352, 282, 282],
+    [312, 100, 320, 285, 356, 254, 356, 285, 285],
+    [316, 100, 324, 288, 360, 257, 360, 288, 288],
+    [320, 100, 328, 291, 364, 259, 364, 291, 291],
+    [324, 100, 331, 294, 368, 262, 368, 294, 294],
+    [328, 100, 335, 298, 372, 265, 372, 298, 298],
+    [332, 100, 338, 301, 376, 268, 376, 301, 301],
+    [336, 100, 342, 304, 380, 271, 380, 304, 304],
+    [340, 100, 346, 307, 384, 274, 384, 307, 307],
+    [344, 100, 349, 310, 388, 276, 388, 310, 310],
+    [348, 100, 353, 314, 392, 279, 392, 314, 314],
+    [352, 100, 356, 317, 396, 282, 396, 317, 317],
+    [356, 100, 360, 320, 400, 285, 400, 320, 320],
+    [360, 100, 364, 323, 404, 288, 404, 323, 323],
+    [364, 100, 368, 326, 408, 291, 408, 326, 326],
+    [368, 100, 372, 329, 412, 294, 412, 329, 329],
+    [372, 100, 376, 332, 416, 297, 416, 332, 332],
+    [376, 100, 380, 335, 420, 300, 420, 335, 335],
+    [380, 100, 384, 338, 424, 303, 424, 338, 338],
+    [384, 100, 388, 341, 428, 306, 428, 341, 341],
+    [388, 100, 392, 344, 432, 309, 432, 344, 344],
+    [392, 100, 396, 347, 436, 312, 436, 347, 347],
+    [396, 100, 400, 350, 440, 315, 440, 350, 350],
+    [400, 100, 404, 353, 444, 318, 444, 353, 353],
+    [404, 100, 408, 356, 448, 321, 448, 356, 356],
+    [408, 100, 412, 359, 452, 324, 452, 359, 359],
+    [412, 100, 416, 362, 456, 327, 456, 362, 362],
+    [416, 100, 420, 365, 460, 330, 460, 365, 365],
+    [420, 100, 424, 368, 464, 333, 464, 368, 368],
+    [424, 100, 428, 371, 468, 336, 468, 371, 371],
+    [428, 100, 432, 374, 472, 339, 472, 374, 374],
+    [432, 100, 436, 377, 476, 342, 476, 377, 377],
+    [436, 100, 440, 380, 480, 345, 480, 380, 380],
+    [440, 100, 444, 383, 484, 348, 484, 383, 383],
+    [444, 100, 448, 386, 488, 351, 488, 386, 386],
+    [448, 100, 452, 389, 492, 354, 492, 389, 389],
+    [452, 100, 456, 392, 496, 357, 496, 392, 392],
+    [456, 100, 460, 395, 500, 360, 500, 395, 395],
+    [460, 100, 464, 398, 504, 363, 504, 398, 398],
+    [464, 100, 468, 401, 508, 366, 508, 401, 401],
+    [468, 100, 472, 404, 512, 369, 512, 404, 404],
+    [472, 100, 476, 407, 516, 372, 516, 407, 407],
+    [476, 100, 480, 410, 520, 375, 520, 410, 410],
+    [480, 100, 484, 413, 524, 378, 524, 413, 413],
+    [484, 100, 488, 416, 528, 381, 528, 416, 416],
+    [488, 100, 492, 419, 532, 384, 532, 419, 419],
+    [492, 100, 496, 422, 536, 387, 536, 422, 422],
+    [496, 100, 500, 425, 540, 390, 540, 425, 425],
+    [500, 100, 504, 428, 544, 393, 544, 428, 428],
+    [504, 100, 508, 431, 548, 396, 548, 431, 431],
+    [508, 100, 512, 434, 552, 399, 552, 434, 434],
+    [512, 100, 516, 437, 556, 402, 556, 437, 437],
+    [516, 100, 520, 440, 560, 405, 560, 440, 440],
+    [520, 100, 524, 443, 564, 408, 564, 443, 443],
+    [524, 100, 528, 446, 568, 411, 568, 446, 446],
+    [528, 100, 532, 449, 572, 414, 572, 449, 449],
+    [532, 100, 536, 452, 576, 417, 576, 452, 452],
+    [536, 100, 540, 455, 580, 420, 580, 455, 455],
+    [540, 100, 544, 458, 584, 423, 584, 458, 458],
+    [544, 100, 548, 461, 588, 426, 588, 461, 461],
+    [548, 100, 552, 464, 592, 429, 592, 464, 464],
+    [552, 100, 556, 467, 596, 432, 596, 467, 467],
+    [556, 100, 560, 470, 600, 435, 600, 470, 470]
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "name": ["Blind Escape", "Mirage Escape", "ミラージュエスケープ"],
+      "desc": [
+        [
+          "Allows you to move a set distance in an invulnerable state after disrupting the enemy's vision."
+        ],
+        [
+          "Active\nDisturb visual information and move a fixed distance while invulnerable."
+        ],
+        ["視覚情報を撹乱し、無敵状態で一定距離を移動する"]
+      ],
+      "img": "skill_force-a_0003",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[1, 0]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 1,
+      "name": ["Perfect Recovery", "Just Reversal", "ジャストリバーサル"],
+      "desc": [
+        [
+          "Allows you to quickly jump up after being knocked back onto the ground."
+        ],
+        [
+          "Passive\nPress the jump button to quickly recover when knocked down."
+        ],
+        ["吹き飛ばされてダウンしたときにジャンプ操作で素早く起き上がる"]
+      ],
+      "img": "skill_force-p_0003",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 0],
+      "unlocks": null
+    },
+    {
+      "id": 2,
+      "name": [
+        "Arms Enthusiast: Techter",
+        "Rare Mastery Techer",
+        "レアマスタリーテクター"
+      ],
+      "desc": [
+        [
+          "Boosts the damage you deal when a weapon of Rarity 10★ or greater is equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen equipped with a ★10 or higher weapon or crafted weapon, gain a damage bonus. ",
+          "Main class only."
+        ],
+        [
+          "レアリティ★10以上の武器を装備していると、打撃力と法撃力が上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_techer-p_0020",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 3,
+      "name": [
+        "Technique DEF Up 1",
+        "Technique Defense Up 1",
+        "法撃防御アップ1"
+      ],
+      "desc": [
+        ["Boosts your Technique Defense."],
+        ["Passive\nIncrease your T-DEF."],
+        ["法撃防御力が上昇する"]
+      ],
+      "img": "skill_common_0008",
+      "min": 0,
+      "max": 10,
+      "stat": [[8, 1]],
+      "effects": [
+        {
+          "header": ["TEC Def", "T-DEF", "法撃防御"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [4, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 4,
+      "name": ["Extend Assist", "Extend Assist", "エクステンドアシスト"],
+      "desc": [
+        [
+          "Extends the maximum effect duration of Shifta and Deband to 180 seconds."
+        ],
+        ["Passive\nIncreases the maximum duration of Shifta and Deband."],
+        ["シフタ、デバンドの効果時間上限を延長する"]
+      ],
+      "img": "skill_techer-p_0012",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["+120 s"]
+        }
+      ],
+      "loc": [4, 4],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 5,
+      "name": ["Longarm Assist", "Long-Time Assist", "ロングタイムアシスト"],
+      "desc": [
+        [
+          "Increases the effect duration each time for Shifta and Deband. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nIncrease the effect duration of Shifta and Deband per tick. ",
+          "Main class only."
+        ],
+        [
+          "シフタ、デバンド一回あたりの効果時間を増加する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_techer-p_0012",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["+30 s"]
+        }
+      ],
+      "loc": [4, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 6,
+      "name": ["PP Up 1", "PP Up 1", "PPアップ1"],
+      "desc": [
+        ["Boosts your Max PP."],
+        ["Passive\nIncrease your maximum PP."],
+        ["PP最大値が上昇する"]
+      ],
+      "img": "skill_common_0001",
+      "min": 0,
+      "max": 10,
+      "stat": [[1, 0]],
+      "effects": [
+        {
+          "header": ["Max PP", "Maximum PP", "PP最大値"],
+          "stats": ["+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10"]
+        }
+      ],
+      "loc": [3, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 7,
+      "name": ["PP Up 2", "PP Up 2", "PPアップ2"],
+      "desc": [
+        ["Boosts your Max PP."],
+        ["Passive\nIncrease your maximum PP."],
+        ["PP最大値が上昇する"]
+      ],
+      "img": "skill_common_0001",
+      "min": 0,
+      "max": 10,
+      "stat": [[1, 0]],
+      "effects": [
+        {
+          "header": ["Max PP", "Maximum PP", "PP最大値"],
+          "stats": ["+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10"]
+        }
+      ],
+      "loc": [3, 4],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 8,
+      "name": ["Dexterity Up 1", "Dexterity Up 1", "技量アップ1"],
+      "desc": [
+        ["Boosts your Dexterity."],
+        ["Passive\nIncrease your DEX."],
+        ["技量が上昇する"]
+      ],
+      "img": "skill_common_0005",
+      "min": 0,
+      "max": 10,
+      "stat": [[5, 1]],
+      "effects": [
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [2, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 9,
+      "name": ["Tech. Power Up 1", "Technique Up 1", "法撃アップ1"],
+      "desc": [
+        ["Boosts your Technique Power."],
+        ["Passive\nIncrease your T-ATK."],
+        ["法撃力が上昇する"]
+      ],
+      "img": "skill_common_0004",
+      "min": 0,
+      "max": 10,
+      "stat": [[4, 1]],
+      "effects": [
+        {
+          "header": ["TEC Pwr", "T-ATK", "法撃力"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [1, 1],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [10, 3],
+        [11, 3],
+        [12, 1],
+        [13, 3],
+        [16, 3],
+        [17, 3],
+        [20, 3],
+        [21, 3],
+        [22, 3],
+        [24, 3],
+        [25, 1],
+        [27, 3],
+        [28, 3],
+        [32, 3],
+        [35, 3],
+        [38, 3],
+        [39, 5]
+      ],
+      "unlockImg": "techtermain"
+    },
+    {
+      "id": 10,
+      "name": ["Tech. Power Up 2", "Technique Up 2", "法撃アップ2"],
+      "desc": [
+        ["Boosts your Technique Power."],
+        ["Passive\nIncrease your T-ATK."],
+        ["法撃力が上昇する"]
+      ],
+      "img": "skill_common_0004",
+      "min": 0,
+      "max": 10,
+      "stat": [[4, 2]],
+      "effects": [
+        {
+          "header": ["TEC Pwr", "T-ATK", "法撃力"],
+          "stats": [
+            "+4",
+            "+9",
+            "+14",
+            "+19",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [2, 4],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 11,
+      "name": ["Melee Power Up 1", "Striking Up 1", "打撃アップ1"],
+      "desc": [
+        ["Boosts your Melee Power."],
+        ["Passive\nIncrease your S-ATK."],
+        ["打撃力が上昇する"]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 10,
+      "stat": [[2, 1]],
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [2, 5],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 12,
+      "name": ["Wand Focus", "Wand Gear", "ウォンドギア"],
+      "desc": [
+        [
+          "Charges your Focus Gauge when you hit an enemy with a Charged Technique and activates Photonic Fury when you perform a Normal Attack."
+        ],
+        [
+          "Passive\nAccumulate Gear whenever enemies are hit by charged techniques. Basic attacks cause tech explosions."
+        ],
+        [
+          "チャージテクニックをエネミーに当てるとギアが溜まり、通常攻撃で法撃爆発を発生させる"
+        ]
+      ],
+      "img": "skill_wand_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [2, 6],
+      "mobileLoc": [],
+      "prereqs": [9, 1],
+      "unlocks": null
+    },
+    {
+      "id": 13,
+      "name": ["Advanced Deband", "Deband Advance", "デバンドアドバンス"],
+      "desc": [
+        ["Boosts the effect of Deband."],
+        ["Passive\nIncreases Deband's effectiveness."],
+        ["デバンドの効果が上昇する"]
+      ],
+      "img": "skill_techer-p_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Deband Effect", "Deband Effect", "デバンド効果"],
+          "stats": ["105%", "109%", "113%", "119%", "125%"]
+        }
+      ],
+      "loc": [5, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": [
+        [14, 3],
+        [15, 3]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 14,
+      "name": ["Deband Toughness", "Deband Toughness", "デバンドタフネス"],
+      "desc": [
+        [
+          "Boosts your Max HP while Deband is in effect. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nIncrease the maximum HP during Deband. ",
+          "Main class only."
+        ],
+        [
+          "デバンド効果中に最大HPが上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_techer-p_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Max HP", "Maximum HP", "HP最大値"],
+          "stats": ["110%", "111%", "113%", "115%", "125%"]
+        }
+      ],
+      "loc": [6, 8],
+      "mobileLoc": [],
+      "prereqs": [13, 3],
+      "unlocks": null
+    },
+    {
+      "id": 15,
+      "name": ["Deband Cut", "Deband Cut", "デバンドカット"],
+      "desc": [
+        [
+          "Reduces damage you take by a set percentage while Deband is in effect."
+        ],
+        ["Passive\nReduces a fixed amount of damage during Deband."],
+        ["デバンド効果中に一定の割合のダメージを軽減する"]
+      ],
+      "img": "skill_techer-p_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Reduction Rate", "Reduction Rate", "減少率"],
+          "stats": ["95%", "93%", "91%", "89%", "85%"]
+        }
+      ],
+      "loc": [5, 8],
+      "mobileLoc": [],
+      "prereqs": [13, 3],
+      "unlocks": null
+    },
+    {
+      "id": 16,
+      "name": ["Advanced Resta", "Resta Advance", "レスタアドバンス"],
+      "desc": [
+        ["Boosts the amount of HP recovered by Resta."],
+        ["Passive\nIncreases HP recovered with Resta."],
+        ["レスタ回復量が上昇する"]
+      ],
+      "img": "skill_techer-p_0007",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["HP Recovery", "HP Recovery", "HP回復量"],
+          "stats": ["104%", "108%", "112%", "116%", "120%"]
+        }
+      ],
+      "loc": [4, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 17,
+      "name": ["Advanced Shifta", "Shifta Advance", "シフタアドバンス"],
+      "desc": [
+        ["Boosts the effect of Shifta."],
+        ["Passive\nIncreases Shifta's effectiveness."],
+        ["シフタの効果が上昇する"]
+      ],
+      "img": "skill_techer-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Shifta Effect", "Shifta Effect", "シフタ効果"],
+          "stats": ["105%", "109%", "113%", "119%", "125%"]
+        }
+      ],
+      "loc": [3, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": [
+        [18, 3],
+        [19, 3]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 18,
+      "name": ["Shifta Strike", "Shifta Strike", "シフタストライク"],
+      "desc": [
+        [
+          "Increases the damage you deal to enemies while Shifta is in effect. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nIncrease the damage dealt to enemies during Shifta. ",
+          "Main class only."
+        ],
+        [
+          "シフタ効果中にエネミーへのダメージが増加する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_techer-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["102%", "104%", "106%", "108%", "110%"]
+        }
+      ],
+      "loc": [4, 8],
+      "mobileLoc": [],
+      "prereqs": [17, 3],
+      "unlocks": null
+    },
+    {
+      "id": 19,
+      "name": ["Critical Shifta", "Shifta Critical", "シフタクリティカル"],
+      "desc": [
+        [
+          "Boosts the chance of scoring a critical hit while Shifta is in effect."
+        ],
+        ["Passive\nIncreases critical hit rate during Shifta."],
+        ["シフタ効果中にクリティカルヒット確率が上昇する"]
+      ],
+      "img": "skill_techer-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["5%", "10%", "14%", "17%", "20%"]
+        }
+      ],
+      "loc": [3, 8],
+      "mobileLoc": [],
+      "prereqs": [17, 3],
+      "unlocks": null
+    },
+    {
+      "id": 20,
+      "name": ["PP Restorate", "PP Restorate", "PPリストレイト"],
+      "desc": [
+        [
+          "Boosts automatic PP recovery. Further boosts automatic PP recovery while stationary."
+        ],
+        ["Passive\nIncreases your passive PP restoration rate."],
+        ["PP自動回復量が上昇する"]
+      ],
+      "img": "skill_common_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": [
+            "PP Increase Rate",
+            "Moving PP Recovery Amount",
+            "移動時PP回復量"
+          ],
+          "stats": [
+            "110%",
+            "113%",
+            "116%",
+            "119%",
+            "121%",
+            "124%",
+            "127%",
+            "130%",
+            "135%",
+            "140%"
+          ]
+        },
+        {
+          "header": [
+            "Stationary PP Increase Rate",
+            "Standing PP Recovery Amount",
+            "静止時PP回復量"
+          ],
+          "stats": [
+            "220%",
+            "226%",
+            "232%",
+            "238%",
+            "242%",
+            "248%",
+            "254%",
+            "286%",
+            "324%",
+            "350%"
+          ]
+        }
+      ],
+      "loc": [2, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 21,
+      "name": ["Super Treatment", "Super Treatment", "スーパートリートメント"],
+      "desc": [
+        [
+          "When you heal from a status ailment, boosts automatic PP recovery for a set time and recovers your HP and your target s HP."
+        ],
+        [
+          "Passive\nRecover your own and your target's HP whenever a status abnormality is cured. PP recovery rate is also increased for a fixed time."
+        ],
+        [
+          "状態異常を回復した際、自分と対象者のHPを回復させ、一定時間PP回復量も上昇させる"
+        ]
+      ],
+      "img": "skill_techer-p_0017",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["30 s"]
+        },
+        {
+          "header": ["HP Recovery Rate", "HP Recovery Rate", "HP回復率"],
+          "stats": ["25%"]
+        },
+        {
+          "header": ["PP Recovery", "PP Recovery Amount", "PP回復量"],
+          "stats": ["+3"]
+        }
+      ],
+      "loc": [5, 9],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 22,
+      "name": ["Territory Burst", "Territory Burst", "テリトリーバースト"],
+      "desc": [
+        ["Boosts the area of effect of support Techniques."],
+        ["Passive\nIncreases the area of effect of support techiques."],
+        ["補助テクニックの効果範囲が上昇する"]
+      ],
+      "img": "skill_techer-p_0011",
+      "min": 0,
+      "max": 1,
+      "loc": [4, 9],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": [[40, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 23,
+      "name": ["Territory PP Save", "Territory PP Save", "テリトリーPPセイブ"],
+      "desc": [
+        [
+          "Reduces PP cost of support Techniques. Only works if Territory Burst has been learned."
+        ],
+        [
+          "Passive\nReduces the PP consumption of support techniques during Territory Burst. Only takes effect if Territory Burst is learnt."
+        ],
+        [
+          "テリトリーバースト中、補助テクニックの消費PPを軽減する。テリトリーバースト習得時のみ有効"
+        ]
+      ],
+      "img": "skill_techer-p_0018",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["PP Consumption Rate", "PP Consumption", "PP消費量"],
+          "stats": ["-3", "-4", "-5", "-6", "-7"]
+        }
+      ],
+      "loc": [4, 11],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 24,
+      "name": ["PP Conversion", "PP Convert", "PPコンバート"],
+      "desc": [
+        [
+          "Boosts automatic PP recovery for a set time, while lowering your Max HP."
+        ],
+        [
+          "Active\nIncreases your PP restoration rate at the expense of your maximum HP for a short period of time."
+        ],
+        ["一定時間、PP回復量が上昇し、最大HPが減少する。"]
+      ],
+      "img": "skill_force-a_0002",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Max HP", "Maximum HP", "HP最大値"],
+          "stats": [
+            "99%",
+            "98%",
+            "97%",
+            "96%",
+            "95%",
+            "94%",
+            "93%",
+            "92%",
+            "91%",
+            "90%"
+          ]
+        },
+        {
+          "header": ["PP Recovery", "PP Recovery Amount", "PP回復量"],
+          "stats": ["+1", "+1", "+2", "+2", "+2", "+3", "+3", "+3", "+4", "+5"]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s"
+          ]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "120 s",
+            "118 s",
+            "116 s",
+            "114 s",
+            "112 s",
+            "110 s",
+            "108 s",
+            "106 s",
+            "104 s",
+            "100 s"
+          ]
+        }
+      ],
+      "loc": [3, 9],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 25,
+      "name": ["Wand Lovers", "Wand Lovers", "ウォンドラバーズ"],
+      "desc": [
+        [
+          "Grants a bonus to your Wand Focus. Normal Attack, and Photonic Fury potency, and enables fast Sidestep attacks. Only works if Wand Focus has been learned."
+        ],
+        [
+          "Active\nGain a bonus to Wand Gear and S-ATK and enable the use of a quick Step attack. Only takes effect if Wand Gear is learnt.<br><i>Note: this skill actually gives you a bonus to striking damage, not S-ATK.</i>"
+        ],
+        [
+          "ウォンドギアと打撃力にボーナスを得て、素早いステップ攻撃が可能になる。ウォンドギア習得時のみ有効"
+        ]
+      ],
+      "img": "skill_techer-a_0003",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["30 s", "30 s", "30 s", "30 s", "30 s"]
+        },
+        {
+          "header": ["Melee Potency", "Striking Power", "打撃威力"],
+          "stats": ["105%", "111%", "118%", "126%", "140%"]
+        }
+      ],
+      "loc": [2, 9],
+      "mobileLoc": [],
+      "prereqs": [9, 1],
+      "unlocks": [
+        [26, 3],
+        [41, 1]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 26,
+      "name": ["Wand Reactor", "Wand Reactor", "ウォンドリアクター"],
+      "desc": [
+        [
+          "Adds Melee Power based on a set percentage of the Technique Power of the equipped Wand."
+        ],
+        [
+          "Passive\nAdds S-ATK by a certain ratio depending on the T-ATK of your equipped wand."
+        ],
+        ["装備しているウォンドの法撃力から一定割合を打撃力として追加する"]
+      ],
+      "img": "skill_techer-p_0013",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Conversion Rate", "Conversion Rate", "変換率"],
+          "stats": ["40%"]
+        }
+      ],
+      "loc": [2, 10],
+      "mobileLoc": [],
+      "prereqs": [25, 3],
+      "unlocks": null
+    },
+    {
+      "id": 27,
+      "name": [
+        "Element Precision Hit",
+        "Element Weak Hit",
+        "エレメントウィークヒット"
+      ],
+      "desc": [
+        ["Boosts damage dealt against an enemy's Elemental Weakness."],
+        ["Passive\nIncreases your damage against your enemy's weak element."],
+        ["弱点属性へのダメージを上昇する"]
+      ],
+      "img": "skill_techer-p_0010",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": [
+            "Elemental Weakness",
+            "Weakness Element Power",
+            "弱点属性威力"
+          ],
+          "stats": ["103%", "106%", "112%", "120%", "120%"]
+        },
+        {
+          "header": [
+            "Non-Elemental Weakness",
+            "Non-Weakness Element Power",
+            "非弱点属性威力"
+          ],
+          "stats": ["100%", "100%", "100%", "100%", "110%"]
+        }
+      ],
+      "loc": [6, 12],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 28,
+      "name": ["Dark Mastery 1", "Dark Mastery 1", "ダークマスタリー1"],
+      "desc": [
+        ["Boosts the potency of Dark Techniques."],
+        ["Passive\nIncreases the power of dark techniques."],
+        ["闇系テクニックの威力が上昇する"]
+      ],
+      "img": "skill_techer-p_0005",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "105%",
+            "108%",
+            "110%",
+            "112%",
+            "114%",
+            "116%",
+            "117%",
+            "118%",
+            "119%",
+            "120%"
+          ]
+        }
+      ],
+      "loc": [5, 12],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": [
+        [29, 3],
+        [30, 5],
+        [31, 2]
+      ],
+      "unlockImg": "forkrightdouble"
+    },
+    {
+      "id": 29,
+      "name": ["Poison Boost", "Poison Boost", "ポイズンブースト"],
+      "desc": [
+        ["Boosts the chance of inflicting a Poison status ailment."],
+        ["Passive\nIncreases the chance of inflicting poison status."],
+        ["ポイズンの発生確率が上昇する"]
+      ],
+      "img": "skill_techer-p_0008",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        }
+      ],
+      "loc": [6, 13],
+      "mobileLoc": [],
+      "prereqs": [28, 3],
+      "unlocks": null
+    },
+    {
+      "id": 30,
+      "name": [
+        "Poison Detonation",
+        "Poison Ignition",
+        "ポイズンイグニッション"
+      ],
+      "desc": [
+        [
+          "Blasts poisoned enemies, dealing major damage. Other enemies caught up in the blast may also be poisoned."
+        ],
+        [
+          "Active\nDetonates poisoned enemies. Enemies within explosion range take damage and have a chance of becoming poisoned."
+        ],
+        [
+          "ポイズン状態のエネミーを爆発する。爆発に巻き込まれたエネミーはダメージを受け、ポイズンとなることがある"
+        ]
+      ],
+      "img": "skill_techer-a_0002",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": [
+            "Status Ailment Probability",
+            "Status Abnormality Chance",
+            "状態異常確率"
+          ],
+          "stats": [
+            "10%",
+            "12%",
+            "14%",
+            "16%",
+            "18%",
+            "20%",
+            "22%",
+            "24%",
+            "26%",
+            "30%"
+          ]
+        },
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "100%",
+            "120%",
+            "140%",
+            "160%",
+            "180%",
+            "200%",
+            "220%",
+            "240%",
+            "260%",
+            "300%"
+          ]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "120 s",
+            "110 s",
+            "100 s",
+            "90 s",
+            "80 s",
+            "70 s",
+            "60 s",
+            "50 s",
+            "40 s",
+            "30 s"
+          ]
+        }
+      ],
+      "loc": [6, 14],
+      "mobileLoc": [],
+      "prereqs": [28, 5],
+      "unlocks": null
+    },
+    {
+      "id": 31,
+      "name": ["Dark Mastery 2", "Dark Mastery 2", "ダークマスタリー2"],
+      "desc": [
+        ["Boosts the potency of Dark Techniques."],
+        ["Passive\nIncreases the power of dark techniques."],
+        ["闇系テクニックの威力が上昇する"]
+      ],
+      "img": "skill_techer-p_0005",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["110%", "114%", "116%", "118%", "120%"]
+        }
+      ],
+      "loc": [5, 14],
+      "mobileLoc": [],
+      "prereqs": [28, 2],
+      "unlocks": null
+    },
+    {
+      "id": 32,
+      "name": ["Light Mastery 1", "Light Mastery 1", "ライトマスタリー1"],
+      "desc": [
+        ["Boosts the potency of Light Techniques."],
+        ["Passive\nIncreases the power of light techniques."],
+        ["光系テクニックの威力が上昇する"]
+      ],
+      "img": "skill_techer-p_0004",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "105%",
+            "108%",
+            "110%",
+            "112%",
+            "114%",
+            "116%",
+            "117%",
+            "118%",
+            "119%",
+            "120%"
+          ]
+        }
+      ],
+      "loc": [3, 12],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": [
+        [33, 3],
+        [34, 2]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 33,
+      "name": ["Panic Boost", "Panic Boost", "パニックブースト"],
+      "desc": [
+        ["Boosts the chance of inflicting a Panic status ailment."],
+        ["Passive\nIncreases the chance of inflicting panic status."],
+        ["パニックの発生確率が上昇する"]
+      ],
+      "img": "skill_techer-p_0006",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        }
+      ],
+      "loc": [4, 13],
+      "mobileLoc": [],
+      "prereqs": [32, 3],
+      "unlocks": null
+    },
+    {
+      "id": 34,
+      "name": ["Light Mastery 2", "Light Mastery 2", "ライトマスタリー2"],
+      "desc": [
+        ["Boosts the potency of Light Techniques."],
+        ["Passive\nIncreases the power of light techniques."],
+        ["光系テクニックの威力が上昇する"]
+      ],
+      "img": "skill_techer-p_0004",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["110%", "114%", "116%", "118%", "120%"]
+        }
+      ],
+      "loc": [3, 13],
+      "mobileLoc": [],
+      "prereqs": [32, 2],
+      "unlocks": null
+    },
+    {
+      "id": 35,
+      "name": ["Wind Mastery 1", "Wind Mastery 1", "ウィンドマスタリー1"],
+      "desc": [
+        ["Boosts the potency of Wind Techniques."],
+        ["Passive\nIncreases the power of wind techniques."],
+        ["風系テクニックの威力が上昇する"]
+      ],
+      "img": "skill_techer-p_0003",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "105%",
+            "108%",
+            "110%",
+            "112%",
+            "114%",
+            "116%",
+            "117%",
+            "118%",
+            "119%",
+            "120%"
+          ]
+        }
+      ],
+      "loc": [1, 12],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": [
+        [36, 3],
+        [37, 2]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 36,
+      "name": ["Blind Boost", "Mirage Boost", "ミラージュブースト"],
+      "desc": [
+        ["Boosts the chance of inflicting a Blind status ailment."],
+        ["Passive\nIncreases the chance of inflicting mirage status."],
+        ["ミラージュの発生確率が上昇"]
+      ],
+      "img": "skill_techer-p_0009",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        }
+      ],
+      "loc": [2, 13],
+      "mobileLoc": [],
+      "prereqs": [35, 3],
+      "unlocks": null
+    },
+    {
+      "id": 37,
+      "name": ["Wind Mastery 2", "Wind Mastery 2", "ウィンドマスタリー2"],
+      "desc": [
+        ["Boosts the potency of Wind Techniques."],
+        ["Passive\nIncreases the power of wind techniques."],
+        ["風系テクニックの威力が上昇する"]
+      ],
+      "img": "skill_techer-p_0003",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["110%", "114%", "116%", "118%", "120%"]
+        }
+      ],
+      "loc": [1, 13],
+      "mobileLoc": [],
+      "prereqs": [35, 2],
+      "unlocks": null
+    },
+    {
+      "id": 38,
+      "name": ["Reverse Bonus", "Reverse Bonus", "リバースボーナス"],
+      "desc": [
+        [
+          "Your own Shifta and Dcband are applied to allies that have been revived."
+        ],
+        ["Passive\nApply your Shifta and Deband to revived allies."],
+        ["復活させた味方に自分が習得しているシフタとデバンドが付与される"]
+      ],
+      "img": "skill_techer-p_0021",
+      "min": 0,
+      "max": 1,
+      "loc": [6, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 39,
+      "name": ["Reverser Field", "Reverser Field", "リバーサーフィールド"],
+      "desc": [
+        [
+          "Deploys a field that revives nearby allies. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Active\nCreate a field that revives allies around you. ",
+          "Main class only."
+        ],
+        [
+          "周囲の味方を復活させるフィールドを展開する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_techer-a_0004",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["HP Recovery Rate", "HP Recovery Rate", "HP回復率"],
+          "stats": [
+            "5%",
+            "10%",
+            "15%",
+            "20%",
+            "25%",
+            "35%",
+            "45%",
+            "60%",
+            "75%",
+            "100%"
+          ]
+        },
+        {
+          "header": ["Activation Time", "Occurrence Duration", "発生時間"],
+          "stats": [
+            "5 s",
+            "6 s",
+            "8 s",
+            "11 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "600 s",
+            "600 s",
+            "600 s",
+            "600 s",
+            "600 s",
+            "600 s",
+            "600 s",
+            "600 s",
+            "600 s",
+            "600 s"
+          ]
+        }
+      ],
+      "loc": [6, 9],
+      "mobileLoc": [],
+      "prereqs": [9, 5],
+      "unlocks": null
+    },
+    {
+      "id": 40,
+      "name": ["Support Range Extender", "Wide Support", "ワイドサポート"],
+      "desc": [
+        [
+          "Boosts the area of effect of (Resta), [Anti), [Shifta), and [Deband). ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nIncrease the area of effect for Resta, Anti, Shifta and Deband. ",
+          "Main class only."
+        ],
+        [
+          "「レスタ」「アンティ」「シフタ」「デバンド」の効果範囲が上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_techer-p_0022",
+      "min": 0,
+      "max": 1,
+      "loc": [4, 10],
+      "mobileLoc": [],
+      "prereqs": [22, 1],
+      "unlocks": null
+    },
+    {
+      "id": 41,
+      "name": [
+        "Wand Focus Element",
+        "Wand Gear Element",
+        "ウォンドギアエレメント"
+      ],
+      "desc": [
+        [
+          "Inflicts a status ailment when Photonic Fury is used. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Active\nTech explosions inflict status abnormalities. ",
+          "Main class only."
+        ],
+        [
+          "法撃爆発によって状態異常を付与する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_techer-a_0005",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["15%"]
+        }
+      ],
+      "loc": [3, 10],
+      "mobileLoc": [],
+      "prereqs": [25, 1],
+      "unlocks": null
+    },
+    {
+      "id": 42,
+      "name": [
+        "Tech Charge JA Addition",
+        "Tech Charge JA Addition",
+        "テックチャージJAアディション"
+      ],
+      "desc": [
+        [
+          "Passive\nCharge techniques gain the effect of a Just Attack. The cooldown starts after activation."
+        ],
+        [
+          "Passive\nCharge techniques gain the effect of a Just Attack. The cooldown starts after activation."
+        ],
+        [
+          "チャージテクニックがジャストアタックになる効果を得る。発動後にリキャストが発生する"
+        ]
+      ],
+      "img": "FoTechChargeJAAddition",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["0.5 s"]
+        }
+      ],
+      "loc": [6, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 43,
+      "name": [
+        "High Level Bonus Te",
+        "High Level Bonus Te",
+        "ハイレベルボーナスTe"
+      ],
+      "desc": [
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["プレイヤーが与えるダメージにボーナスを得る"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [3, 2],
+      "req": 80,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 44,
+      "name": ["Party Assist", "Party Assist", "パーティーアシスト"],
+      "desc": [
+        [
+          "Passive\nUsing Shifta and Deband affects all party members in the same field area. ",
+          "Main class only."
+        ],
+        [
+          "Passive\nUsing Shifta and Deband affects all party members in the same field area. ",
+          "Main class only."
+        ],
+        [
+          "自身が使用するシフタ、デバンドがフィールド内のパーティーメンバー全員に有効になる。このスキルはメインクラスのみ適用される。"
+        ]
+      ],
+      "img": "TePartyAssist",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 2],
+      "req": 85,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 45,
+      "name": [
+        "First Arts Perfect Attack Addition",
+        "First Arts JA Addition",
+        "ファーストアーツJAアディション"
+      ],
+      "desc": [
+        [
+          "Passive\nTurns your first attack into a Perfect Attack. A cooldown is applied after activation. Doesn't affect Harmonizer attacks, pet attacks, or Techniques."
+        ],
+        [
+          "Passive\nFirst attack becomes a Just Attack. Cooldown begins after activation. Takt, Pet Attacks and Techs do not apply."
+        ],
+        [
+          "最初に放つ攻撃が、ジャストアタックになる。発動後にリキャストが発生する。タクトやペットの攻撃とテクニックは無効"
+        ]
+      ],
+      "img": "UISkillFirstArtsJustAttack",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["0.25 s"]
+        }
+      ],
+      "loc": [3, 1],
+      "req": 20,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 46,
+      "name": ["Double Jump", "Next Jump", "ネクストジャンプ"],
+      "desc": [
+        ["Passive\nEnables two-stage jumping."],
+        ["Passive\nEnables two-stage jumping."],
+        ["２段ジャンプが可能になる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 1],
+      "req": 40,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 47,
+      "name": ["Sidestep Jump", "Step Jump", "ステップジャンプ"],
+      "desc": [
+        ["Passive\nJumping during a Dodge Action transitions you into a dash."],
+        ["Passive\nJumping during a recovery action switches to sprinting."],
+        ["回避アクション中にジャンプを行うことでダッシユ状態へ移行する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 1],
+      "req": 10,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 48,
+      "name": ["Air Reversal", "Air Reversal", "エアリバーサル"],
+      "desc": [
+        ["Passive\nAllows you to perform a break-fall while in the air."],
+        ["Passive\nEnables recovery midair."],
+        ["空中で受け身がとれるようになる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 49,
+      "name": [
+        "Perf. Recovery & ATK Combo",
+        "J Reversal JA Combo",
+        "JリバーサルJAコンボ"
+      ],
+      "desc": [
+        [
+          "Passive\nMakes Perfect-Attack timing apply after a Perfect Recovery."
+        ],
+        ["Passive\nThe Just Attack circle appears after Just Reversal."],
+        ["ジャストリバーサル後にジャストアタックタイミングが発生"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 50,
+      "name": [
+        "Sidestep & Perf. ATK Combo",
+        "Step JA Combo",
+        "ステップJAコンボ"
+      ],
+      "desc": [
+        ["Passive\nMakes Perfect-Attack timing apply during a Sidestep."],
+        ["Passive\nThe JA circle appears during Step."],
+        ["ステップ時にJAタイミングが発生するようになる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 2],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    }
+  ]
+}

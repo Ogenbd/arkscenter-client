@@ -1,72 +1,139 @@
+@import "../../variables.scss";
+
 .header {
   position: fixed;
   display: flex;
   justify-content: space-around;
-  height: 103px;
-  width: 100%;
-  background-image: url("../../assets/images/general/gnav.png");
+  // height: 103px;
+  height: 54px;
+  width: 100vw;
+  // background-image: url("../../assets/images/general/gnav.png");
+  background: linear-gradient(
+    0deg,
+    rgba(14, 54, 116, 1) 0%,
+    rgba(3, 11, 48, 1) 100%
+  );
+  border-bottom: 1px solid $glow;
+  box-shadow: 0 0 7px $glow;
   background-position: center;
   background-repeat: no-repeat;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 100;
   pointer-events: none;
-  // padding-top: 6px;
-  // background: linear-gradient(0deg, rgba(14,54,116,1) 0%, rgba(3,11,48,1) 100%);
-
-  // .overlay {
-  //     display: flex;
-  //     justify-content: center;
-  //     // align-items: center;
-  //     height: 100%;
-  //     width: 100%;
-  //     max-width: 1020px;
-
-  // }
 
   .container {
     display: flex;
-    justify-content: space-around;
     width: 100%;
     max-width: 1050px;
     height: 55px;
     pointer-events: all;
+    justify-content: space-between;
 
-    .item a {
+    .nav {
+      display: flex;
+
+      .item a {
+        color: white;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: "leaguegothic";
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+        height: 55px;
+
+        p {
+          position: relative;
+          transition: all ease-in-out 150ms;
+          border-bottom: 2px solid rgba(0, 228, 255, 0);
+          &:after {
+            position: absolute;
+            transition: all ease-in-out 150ms;
+            content: "";
+            border-bottom: 2px solid transparent;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+            height: 0;
+            bottom: 0;
+            left: -15px;
+            right: -15px;
+          }
+          &:hover {
+            color: $glow;
+            text-shadow: 0 0 5px $glow;
+            &:after {
+              border-bottom: 2px solid $glow;
+            }
+          }
+        }
+      }
+
+      .main {
+        font-size: 34px;
+        text-shadow: 0 0 3px #000, 0 0 5px #000, 0 0 8px #000;
+        min-width: 167px;
+        max-width: 167px;
+        height: 55px;
+      }
+
+      .sub {
+        min-width: 167px;
+        max-width: 167px;
+        font-size: 28px;
+        text-shadow: 0 0 2px #000, 0 0 3px #000, 0 0 5px #000;
+        font-size: 24px;
+        a p {
+          padding-bottom: 4px;
+        }
+      }
+    }
+  }
+  .userContainer {
+    display: flex;
+    height: 55px;
+    align-items: flex-end;
+    margin-right: 15px;
+
+    a,
+    .logout {
+      position: relative;
+      top: -2px;
       color: white;
       font-family: "leaguegothic";
-      text-transform: uppercase;
+      font-size: 18px;
       letter-spacing: 1px;
-      text-align: center;
-    }
-
-    .main {
-      // position: absolute;
-      font-size: 34px;
-      margin-top: 6px;
-      text-shadow: 0 0 3px #000, 0 0 5px #000, 0 0 8px #000;
-      min-width: 167px;
-      max-width: 167px;
-
-      @media screen and (max-width: 590px) {
-        // font-size: 34px;
-        // align-self: center;
+      padding-bottom: 5px;
+      cursor: pointer;
+      &:after {
+        position: absolute;
+        transition: all ease-in-out 150ms;
+        content: "";
+        border-bottom: 2px solid transparent;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        height: 0;
+        bottom: 0;
+        left: -4px;
+        right: -4px;
+      }
+      &:hover {
+        color: $glow;
+        text-shadow: 0 0 3px $glow;
+        &:after {
+          border-bottom: 2px solid $glow;
+        }
       }
     }
 
-    .sub {
-      min-width: 167px;
-      max-width: 167px;
-      font-size: 28px;
-      text-shadow: 0 0 2px #000, 0 0 3px #000, 0 0 5px #000;
-      margin-top: 12px;
+    p {
+      margin-left: 8px;
     }
 
-    // .skillsim {
-    //     margin-right: 20px;
-    // }
-
-    // .guides {
-    //     margin-left: 20px;
-    // }
+    .divider {
+      padding-bottom: 6px;
+      font-size: 24px;
+    }
   }
 }

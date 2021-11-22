@@ -1,12 +1,25 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useContext } from "react";
 import { useLocation, useHistory } from "react-router-dom";
 import s from "./Compose.module.scss";
 
-import data from "../../data/data.json";
-import racemods from "../../data/racemods.json";
-import statarrays from "../../data/statarrays.json";
-import { statNames, raceNames } from "../../lang";
-import { isMainOnly, hasSub, encodeBuild, decodeBuild } from "../../utils";
+import data from "../../data/data.js";
+import { baseUrl } from "../../environment";
+import {
+  MAX_JP_LVL,
+  MAX_NA_LVL,
+  isMainOnly,
+  hasSub,
+  encodeBuild,
+  decodeBuild,
+  objectifyMag,
+  calcBaseStats,
+  calcFinalStats,
+  calcPointsUsed,
+  zipStr,
+} from "../../utils";
+// import currentVersions from "../../data/currentversions";
+import userContext from "../../providers/UserContext";
+import LanguageContext from "../../providers/LanguageContext";
 
 import TitleFrame from "../../components/frames/TitleFrame";
 import BoxFrame from "../../components/frames/BoxFrame";
@@ -15,18 +28,24 @@ import IntegerInput from "../../components/IntegerInput";
 import ClassBoosts from "../../components/ClassBoosts";
 import SkillTree from "../../components/SkillTree";
 import MarkdownEditor from "../../components/markdown/MarkdownEditor";
+import StatsBlock from "../../components/StatsBlock";
 
 const Compose = () => {
   const location = useLocation();
   const history = useHistory();
+  const { user } = useContext(userContext);
   const [buildString, setBuildString] = useState(
     new URLSearchParams(location.search).get("s") || ""
   );
-  const [lang, setLang] = useState(1);
+  const { lang } = useContext(LanguageContext);
   const [main, setMain] = useState(0);
   const [sub, setSub] = useState(-1);
-  const [mainLvlInput, setMainLvlInput] = useState(lang > 0 ? 95 : 75);
-  const [subLvlInput, setSubLvlInput] = useState(lang > 0 ? 95 : 75);
+  const [mainLvlInput, setMainLvlInput] = useState(
+    lang > 0 ? MAX_JP_LVL : MAX_NA_LVL
+  );
+  const [subLvlInput, setSubLvlInput] = useState(
+    lang > 0 ? MAX_JP_LVL : MAX_NA_LVL
+  );
   const [mainCOSPInput, setMainCOSPInput] = useState(14);
   const [subCOSPInput, setSubCOSPInput] = useState(14);
   const [classBoosts, setClassBoosts] = useState([1, 1, 1, 1, 1, 1, 1, 1, 1]);
@@ -44,34 +63,45 @@ const Compose = () => {
   const [gender, setGender] = useState(0);
   const [race, setRace] = useState(0);
   const [treeState, setTreeState] = useState({});
-  const [guide, setGuide] = useState("");
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
+  const [markdown, setMarkdown] = useState("");
 
+  const mainVersion = data[main].version;
+  const subVersion = sub !== -1 ? data[sub].version : -1;
   const mainLvl = mainLvlInput === "" ? 1 : mainLvlInput;
-  const subLvl = subLvlInput === "" ? 1 : subLvlInput;
+  const subLvl = sub !== -1 ? (subLvlInput === "" ? 1 : subLvlInput) : 0;
   const mainCOSP = mainLvlInput === "" ? 0 : mainCOSPInput;
-  const subCOSP = subCOSPInput === "" ? 0 : subCOSPInput;
+  const subCOSP = sub !== -1 ? (subCOSPInput === "" ? 0 : subCOSPInput) : 0;
   const magBonus = magBonusInput.map((stat) => (stat === "" ? 0 : stat));
-  const maxLevel = lang > 0 ? 95 : 75;
+  const maxLevel = lang > 0 ? MAX_JP_LVL : MAX_NA_LVL;
+  const mainMaxPoints = mainLvl + mainCOSP;
+  const subMaxPoints = subLvl + subCOSP;
+
+  const mainUsedPoints = calcPointsUsed(main, treeState);
+  const subUsedPoints = calcPointsUsed(sub, treeState);
+
+  const versionClassCheck = () => {
+    if (lang === 0 && main > 8) onMainChange(0);
+    if (lang === 0 && sub > 8) onSubChange(-1);
+  };
+
+  useEffect(versionClassCheck, [lang]);
 
   const uriDecode = () => {
     if (buildString.length < 1) return;
     const b = decodeBuild(buildString);
-    // const mag = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-    // for (let key in b[7]) {
-    //   mag[key] = b[7][key];
-    // }
-    setMain(b[1]);
-    setSub(b[2]);
-    setMainLvlInput(b[3]);
-    setSubLvlInput(b[4]);
-    setMainCOSPInput(b[5]);
-    setSubCOSPInput(b[6]);
-    setMagBonusInput(b[7]);
-    setGender(b[8]);
-    setRace(b[9]);
-    setTreeState(b[10]);
-    setClassBoosts(b[11]);
-    // setLang(b[12]);
+    setMain(b[0]);
+    setSub(b[1]);
+    setMainLvlInput(b[4]);
+    setSubLvlInput(b[5]);
+    setMainCOSPInput(b[6]);
+    setSubCOSPInput(b[7]);
+    setMagBonusInput(b[8]);
+    setGender(b[9]);
+    setRace(b[10]);
+    setTreeState(b[11]);
+    setClassBoosts(b[12]);
   };
 
   useEffect(uriDecode, []);
@@ -80,6 +110,8 @@ const Compose = () => {
     const str = encodeBuild(
       main,
       sub,
+      mainVersion,
+      subVersion,
       mainLvlInput,
       subLvlInput,
       mainCOSPInput,
@@ -110,111 +142,16 @@ const Compose = () => {
     lang,
   ]);
 
-  const calcClassBoosts = () => {
-    let stats = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-    data.forEach((item, index) => {
-      if (classBoosts[index]) {
-        stats.forEach((stat, statIndex) => {
-          stats[statIndex] += item.boost[statIndex];
-        });
-      }
-    });
-    return stats;
-  };
+  const baseStats = useMemo(
+    () => calcBaseStats(main, sub, mainLvl, subLvl, gender, race),
+    [main, sub, mainLvl, subLvl, gender, race]
+  );
 
-  const calcMagStats = () => {
-    let stats = [...magBonus];
-    if (main === 6 || sub === 6) {
-      stats[2] += stats[5];
-      stats[3] += stats[5];
-    }
-    if (main === 7 || sub === 7) {
-      stats[2] += stats[5];
-      stats[4] += stats[5];
-    }
-    if (main === 10 || sub === 10) {
-      stats[2] += stats[5];
-      stats[4] += stats[5];
-      stats[4] += stats[5];
-    }
-    if (main === 9 || main === 11 || sub === 11) {
-      let s = stats[3] + stats[4];
-      let r = stats[2] + stats[4];
-      let t = stats[2] + stats[3];
-      stats[2] += s;
-      stats[3] += r;
-      stats[4] += t;
-    }
-    return stats;
-  };
-
-  const calcTreeStats = () => {
-    let stats = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-    for (let skillIndex in treeState[main]) {
-      if (data[main].skills[skillIndex].stat) {
-        data[main].skills[skillIndex].stat.forEach((stat) => {
-          stats[stat[0]] += statarrays[stat[1]][treeState[main][skillIndex]];
-        });
-      }
-    }
-    if (sub !== -1) {
-      for (let skillIndex in treeState[sub]) {
-        if (data[sub].skills[skillIndex].stat) {
-          data[sub].skills[skillIndex].stat.forEach((stat) => {
-            stats[stat[0]] += statarrays[stat[1]][treeState[sub][skillIndex]];
-          });
-        }
-      }
-    }
-    return stats;
-  };
-
-  const calcBaseStats = () => {
-    let stats = [];
-    let mainStats =
-      main !== -1 ? data[main].stats[mainLvl - 1] : [0, 0, 0, 0, 0, 0, 0, 0, 0];
-    let subStats = (sub === -1
-      ? [0, 0, 0, 0, 0, 0, 0, 0, 0]
-      : subLvl > mainLvl
-      ? data[sub].stats[mainLvl - 1]
-      : data[sub].stats[subLvl - 1]
-    ).map((stat) => stat * 0.2);
-    subStats[1] = 0;
-    for (let i = 0; i < 9; i++) {
-      stats.push(
-        Math.floor((mainStats[i] + subStats[i]) * racemods[gender][race][i])
-      );
-    }
-    return stats;
-  };
-
-  const baseStats = useMemo(calcBaseStats, [
-    main,
-    sub,
-    mainLvlInput,
-    subLvlInput,
-    gender,
-    race,
-  ]);
-
-  const calcFinalStats = () => {
-    const classBoostStats = calcClassBoosts();
-    const magBonusStats = calcMagStats();
-    const skillTreeStats = calcTreeStats();
-    let stats = [baseStats, classBoostStats, magBonusStats, skillTreeStats];
-    return stats.reduce(
-      (acc, arr) => arr.map((stat, index) => (acc[index] || 0) + stat),
-      []
-    );
-  };
-  const finalStats = useMemo(calcFinalStats, [
-    main,
-    sub,
-    baseStats,
-    classBoosts,
-    magBonusInput,
-    treeState,
-  ]);
+  const finalStats = useMemo(
+    () =>
+      calcFinalStats(main, sub, baseStats, classBoosts, magBonus, treeState),
+    [main, sub, baseStats, classBoosts, magBonus, treeState]
+  );
 
   const mainOptions = useMemo(
     () =>
@@ -231,19 +168,28 @@ const Compose = () => {
   );
 
   const subOptions = useMemo(
-    () =>
-      data
-        .map((item, classIndex) => {
-          if (classIndex !== main && !isMainOnly(classIndex)) {
-            return {
+    () => {
+      let options = [];
+      data.forEach((item, classIndex) => {
+        if (classIndex !== main && !isMainOnly(classIndex)) {
+          if (lang !== 0) {
+            options.push({
               id: classIndex,
               display: item.name[lang],
               imgClass: `${item.img}`,
-            };
+            });
+          } else if (classIndex < 9) {
+            options.push({
+              id: classIndex,
+              display: item.name[lang],
+              imgClass: `${item.img}`,
+            });
           }
-          return null;
-        })
-        .slice(0, lang === 0 ? 9 : 12),
+        }
+      });
+      return options;
+    },
+    // .slice(0, lang === 0 ? 9 : 12)}
     [main, lang]
   );
 
@@ -277,9 +223,6 @@ const Compose = () => {
     setSubCOSPInput(newValue);
   };
 
-  const allotedPoints = magBonus.reduce((total, value) => total + value);
-  const remainingPoints = 200 - allotedPoints;
-
   const onMagBonusChange = (newValue, statIndex) => {
     let newMagBonus = magBonus.map((stat, index) => {
       return index === statIndex ? newValue : stat;
@@ -291,19 +234,87 @@ const Compose = () => {
     setTreeState(treeState);
   };
 
-  //   const temp = Buffer.from(JSON.stringify(mainOptions[0]), "binary").toString(
-  //     "base64"
-  //   );
-  //   const temp2 = JSON.parse(Buffer.from(temp, "base64").toString("binary"));
+  const saveEnabled =
+    mainUsedPoints > mainMaxPoints ||
+    subUsedPoints > subMaxPoints ||
+    mainUsedPoints < 1 ||
+    (sub !== -1 && subUsedPoints < 1) ||
+    title === "" ||
+    !user ||
+    !user.token ||
+    !user.data
+      ? false
+      : true;
+
+  const checkTitle = (value) => {
+    if (value.length <= 100) setTitle(value);
+  };
+
+  const checkDescription = (value) => {
+    if (value.length <= 300) setDescription(value);
+  };
+
+  const saveGuide = async () => {
+    if (!saveEnabled) return;
+    const trimmedSkills = {};
+    trimmedSkills[main] = treeState[main];
+    if (sub !== -1) trimmedSkills[sub] = treeState[sub];
+    const jsonData = JSON.stringify({
+      title: title,
+      description: description,
+      markdown: markdown.length ? zipStr(markdown) : markdown,
+      skills: trimmedSkills,
+      main,
+      sub,
+      mainVersion: mainVersion,
+      subVersion: subVersion,
+      mainLvl,
+      subLvl,
+      mainCOSP,
+      subCOSP,
+      mag: objectifyMag(magBonus),
+      classBoosts,
+      race,
+      gender,
+    });
+    fetch(`${baseUrl}/saveguide`, {
+      method: "post",
+      headers: {
+        "Content-Type": "application/json",
+        authorization: `Bearer ${user.token}`,
+      },
+      body: jsonData,
+    })
+      .then((res) => {
+        if (res.status === 200) {
+          res.json().then((data) => {
+            history.push(
+              `/guide/${data.id}/${data.title.split(" ").join("-")}`
+            );
+            console.log(data);
+          });
+          // res.json().then((res) => {
+          //   console.log(res);
+          // });
+        } else if (res.status === 401) {
+          console.log(res);
+        } else {
+          console.log(res);
+        }
+      })
+      .catch((err) => {
+        console.log("error: " + err);
+      });
+  };
+
   return (
     <div className={s.compose}>
+      {/* <LanguageSelect setter={setLang} selected={lang} /> */}
       <div className={s.classOptionsContainer}>
         <div className={s.container}>
           <TitleFrame>
-            <div className={s.titleContainer}>
-              <div className={`game-icon ${s.main}`} />
-              <h1>Main Class</h1>
-            </div>
+            <div className={`game-icon ${s.main}`} />
+            <h1>Main Class</h1>
           </TitleFrame>
           <BoxFrame>
             <div className={s.classOptionsContent}>
@@ -332,10 +343,8 @@ const Compose = () => {
         </div>
         <div className={s.container}>
           <TitleFrame>
-            <div className={s.titleContainer}>
-              <div className={`game-icon ${s.sub}`} />
-              <h1>Sub Class</h1>
-            </div>
+            <div className={`game-icon ${s.sub}`} />
+            <h1>Sub Class</h1>
           </TitleFrame>
           <BoxFrame>
             <div className={s.classOptionsContent}>
@@ -362,7 +371,6 @@ const Compose = () => {
               />
             </div>
           </BoxFrame>
-          {/* <Select></Select> */}
         </div>
         <div className={s.container}>
           <ClassBoosts
@@ -371,98 +379,78 @@ const Compose = () => {
             onChange={onClassBoostChange}
           />
         </div>
+      </div>
+      <div className={s.statsBlockContainer}>
         <div className={s.container}>
-          <TitleFrame>
-            <div className={s.titleContainer}>
-              <h1>Stats</h1>
-            </div>
-          </TitleFrame>
-          <BoxFrame>
-            <div className={s.raceOptions}>
-              <div
-                className={`${s.sliderRadio} ${
-                  race === 1
-                    ? s.secondPosition
-                    : race === 2
-                    ? s.thirdPosition
-                    : race === 3
-                    ? s.fourthPosition
-                    : ""
-                }`}
-              >
-                {raceNames.map((option, index) => (
-                  <div
-                    key={index}
-                    className={s.sliderOption}
-                    onClick={() => setRace(index)}
-                  >
-                    {option[lang]}
-                  </div>
-                ))}
-              </div>
-              <div
-                className={`${s.sliderRadio} ${
-                  gender !== 0 ? s.secondPosition : ""
-                }`}
-              >
-                <div
-                  className={`${s.sliderOption} ${s.gender}`}
-                  onClick={() => setGender(0)}
-                >
-                  ♂
-                </div>
-                <div
-                  className={`${s.sliderOption} ${s.gender}`}
-                  onClick={() => setGender(1)}
-                >
-                  ♀
-                </div>
-              </div>
-            </div>
-            <div className={s.stats}>
-              <div className={`${s.magHeader} ${s.magBorder}`}>
-                <p>Mag stats</p>
-                <p>{allotedPoints}/200</p>
-              </div>
-              {statNames
-                .map((stat, index) => (
-                  <div className={`${s.stat} ${s.magBorder}`} key={index}>
-                    <IntegerInput
-                      value={magBonusInput[index]}
-                      minValue={0}
-                      maxValue={remainingPoints + magBonus[index]}
-                      index={index}
-                      onChange={onMagBonusChange}
-                    />
-                  </div>
-                ))
-                .slice(2, 9)}
-              {statNames.map((stat, index) => (
-                <div key={index} className={`${s.stat} ${s.magBorder}`}>
-                  <p>{stat[lang]}</p>
-                </div>
-              ))}
-              {finalStats.map((stat, index) => (
-                <div key={index} className={s.stat}>
-                  <p>{finalStats[index]}</p>
-                </div>
-              ))}
-            </div>
-          </BoxFrame>
+          <StatsBlock
+            race={race}
+            setRace={setRace}
+            gender={gender}
+            setGender={setGender}
+            magBonusInput={magBonusInput}
+            magBonus={magBonus}
+            onMagBonusChange={onMagBonusChange}
+            finalStats={finalStats}
+          />
         </div>
       </div>
-      <SkillTree
-        lang={lang}
-        main={main}
-        mainLvl={mainLvl}
-        sub={sub}
-        subLvl={subLvl}
-        mainCOSP={mainCOSP}
-        subCOSP={subCOSP}
-        treeState={treeState}
-        onChange={onTreeStateChange}
-      />
-      <MarkdownEditor guide={guide} onChange={setGuide} />
+      <div className={s.center}>
+        <SkillTree
+          lang={lang}
+          main={main}
+          mainLvl={mainLvl}
+          sub={sub}
+          subLvl={subLvl}
+          mainMaxPoints={mainMaxPoints}
+          subMaxPoints={subMaxPoints}
+          mainUsedPoints={mainUsedPoints}
+          subUsedPoints={subUsedPoints}
+          treeState={treeState}
+          onChange={onTreeStateChange}
+        />
+        <div className={s.inputsWrapper}>
+          <div className={s.inputContainer}>
+            <label htmlFor="title">Title</label>
+            <p>This field is required.</p>
+            <textarea
+              id="title"
+              type="text"
+              maxLength={100}
+              value={title}
+              onChange={(e) => checkTitle(e.target.value)}
+            />
+          </div>
+          <div className={s.inputContainer}>
+            <label htmlFor="description">Description</label>
+            <p>Let users know the main points of your guide.</p>
+            <textarea
+              id="description"
+              type="text"
+              maxLength={300}
+              value={description}
+              onChange={(e) => checkDescription(e.target.value)}
+            />
+          </div>
+        </div>
+        <div className={s.guideContainer}>
+          <h3>Guide</h3>
+          <p>
+            Write a guide. use the markdown toolbar to style it. Embedding
+            images/videos is also possible.
+          </p>
+          <MarkdownEditor markdown={markdown} onChange={setMarkdown} />
+        </div>
+        <div className={s.inputsWrapper}>
+          <div
+            className={`${s.saveButton} ${
+              saveEnabled ? s.saveEnabled : s.saveDisabled
+            }`}
+            onClick={saveGuide}
+          >
+            <p>Save</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

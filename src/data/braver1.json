@@ -1,0 +1,1538 @@
+{
+  "id": 6,
+  "version": 1,
+  "name": ["Braver", "Braver", "ブレイバー"],
+  "abrvName": "BR",
+  "img": "class6",
+  "mainOnly": false,
+  "hasSub": true,
+  "boost": [0, 2, 20, 20, 0, 30, 0, 0, 0],
+  "stats": [
+    [190, 100, 85, 85, 72, 96, 78, 78, 78],
+    [195, 100, 95, 95, 80, 102, 88, 88, 88],
+    [200, 100, 105, 105, 88, 108, 98, 98, 98],
+    [205, 100, 115, 115, 96, 113, 108, 108, 108],
+    [210, 100, 125, 125, 104, 119, 118, 118, 118],
+    [215, 100, 135, 135, 112, 125, 128, 128, 128],
+    [220, 100, 145, 145, 120, 130, 138, 138, 138],
+    [225, 100, 155, 155, 128, 136, 148, 148, 148],
+    [230, 100, 165, 165, 136, 142, 158, 158, 158],
+    [235, 100, 175, 175, 144, 148, 168, 168, 168],
+    [240, 100, 185, 185, 152, 153, 178, 178, 178],
+    [245, 100, 195, 195, 160, 159, 188, 188, 188],
+    [250, 100, 205, 205, 168, 165, 198, 198, 198],
+    [255, 100, 215, 215, 176, 170, 208, 208, 208],
+    [260, 100, 225, 225, 184, 176, 218, 218, 218],
+    [265, 100, 235, 235, 192, 182, 228, 228, 228],
+    [270, 100, 245, 245, 200, 187, 238, 238, 238],
+    [275, 100, 255, 255, 208, 193, 248, 248, 248],
+    [280, 100, 265, 265, 216, 199, 258, 258, 258],
+    [285, 100, 275, 275, 224, 205, 268, 268, 268],
+    [290, 100, 279, 279, 227, 207, 271, 271, 271],
+    [295, 100, 283, 283, 230, 210, 274, 274, 274],
+    [300, 100, 287, 287, 234, 213, 277, 277, 277],
+    [305, 100, 291, 291, 237, 216, 280, 280, 280],
+    [310, 100, 295, 295, 240, 219, 283, 283, 283],
+    [315, 100, 299, 299, 243, 222, 286, 286, 286],
+    [320, 100, 303, 303, 246, 224, 289, 289, 289],
+    [325, 100, 307, 307, 250, 227, 292, 292, 292],
+    [330, 100, 311, 311, 253, 230, 295, 295, 295],
+    [335, 100, 315, 315, 256, 233, 298, 298, 298],
+    [340, 100, 318, 318, 259, 236, 301, 301, 301],
+    [345, 100, 321, 321, 262, 239, 304, 304, 304],
+    [350, 100, 324, 324, 265, 242, 307, 307, 307],
+    [355, 100, 327, 327, 268, 244, 310, 310, 310],
+    [360, 100, 330, 330, 271, 247, 313, 313, 313],
+    [365, 100, 333, 333, 274, 250, 316, 316, 316],
+    [370, 100, 336, 336, 277, 253, 319, 319, 319],
+    [375, 100, 339, 339, 280, 256, 322, 322, 322],
+    [380, 100, 342, 342, 283, 259, 325, 325, 325],
+    [385, 100, 345, 345, 286, 262, 328, 328, 328],
+    [390, 100, 348, 348, 289, 264, 331, 331, 331],
+    [395, 100, 351, 351, 292, 267, 334, 334, 334],
+    [400, 100, 354, 354, 295, 270, 337, 337, 337],
+    [405, 100, 357, 357, 298, 273, 340, 340, 340],
+    [410, 100, 360, 360, 301, 276, 343, 343, 343],
+    [415, 100, 363, 363, 304, 279, 346, 346, 346],
+    [420, 100, 366, 366, 307, 281, 349, 349, 349],
+    [425, 100, 369, 369, 310, 284, 352, 352, 352],
+    [430, 100, 372, 372, 313, 287, 355, 355, 355],
+    [435, 100, 375, 375, 316, 290, 358, 358, 358],
+    [440, 100, 378, 378, 319, 293, 361, 361, 361],
+    [445, 100, 381, 381, 322, 296, 364, 364, 364],
+    [450, 100, 384, 384, 325, 299, 367, 367, 367],
+    [455, 100, 387, 387, 328, 302, 370, 370, 370],
+    [460, 100, 390, 390, 331, 305, 373, 373, 373],
+    [465, 100, 393, 393, 334, 308, 376, 376, 376],
+    [470, 100, 396, 396, 337, 311, 379, 379, 379],
+    [475, 100, 399, 399, 340, 314, 382, 382, 382],
+    [480, 100, 402, 402, 343, 317, 385, 385, 385],
+    [485, 100, 405, 405, 346, 320, 388, 388, 388],
+    [490, 100, 409, 409, 350, 323, 391, 391, 391],
+    [495, 100, 413, 413, 354, 326, 394, 394, 394],
+    [500, 100, 417, 417, 358, 329, 397, 397, 397],
+    [505, 100, 421, 421, 362, 332, 400, 400, 400],
+    [510, 100, 425, 425, 366, 335, 403, 403, 403],
+    [515, 100, 429, 429, 370, 338, 406, 406, 406],
+    [520, 100, 433, 433, 374, 341, 409, 409, 409],
+    [525, 100, 437, 437, 378, 344, 412, 412, 412],
+    [530, 100, 441, 441, 382, 347, 415, 415, 415],
+    [535, 100, 445, 445, 386, 350, 418, 418, 418],
+    [540, 100, 449, 449, 390, 353, 421, 421, 421],
+    [545, 100, 453, 453, 394, 356, 424, 424, 424],
+    [550, 100, 457, 457, 398, 359, 427, 427, 427],
+    [555, 100, 461, 461, 402, 362, 430, 430, 430],
+    [560, 100, 465, 465, 406, 365, 433, 433, 433],
+    [565, 100, 469, 469, 410, 368, 436, 436, 436],
+    [570, 100, 473, 473, 414, 371, 439, 439, 439],
+    [575, 100, 477, 477, 418, 374, 442, 442, 442],
+    [580, 100, 481, 481, 422, 377, 445, 445, 445],
+    [585, 100, 485, 485, 426, 380, 448, 448, 448],
+    [590, 100, 489, 489, 430, 383, 451, 451, 451],
+    [595, 100, 493, 493, 434, 386, 454, 454, 454],
+    [600, 100, 497, 497, 438, 389, 457, 457, 457],
+    [605, 100, 501, 501, 442, 392, 460, 460, 460],
+    [610, 100, 505, 505, 446, 395, 463, 463, 463],
+    [615, 100, 509, 509, 450, 398, 466, 466, 466],
+    [620, 100, 513, 513, 454, 401, 469, 469, 469],
+    [625, 100, 517, 517, 458, 404, 472, 472, 472],
+    [630, 100, 521, 521, 462, 407, 475, 475, 475],
+    [635, 100, 525, 525, 466, 410, 478, 478, 478],
+    [640, 100, 529, 529, 470, 413, 481, 481, 481],
+    [645, 100, 533, 533, 474, 416, 484, 484, 484],
+    [650, 100, 537, 537, 478, 419, 487, 487, 487],
+    [655, 100, 541, 541, 482, 422, 490, 490, 490],
+    [660, 100, 545, 545, 486, 425, 493, 493, 493],
+    [665, 100, 549, 549, 490, 428, 496, 496, 496],
+    [670, 100, 553, 553, 494, 431, 499, 499, 499],
+    [675, 100, 557, 557, 498, 434, 502, 502, 502],
+    [680, 100, 561, 561, 502, 437, 505, 505, 505],
+    [685, 100, 565, 565, 506, 440, 508, 508, 508]
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "name": ["Dodge", "Step", "ステップ"],
+      "desc": [
+        ["Swiftly move a short distance by moving in deftly."],
+        ["Active\nMove forward a short distance."],
+        ["軽快な動作で踏み込み短距離を素早く移動する"]
+      ],
+      "img": "skill_hunter-a_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [1, 0],
+        [3, 0]
+      ],
+      "unlockImg": "forkleft"
+    },
+    {
+      "id": 1,
+      "name": ["Advanced Dodge", "Step Advance", "ステップアドバンス"],
+      "desc": [
+        ["Extends the duration of invulnerability during a Sidestep."],
+        ["Passive\nExtends the invulnerability during Step."],
+        ["ステップ中の無敵時間を延長する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "0.05 s",
+            "0.09 s",
+            "0.11 s",
+            "0.13 s",
+            "0.14 s",
+            "0.15 s",
+            "0.16 s",
+            "0.17 s",
+            "0.18 s",
+            "0.20 s"
+          ]
+        }
+      ],
+      "loc": [6, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 0],
+      "unlocks": null
+    },
+    {
+      "id": 2,
+      "name": ["Sidestep Tackle", "Snatch Step", "スナッチステップ"],
+      "desc": [
+        [
+          "Allows you to inflict melee damage while performing a Sidestep. Doesn't apply to Blinding Sidestep."
+        ],
+        ["Passive\nDeal striking damage during Step."],
+        ["ステップで打撃ダメージを与えられるようになる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 0,
+      "max": 1,
+      "loc": [6, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 3,
+      "name": ["Dodge Attack", "Step Attack", "ステップアタック"],
+      "desc": [
+        ["Allows you to attack while performing a Sidestep."],
+        ["Passive\nAllows you to perform an attack during a Step."],
+        ["ステップ中の攻撃アクションが可能となる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 0],
+      "unlocks": null
+    },
+    {
+      "id": 4,
+      "name": ["Perfect Recovery", "Just Reversal", "ジャストリバーサル"],
+      "desc": [
+        [
+          "Allows you to quickly jump up after being knocked back onto the ground."
+        ],
+        [
+          "Passive\nPress the jump button to quickly recover when knocked down."
+        ],
+        ["吹き飛ばされてダウンしたときにジャンプ操作で素早く起き上がる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[5, 0]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 5,
+      "name": [
+        "Perfect Recovery Heal",
+        "J Reversal Cover",
+        "Jリバーサルカバー"
+      ],
+      "desc": [
+        ["Recovers HP when a Perfect Recovery is activated."],
+        ["Passive\nRecover HP whenever you use Just Reversal."],
+        ["ジャストリバーサル発動時に、HPが回復するようになる"]
+      ],
+      "img": "skill_braver-p_0008",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["HP Recovery Rate", "HP Recovery Rate", "HP回復率"],
+          "stats": ["10%", "12%", "14%", "16%", "20%"]
+        }
+      ],
+      "loc": [5, 6],
+      "mobileLoc": [],
+      "prereqs": [4, 0],
+      "unlocks": null
+    },
+    {
+      "id": 6,
+      "name": ["Braver Mag", "Braver Mag", "ブレイバーマグ"],
+      "desc": [
+        [
+          "Adds a set percentage of an equipped Mag's Dexterity to Melee Power and Ranged Power."
+        ],
+        [
+          "Passive\nAdds S-ATK and R-ATK by a fixed rate depending on the DEX of your equipped Mag."
+        ],
+        ["装備しているマグの技量から一定割合を打撃力と射撃力に加える"]
+      ],
+      "img": "skill_braver-p_0006",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": [
+            "MEL Conversion Rate",
+            "S-ATK Conversion Rate",
+            "打撃力変換率"
+          ],
+          "stats": ["100%"]
+        },
+        {
+          "header": [
+            "RNG Conversion Rate",
+            "R-ATK Conversion Rate",
+            "射撃力変換率"
+          ],
+          "stats": ["100%"]
+        }
+      ],
+      "loc": [5, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 7,
+      "name": [
+        "Arms Enthusiast: Braver",
+        "Rare Mastery Braver",
+        "レアマスタリーブレイバー"
+      ],
+      "desc": [
+        [
+          "Boosts the damage you deal when a weapon of Rarity 10★ or greater is equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen equipped with a ★10 or higher weapon or crafted weapon, gain a damage bonus. ",
+          "Main class only."
+        ],
+        [
+          "レアリティ☆10以上の武器を装備していると、技量が上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_braver-p_0007",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 8,
+      "name": ["Dexterity Up 1", "Dexterity Up 1", "技量アップ1"],
+      "desc": [
+        ["Boosts your Dexterity."],
+        ["Passive\nIncrease your DEX."],
+        ["技量が上昇する"]
+      ],
+      "img": "skill_common_0005",
+      "min": 0,
+      "max": 10,
+      "stat": [[5, 1]],
+      "effects": [
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [1, 1],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [9, 3],
+        [10, 3],
+        [11, 3],
+        [12, 3],
+        [13, 1],
+        [15, 3],
+        [16, 3],
+        [21, 3],
+        [25, 3],
+        [29, 3],
+        [34, 3]
+      ],
+      "unlockImg": "bravermain"
+    },
+    {
+      "id": 9,
+      "name": ["Dexterity Up 2", "Dexterity Up 2", "技量アップ2"],
+      "desc": [
+        ["Boosts your Dexterity."],
+        ["Passive\nIncrease your DEX."],
+        ["技量が上昇する"]
+      ],
+      "img": "skill_common_0005",
+      "min": 0,
+      "max": 10,
+      "stat": [[5, 2]],
+      "effects": [
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+4",
+            "+9",
+            "+14",
+            "+19",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [2, 4],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 10,
+      "name": ["Ranged PWR Up 1", "Shooting Up 1", "射撃アップ1"],
+      "desc": [
+        ["Boosts your Ranged Power."],
+        ["Passive\nIncrease your R-ATK."],
+        ["射撃力が上昇する"]
+      ],
+      "img": "skill_common_0003",
+      "min": 0,
+      "max": 10,
+      "stat": [[3, 1]],
+      "effects": [
+        {
+          "header": ["RNG Pwr", "R-ATK", "射撃力"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [3, 5],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 11,
+      "name": ["Melee Power Up 1", "Striking Up 1", "打撃アップ1"],
+      "desc": [
+        ["Boosts your Melee Power."],
+        ["Passive\nIncrease your S-ATK."],
+        ["打撃力が上昇する"]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 10,
+      "stat": [[2, 1]],
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [2, 5],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 12,
+      "name": ["Enhanced Attack", "Attack Advance", "アタックアドバンス"],
+      "desc": [
+        ["Boosts the potency of Normal Attacks."],
+        ["Passive\nIncrease the power of normal attacks."],
+        ["通常攻撃の威力が上昇する。"]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["110%", "120%", "125%", "130%", "135%"]
+        }
+      ],
+      "loc": [3, 6],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 13,
+      "name": ["Katana Focus", "Katana Gear", "カタナギア"],
+      "desc": [
+        [
+          "Boosts your Melee Potency as your Focus Gauge is charged. Grants a bonus to your Melee Power and Critical Rate for a set time when you perform a Counter when your Focus Gauge is maxed out."
+        ],
+        [
+          "Passive\nIncreases counter attack range and power by filling the Gear Gauge. When a counter is performed with maximum Gear, gain a bonus to your attack power and critical hit rate for a fixed time."
+        ],
+        [
+          "ギアゲージを貯めるとカウンターの攻撃範囲と威力が上昇。最大ギア状態でカウンターを行うと、一定時間攻撃力とクリティカルヒット率にボーナスを得る。"
+        ]
+      ],
+      "img": "skill_braver-p_0011",
+      "min": 0,
+      "max": 1,
+      "loc": [2, 6],
+      "mobileLoc": [],
+      "prereqs": [8, 1],
+      "unlocks": [
+        [14, 1],
+        [37, 1]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 14,
+      "name": ["Counter Edge", "Counter Edge", "カウンターエッジ"],
+      "desc": [
+        ["Releases an additional strike that skewers enemies when countering."],
+        [
+          "Passive\nIf you counter, an additional enemy piercing slash is released."
+        ],
+        ["カウンターの際に、敵を貫通する追加の斬撃を放つ"]
+      ],
+      "img": "skill_braver-p_0014",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        { "header": ["Potency", "Power", "威力"], "stats": ["200%"] }
+      ],
+      "loc": [2, 7],
+      "mobileLoc": [],
+      "prereqs": [13, 1],
+      "unlocks": [[35, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 15,
+      "name": ["Charged Shot", "Charge Shoot", "チャージシュート"],
+      "desc": [
+        [
+          "Boosts the potency and round velocity of charged Normal Attacks while a Bow is equipped."
+        ],
+        [
+          "Passive\nIncrease the power of charged normal attacks and bullet velocity when equipped with a bullet bow."
+        ],
+        ["バレットボウ装備時、チャージ通常攻撃の威力と弾速が上昇する"]
+      ],
+      "img": "skill_braver-p_0015",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["103%", "106%", "109%", "112%", "115%"]
+        },
+        {
+          "header": ["Round Velocity", "Velocity", "弾速"],
+          "stats": ["110%", "120%", "130%", "140%", "150%"]
+        }
+      ],
+      "loc": [6, 9],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": [[36, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 16,
+      "name": ["Rapid Fire", "Rapid Shoot", "ラピッドシュート"],
+      "desc": [
+        [
+          "Bow only. For a set time, sacrifices your Bow's standard attack potency and attack interval to perform a combo of up to three consecutive Normal Attacks."
+        ],
+        [
+          "Active\nSacrifice the power of your bullet bow's basic attacks to fire up to 3 shots rapidly."
+        ],
+        [
+          "一定時間、バレットボウの通常攻撃威力と攻撃間隔を犠牲にすることで、段階的に最大で3連射まで射撃が行える効果を得る"
+        ]
+      ],
+      "img": "skill_braver-a_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Attack Interval", "Attack Interval", "攻撃間隔"],
+          "stats": ["0.2 s", "0.18 s", "0.16 s", "0.13 s", "0.10 s"]
+        },
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["25%", "27%", "29%", "31%", "34%"]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["60 s", "60 s", "60 s", "60 s", "60 s"]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["110 s", "110 s", "110 s", "110 s", "110 s"]
+        }
+      ],
+      "loc": [5, 9],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": [
+        [17, 3],
+        [19, 3]
+      ],
+      "unlockImg": "forkrightlong"
+    },
+    {
+      "id": 17,
+      "name": [
+        "Rapid Fire Mastery",
+        "Rapid Shoot Mastery",
+        "ラピッドシュートマスタリー"
+      ],
+      "desc": [
+        ["Grants a damage bonus when a Bow is equipped during Rapid Fire."],
+        [
+          "Passive\nWhen equipped with a bullet bow gain a damage bonus during Rapid Shoot."
+        ],
+        ["ラピッドシュート中、バレットボウ装備時にダメージボーナスを得る"]
+      ],
+      "img": "skill_braver-p_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["105%", "107%", "109%", "112%", "115%"]
+        }
+      ],
+      "loc": [6, 11],
+      "mobileLoc": [],
+      "prereqs": [16, 3],
+      "unlocks": [[18, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 18,
+      "name": [
+        "Advanced Rapid Fire",
+        "Rapid Shoot Advance",
+        "ラピッドシュートアドバンス"
+      ],
+      "desc": [
+        [
+          "Reduces the cooldown period for Rapid Fire and boosts PP recovery induced by performing a Normal Attack while in Rapid Fire mode."
+        ],
+        [
+          "Passive\nReduce Rapid Shoot's cooldown and increase the amount of PP recovered with normal attacks during Rapid Shoot."
+        ],
+        [
+          "ラピッドシュートのリキャストを軽減し、ラピッドシュート中の通常攻撃によるPP回復量が上昇する"
+        ]
+      ],
+      "img": "skill_braver-p_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["PP Increase Rate", "PP Increase Rate", "PP増加率"],
+          "stats": ["108%", "116%", "124%", "132%", "140%"]
+        },
+        {
+          "header": [
+            "Cooldown Reduction",
+            "Cooldown Reduction",
+            "リキャスト軽減率"
+          ],
+          "stats": ["95%", "90%", "85%", "80%", "70%"]
+        }
+      ],
+      "loc": [6, 12],
+      "mobileLoc": [],
+      "prereqs": [17, 3],
+      "unlocks": null
+    },
+    {
+      "id": 19,
+      "name": [
+        "Rapid Fire Up 1",
+        "Rapid Shoot Up 1",
+        "ラピッドシュートアップ1"
+      ],
+      "desc": [
+        [
+          "Boosts your Ranged Power when a Bow is equipped while in Rapid Fire mode."
+        ],
+        [
+          "Passive\nWhen equipped with a bullet bow increase your R-ATK during Rapid Shoot."
+        ],
+        ["ラピッドシュート中、バレットボウ装備時に射撃力が上昇する"]
+      ],
+      "img": "skill_braver-p_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["RNG Pwr", "R-ATK", "射撃力"],
+          "stats": ["+100", "+120", "+140", "+160", "+200"]
+        }
+      ],
+      "loc": [5, 11],
+      "mobileLoc": [],
+      "prereqs": [16, 3],
+      "unlocks": [[20, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 20,
+      "name": [
+        "Rapid Fire Up 2",
+        "Rapid Shoot Up 2",
+        "ラピッドシュートアップ2"
+      ],
+      "desc": [
+        [
+          "Boosts your Ranged Power when a Bow is equipped while in Rapid Fire mode. Produces a stronger effect than Rapid Fire Up I."
+        ],
+        [
+          "Passive\nWhen equipped with a bullet bow increase your R-ATK during Rapid Shoot."
+        ],
+        ["ラピッドシュート中、バレットボウ装備時に射撃力が上昇する"]
+      ],
+      "img": "skill_braver-p_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["RNG Pwr", "R-ATK", "射撃力"],
+          "stats": ["+100", "+140", "+180", "+240", "+300"]
+        }
+      ],
+      "loc": [5, 12],
+      "mobileLoc": [],
+      "prereqs": [19, 3],
+      "unlocks": null
+    },
+    {
+      "id": 21,
+      "name": ["Precision Stance", "Weak Stance", "ウィークスタンス"],
+      "desc": [
+        [
+          "Active Stance Skill that boosts damage dealt when attacking an enemy's weak point or exploiting an enemy's elemental weakness with a Technique. Renders Basic Stance ineffective."
+        ],
+        [
+          "Active\nStance which increases damage when attacking weak points and casting techniques of weak attribute. Decreases damage to non-weak points."
+        ],
+        [
+          "弱点部位を攻撃した時のダメージと、法撃による弱点属性へのダメージが増加するスタンススキル。弱点以外へのダメージは減少。リキャスト60秒"
+        ]
+      ],
+      "img": "skill_braver-a_0003",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": [
+            "Weak Point Melee Potency",
+            "Weakness Striking Power",
+            "弱点打撃威力"
+          ],
+          "stats": [
+            "103%",
+            "106%",
+            "109%",
+            "112%",
+            "115%",
+            "118%",
+            "121%",
+            "125%",
+            "130%",
+            "135%"
+          ]
+        },
+        {
+          "header": [
+            "Weak Point Ranged Potency",
+            "Weakness Shooting Power",
+            "弱点射撃威力"
+          ],
+          "stats": [
+            "103%",
+            "106%",
+            "109%",
+            "112%",
+            "115%",
+            "118%",
+            "121%",
+            "125%",
+            "130%",
+            "135%"
+          ]
+        },
+        {
+          "header": [
+            "Weak Point Technique Potency",
+            "Weakness Technique Power",
+            "弱点法撃威力"
+          ],
+          "stats": [
+            "103%",
+            "106%",
+            "109%",
+            "112%",
+            "115%",
+            "118%",
+            "121%",
+            "125%",
+            "130%",
+            "135%"
+          ]
+        },
+        {
+          "header": [
+            "Non-Weak Point Potency",
+            "Non-weakness Power",
+            "弱点以外威力"
+          ],
+          "stats": [
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%"
+          ]
+        }
+      ],
+      "loc": [4, 9],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": [[22, 5]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 22,
+      "name": [
+        "Precision Stance Up",
+        "Weak Stance Up",
+        "ウィークスタンスアップ"
+      ],
+      "desc": [
+        [
+          "Grants a damage bonus to effective attacks performed during Precision Stance."
+        ],
+        [
+          "Passive\nGrants a damage bonus to attacks that are affected by Weak Stance."
+        ],
+        ["ウィークスタンスで有効となる攻撃にダメージボーナスを得る"]
+      ],
+      "img": "skill_braver-p_0010",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["102%", "104%", "106%", "108%", "110%"]
+        }
+      ],
+      "loc": [4, 10],
+      "mobileLoc": [],
+      "prereqs": [21, 5],
+      "unlocks": [
+        [23, 3],
+        [24, 3]
+      ],
+      "unlockImg": "forkleft"
+    },
+    {
+      "id": 23,
+      "name": [
+        "Precision Stance Critical",
+        "Weak Stance Critical",
+        "ウィークスタンスクリティカル"
+      ],
+      "desc": [
+        [
+          "Boosts the critical hit rate of attacks that are effective while in a Precision Stance."
+        ],
+        [
+          "Passive\nIncreases the critical hit rate of attacks that are affected by Weak Stance."
+        ],
+        ["ウィークスタンスで有効となる攻撃のクリティカルヒット確率が上昇する"]
+      ],
+      "img": "skill_braver-p_0010",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["10%", "16%", "20%", "23%", "25%"]
+        }
+      ],
+      "loc": [3, 11],
+      "mobileLoc": [],
+      "prereqs": [22, 3],
+      "unlocks": null
+    },
+    {
+      "id": 24,
+      "name": [
+        "Precision Stance Charge",
+        "Weak Stance Charge",
+        "ウィークスタンスチャージ"
+      ],
+      "desc": [
+        [
+          "Grants a damage bonus to effective charged attacks performed during Precision Stance."
+        ],
+        [
+          "Passive\nGrants a damage bonus to charged attacks that are affected by Weak Stance."
+        ],
+        ["ウィークスタンスで有効となるチャージ攻撃にダメージボーナスを得る"]
+      ],
+      "img": "skill_braver-p_0010",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        { "header": ["Potency", "Power", "威力"], "stats": ["110%"] }
+      ],
+      "loc": [4, 11],
+      "mobileLoc": [],
+      "prereqs": [22, 3],
+      "unlocks": null
+    },
+    {
+      "id": 25,
+      "name": ["Katana Combat", "Katana Combat", "カタナコンバット"],
+      "desc": [
+        [
+          "Katana only. Move at high speed and make slashing attacks on nearby enemies for a set time. Press the skill icon again to unleash a finishing blow."
+        ],
+        [
+          "Active\nKatana-exclusive skill that allows for high-speed movement and attacks to nearby enemies. Activate the skill again for a finishing strike."
+        ],
+        [
+          "一定時間、近くのエネミーに対して高速の移動と斬撃を繰り出せるようになる。再度スキルボタンを押すことで止めの一撃"
+        ]
+      ],
+      "img": "skill_braver-a_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["20 s", "20 s", "20 s", "20 s", "20 s"]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["180 s", "170 s", "150 s", "120 s", "90 s"]
+        }
+      ],
+      "loc": [2, 9],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": [
+        [26, 3],
+        [27, 3]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 26,
+      "name": ["Combat Finish", "Combat Finish", "コンバットフィニッシュ"],
+      "desc": [
+        ["Grants a damage bonus to Katana Combat Finishers."],
+        ["Passive\nGrants a damage bonus to Katana Combat Finish."],
+        ["カタナコンバットフィニッシュにダメージボーナスを得る"]
+      ],
+      "img": "skill_braver-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["200%", "220%", "240%", "260%", "300%"]
+        }
+      ],
+      "loc": [3, 10],
+      "mobileLoc": [],
+      "prereqs": [25, 3],
+      "unlocks": null
+    },
+    {
+      "id": 27,
+      "name": ["Combat JA Bonus", "Combat JA Bonus", "コンバットJAボーナス"],
+      "desc": [
+        [
+          "Grants a damage bonus to Perfect Attacks performed during Katana Combat."
+        ],
+        [
+          "Passive\nGrants a damage bonus to striking attacks performed as Just Attacks during Katana Combat."
+        ],
+        [
+          "カタナコンバット中、打撃攻撃のジャストアタックにダメージボーナスを得る"
+        ]
+      ],
+      "img": "skill_braver-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["105%", "107%", "109%", "112%", "115%"]
+        }
+      ],
+      "loc": [2, 10],
+      "mobileLoc": [],
+      "prereqs": [25, 3],
+      "unlocks": [[28, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 28,
+      "name": ["Combat Escape", "Combat Escape", "コンバットエスケープ"],
+      "desc": [
+        [
+          "Triggers a period of invulnerability when you initiate Katana Combat. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nGain invulnerability at the start of Katana Combat. ",
+          "Main class only."
+        ],
+        [
+          "カタナコンバット開始時に無敵時間が発生する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["20 s"]
+        }
+      ],
+      "loc": [2, 11],
+      "mobileLoc": [],
+      "prereqs": [27, 3],
+      "unlocks": null
+    },
+    {
+      "id": 29,
+      "name": ["Basic Stance", "Average Stance", "アベレージスタンス"],
+      "desc": [
+        ["Passive Stance skill that provides an unconditional damage bonus."],
+        ["Active\nStance which grants an unconditional damage bonus."],
+        ["無条件にダメージボーナスを得るスタンススキル"]
+      ],
+      "img": "skill_braver-a_0005",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Melee Potency", "Striking Power", "打撃威力"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "107%",
+            "109%",
+            "111%",
+            "113%",
+            "115%"
+          ]
+        },
+        {
+          "header": ["Ranged Potency", "Shooting Power", "射撃威力"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "107%",
+            "109%",
+            "111%",
+            "113%",
+            "115%"
+          ]
+        },
+        {
+          "header": ["Technique Potency", "Technique Power", "法撃威力"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "107%",
+            "109%",
+            "111%",
+            "113%",
+            "115%"
+          ]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "1800 s",
+            "1800 s",
+            "1800 s",
+            "1800 s",
+            "1800 s",
+            "1800 s",
+            "1800 s",
+            "1800 s",
+            "1800 s",
+            "1800 s"
+          ]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s"
+          ]
+        }
+      ],
+      "loc": [1, 9],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": [[30, 5]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 30,
+      "name": ["Basic Stance Up", "Average S Up", "アベレージSアップ"],
+      "desc": [
+        ["Grants a damage bonus to attacks performed during Basic Stance."],
+        ["Passive\nGrants a damage bonus during Average Stance."],
+        ["アベレージスタンス中の攻撃にダメージボーナスを得る"]
+      ],
+      "img": "skill_braver-p_0012",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["102%", "104%", "106%", "108%", "110%"]
+        }
+      ],
+      "loc": [1, 10],
+      "mobileLoc": [],
+      "prereqs": [29, 5],
+      "unlocks": [
+        [31, 3],
+        [32, 3]
+      ],
+      "unlockImg": "forkrightlong"
+    },
+    {
+      "id": 31,
+      "name": [
+        "Basic Stance Critical",
+        "Average S Critical",
+        "アベレージSクリティカル"
+      ],
+      "desc": [
+        ["Boosts your critical hit rate while in a Basic Stance."],
+        ["Passive\nIncreases your critical hit rate during Average Stance."],
+        ["アベレージスタンス中クリティカルヒット確率が上昇する"]
+      ],
+      "img": "skill_braver-p_0012",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["10%", "16%", "20%", "23%", "25%"]
+        }
+      ],
+      "loc": [2, 12],
+      "mobileLoc": [],
+      "prereqs": [30, 3],
+      "unlocks": null
+    },
+    {
+      "id": 32,
+      "name": [
+        "Basic Stance Charge",
+        "Average S Charge",
+        "アベレージSチャージ"
+      ],
+      "desc": [
+        [
+          "Boosts the damage of charged attacks performed while in a Basic Stance."
+        ],
+        ["Passive\nIncreases damage of charged attacks during Average Stance."],
+        ["アベレージスタンス中チャージ攻撃のダメージが上昇する"]
+      ],
+      "img": "skill_braver-p_0012",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        { "header": ["Potency", "Power", "威力"], "stats": ["110%"] }
+      ],
+      "loc": [1, 12],
+      "mobileLoc": [],
+      "prereqs": [30, 3],
+      "unlocks": null
+    },
+    {
+      "id": 33,
+      "name": [
+        "Sidestep & Perf. ATK Combo",
+        "Step JA Combo",
+        "ステップJAコンボ"
+      ],
+      "desc": [
+        ["Passive\nMakes Perfect-Attack timing apply during a Sidestep."],
+        ["Passive\nThe JA circle appears during Step."],
+        ["ステップ時にJAタイミングが発生するようになる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 2],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 34,
+      "name": ["Quick Mate", "Quick Mate", "クイックメイト"],
+      "desc": [
+        ["Enables accelerated use of \"-mate\" items."],
+        ["Passive\nAllows faster usage of mate items."],
+        ["メイト系アイテムが素早く使用出来る"]
+      ],
+      "img": "skill_braver-p_0016",
+      "min": 0,
+      "max": 1,
+      "loc": [4, 6],
+      "mobileLoc": [],
+      "prereqs": [8, 3],
+      "unlocks": null
+    },
+    {
+      "id": 35,
+      "name": ["Counter Bonus", "Counter Bonus", "カウンターボーナス"],
+      "desc": [
+        [
+          "Grants a potency bonus and recovers PP when a counter or Counter Edge is performed. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nCountering and Counter Edge gain a damage bonus and recover PP. ",
+          "Main class only."
+        ],
+        [
+          "カウンターとカウンターエッジでPPが回復し、威力ボーナスを得る。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_braver-p_0018",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        { "header": ["Potency", "Power", "威力"], "stats": ["700%"] },
+        {
+          "header": ["PP Recovery", "PP Recovery Amount", "PP回復量"],
+          "stats": ["+5"]
+        },
+        {
+          "header": ["Edge Potency", "Edge Power", "エッジ威力"],
+          "stats": ["300%"]
+        },
+        {
+          "header": [
+            "Edge PP Recovery",
+            "Edge PP Recovery Amount",
+            "エッジPP回復量"
+          ],
+          "stats": ["+10"]
+        }
+      ],
+      "loc": [2, 8],
+      "mobileLoc": [],
+      "prereqs": [14, 1],
+      "unlocks": null
+    },
+    {
+      "id": 36,
+      "name": [
+        "Bow Charge Bonus",
+        "Bullet Bow Charge Bonus",
+        "バレットボウチャージボーナス"
+      ],
+      "desc": [
+        [
+          "Reduces your PP consumption and charge time for charged Photon Arts performed while a Bow is equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nDecrease PP consumption and charge time for charge PAs when equipped with a bullet bow. ",
+          "Main class only."
+        ],
+        [
+          "バレットボウ装備時、チャージPAのチャージ時間とPP消費量を軽減する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_braver-p_0017",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Charge Time", "Charge Time", "チャージ時間"],
+          "stats": ["80%"]
+        },
+        {
+          "header": ["PP Consumption Rate", "PP Consumption", "PP消費量"],
+          "stats": ["-5"]
+        }
+      ],
+      "loc": [6, 10],
+      "mobileLoc": [],
+      "prereqs": [15, 3],
+      "unlocks": null
+    },
+    {
+      "id": 37,
+      "name": ["Katana Focus Boost", "Katana Gear Boost", "カタナギアブースト"],
+      "desc": [
+        [
+          "Increases your Katana Focus boost and boosts your PP recovery while Focus is active. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nIncrease Katana Gear gain as well as the PP recovery amount while the gear is active. ",
+          "Main class only."
+        ],
+        [
+          "カタナギアの上昇量が上がり、ギア発動中はPP回復量が上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_braver-p_0019",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Focus Gauge Boost", "Gear Growth Rate", "ギア上昇率"],
+          "stats": ["150%"]
+        },
+        {
+          "header": ["PP Increase Rate", "PP Increase Rate", "PP増加率"],
+          "stats": ["150%"]
+        }
+      ],
+      "loc": [3, 7],
+      "mobileLoc": [],
+      "prereqs": [13, 1],
+      "unlocks": null
+    },
+    {
+      "id": 38,
+      "name": [
+        "High Level Bonus Br",
+        "High Level Bonus Br",
+        "ハイレベルボーナスBr"
+      ],
+      "desc": [
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["プレイヤーが与えるダメージにボーナスを得る"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [3, 2],
+      "req": 80,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 39,
+      "name": [
+        "Braver Combination",
+        "Braver Combination",
+        "ブレイバーコンビネーション"
+      ],
+      "desc": [
+        [
+          "Passive\nWhen switching to bullet bow while katana gear is active, your critical rate is increased and the katana gear state is retained. ",
+          "Main class only."
+        ],
+        [
+          "Passive\nWhen switching to bullet bow while katana gear is active, your critical rate is increased and the katana gear state is retained. ",
+          "Main class only."
+        ],
+        [
+          "カタナギア解放中にバレットボウに切り替えるとクリティカル率が上昇し、カタナギア解放状態を維持する。このスキルはメインクラスのみ適用される。"
+        ]
+      ],
+      "img": "BrBraverCombination",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Critical Rate", "Critical Rate", "クリティカル率"],
+          "stats": ["+50%"]
+        }
+      ],
+      "loc": [2, 2],
+      "req": 85,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 40,
+      "name": [
+        "First Arts Perfect Attack Addition",
+        "First Arts JA Addition",
+        "ファーストアーツJAアディション"
+      ],
+      "desc": [
+        [
+          "Passive\nTurns your first attack into a Perfect Attack. A cooldown is applied after activation. Doesn't affect Harmonizer attacks, pet attacks, or Techniques."
+        ],
+        [
+          "Passive\nFirst attack becomes a Just Attack. Cooldown begins after activation. Takt, Pet Attacks and Techs do not apply."
+        ],
+        [
+          "最初に放つ攻撃が、ジャストアタックになる。発動後にリキャストが発生する。タクトやペットの攻撃とテクニックは無効"
+        ]
+      ],
+      "img": "UISkillFirstArtsJustAttack",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["0.25 s"]
+        }
+      ],
+      "loc": [3, 1],
+      "req": 20,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 41,
+      "name": ["Double Jump", "Next Jump", "ネクストジャンプ"],
+      "desc": [
+        ["Passive\nEnables two-stage jumping."],
+        ["Passive\nEnables two-stage jumping."],
+        ["２段ジャンプが可能になる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 1],
+      "req": 40,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 42,
+      "name": ["Sidestep Jump", "Step Jump", "ステップジャンプ"],
+      "desc": [
+        ["Passive\nJumping during a Dodge Action transitions you into a dash."],
+        ["Passive\nJumping during a recovery action switches to sprinting."],
+        ["回避アクション中にジャンプを行うことでダッシユ状態へ移行する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 1],
+      "req": 10,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 43,
+      "name": ["Air Reversal", "Air Reversal", "エアリバーサル"],
+      "desc": [
+        ["Passive\nAllows you to perform a break-fall while in the air."],
+        ["Passive\nEnables recovery midair."],
+        ["空中で受け身がとれるようになる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 44,
+      "name": [
+        "Perf. Recovery & ATK Combo",
+        "J Reversal JA Combo",
+        "JリバーサルJAコンボ"
+      ],
+      "desc": [
+        [
+          "Passive\nMakes Perfect-Attack timing apply after a Perfect Recovery."
+        ],
+        ["Passive\nThe Just Attack circle appears after Just Reversal."],
+        ["ジャストリバーサル後にジャストアタックタイミングが発生"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    }
+  ]
+}

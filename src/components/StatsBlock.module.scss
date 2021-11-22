@@ -1,0 +1,114 @@
+@media screen and (min-width: 1580px) {
+  .statsBlockContainer {
+    width: 222px;
+  }
+}
+
+.statsBlock {
+  display: flex;
+  .raceOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .gender {
+    font-size: 18px;
+  }
+
+  @media screen and (min-width: 1580px) {
+    flex-direction: column;
+    width: 222px;
+
+    .raceOptions {
+      border-top: 1px solid #297ad6;
+    }
+
+    .stats {
+      display: flex;
+      // border-bottom: 1px solid #297ad6;
+
+      // .nameSection {
+      // padding-top: 42px;
+      // }
+
+      // .magBorder {
+      //   border-bottom: 1px solid #297ad6;
+      // }
+
+      .stat {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 37px;
+        width: 74px;
+        border-left: 1px solid #297ad6;
+        // border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .section {
+        .magHeader {
+          display: flex;
+          flex-direction: column;
+          // align-content: center;
+          justify-content: center;
+          width: 74px;
+          height: 74px;
+          border-left: 1px solid #297ad6;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1579px) {
+    .raceOptions {
+      order: -1;
+      border-right: 1px solid #297ad6;
+    }
+    .stats {
+      display: flex;
+      flex-direction: column;
+      // border-bottom: 1px solid #297ad6;
+
+      // .nameSection {
+      // padding-top: 42px;
+      // }
+
+      // .magBorder {
+      //   border-bottom: 1px solid #297ad6;
+      // }
+
+      .stat {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 39px;
+        width: 74px;
+        // border-left: 1px solid #297ad6;
+        // border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .section {
+        display: flex;
+        &:not(:first-of-type) {
+          border-top: 1px solid #297ad6;
+        }
+
+        .magHeader {
+          display: flex;
+          flex-direction: column;
+          // align-content: center;
+          justify-content: center;
+          width: 148px;
+          height: 39px;
+          // border-left: 1px solid #297ad6;
+
+          p {
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+}

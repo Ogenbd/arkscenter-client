@@ -1,10 +1,14 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useMemo } from "react";
 import useOnclickOutside from "react-cool-onclickoutside";
 import s from "./Select.module.scss";
 
 const Select = ({ selected, options, onChange, disabled, placeholder }) => {
   const [isOpen, setOpen] = useState(false);
   const ref = useRef();
+
+  const selectedIndex = useMemo(() => {
+    return options.findIndex((option) => option.id === selected);
+  }, [selected, options]);
 
   useOnclickOutside(ref, () => {
     setOpen(false);
@@ -20,13 +24,12 @@ const Select = ({ selected, options, onChange, disabled, placeholder }) => {
     setOpen(false);
   };
 
-  const optionsDisplay = options.filter((option) => {
-    if (option) {
-      return true;
-    }
-    return false;
-  });
-
+  // const optionsDisplay = options.filter((option) => {
+  //   if (option) {
+  //     return true;
+  //   }
+  //   return false;
+  // });
   // const selectedOption = options.find((option) => selected === -1 ? { display: "" } : option.id === selected);
 
   return (
@@ -39,18 +42,18 @@ const Select = ({ selected, options, onChange, disabled, placeholder }) => {
       >
         {disabled ? (
           ""
-        ) : selected === -1 ? (
+        ) : placeholder && selectedIndex === -1 ? (
           <p>{placeholder}</p>
         ) : (
           <>
-            <div className={`${s.icon} ${options[selected].imgClass}`} />
-            <p>{options[selected].display}</p>
+            <div className={`${s.icon} ${options[selectedIndex].imgClass}`} />
+            <p>{options[selectedIndex].display}</p>
           </>
         )}
       </div>
       {isOpen && (
         <div className={s.options}>
-          {optionsDisplay.map((option) => (
+          {options.map((option) => (
             <div
               key={option.id}
               className={s.option}

@@ -1,0 +1,1483 @@
+{
+  "id": 2,
+  "version": 1,
+  "name": ["Ranger", "Ranger", "レンジャー"],
+  "abrvName": "RA",
+  "img": "class2",
+  "mainOnly": false,
+  "hasSub": true,
+  "boost": [0, 0, 0, 20, 15, 0, 0, 40, 0],
+  "stats": [
+    [180, 100, 81, 90, 72, 91, 72, 90, 72],
+    [185, 100, 90, 100, 80, 97, 80, 100, 80],
+    [190, 100, 99, 110, 88, 103, 88, 110, 88],
+    [195, 100, 108, 120, 96, 108, 96, 120, 96],
+    [200, 100, 117, 130, 104, 114, 104, 130, 104],
+    [205, 100, 126, 140, 112, 120, 112, 140, 112],
+    [210, 100, 135, 150, 120, 125, 120, 150, 120],
+    [215, 100, 144, 160, 128, 131, 128, 160, 128],
+    [220, 100, 153, 170, 136, 137, 136, 170, 136],
+    [225, 100, 162, 180, 144, 143, 144, 180, 144],
+    [230, 100, 171, 190, 152, 148, 152, 190, 152],
+    [235, 100, 180, 200, 160, 154, 160, 200, 160],
+    [240, 100, 189, 210, 168, 160, 168, 210, 168],
+    [245, 100, 198, 220, 176, 165, 176, 220, 176],
+    [250, 100, 207, 230, 184, 171, 184, 230, 184],
+    [255, 100, 216, 240, 192, 177, 192, 240, 192],
+    [260, 100, 225, 250, 200, 182, 200, 250, 200],
+    [265, 100, 234, 260, 208, 188, 208, 260, 208],
+    [270, 100, 243, 270, 216, 194, 216, 270, 216],
+    [275, 100, 252, 280, 224, 200, 224, 280, 224],
+    [280, 100, 256, 284, 227, 202, 227, 284, 227],
+    [285, 100, 259, 288, 230, 205, 230, 288, 230],
+    [290, 100, 263, 292, 234, 208, 234, 292, 234],
+    [295, 100, 266, 296, 237, 211, 237, 296, 237],
+    [300, 100, 270, 300, 240, 214, 240, 300, 240],
+    [305, 100, 274, 304, 243, 217, 243, 304, 243],
+    [310, 100, 277, 308, 246, 219, 246, 308, 246],
+    [315, 100, 281, 312, 250, 222, 250, 312, 250],
+    [320, 100, 284, 316, 253, 225, 253, 316, 253],
+    [325, 100, 288, 320, 256, 228, 256, 320, 256],
+    [330, 100, 292, 324, 259, 231, 259, 324, 259],
+    [335, 100, 295, 328, 262, 234, 262, 328, 262],
+    [340, 100, 299, 332, 266, 237, 266, 332, 266],
+    [345, 100, 302, 336, 269, 239, 269, 336, 269],
+    [350, 100, 306, 340, 272, 242, 272, 340, 272],
+    [355, 100, 310, 344, 275, 245, 275, 344, 275],
+    [360, 100, 313, 348, 278, 248, 278, 348, 278],
+    [365, 100, 317, 352, 282, 251, 282, 352, 282],
+    [370, 100, 320, 356, 285, 254, 285, 356, 285],
+    [375, 100, 324, 360, 288, 257, 288, 360, 288],
+    [380, 100, 328, 364, 291, 259, 291, 364, 291],
+    [385, 100, 331, 368, 294, 262, 294, 368, 294],
+    [390, 100, 335, 372, 298, 265, 298, 372, 298],
+    [395, 100, 338, 376, 301, 268, 301, 376, 301],
+    [400, 100, 342, 380, 304, 271, 304, 380, 304],
+    [405, 100, 346, 384, 307, 274, 307, 384, 307],
+    [410, 100, 349, 388, 310, 276, 310, 388, 310],
+    [415, 100, 353, 392, 314, 279, 314, 392, 314],
+    [420, 100, 356, 396, 317, 282, 317, 396, 317],
+    [425, 100, 360, 400, 320, 285, 320, 400, 320],
+    [430, 100, 364, 404, 323, 288, 323, 404, 323],
+    [435, 100, 368, 408, 326, 291, 326, 408, 326],
+    [440, 100, 372, 412, 329, 294, 329, 412, 329],
+    [445, 100, 376, 416, 332, 297, 332, 416, 332],
+    [450, 100, 380, 420, 335, 300, 335, 420, 335],
+    [455, 100, 384, 424, 338, 303, 338, 424, 338],
+    [460, 100, 388, 428, 341, 306, 341, 428, 341],
+    [465, 100, 392, 432, 344, 309, 344, 432, 344],
+    [470, 100, 396, 436, 347, 312, 347, 436, 347],
+    [475, 100, 400, 440, 350, 315, 350, 440, 350],
+    [480, 100, 404, 444, 353, 318, 353, 444, 353],
+    [485, 100, 408, 448, 356, 321, 356, 448, 356],
+    [490, 100, 412, 452, 359, 324, 359, 452, 359],
+    [495, 100, 416, 456, 362, 327, 362, 456, 362],
+    [500, 100, 420, 460, 365, 330, 365, 460, 365],
+    [505, 100, 424, 464, 368, 333, 368, 464, 368],
+    [510, 100, 428, 468, 371, 336, 371, 468, 371],
+    [515, 100, 432, 472, 374, 339, 374, 472, 374],
+    [520, 100, 436, 476, 377, 342, 377, 476, 377],
+    [525, 100, 440, 480, 380, 345, 380, 480, 380],
+    [530, 100, 444, 484, 383, 348, 383, 484, 383],
+    [535, 100, 448, 488, 386, 351, 386, 488, 386],
+    [540, 100, 452, 492, 389, 354, 389, 492, 389],
+    [545, 100, 456, 496, 392, 357, 392, 496, 392],
+    [550, 100, 460, 500, 395, 360, 395, 500, 395],
+    [555, 100, 464, 504, 398, 363, 398, 504, 398],
+    [560, 100, 468, 508, 401, 366, 401, 508, 401],
+    [565, 100, 472, 512, 404, 369, 404, 512, 404],
+    [570, 100, 476, 516, 407, 372, 407, 516, 407],
+    [575, 100, 480, 520, 410, 375, 410, 520, 410],
+    [580, 100, 484, 524, 413, 378, 413, 524, 413],
+    [585, 100, 488, 528, 416, 381, 416, 528, 416],
+    [590, 100, 492, 532, 419, 384, 419, 532, 419],
+    [595, 100, 496, 536, 422, 387, 422, 536, 422],
+    [600, 100, 500, 540, 425, 390, 425, 540, 425],
+    [605, 100, 504, 544, 428, 393, 428, 544, 428],
+    [610, 100, 508, 548, 431, 396, 431, 548, 431],
+    [615, 100, 512, 552, 434, 399, 434, 552, 434],
+    [620, 100, 516, 556, 437, 402, 437, 556, 437],
+    [625, 100, 520, 560, 440, 405, 440, 560, 440],
+    [630, 100, 524, 564, 443, 408, 443, 564, 443],
+    [635, 100, 528, 568, 446, 411, 446, 568, 446],
+    [640, 100, 532, 572, 449, 414, 449, 572, 449],
+    [645, 100, 536, 576, 452, 417, 452, 576, 452],
+    [650, 100, 540, 580, 455, 420, 455, 580, 455],
+    [655, 100, 544, 584, 458, 423, 458, 584, 458],
+    [660, 100, 548, 588, 461, 426, 461, 588, 461],
+    [665, 100, 552, 592, 464, 429, 464, 592, 464],
+    [670, 100, 556, 596, 467, 432, 467, 596, 467],
+    [675, 100, 560, 600, 470, 435, 470, 600, 470]
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "name": ["Dive Roll", "Dive Roll", "ダイブロール"],
+      "desc": [
+        [
+          "Allows you to move quickly over short distances by performing a jump-dive-like movement."
+        ],
+        ["Active\nMove forward a short distance by dive rolling."],
+        ["飛び込むような挙動で短距離を素早く移動する"]
+      ],
+      "img": "skill_ranger-a_0000",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[1, 0]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 1,
+      "name": [
+        "Advanced Dive Roll",
+        "Dive Roll Advance",
+        "ダイブロールアドバンス"
+      ],
+      "desc": [
+        ["Extends the duration of invulnerability during a Dive Roll."],
+        ["Passive\nExtends the invulnerability during Dive Roll."],
+        ["ダイブロール中の無敵時間を延長する"]
+      ],
+      "img": "skill_ranger-p_0000",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "0.05 s",
+            "0.09 s",
+            "0.11 s",
+            "0.13 s",
+            "0.14 s",
+            "0.15 s",
+            "0.16 s",
+            "0.17 s",
+            "0.18 s",
+            "0.2 s"
+          ]
+        }
+      ],
+      "loc": [6, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 0],
+      "unlocks": null
+    },
+    {
+      "id": 2,
+      "name": ["Perfect Recovery", "Just Reversal", "ジャストリバーサル"],
+      "desc": [
+        [
+          "Allows you to quickly jump up after being knocked back onto the ground."
+        ],
+        [
+          "Passive\nPress the jump button to quickly recover when knocked down."
+        ],
+        ["吹き飛ばされてダウンしたときにジャンプ操作で素早く起き上がる"]
+      ],
+      "img": "skill_ranger-p_0000",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 6],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 3,
+      "name": [
+        "Arms Enthusiast: Ranger",
+        "Rare Mastery Ranger",
+        "レアマスタリーレンジャー"
+      ],
+      "desc": [
+        [
+          "Boosts the damage you deal when a weapon of Rarity 10★ or greater is equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen equipped with a ★10 or higher weapon or crafted weapon, gain a damage bonus. ",
+          "Main class only."
+        ],
+        [
+          "レアリティ★10以上の武器を装備していると、射撃力が上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_ranger-p_0008",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 4,
+      "name": ["Sharp Shooter", "Sharp Shooter", "シャープシューター"],
+      "desc": [
+        [
+          "Boosts damage dealt when you hit an enemy with an attack at long range. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nIncrease damage when hitting from long range. ",
+          "Main class only."
+        ],
+        [
+          "遠距離で攻撃をヒットするとダメージが上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_ranger-p_0021",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["102%", "104%", "106%", "108%", "110%"]
+        }
+      ],
+      "loc": [5, 4],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 5,
+      "name": ["Ranged DEF Up", "Shooting Defense Up 1", "射撃防御アップ1"],
+      "desc": [
+        ["Boosts your Ranged Defense."],
+        ["Passive\nIncrease your R-DEF."],
+        ["射撃防御力が上昇する"]
+      ],
+      "img": "skill_common_0007",
+      "min": 0,
+      "max": 10,
+      "stat": [[7, 1]],
+      "effects": [
+        {
+          "header": ["RNG Def", "R-DEF", "射撃防御"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [4, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 6,
+      "name": ["Trap Search", "Trap Search", "トラップサーチ"],
+      "desc": [
+        ["Allows you to find hidden traps."],
+        ["Passive\nFind hidden traps."],
+        ["隠されたトラップを発見する"]
+      ],
+      "img": "skill_ranger-p_0006",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 4],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 7,
+      "name": ["Ranged PWR Up 1", "Shooting Up 1", "射撃アップ1"],
+      "desc": [
+        ["Boosts your Ranged Power."],
+        ["Passive\nIncrease your R-ATK."],
+        ["射撃力が上昇する"]
+      ],
+      "img": "skill_common_0003",
+      "min": 0,
+      "max": 10,
+      "stat": [[3, 1]],
+      "effects": [
+        {
+          "header": ["RNG Pwr", "R-ATK", "射撃力"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [3, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[8, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 8,
+      "name": ["Ranged PWR Up 2", "Shooting Up 2", "射撃アップ2"],
+      "desc": [
+        ["Boosts your Ranged Power."],
+        ["Passive\nIncrease your R-ATK."],
+        ["射撃力が上昇する"]
+      ],
+      "img": "skill_common_0003",
+      "min": 0,
+      "max": 10,
+      "stat": [[3, 2]],
+      "effects": [
+        {
+          "header": ["RNG Pwr", "R-ATK", "射撃力"],
+          "stats": [
+            "+4",
+            "+9",
+            "+14",
+            "+19",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [3, 4],
+      "mobileLoc": [],
+      "prereqs": [7, 3],
+      "unlocks": null
+    },
+    {
+      "id": 9,
+      "name": ["Dexterity Up", "Dexterity Up 1", "技量アップ1"],
+      "desc": [
+        ["Boosts your Dexterity."],
+        ["Passive\nIncrease your DEX."],
+        ["技量が上昇する"]
+      ],
+      "img": "skill_common_0005",
+      "min": 0,
+      "max": 10,
+      "stat": [[5, 1]],
+      "effects": [
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [1, 1],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [10, 3],
+        [12, 1],
+        [14, 1],
+        [16, 1],
+        [18, 1],
+        [19, 1],
+        [20, 3],
+        [21, 3],
+        [22, 3]
+      ],
+      "unlockImg": "rangermain"
+    },
+    {
+      "id": 10,
+      "name": ["Dexterity Up 2", "Dexterity Up 2", "技量アップ2"],
+      "desc": [
+        ["Boosts your Dexterity."],
+        ["Passive\nIncrease your DEX."],
+        ["技量が上昇する"]
+      ],
+      "img": "skill_common_0005",
+      "min": 0,
+      "max": 10,
+      "stat": [[5, 2]],
+      "effects": [
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+4",
+            "+9",
+            "+14",
+            "+19",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [2, 4],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": [[11, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 11,
+      "name": ["Dexterity Up 3", "Dexterity Up 3", "技量アップ3"],
+      "desc": [
+        ["Boosts your Dexterity."],
+        ["Passive\nIncrease your DEX."],
+        ["技量が上昇する"]
+      ],
+      "img": "skill_common_0005",
+      "min": 0,
+      "max": 10,
+      "stat": [[5, 3]],
+      "effects": [
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+5",
+            "+11",
+            "+18",
+            "+26",
+            "+35",
+            "+45",
+            "+56",
+            "+68",
+            "+81",
+            "+100"
+          ]
+        }
+      ],
+      "loc": [2, 5],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": null
+    },
+    {
+      "id": 12,
+      "name": ["Tool Mastery", "Tool Mastery", "ツールマスタリー"],
+      "desc": [
+        ["Increases the potency of tool skills."],
+        ["Passive\nIncreases the power of Tool skills."],
+        ["ツール系スキルの威力が増加する"]
+      ],
+      "img": "skill_ranger-p_0005",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "120%",
+            "123%",
+            "126%",
+            "129%",
+            "132%",
+            "135%",
+            "140%",
+            "145%",
+            "150%",
+            "160%"
+          ]
+        }
+      ],
+      "loc": [6, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 1],
+      "unlocks": [[13, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 13,
+      "name": ["Tactical Trap", "Tactics Trap", "タクティクストラップ"],
+      "desc": [
+        ["Restores PP when you inflict damage using a trap."],
+        [
+          "Passive\nRegenerates PP when inflicting damage to enemies with traps."
+        ],
+        ["トラップでエネミーにダメージを与えると、PPが回復する"]
+      ],
+      "img": "skill_ranger-p_0014",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["PP Recovery", "PP Recovery Rate", "PP回復率"],
+          "stats": ["10%", "12%", "14%", "16%", "20%"]
+        }
+      ],
+      "loc": [6, 8],
+      "mobileLoc": [],
+      "prereqs": [12, 1],
+      "unlocks": null
+    },
+    {
+      "id": 14,
+      "name": ["Poison Trap", "Poison Trap", "ポイズントラップ"],
+      "desc": [
+        ["Sets a Poison Trap."],
+        [
+          "Active\nPlaces a poison trap. Reactivating the skill detonates the trap. Requires 1 Poison Trap."
+        ],
+        ["ポイズントラップを設置する"]
+      ],
+      "img": "skill_ranger-a_0002",
+      "min": 0,
+      "max": 1,
+      "loc": [5, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 1],
+      "unlocks": [[15, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 15,
+      "name": ["Custom Poison Trap", "Poison T Custom", "ポイズンTカスタム"],
+      "desc": [
+        ["Increases the poisoning rate of Poison Traps."],
+        [
+          "Passive\nIncreases the probability of inflicting poison status of Poison Trap."
+        ],
+        ["ポイズントラップのポイズン確率が上昇する"]
+      ],
+      "img": "skill_ranger-p_0002",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["135%"]
+        }
+      ],
+      "loc": [5, 8],
+      "mobileLoc": [],
+      "prereqs": [14, 1],
+      "unlocks": null
+    },
+    {
+      "id": 16,
+      "name": ["Spring Trap", "Upper Trap", "アッパートラップ"],
+      "desc": [
+        ["Sets a trap that launches enemies into the air."],
+        [
+          "Active\nPlaces a trap that launches enemies into the air. Reactivating the skill detonates the trap. Requires 1 Upper Trap."
+        ],
+        ["エネミーを打ち上げるトラップを設置する"]
+      ],
+      "img": "skill_ranger-a_0001",
+      "min": 0,
+      "max": 1,
+      "loc": [4, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 1],
+      "unlocks": [[17, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 17,
+      "name": ["Custom Spring Trap", "Upper T Custom", "アッパーTカスタム"],
+      "desc": [
+        ["Boosts the potency of Spring Traps."],
+        ["Passive\nIncreases the power of Upper Trap."],
+        ["アッパートラップの威力が上昇する"]
+      ],
+      "img": "skill_ranger-p_0001",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        { "header": ["Potency", "Power", "威力"], "stats": ["135%"] }
+      ],
+      "loc": [4, 8],
+      "mobileLoc": [],
+      "prereqs": [16, 1],
+      "unlocks": null
+    },
+    {
+      "id": 18,
+      "name": ["Gravity Bomb", "Gravity Bomb", "グラヴィティボム"],
+      "desc": [
+        ["Lobs a specialized bomb that attracts surrounding enemies."],
+        ["Active\nThrow a bomb that sucks in enemies in an area."],
+        ["周囲のエネミーを吸い寄せる特殊な爆弾を投擲する"]
+      ],
+      "img": "skill_ranger-a_0005",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        { "header": ["Potency", "Power", "威力"], "stats": ["100%"] },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["15 s"]
+        }
+      ],
+      "loc": [3, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 1],
+      "unlocks": null
+    },
+    {
+      "id": 19,
+      "name": ["Stun Grenade", "Stun Grenade", "スタングレネード"],
+      "desc": [
+        [
+          "Lobs a flash grenade that stuns enemies. Won't affect enemies that are immune to stunning."
+        ],
+        [
+          "Active\nThrows a hand grenade which inflicts stun status. Requires 1 Stun Grenade."
+        ],
+        ["エネミーをスタン状態にする閃光弾を投擲する"]
+      ],
+      "img": "skill_ranger-a_0003",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        { "header": ["Activation Rate", "Chance", "発動率"], "stats": ["1"] },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["15 s"]
+        }
+      ],
+      "loc": [2, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 1],
+      "unlocks": null
+    },
+    {
+      "id": 20,
+      "name": ["Eradication Bonus", "Killing Bonus", "キリングボーナス"],
+      "desc": [
+        ["Restores PP when an enemy dies within a fixed range."],
+        [
+          "Passive\nGain a chance to recover PP when an enemy in your vicinity is killed."
+        ],
+        ["一定範囲内でエネミーが死亡すると、PPが回復する"]
+      ],
+      "img": "skill_ranger-p_0007",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["PP Recovery", "PP Recovery Rate", "PP回復率"],
+          "stats": ["+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10"]
+        }
+      ],
+      "loc": [3, 9],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 21,
+      "name": ["First Hit", "First Hit", "ファーストヒット"],
+      "desc": [
+        [
+          "Grants a damage bonus when you perform an attack on an enemy while the enemy has full HP."
+        ],
+        ["Passive\nGain a damage bonus when attacking an enemy with full HP."],
+        ["HPが減っていないエネミーに対して攻撃を行うとダメージボーナスを得る"]
+      ],
+      "img": "skill_common_0003",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["104%", "108%", "112%", "116%", "120%"]
+        }
+      ],
+      "loc": [2, 9],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": null
+    },
+    {
+      "id": 22,
+      "name": [
+        "Advanced Precision Hit 1",
+        "Weak Hit Advance 1",
+        "ウィークヒットアドバンス1"
+      ],
+      "desc": [
+        [
+          "Boosts damage dealt when attacking the enemy's weak point using a ranged attack."
+        ],
+        [
+          "Passive\nIncreases your damage against weak spots using shooting attacks."
+        ],
+        ["射撃で弱点部位を攻撃したときのダメージが上昇する"]
+      ],
+      "img": "skill_ranger-p_0003",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%",
+            "111%",
+            "112%",
+            "113%",
+            "114%",
+            "115%"
+          ]
+        }
+      ],
+      "loc": [1, 9],
+      "mobileLoc": [],
+      "prereqs": [9, 3],
+      "unlocks": [
+        [23, 3],
+        [24, 3],
+        [25, 3],
+        [26, 3],
+        [27, 5],
+        [28, 3],
+        [29, 3],
+        [31, 3],
+        [33, 3],
+        [36, 3],
+        [37, 3]
+      ],
+      "unlockImg": "advancedprecision"
+    },
+    {
+      "id": 23,
+      "name": ["Jellen Shot", "Jellen Shot", "ジェルンショット"],
+      "desc": [
+        [
+          "Launcher only. Loads your weapon with Jellen rounds that lower enemy Attack."
+        ],
+        ["Active\nLauncher exclusive skill. Loads Jellen bullets."],
+        [
+          "ランチャー専用スキル エネミーの攻撃力を低下させるジェルン弾を装填する"
+        ]
+      ],
+      "img": "skill_launcher_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "120 s",
+            "114 s",
+            "108 s",
+            "102 s",
+            "100 s",
+            "98 s",
+            "96 s",
+            "94 s",
+            "92 s",
+            "90 s"
+          ]
+        },
+        {
+          "header": ["Rounds Loaded", "Charges", "装填数"],
+          "stats": ["1", "1", "2", "2", "2", "3", "3", "3", "3", "4"]
+        },
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "99%",
+            "98%",
+            "97%",
+            "96%",
+            "95%",
+            "93%",
+            "91%",
+            "89%",
+            "87%",
+            "85%"
+          ]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "10 s",
+            "12 s",
+            "14 s",
+            "16 s",
+            "18 s",
+            "20 s",
+            "22 s",
+            "24 s",
+            "26 s",
+            "30 s"
+          ]
+        }
+      ],
+      "loc": [6, 10],
+      "mobileLoc": [],
+      "prereqs": [22, 3],
+      "unlocks": null
+    },
+    {
+      "id": 24,
+      "name": ["Panic Shot", "Panic Shot", "パニックショット"],
+      "desc": [
+        [
+          "Launcher only. Loads your weapon with panic rounds that provide a panic effect."
+        ],
+        ["Active\nLauncher exclusive skill. Loads panic bullets."],
+        ["ランチャー専用スキル　パニック効果を与えるパニック弾を装填する"]
+      ],
+      "img": "skill_launcher_0003",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["120 s", "113 s", "106 s", "99 s", "90 s"]
+        },
+        {
+          "header": ["Rounds Loaded", "Charges", "装填数"],
+          "stats": ["1", "2", "2", "3", "4"]
+        }
+      ],
+      "loc": [5, 10],
+      "mobileLoc": [],
+      "prereqs": [22, 3],
+      "unlocks": null
+    },
+    {
+      "id": 25,
+      "name": ["Blinding Shot", "Mirage Shot", "ミラージュショット"],
+      "desc": [
+        [
+          "Launcher only. Loads your weapon with blinding rounds that provide a blinding effect."
+        ],
+        ["Active\nLauncher exclusive skill. Loads Mirage bullets."],
+        ["ランチャー専用スキル ミラージュ効果を与えるミラージュ弾を装填する"]
+      ],
+      "img": "skill_launcher_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["120 s", "113 s", "106 s", "99 s", "90 s"]
+        },
+        {
+          "header": ["Rounds Loaded", "Charges", "装填数"],
+          "stats": ["1", "2", "2", "3", "4"]
+        }
+      ],
+      "loc": [4, 10],
+      "mobileLoc": [],
+      "prereqs": [22, 3],
+      "unlocks": null
+    },
+    {
+      "id": 26,
+      "name": ["Bind Bullet", "Bind Bullet", "バインドバレット"],
+      "desc": [
+        [
+          "Assault Rifle only. Loads your weapon with debilitating rounds that provide a binding effect."
+        ],
+        ["Active\nAssault rifle exclusive skill. Loads binding bullets."],
+        ["アサルトライフル専用スキル バインド効果を与えるバインド弾を装填する"]
+      ],
+      "img": "skill_rifle_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["120 s", "113 s", "106 s", "99 s", "90 s"]
+        },
+        {
+          "header": ["Rounds Loaded", "Charges", "装填数"],
+          "stats": ["1", "2", "2", "3", "4"]
+        }
+      ],
+      "loc": [3, 10],
+      "mobileLoc": [],
+      "prereqs": [22, 3],
+      "unlocks": null
+    },
+    {
+      "id": 27,
+      "name": ["Blight Rounds", "Weak Bullet", "ウィークバレット"],
+      "desc": [
+        [
+          "Assault Rifle only. Loads your weapon with debilitating rounds that lower enemy Defense."
+        ],
+        ["Active\nAssault rifle exclusive skill. Loads weakening bullets."],
+        [
+          "アサルトライフル専用スキル。エネミーの防御力を低下させる脆弱化弾を装填する"
+        ]
+      ],
+      "img": "skill_rifle_0000",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "100 s",
+            "100 s",
+            "98 s",
+            "98 s",
+            "96 s",
+            "96 s",
+            "94 s",
+            "90 s",
+            "90 s",
+            "90 s"
+          ]
+        },
+        {
+          "header": ["Rounds Loaded", "Charges", "装填数"],
+          "stats": ["1", "2", "2", "3", "3", "4", "4", "4", "5", "6"]
+        }
+      ],
+      "loc": [2, 10],
+      "mobileLoc": [],
+      "prereqs": [22, 5],
+      "unlocks": null
+    },
+    {
+      "id": 28,
+      "name": ["Ammo Maintenance", "Bullet Keep", "バレットキープ"],
+      "desc": [
+        [
+          "Rounds will no longer disappear when switching to other weapons while special rounds are loaded. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nPrevent special bullets from being unloaded upon changing to any weapon type.",
+          "Main class only."
+        ],
+        [
+          "特殊弾を装填した時、他の武器種に切り替えても弾が消えなくなる。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_ranger-p_0022",
+      "min": 0,
+      "max": 1,
+      "loc": [5, 11],
+      "mobileLoc": [],
+      "prereqs": [22, 3],
+      "unlocks": null
+    },
+    {
+      "id": 29,
+      "name": ["Power Bullet", "Power Bullet", "パワーバレット"],
+      "desc": [
+        [
+          "Boosts you Ranged Power for a set time when your weapon is loaded with special rounds."
+        ],
+        [
+          "Passive\nIncreases your R-ATK for a fixed duration when you load a special bullet."
+        ],
+        ["特殊弾を装填した際に、一定時間射撃力が上昇する"]
+      ],
+      "img": "skill_ranger-p_0015",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["RNG Pwr", "R-ATK", "射撃力"],
+          "stats": ["+50", "+60", "+70", "+80", "+100"]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["30 s", "30 s", "30 s", "30 s", "30 s"]
+        }
+      ],
+      "loc": [4, 11],
+      "mobileLoc": [],
+      "prereqs": [22, 3],
+      "unlocks": [[30, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 30,
+      "name": ["PP Preservation Bullet", "PP Save Bullet", "PPセイブバレット"],
+      "desc": [
+        [
+          "Reduces PP consumption of Photon Arts and Techniques when you have a weapon equipped that is loaded with special rounds."
+        ],
+        [
+          "Passive\nDecreases PP consumption of PAs and techniques while a special bullet is loaded."
+        ],
+        ["特殊弾を装填している間、PAとテクニックのPP消費量が減少する"]
+      ],
+      "img": "skill_ranger-p_0012",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["PP Consumption Rate", "PP Consumption", "PP消費量"],
+          "stats": [
+            "98%",
+            "96%",
+            "94%",
+            "92%",
+            "90%",
+            "88%",
+            "86%",
+            "84%",
+            "82%",
+            "80%"
+          ]
+        }
+      ],
+      "loc": [4, 12],
+      "mobileLoc": [],
+      "prereqs": [29, 3],
+      "unlocks": null
+    },
+    {
+      "id": 31,
+      "name": [
+        "Stationary Fire 1",
+        "Standing Snipe 1",
+        "スタンディングスナイプ1"
+      ],
+      "desc": [
+        [
+          "Boosts the damage you deal when performing a ranged attack while stationary."
+        ],
+        [
+          "Passive\nIncreases your damage when standing still using shooting attacks."
+        ],
+        ["静止した状態で射撃したときのダメージが上昇する"]
+      ],
+      "img": "skill_ranger-p_0004",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "105%",
+            "108%",
+            "111%",
+            "113%",
+            "115%",
+            "117%",
+            "119%",
+            "121%",
+            "123%",
+            "125%"
+          ]
+        }
+      ],
+      "loc": [2, 11],
+      "mobileLoc": [],
+      "prereqs": [22, 3],
+      "unlocks": [[32, 5]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 32,
+      "name": [
+        "Stationary Fire 2",
+        "Standing Snipe 2",
+        "スタンディングスナイプ2"
+      ],
+      "desc": [
+        [
+          "Boosts the damage you deal when performing a ranged attack while stationary."
+        ],
+        [
+          "Passive\nIncreases your damage when standing still using shooting attacks."
+        ],
+        ["静止した状態で射撃したときのダメージが上昇する"]
+      ],
+      "img": "skill_ranger-p_0004",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["105%", "108%", "111%", "113%", "115%"]
+        }
+      ],
+      "loc": [2, 12],
+      "mobileLoc": [],
+      "prereqs": [31, 5],
+      "unlocks": null
+    },
+    {
+      "id": 33,
+      "name": [
+        "Advanced Precision Hit 2",
+        "Weak Hit Advance 2",
+        "ウィークヒットアドバンス2"
+      ],
+      "desc": [
+        [
+          "Boosts damage dealt when attacking the enemy's weak point using a ranged attack."
+        ],
+        [
+          "Passive\nIncreases your damage against weak spots using shooting attacks."
+        ],
+        ["射撃で弱点部位を攻撃したときのダメージが上昇する"]
+      ],
+      "img": "skill_ranger-p_0003",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%",
+            "111%",
+            "112%",
+            "113%",
+            "114%",
+            "115%"
+          ]
+        }
+      ],
+      "loc": [1, 11],
+      "mobileLoc": [],
+      "prereqs": [22, 3],
+      "unlocks": [[34, 2]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 34,
+      "name": [
+        "Precision Hit Blast Bonus",
+        "Weak Hit Blast Bonus",
+        "ウィークヒットブラストボーナス"
+      ],
+      "desc": [
+        [
+          "Grants a bonus to the rate of increase of your PB Gauge when you attack an enemy's weak point with a ranged attack."
+        ],
+        [
+          "Passive\nGain a bonus to your PB growth rate when attacking a weak spot with shooting attacks."
+        ],
+        ["射撃で弱点部位を攻撃したときのPBゲージ増加量にボーナスを得る"]
+      ],
+      "img": "skill_ranger-p_0019",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": [
+            "PB Gauge Increase",
+            "PB Gauge Increase Rate",
+            "PBゲージ増加率"
+          ],
+          "stats": ["130%", "140%", "150%", "160%", "170%"]
+        }
+      ],
+      "loc": [1, 12],
+      "mobileLoc": [],
+      "prereqs": [33, 2],
+      "unlocks": null
+    },
+    {
+      "id": 35,
+      "name": ["Dive Roll Shot", "Dive Roll Shoot", "ダイブロールシュート"],
+      "desc": [
+        ["Allows you to attack while performing a Dive Roll."],
+        ["Passive\nAllows attack actions during Dive Roll."],
+        ["ダイブロール中の攻撃アクションが可能となる"]
+      ],
+      "img": "skill_ranger-p_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [6, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[38, 1]],
+      "unlockImg": "zigzagleft"
+    },
+    {
+      "id": 36,
+      "name": ["Mobile Fire", "Moving Snipe", "ムービングスナイプ"],
+      "desc": [
+        [
+          "Boosts damage you deal when performing a ranged attack while in motion."
+        ],
+        ["Passive\nIncreases the damage of shooting attacks while moving."],
+        ["移動した状態で射撃したときのダメージが上昇する"]
+      ],
+      "img": "skill_ranger-p_0023",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "105%",
+            "108%",
+            "111%",
+            "113%",
+            "115%",
+            "117%",
+            "119%",
+            "121%",
+            "123%",
+            "125%"
+          ]
+        }
+      ],
+      "loc": [3, 11],
+      "mobileLoc": [],
+      "prereqs": [22, 3],
+      "unlocks": null
+    },
+    {
+      "id": 37,
+      "name": ["Massive Bullet", "Massive Bullet", "マッシブバレット"],
+      "desc": [
+        [
+          "Prevents you from being launched into the air or blown back while special rounds are loaded. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nPrevent flinching and being blown away while loading a special bullet. ",
+          "Main class only."
+        ],
+        [
+          "特殊弾を装填する時、打ち上げや吹き飛ばしを防ぐ。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_ranger-p_0024",
+      "min": 0,
+      "max": 1,
+      "loc": [6, 11],
+      "mobileLoc": [],
+      "prereqs": [22, 3],
+      "unlocks": null
+    },
+    {
+      "id": 38,
+      "name": ["Keep Roll Shot", "Keep Roll Shoot", "キープロールシュート"],
+      "desc": [
+        [
+          "A Dive Roll Shot that's performed while special rounds are loaded becomes a Normal Attack."
+        ],
+        [
+          "Passive\nDive Roll Shoot becomes a normal attack while a special bullet is loaded."
+        ],
+        ["特殊弾装填中のダイブロールシュートが通常攻撃になる"]
+      ],
+      "img": "skill_ranger-p_0025",
+      "min": 0,
+      "max": 1,
+      "loc": [5, 6],
+      "mobileLoc": [],
+      "prereqs": [35, 1],
+      "unlocks": null
+    },
+    {
+      "id": 39,
+      "name": [
+        "High Level Bonus Ra",
+        "High Level Bonus Ra",
+        "ハイレベルボーナスRa"
+      ],
+      "desc": [
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["プレイヤーが与えるダメージにボーナスを得る"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [3, 2],
+      "req": 80,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 40,
+      "name": ["EX Trap", "EX Trap", "EXトラップ"],
+      "desc": [
+        [
+          "Passive\nIncrease the power and explosion range of all tool skills. ",
+          "Main class only."
+        ],
+        [
+          "Passive\nIncrease the power and explosion range of all tool skills. ",
+          "Main class only."
+        ],
+        [
+          "全てのツール系スキルの発生速度や爆発範囲などの効果が強化される。このスキルはメインクラスのみ適用される。"
+        ]
+      ],
+      "img": "RaEXTrap",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 2],
+      "req": 85,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 41,
+      "name": [
+        "First Arts Perfect Attack Addition",
+        "First Arts JA Addition",
+        "ファーストアーツJAアディション"
+      ],
+      "desc": [
+        [
+          "Passive\nTurns your first attack into a Perfect Attack. A cooldown is applied after activation. Doesn't affect Harmonizer attacks, pet attacks, or Techniques."
+        ],
+        [
+          "Passive\nFirst attack becomes a Just Attack. Cooldown begins after activation. Takt, Pet Attacks and Techs do not apply."
+        ],
+        [
+          "最初に放つ攻撃が、ジャストアタックになる。発動後にリキャストが発生する。タクトやペットの攻撃とテクニックは無効"
+        ]
+      ],
+      "img": "UISkillFirstArtsJustAttack",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["0.25 s"]
+        }
+      ],
+      "loc": [3, 1],
+      "req": 20,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 42,
+      "name": ["Double Jump", "Next Jump", "ネクストジャンプ"],
+      "desc": [
+        ["Passive\nEnables two-stage jumping."],
+        ["Passive\nEnables two-stage jumping."],
+        ["２段ジャンプが可能になる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 1],
+      "req": 40,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 43,
+      "name": ["Sidestep Jump", "Step Jump", "ステップジャンプ"],
+      "desc": [
+        ["Passive\nJumping during a Dodge Action transitions you into a dash."],
+        ["Passive\nJumping during a recovery action switches to sprinting."],
+        ["回避アクション中にジャンプを行うことでダッシユ状態へ移行する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 1],
+      "req": 10,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 44,
+      "name": ["Air Reversal", "Air Reversal", "エアリバーサル"],
+      "desc": [
+        ["Passive\nAllows you to perform a break-fall while in the air."],
+        ["Passive\nEnables recovery midair."],
+        ["空中で受け身がとれるようになる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 45,
+      "name": [
+        "Perf. Recovery & ATK Combo",
+        "J Reversal JA Combo",
+        "JリバーサルJAコンボ"
+      ],
+      "desc": [
+        [
+          "Passive\nMakes Perfect-Attack timing apply after a Perfect Recovery."
+        ],
+        ["Passive\nThe Just Attack circle appears after Just Reversal."],
+        ["ジャストリバーサル後にジャストアタックタイミングが発生"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 46,
+      "name": [
+        "Sidestep & Perf. ATK Combo",
+        "Step JA Combo",
+        "ステップJAコンボ"
+      ],
+      "desc": [
+        ["Passive\nMakes Perfect-Attack timing apply during a Sidestep."],
+        ["Passive\nThe JA circle appears during Step."],
+        ["ステップ時にJAタイミングが発生するようになる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 2],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    }
+  ]
+}

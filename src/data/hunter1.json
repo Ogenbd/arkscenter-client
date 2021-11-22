@@ -1,0 +1,1956 @@
+{
+  "id": 0,
+  "version": 1,
+  "name": ["Hunter", "Hunter", "ハンター"],
+  "abrvName": "HU",
+  "img": "class0",
+  "mainOnly": false,
+  "hasSub": true,
+  "boost": [50, 0, 0, 15, 0, 0, 40, 0, 0],
+  "stats": [
+    [200, 100, 90, 81, 72, 91, 90, 72, 72],
+    [206, 100, 100, 90, 80, 97, 100, 80, 80],
+    [212, 100, 110, 99, 88, 103, 110, 88, 88],
+    [218, 100, 120, 108, 96, 108, 120, 96, 96],
+    [224, 100, 130, 117, 104, 114, 130, 104, 104],
+    [230, 100, 140, 126, 112, 120, 140, 112, 112],
+    [236, 100, 150, 135, 120, 125, 150, 120, 120],
+    [242, 100, 160, 144, 128, 131, 160, 128, 128],
+    [248, 100, 170, 153, 136, 137, 170, 136, 136],
+    [254, 100, 180, 162, 144, 143, 180, 144, 144],
+    [260, 100, 190, 171, 152, 148, 190, 152, 152],
+    [266, 100, 200, 180, 160, 154, 200, 160, 160],
+    [272, 100, 210, 189, 168, 160, 210, 168, 168],
+    [278, 100, 220, 198, 176, 165, 220, 176, 176],
+    [284, 100, 230, 207, 184, 171, 230, 184, 184],
+    [290, 100, 240, 216, 192, 177, 240, 192, 192],
+    [296, 100, 250, 225, 200, 182, 250, 200, 200],
+    [302, 100, 260, 234, 208, 188, 260, 208, 208],
+    [308, 100, 270, 243, 216, 194, 270, 216, 216],
+    [314, 100, 280, 252, 224, 200, 280, 224, 224],
+    [320, 100, 284, 256, 227, 202, 284, 227, 227],
+    [326, 100, 288, 259, 230, 205, 288, 230, 230],
+    [332, 100, 292, 263, 234, 208, 292, 234, 234],
+    [338, 100, 296, 266, 237, 211, 296, 237, 237],
+    [344, 100, 300, 270, 240, 214, 300, 240, 240],
+    [350, 100, 304, 274, 243, 217, 304, 243, 243],
+    [356, 100, 308, 277, 246, 219, 308, 246, 246],
+    [362, 100, 312, 281, 250, 222, 312, 250, 250],
+    [368, 100, 316, 284, 253, 225, 316, 253, 253],
+    [374, 100, 320, 288, 256, 228, 320, 256, 256],
+    [380, 100, 324, 292, 259, 231, 324, 259, 259],
+    [386, 100, 328, 295, 262, 234, 328, 262, 262],
+    [392, 100, 332, 299, 266, 237, 332, 266, 266],
+    [398, 100, 336, 302, 269, 239, 336, 269, 269],
+    [404, 100, 340, 306, 272, 242, 340, 272, 272],
+    [410, 100, 344, 310, 275, 245, 344, 275, 275],
+    [416, 100, 348, 313, 278, 248, 348, 278, 278],
+    [422, 100, 352, 317, 282, 251, 352, 282, 282],
+    [428, 100, 356, 320, 285, 254, 356, 285, 285],
+    [434, 100, 360, 324, 288, 257, 360, 288, 288],
+    [440, 100, 364, 328, 291, 259, 364, 291, 291],
+    [446, 100, 368, 331, 294, 262, 368, 294, 294],
+    [452, 100, 372, 335, 298, 265, 372, 298, 298],
+    [458, 100, 376, 338, 301, 268, 376, 301, 301],
+    [464, 100, 380, 342, 304, 271, 380, 304, 304],
+    [470, 100, 384, 346, 307, 274, 384, 307, 307],
+    [476, 100, 388, 349, 310, 276, 388, 310, 310],
+    [482, 100, 392, 353, 314, 279, 392, 314, 314],
+    [488, 100, 396, 356, 317, 282, 396, 317, 317],
+    [494, 100, 400, 360, 321, 285, 400, 320, 320],
+    [500, 100, 404, 363, 324, 288, 404, 324, 324],
+    [506, 100, 408, 368, 327, 291, 408, 327, 327],
+    [512, 100, 412, 372, 330, 294, 412, 330, 330],
+    [518, 100, 416, 376, 333, 297, 416, 333, 333],
+    [524, 100, 420, 380, 336, 300, 420, 336, 336],
+    [530, 100, 424, 384, 339, 303, 424, 339, 339],
+    [536, 100, 428, 388, 342, 306, 428, 342, 342],
+    [542, 100, 432, 392, 345, 309, 432, 345, 345],
+    [548, 100, 436, 396, 348, 312, 436, 348, 348],
+    [554, 100, 440, 400, 351, 315, 440, 351, 351],
+    [560, 100, 444, 404, 354, 318, 444, 354, 354],
+    [566, 100, 448, 408, 357, 321, 448, 357, 357],
+    [572, 100, 452, 412, 360, 324, 452, 360, 360],
+    [578, 100, 456, 416, 363, 327, 456, 363, 363],
+    [584, 100, 460, 420, 366, 330, 460, 366, 366],
+    [590, 100, 464, 424, 369, 333, 464, 369, 369],
+    [596, 100, 468, 428, 372, 336, 468, 372, 372],
+    [602, 100, 472, 432, 375, 339, 472, 375, 375],
+    [608, 100, 476, 436, 378, 342, 476, 378, 378],
+    [614, 100, 480, 440, 381, 345, 480, 381, 381],
+    [620, 100, 484, 444, 384, 348, 484, 384, 384],
+    [626, 100, 488, 448, 387, 351, 488, 387, 387],
+    [632, 100, 492, 452, 390, 354, 492, 390, 390],
+    [638, 100, 496, 456, 393, 357, 496, 393, 393],
+    [644, 100, 500, 460, 396, 360, 500, 396, 396],
+    [650, 100, 504, 464, 399, 363, 504, 399, 399],
+    [656, 100, 508, 468, 402, 366, 508, 402, 402],
+    [662, 100, 512, 472, 405, 369, 512, 405, 405],
+    [668, 100, 516, 476, 408, 372, 516, 408, 408],
+    [674, 100, 520, 480, 411, 375, 520, 411, 411],
+    [680, 100, 524, 484, 414, 378, 524, 414, 414],
+    [686, 100, 528, 488, 417, 381, 528, 417, 417],
+    [692, 100, 532, 492, 420, 384, 532, 420, 420],
+    [698, 100, 536, 496, 423, 387, 536, 423, 423],
+    [704, 100, 540, 500, 426, 390, 540, 426, 426],
+    [710, 100, 544, 504, 429, 393, 544, 429, 429],
+    [716, 100, 548, 508, 432, 396, 548, 432, 432],
+    [722, 100, 552, 512, 435, 399, 552, 435, 435],
+    [728, 100, 556, 516, 438, 402, 556, 438, 438],
+    [734, 100, 560, 520, 441, 405, 560, 441, 441],
+    [740, 100, 564, 524, 444, 408, 564, 444, 444],
+    [746, 100, 568, 528, 447, 411, 568, 447, 447],
+    [752, 100, 572, 532, 450, 414, 572, 450, 450],
+    [758, 100, 576, 536, 453, 417, 576, 453, 453],
+    [764, 100, 580, 540, 456, 420, 580, 456, 456],
+    [770, 100, 584, 544, 459, 423, 584, 459, 459],
+    [776, 100, 588, 548, 462, 426, 588, 462, 462],
+    [782, 100, 592, 552, 465, 429, 592, 465, 465],
+    [788, 100, 596, 556, 468, 432, 596, 468, 468],
+    [794, 100, 600, 560, 471, 435, 600, 471, 471]
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "name": ["Sidestep", "Step", "ステップ"],
+      "desc": [
+        ["Swiftly move a short distance by moving in deftly."],
+        ["Active\nMove forward a short distance."],
+        ["軽快な動作で踏み込み短距離を素早く移動する"]
+      ],
+      "img": "skill_hunter-a_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[1, 0]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 1,
+      "name": ["Sidestep Plus", "Step Advance", "ステップアドバンス"],
+      "desc": [
+        ["Extends the duration of invulnerability during a Sidestep."],
+        ["Passive\nExtends the invulnerability during Step."],
+        ["ステップ中の無敵時間を延長する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "0.05 s",
+            "0.09 s",
+            "0.11 s",
+            "0.13 s",
+            "0.14 s",
+            "0.15 s",
+            "0.16 s",
+            "0.17 s",
+            "0.18 s",
+            "0.20 s"
+          ]
+        }
+      ],
+      "loc": [6, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 0],
+      "unlocks": null
+    },
+    {
+      "id": 2,
+      "name": ["Sidestep Strike", "Step Attack", "ステップアタック"],
+      "desc": [
+        ["Allows you to attack while performing a Sidestep."],
+        ["Passive\nAllows you to perform an attack during a Step."],
+        ["ステップ中の攻撃アクションが可能となる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 3,
+      "name": ["Perfect Recovery", "Just Reversal", "ジャストリバーサル"],
+      "desc": [
+        [
+          "Allows you to quickly jump up after being knocked back onto the ground."
+        ],
+        [
+          "Passive\nPress the jump button to quickly recover when knocked down."
+        ],
+        ["吹き飛ばされてダウンしたときにジャンプ操作で素早く起き上がる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 6],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 4,
+      "name": ["Guard", "Guard", "ガード"],
+      "desc": [
+        [
+          "Allows you to protect against enemy attacks by raising your weapon in front of you."
+        ],
+        ["Active\nHold up your weapon to block enemy attacks."],
+        ["武器を正面に構えて、エネミーの攻撃を防ぐ"]
+      ],
+      "img": "skill_common_0100",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[5, 0]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 5,
+      "name": ["Perfect Guard", "Just Guard", "ジャストガード"],
+      "desc": [
+        [
+          "Negates damage when you Guard just before getting hit by an enemy attack."
+        ],
+        [
+          "Passive\nUse Guard right before an attack to reduce the damage taken significantly."
+        ],
+        ["攻撃を受ける直前にガードをすることで、ダメージを無効にする"]
+      ],
+      "img": "skill_common_0101",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 4],
+      "mobileLoc": [],
+      "prereqs": [4, 0],
+      "unlocks": [[6, 0]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 6,
+      "name": ["Perfect Counter", "Just Counter", "ジャストカウンター"],
+      "desc": [
+        [
+          "Attacks performed immediately after a successful Perfect Guard become Perfect Attacks."
+        ],
+        ["Passive\nTurns attacks right after Just Guards into Just Attacks."],
+        ["ジャストガード成功直後の攻撃がジャストアタックになる"]
+      ],
+      "img": "skill_common_0101",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 5],
+      "mobileLoc": [],
+      "prereqs": [5, 0],
+      "unlocks": [[7, 0]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 7,
+      "name": ["Healing Guard", "Healing Guard", "ヒーリングガード"],
+      "desc": [
+        [
+          "Recovers your HP and the HP of others in the vicinity when you perform a successful Perfect Guard."
+        ],
+        [
+          "Passive\nWhen performing a Just Guard, recover HP to yourself and players around you."
+        ],
+        ["ジャストガード発動時、自分と周囲にいるキャラクターのHPを回復する"]
+      ],
+      "img": "skill_hunter-p_0010",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["HP Recovery Rate", "HP Recovery Rate", "HP回復率"],
+          "stats": ["5%"]
+        }
+      ],
+      "loc": [5, 6],
+      "mobileLoc": [],
+      "prereqs": [6, 0],
+      "unlocks": null
+    },
+    {
+      "id": 8,
+      "name": [
+        "Arms Enthusiast: Hunter",
+        "Rare Mastery Hunter",
+        "レアマスタリーハンター"
+      ],
+      "desc": [
+        [
+          "Boosts the damage you deal when a weapon of Rarity 10★ or greater is equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen equipped with a ★10 or higher weapon or crafted weapon, gain a damage bonus. ",
+          "Main class only."
+        ],
+        [
+          "レアリティ★10以上の武器を装備していると、打撃力が上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_hunter-p_0005",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 9,
+      "name": [
+        "Hunter Focus Boost",
+        "Hunter Gear Boost",
+        "ハンターギアブースト"
+      ],
+      "desc": [
+        [
+          "Grants a bonus to the rate of increase of the Focus Gauge of Hunter weapons during Fury Stance or Guard Stance. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nDuring Fury Stance and Guard Stance, gain a bonus to the gear gauge increase rate for Hunter weapons. ",
+          "Main class only."
+        ],
+        [
+          "フューリースタンス時、ハンター武器のギアゲージの上昇率にボーナスを得る。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_hunter-p_0017",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Focus Gauge Boost", "Gear Growth Rate", "ギア上昇率"],
+          "stats": ["300%"]
+        }
+      ],
+      "loc": [4, 4],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 10,
+      "name": ["Melee Power Up 1", "Striking Up 1", "打撃アップ1"],
+      "desc": [
+        ["Boosts your Melee Power."],
+        ["Passive\nIncrease your S-ATK."],
+        ["打撃力が上昇する"]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 10,
+      "stat": [[2, 1]],
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [3, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[11, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 11,
+      "name": ["Melee Power Up 2", "Striking Up 2", "打撃アップ2"],
+      "desc": [
+        [
+          "Boosts your Melee Power. Produces a stronger effect than Melee Power Up 1."
+        ],
+        ["Passive\nIncrease your S-ATK."],
+        ["打撃力が上昇する"]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 10,
+      "stat": [[2, 2]],
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+4",
+            "+9",
+            "+14",
+            "+19",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [3, 4],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": [[12, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 12,
+      "name": ["Melee Power Up 3", "Striking Up 3", "打撃アップ3"],
+      "desc": [
+        [
+          "Boosts your Melee Power. Produces a stronger effect than Melee Power Up 2."
+        ],
+        ["Passive\nIncrease your S-ATK."],
+        ["打撃力が上昇する"]
+      ],
+      "img": "skill_common_0002",
+      "min": 0,
+      "max": 10,
+      "stat": [[2, 3]],
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": [
+            "+5",
+            "+11",
+            "+18",
+            "+26",
+            "+35",
+            "+45",
+            "+56",
+            "+68",
+            "+81",
+            "+100"
+          ]
+        }
+      ],
+      "loc": [3, 5],
+      "mobileLoc": [],
+      "prereqs": [11, 3],
+      "unlocks": null
+    },
+    {
+      "id": 13,
+      "name": ["Dexterity Up", "Dexterity Up 1", "技量アップ1"],
+      "desc": [
+        ["Boosts your Dexterity."],
+        ["Passive\nIncrease your DEX."],
+        ["技量が上昇する"]
+      ],
+      "img": "skill_common_0005",
+      "min": 0,
+      "max": 10,
+      "stat": [[5, 1]],
+      "effects": [
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [2, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 14,
+      "name": ["Melee Defense Up", "Striking Defense Up 1", "打撃防御アップ1"],
+      "desc": [
+        ["Boosts your Melee Defense."],
+        ["Passive\nIncrease your S-DEF."],
+        ["打撃防御力が上昇する"]
+      ],
+      "img": "skill_common_0006",
+      "min": 0,
+      "max": 10,
+      "stat": [[6, 1]],
+      "effects": [
+        {
+          "header": ["MEL Def", "S-DEF", "打撃防御"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [2, 6],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 15,
+      "name": ["HP Up 1", "HP Up 1", "HPアップ1"],
+      "desc": [
+        ["Boosts your max HP."],
+        ["Passive\nIncrease your maximum HP."],
+        ["HP最大値が上昇する"]
+      ],
+      "img": "skill_common_0000",
+      "min": 0,
+      "max": 10,
+      "stat": [[0, 1]],
+      "effects": [
+        {
+          "header": ["Max HP", "Maximum HP", "HP最大値"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [1, 1],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [16, 3],
+        [18, 1],
+        [19, 1],
+        [20, 1],
+        [21, 3],
+        [23, 3],
+        [25, 3],
+        [36, 5]
+      ],
+      "unlockImg": "huntermain"
+    },
+    {
+      "id": 16,
+      "name": ["HP Up 2", "HP Up 2", "HPアップ2"],
+      "desc": [
+        ["Boosts your max HP. Produces a stronger effect than HP Up 1."],
+        ["Passive\nIncrease your maximum HP."],
+        ["HP最大値が上昇する"]
+      ],
+      "img": "skill_common_0000",
+      "min": 0,
+      "max": 10,
+      "stat": [[0, 2]],
+      "effects": [
+        {
+          "header": ["Max HP", "Maximum HP", "HP最大値"],
+          "stats": [
+            "+4",
+            "+9",
+            "+14",
+            "+19",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [2, 4],
+      "mobileLoc": [],
+      "prereqs": [15, 3],
+      "unlocks": [[17, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 17,
+      "name": ["HP Up 3", "HP Up 3", "HPアップ3"],
+      "desc": [
+        ["Boosts your max HP. Produces a stronger effect than HP Up 2."],
+        ["Passive\nIncrease your maximum HP."],
+        ["HP最大値が上昇する"]
+      ],
+      "img": "skill_common_0000",
+      "min": 0,
+      "max": 10,
+      "stat": [[0, 3]],
+      "effects": [
+        {
+          "header": ["Max HP", "Maximum HP", "HP最大値"],
+          "stats": [
+            "+5",
+            "+11",
+            "+18",
+            "+26",
+            "+35",
+            "+45",
+            "+56",
+            "+68",
+            "+81",
+            "+100"
+          ]
+        }
+      ],
+      "loc": [2, 5],
+      "mobileLoc": [],
+      "prereqs": [16, 3],
+      "unlocks": null
+    },
+    {
+      "id": 18,
+      "name": ["Partisan Focus", "Partisan Gear", "パルチザンギア"],
+      "desc": [
+        [
+          "Consumes one segment of your Focus Gauge to expand you attack range and increase your Potency when using Photon Arts."
+        ],
+        [
+          "Passive\nPAs consume one Gear Gauge stock to increase their attack area and power."
+        ],
+        ["PA使用時にギアゲージを1つ消費して攻撃範囲を広げ威力が上昇する"]
+      ],
+      "img": "skill_partisan_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [4, 7],
+      "mobileLoc": [],
+      "prereqs": [15, 1],
+      "unlocks": null
+    },
+    {
+      "id": 19,
+      "name": ["Wired Lance Focus", "Wired Lance Gear", "ワイヤードランスギア"],
+      "desc": [
+        [
+          "Consumes one segment of your Focus Gauge to increase your potency when using hold Photon Arts."
+        ],
+        [
+          "Passive\nHold PAs consume one Gear Gauge stock to increase their power"
+        ],
+        ["ホールドPA使用時にギアゲージを1つ消費して威力が上昇する"]
+      ],
+      "img": "skill_wlance_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [3, 7],
+      "mobileLoc": [],
+      "prereqs": [15, 1],
+      "unlocks": null
+    },
+    {
+      "id": 20,
+      "name": ["Sword Focus", "Sword Gear", "ソードギア"],
+      "desc": [
+        [
+          "Alters your attack range, hit count, and charge speed by Photon-Art type when you charge up your Focus Gauge."
+        ],
+        [
+          "Passive\nBy filling the Gear Gauge the attack area, number of hits and charge tempo change depending on the PA."
+        ],
+        [
+          "ギアゲージを溜めることで、PAの種類に応じて攻撃範囲、ヒット数、チャージ速度が変化する"
+        ]
+      ],
+      "img": "skill_sword_0000",
+      "min": 0,
+      "max": 1,
+      "loc": [2, 7],
+      "mobileLoc": [],
+      "prereqs": [15, 1],
+      "unlocks": null
+    },
+    {
+      "id": 21,
+      "name": ["Iron Will", "Iron Will", "アイアンウィル"],
+      "desc": [
+        [
+          "Adds a chance of retaining 1 HP whgen you suffer damage that would have otherwise incapacitated you. Renders you invincible for a short period of time when activated."
+        ],
+        [
+          "Passive\nMay survive with 1 HP left when receiving damage that would kill you."
+        ],
+        ["戦闘不能となるダメージを受けたとき、HPが1残ることがある"]
+      ],
+      "img": "skill_common_0101",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "30%",
+            "34%",
+            "38%",
+            "42%",
+            "47%",
+            "52%",
+            "57%",
+            "63%",
+            "69%",
+            "75%"
+          ]
+        },
+        {
+          "header": ["Effect Duration", "Invulnerability Duration", "無敵時間"],
+          "stats": [
+            "1 s",
+            "1 s",
+            "2 s",
+            "2 s",
+            "3 s",
+            "3 s",
+            "4 s",
+            "4 s",
+            "5 s",
+            "5 s"
+          ]
+        }
+      ],
+      "loc": [6, 8],
+      "mobileLoc": [],
+      "prereqs": [15, 3],
+      "unlocks": [[22, 2]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 22,
+      "name": ["Stalwart Spirit", "Never Give Up", "ネバーギブアップ"],
+      "desc": [
+        [
+          "Ups Melee Power for 60 seconds after using Iron Will, and extends invulnerability. Raising the skill level boosts Melee Power and extends invulnerability even more."
+        ],
+        [
+          "Passive\nIncreases your S-ATK for 60 seconds after Iron Will activates. Become invulnerable for a short time. Higher levels increase S-ATK and invulnerability duration."
+        ],
+        [
+          "アイアンウィル発動後、60秒間打撃力が増加し、短時間無敵状態になる。レベルが上がると打撃力と無敵時間が増加する。"
+        ]
+      ],
+      "img": "skill_common_0006",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["MEL Pwr", "S-ATK", "打撃力"],
+          "stats": ["+200", "+220", "+240", "+260", "+300"]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["5 s", "7 s", "9 s", "12 s", "15 s"]
+        }
+      ],
+      "loc": [6, 9],
+      "mobileLoc": [],
+      "prereqs": [21, 2],
+      "unlocks": null
+    },
+    {
+      "id": 23,
+      "name": ["War Cry", "War Cry", "ウォークライ"],
+      "desc": [
+        ["Draws the enemy's attention to you."],
+        ["Active\nAttract the attention of enemies."],
+        ["エネミーの注意を引き付ける"]
+      ],
+      "img": "skill_hunter-a_0002",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Threat Level", "Hate", "ヘイト効果"],
+          "stats": [
+            "200%",
+            "220%",
+            "240%",
+            "260%",
+            "280%",
+            "300%",
+            "320%",
+            "340%",
+            "360%",
+            "400%"
+          ]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "10 s",
+            "12 s",
+            "14 s",
+            "16 s",
+            "18 s",
+            "20 s",
+            "22 s",
+            "24 s",
+            "26 s",
+            "30 s"
+          ]
+        }
+      ],
+      "loc": [5, 8],
+      "mobileLoc": [],
+      "prereqs": [15, 3],
+      "unlocks": [[24, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 24,
+      "name": ["War Brave", "War Brave", "ウォーブレイブ"],
+      "desc": [
+        [
+          "Recovers PP according to the number of enemies targeted and grants a 60-second damage bonus while War Cry is active. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen using War Cry, recover PP according to the number of enemies affected and gain a damage bonus for 60 seconds. ",
+          "Main class only."
+        ],
+        [
+          "ウォークライ発動時、対象エネミー数に応じてPPが回復し、30秒ダメージボーナスを得る。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_hunter-p_0019",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        { "header": ["Potency", "Power", "威力"], "stats": ["103%"] },
+        {
+          "header": ["Potency Boost Maximum", "Max Bonus", "威力上昇量上限"],
+          "stats": ["115%"]
+        },
+        {
+          "header": ["PP Recovery", "PP Recovery Amount", "PP回復量"],
+          "stats": ["+7"]
+        },
+        {
+          "header": [
+            "PP Recovery Maximum",
+            "Maximum PP Recovery Amount",
+            "PP回復量上限"
+          ],
+          "stats": ["+35"]
+        }
+      ],
+      "loc": [5, 9],
+      "mobileLoc": [],
+      "prereqs": [23, 3],
+      "unlocks": null
+    },
+    {
+      "id": 25,
+      "name": ["Guard Stance", "Guard Stance", "ガードスタンス"],
+      "desc": [
+        [
+          "Active Stance skill that reduces the melee and ranged damage you deal while also reducing the level of melee damage you take. Renders Fury Stance ineffective."
+        ],
+        [
+          "Active\nStance which reduces striking and ranged damage dealt and striking damage received."
+        ],
+        [
+          "エネミーへの打撃・射撃ダメージを低下させ、自分への打撃ダメージを軽減するスタンススキル。リキャスト60秒"
+        ]
+      ],
+      "img": "skill_hunter-a_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Melee Potency", "Striking Power", "打撃威力"],
+          "stats": [
+            "85%",
+            "86%",
+            "87%",
+            "88%",
+            "89%",
+            "90%",
+            "92%",
+            "94%",
+            "96%",
+            "100%"
+          ]
+        },
+        {
+          "header": ["Ranged Potency", "Shooting Power", "射撃威力"],
+          "stats": [
+            "85%",
+            "86%",
+            "87%",
+            "88%",
+            "89%",
+            "90%",
+            "92%",
+            "94%",
+            "96%",
+            "100%"
+          ]
+        },
+        {
+          "header": [
+            "Damage Taken",
+            "Received Striking Damage",
+            "被打撃ダメージ"
+          ],
+          "stats": [
+            "85%",
+            "84%",
+            "83%",
+            "82%",
+            "81%",
+            "80%",
+            "79%",
+            "78%",
+            "77%",
+            "75%"
+          ]
+        },
+        {
+          "header": ["MEL Def", "S-DEF", "打撃防御"],
+          "stats": [
+            "+50",
+            "+60",
+            "+70",
+            "+80",
+            "+90",
+            "+100",
+            "+120",
+            "+140",
+            "+160",
+            "+200"
+          ]
+        }
+      ],
+      "loc": [3, 8],
+      "mobileLoc": [],
+      "prereqs": [15, 3],
+      "unlocks": [
+        [26, 1],
+        [29, 3],
+        [30, 3],
+        [31, 3],
+        [33, 3],
+        [44, 3]
+      ],
+      "unlockImg": "guardstance"
+    },
+    {
+      "id": 26,
+      "name": [
+        "Guard Stance Poison",
+        "Guard Stance Poison",
+        "ガードスタンスポイズン"
+      ],
+      "desc": [
+        ["Heals status ailment Poison when Guard Stance is in use."],
+        ["Passive\nRecover from poison status when activating Guard Stance."],
+        ["ガードスタンス発動時に状態異常ポイズンを回復する"]
+      ],
+      "img": "skill_common_0205",
+      "min": 0,
+      "max": 1,
+      "loc": [6, 10],
+      "mobileLoc": [],
+      "prereqs": [25, 1],
+      "unlocks": [[27, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 27,
+      "name": [
+        "Guard Stance Burn",
+        "Guard Stance Burn",
+        "ガードスタンスバーン"
+      ],
+      "desc": [
+        ["Heals status ailment Burn when Guard Stance is in use."],
+        ["Passive\nRecover from burn status when activating Guard Stance."],
+        ["ガードスタンス発動時に状態異常バーンを回復する"]
+      ],
+      "img": "skill_common_0200",
+      "min": 0,
+      "max": 1,
+      "loc": [6, 11],
+      "mobileLoc": [],
+      "prereqs": [26, 1],
+      "unlocks": [[28, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 28,
+      "name": ["Not Bad", "Pretty Good", "プリティグッド"],
+      "desc": [
+        ["Reduces the duration of status ailments affecting you."],
+        [
+          "Passive\nShortens the duration of status abnormalities inflicted on you."
+        ],
+        ["自分が受けた状態異常の時間を短縮する"]
+      ],
+      "img": "skill_hunter-p_0012",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": [
+            "Status Ailment Duration",
+            "Status Abnormality Duration",
+            "状態異常時間"
+          ],
+          "stats": ["70%", "60%", "50%", "40%", "30%"]
+        }
+      ],
+      "loc": [6, 12],
+      "mobileLoc": [],
+      "prereqs": [27, 1],
+      "unlocks": null
+    },
+    {
+      "id": 29,
+      "name": [
+        "Auto-Mate Half",
+        "Automate Halfline",
+        "オートメイトハーフライン"
+      ],
+      "desc": [
+        ["Automatically uses a \"-mate\" item when your HP falls below 50%."],
+        [
+          "Passive\nWhen your HP fall below 50%, automatically use a Mate item on yourself."
+        ],
+        ["HPが50%未満になったとき、自動でメイト系アイテムを使用する"]
+      ],
+      "img": "skill_common_0102",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "20%",
+            "24%",
+            "28%",
+            "32%",
+            "36%",
+            "42%",
+            "47%",
+            "62%",
+            "80%",
+            "100%"
+          ]
+        }
+      ],
+      "loc": [5, 10],
+      "mobileLoc": [],
+      "prereqs": [25, 3],
+      "unlocks": null
+    },
+    {
+      "id": 30,
+      "name": ["Absorption", "Absorption", "アブソプション"],
+      "desc": [
+        [
+          "Restores HP when an enemy dies within a fixed range while Guard Stance is active."
+        ],
+        [
+          "Passive\nDuring Guard Stance, recover HP every time an enemy dies in your vicinity."
+        ],
+        ["ガードスタンス中に一定範囲内でエネミーが死亡すると、HPが回復する"]
+      ],
+      "img": "skill_hunter-p_0013",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["HP Recovery", "HP Recovery", "HP回復量"],
+          "stats": ["1%", "2%", "3%", "4%", "5%", "6%", "7%", "8%", "9%", "10%"]
+        }
+      ],
+      "loc": [4, 10],
+      "mobileLoc": [],
+      "prereqs": [25, 3],
+      "unlocks": null
+    },
+    {
+      "id": 31,
+      "name": ["Guard Stance Up", "Guard Stance Up 1", "ガードスタンスアップ1"],
+      "desc": [
+        ["Boosts your Melee Resistance while Guard Stance is in use."],
+        ["Passive\nIncreases your striking resistance during Guard Stance."],
+        ["ガードスタンス中の打撃耐性をアップ"]
+      ],
+      "img": "skill_hunter-p_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": [
+            "Damage Taken",
+            "Received Striking Damage",
+            "被打撃ダメージ"
+          ],
+          "stats": [
+            "99%",
+            "98%",
+            "97%",
+            "96%",
+            "95%",
+            "94%",
+            "93%",
+            "92%",
+            "91%",
+            "90%"
+          ]
+        },
+        {
+          "header": ["MEL Def", "S-DEF", "打撃防御"],
+          "stats": [
+            "+5",
+            "+10",
+            "+15",
+            "+20",
+            "+25",
+            "+30",
+            "+35",
+            "+40",
+            "+45",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [4, 9],
+      "mobileLoc": [],
+      "prereqs": [25, 3],
+      "unlocks": null
+    },
+    {
+      "id": 32,
+      "name": ["Hunter Physique", "Massive Hunter", "マッシブハンター"],
+      "desc": [
+        [
+          "Reduces damage and prevents you from being launched into the air or knocked back."
+        ],
+        [
+          "Active\nReduce damage taken and prevent flinching and being blown away."
+        ],
+        ["ダメージを減少させ、さらに打ち上げや吹き飛ばしも防ぐ"]
+      ],
+      "img": "skill_hunter-a_0006",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["30 s", "32 s", "35 s", "39 s", "45 s"]
+        },
+        {
+          "header": ["Damage Rate", "All Resist", "全体耐性"],
+          "stats": ["90%", "88%", "85%", "81%", "75%"]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["100 s", "99 s", "97 s", "94 s", "90 s"]
+        }
+      ],
+      "loc": [5, 12],
+      "mobileLoc": [],
+      "prereqs": [33, 3],
+      "unlocks": null
+    },
+    {
+      "id": 33,
+      "name": ["Flash Guard 1", "Flash Guard 1", "フラッシュガード1"],
+      "desc": [
+        ["Decreases melee and ranged damage."],
+        ["Passive\nReduces striking and shooting damage taken."],
+        ["打撃・射撃ダメージを軽減する"]
+      ],
+      "img": "skill_common_0006",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%"
+          ]
+        },
+        {
+          "header": ["Reduction Rate", "Reduction Rate", "軽減率"],
+          "stats": [
+            "2%",
+            "4%",
+            "6%",
+            "8%",
+            "10%",
+            "12%",
+            "14%",
+            "16%",
+            "18%",
+            "20%"
+          ]
+        }
+      ],
+      "loc": [3, 11],
+      "mobileLoc": [],
+      "prereqs": [25, 3],
+      "unlocks": [
+        [34, 5],
+        [35, 5],
+        [32, 3]
+      ],
+      "unlockImg": "forkrightthree"
+    },
+    {
+      "id": 34,
+      "name": [
+        "Flash Tech Guard",
+        "Flash Tech Guard",
+        "フラッシュテックガード"
+      ],
+      "desc": [
+        ["Decreases Technique damage."],
+        ["Passive\nReduces technique damage taken."],
+        ["法撃ダメージを軽減する"]
+      ],
+      "img": "skill_common_0008",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%"
+          ]
+        },
+        {
+          "header": ["Reduction Rate", "Reduction Rate", "軽減率"],
+          "stats": [
+            "3%",
+            "6%",
+            "9%",
+            "12%",
+            "15%",
+            "18%",
+            "21%",
+            "24%",
+            "27%",
+            "30%"
+          ]
+        }
+      ],
+      "loc": [4, 12],
+      "mobileLoc": [],
+      "prereqs": [33, 5],
+      "unlocks": null
+    },
+    {
+      "id": 35,
+      "name": ["Flash Guard 2", "Flash Guard 2", "フラッシュガード2"],
+      "desc": [
+        ["Decreases melee and ranged damage."],
+        ["Passive\nReduces striking and shooting damage taken."],
+        ["打撃・射撃ダメージを軽減する"]
+      ],
+      "img": "skill_common_0006",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%",
+            "100%"
+          ]
+        },
+        {
+          "header": ["Reduction Rate", "Reduction Rate", "軽減率"],
+          "stats": [
+            "2%",
+            "4%",
+            "6%",
+            "8%",
+            "10%",
+            "12%",
+            "14%",
+            "16%",
+            "18%",
+            "20%"
+          ]
+        }
+      ],
+      "loc": [3, 12],
+      "mobileLoc": [],
+      "prereqs": [33, 5],
+      "unlocks": null
+    },
+    {
+      "id": 36,
+      "name": ["Perfect Attack Bonus 1", "JA Bonus 1", "JAボーナス1"],
+      "desc": [
+        ["Grants a damage bonus to non-Technique Perfect Attacks."],
+        ["Passive\nIncreases the damage of Just Attacks, but not techniques."],
+        ["テクニック以外のジャストアタックにダメージボーナスを得る"]
+      ],
+      "img": "skill_hunter-p_0003",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Melee Potency", "Striking Power", "打撃威力"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        },
+        {
+          "header": ["Ranged Potency", "Shooting Power", "射撃威力"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        }
+      ],
+      "loc": [1, 8],
+      "mobileLoc": [],
+      "prereqs": [15, 5],
+      "unlocks": [
+        [37, 3],
+        [38, 3]
+      ],
+      "unlockImg": "forkrightlong"
+    },
+    {
+      "id": 37,
+      "name": ["Perfect Attack Bonus 2", "JA Bonus 2", "JAボーナス2"],
+      "desc": [
+        ["Grants a damage bonus to non-Technique Perfect Attacks."],
+        ["Passive\nIncreases the damage of Just Attacks, but not techniques."],
+        ["テクニック以外のジャストアタックにダメージボーナスを得る"]
+      ],
+      "img": "skill_hunter-p_0003",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Melee Potency", "Striking Power", "打撃威力"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        },
+        {
+          "header": ["Ranged Potency", "Shooting Power", "射撃威力"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        }
+      ],
+      "loc": [2, 10],
+      "mobileLoc": [],
+      "prereqs": [36, 3],
+      "unlocks": null
+    },
+    {
+      "id": 38,
+      "name": ["Fury Stance", "Fury Stance", "フューリースタンス"],
+      "desc": [
+        [
+          "Passive Stance skill that boosts the melee and ranged attack damage you deal to enemies while also increasing the melee damage you take."
+        ],
+        [
+          "Active\nStance which increases striking and ranged damage dealt and striking damage received."
+        ],
+        [
+          "エネミーへの打撃・射撃ダメージを上昇させ、自分への打撃ダメージを上昇させるスタンススキル。リキャスト60秒"
+        ]
+      ],
+      "img": "skill_hunter-a_0000",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Melee Potency", "Striking Power", "打撃威力"],
+          "stats": [
+            "110%",
+            "111%",
+            "112%",
+            "113%",
+            "114%",
+            "115%",
+            "116%",
+            "117%",
+            "118%",
+            "120%"
+          ]
+        },
+        {
+          "header": ["Ranged Potency", "Shooting Power", "射撃威力"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        },
+        {
+          "header": [
+            "Damage Taken",
+            "Received Striking Damage",
+            "被打撃ダメージ"
+          ],
+          "stats": [
+            "115%",
+            "110%",
+            "105%",
+            "105%",
+            "104%",
+            "104%",
+            "103%",
+            "102%",
+            "101%",
+            "100%"
+          ]
+        }
+      ],
+      "loc": [1, 10],
+      "mobileLoc": [],
+      "prereqs": [36, 3],
+      "unlocks": [
+        [39, 5],
+        [40, 5],
+        [41, 5],
+        [42, 5]
+      ],
+      "unlockImg": "forkrighttriple"
+    },
+    {
+      "id": 39,
+      "name": ["Critical Fury", "Fury Critical", "フューリークリティカル"],
+      "desc": [
+        ["Boosts your critical hit rate while using Fury Stance."],
+        ["Passive\nIncreases your critical hit rate during Fury Stance."],
+        ["フューリースタンス中のクリティカルヒット率をアップ"]
+      ],
+      "img": "skill_hunter-p_0000",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["10%", "16%", "20%", "23%", "25%"]
+        }
+      ],
+      "loc": [2, 11],
+      "mobileLoc": [],
+      "prereqs": [38, 5],
+      "unlocks": null
+    },
+    {
+      "id": 40,
+      "name": ["Perfect Fury Bonus", "Fury Combo Up", "フューリーコンボアップ"],
+      "desc": [
+        [
+          "Grants a damage bonus every time you perform a successful Perfect Attack while Fury Stance is active. The maximum damage bonus is 10%."
+        ],
+        [
+          "Passive\nWhile in Fury Stance, receive a damage bonus by continually performing Just Attacks successfully."
+        ],
+        [
+          "フューリースタンス状態のとき、連続でジャストアタックに成功するとダメージボーナスを得る"
+        ]
+      ],
+      "img": "skill_hunter-p_0000",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        }
+      ],
+      "loc": [2, 12],
+      "mobileLoc": [],
+      "prereqs": [38, 5],
+      "unlocks": null
+    },
+    {
+      "id": 41,
+      "name": ["Fury Stance Up 1", "Fury S Up 1", "フューリーSアップ1"],
+      "desc": [
+        [
+          "Boosts the melee and ranged attack damage that you deal to enemies while using Fury Stance."
+        ],
+        [
+          "Passive\nIncreases your striking and shooting damage during Fury Stance."
+        ],
+        ["フューリースタンス中にエネミーへの打撃・射撃ダメージを上昇する"]
+      ],
+      "img": "skill_hunter-p_0000",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Melee Potency", "Striking Power", "打撃威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        },
+        {
+          "header": ["Ranged Potency", "Shooting Power", "射撃威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [1, 13],
+      "mobileLoc": [],
+      "prereqs": [38, 5],
+      "unlocks": null
+    },
+    {
+      "id": 42,
+      "name": ["Fury Stance Up 2", "Fury S Up 2", "フューリーSアップ2"],
+      "desc": [
+        [
+          "Boosts the melee and ranged attack damage that you deal to enemies while using Fury Stance."
+        ],
+        [
+          "Passive\nIncreases your striking and shooting damage during Fury Stance."
+        ],
+        ["フューリースタンス中にエネミーへの打撃・射撃ダメージを上昇する"]
+      ],
+      "img": "skill_hunter-p_0000",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Melee Potency", "Striking Power", "打撃威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        },
+        {
+          "header": ["Ranged Potency", "Shooting Power", "射撃威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [2, 13],
+      "mobileLoc": [],
+      "prereqs": [38, 5],
+      "unlocks": null
+    },
+    {
+      "id": 43,
+      "name": ["All Guard", "All Guard", "オールガード"],
+      "desc": [
+        [
+          "Allows for Guard to be performed in all directions, with Hunter weapons only. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nAllows guarding from all directions with Hunter weapons only. ",
+          "Main class only."
+        ],
+        [
+          "ハンター武器のみ全方向にガードが可能になる。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_hunter-p_0020",
+      "min": 0,
+      "max": 1,
+      "loc": [5, 7],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 44,
+      "name": [
+        "Advanced Guard Stance",
+        "Guard Stance Advance",
+        "ガードスタンスアドバンス"
+      ],
+      "desc": [
+        [
+          "Grants a damage bonus for a set time when you perform a successful Perfect Guard while Guard Stance is active. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nGain a damage bonus for a fixed period of time after successfully performing Just Guard during Guard Stance. ",
+          "Main class only."
+        ],
+        [
+          "ガードスタンス時にジャストガードを成功させると、一定時間ダメージボーナスを得る。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_hunter-p_0021",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["150%", "150%", "150%", "150%", "150%"]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["40 s", "45 s", "50 s", "55 s", "60 s"]
+        }
+      ],
+      "loc": [4, 11],
+      "mobileLoc": [],
+      "prereqs": [25, 3],
+      "unlocks": null
+    },
+    {
+      "id": 45,
+      "name": [
+        "Perfect Guard PP Gain",
+        "Just Guard PP Gain",
+        "ジャストガードPPゲイン"
+      ],
+      "desc": [
+        [
+          "Recovers PP when you perform a successful Perfect Guard with a Hunter weapon. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nRecover PP after successfully performing a Just Guard with a Hunter weapon. ",
+          "Main class only."
+        ],
+        [
+          "ハンター武器でジャストガードを成功させるとPPが回復する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_hunter-p_0016",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["PP Recovery", "PP Recovery Rate", "PP回復率"],
+          "stats": ["+20"]
+        }
+      ],
+      "loc": [4, 6],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 46,
+      "name": ["Charged Parry", "Charge Parry", "チャージパリング"],
+      "desc": [
+        [
+          "Allows you to perform a Perfect Guard when initiating charged Photon Arts with a Hunter weapon."
+        ],
+        [
+          "Passive\nEnable Just Guard at the beginning of charged PAs with Hunter weapons."
+        ],
+        ["ハンター武器のチャージPA開始時にジャストガードが可能になる"]
+      ],
+      "img": "skill_hunter-p_0022",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["1.50 s"]
+        }
+      ],
+      "loc": [4, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 47,
+      "name": [
+        "High Level Bonus Hu",
+        "High Level Bonus Hu",
+        "ハイレベルボーナスHu"
+      ],
+      "desc": [
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["プレイヤーが与えるダメージにボーナスを得る"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [3, 2],
+      "req": 80,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 48,
+      "name": ["War Attract", "War Attract", "ウォーアトラクト"],
+      "desc": [
+        [
+          "Passive\nImprove the effectiveness of War Cry and add Jellen effect to it. ",
+          "Main class only."
+        ],
+        [
+          "Passive\nImprove the effectiveness of War Cry and add Jellen effect to it. ",
+          "Main class only."
+        ],
+        [
+          "ウォークライの効果が強化され、ジェルンの効果が追加される。このスキルはメインクラスのみ適用される。"
+        ]
+      ],
+      "img": "HuWarAttract",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Enemy ATK", "Enemy ATK", "敵攻撃力"],
+          "stats": ["90%"]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["60 s"]
+        }
+      ],
+      "loc": [2, 2],
+      "req": 85,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 49,
+      "name": [
+        "First Arts Perfect Attack Addition",
+        "First Arts JA Addition",
+        "ファーストアーツJAアディション"
+      ],
+      "desc": [
+        [
+          "Passive\nTurns your first attack into a Perfect Attack. A cooldown is applied after activation. Doesn't affect Harmonizer attacks, pet attacks, or Techniques."
+        ],
+        [
+          "Passive\nFirst attack becomes a Just Attack. Cooldown begins after activation. Takt, Pet Attacks and Techs do not apply."
+        ],
+        [
+          "最初に放つ攻撃が、ジャストアタックになる。発動後にリキャストが発生する。タクトやペットの攻撃とテクニックは無効"
+        ]
+      ],
+      "img": "UISkillFirstArtsJustAttack",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["0.25 s"]
+        }
+      ],
+      "loc": [3, 1],
+      "req": 20,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 50,
+      "name": ["Double Jump", "Next Jump", "ネクストジャンプ"],
+      "desc": [
+        ["Passive\nEnables two-stage jumping."],
+        ["Passive\nEnables two-stage jumping."],
+        ["２段ジャンプが可能になる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 1],
+      "req": 40,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 51,
+      "name": ["Sidestep Jump", "Step Jump", "ステップジャンプ"],
+      "desc": [
+        ["Passive\nJumping during a Dodge Action transitions you into a dash."],
+        ["Passive\nJumping during a recovery action switches to sprinting."],
+        ["回避アクション中にジャンプを行うことでダッシユ状態へ移行する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 1],
+      "req": 10,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 52,
+      "name": ["Air Reversal", "Air Reversal", "エアリバーサル"],
+      "desc": [
+        ["Passive\nAllows you to perform a break-fall while in the air."],
+        ["Passive\nEnables recovery midair."],
+        ["空中で受け身がとれるようになる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 53,
+      "name": [
+        "Perf. Recovery & ATK Combo",
+        "J Reversal JA Combo",
+        "JリバーサルJAコンボ"
+      ],
+      "desc": [
+        [
+          "Passive\nMakes Perfect-Attack timing apply after a Perfect Recovery."
+        ],
+        ["Passive\nThe Just Attack circle appears after Just Reversal."],
+        ["ジャストリバーサル後にジャストアタックタイミングが発生"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 54,
+      "name": [
+        "Sidestep & Perf. ATK Combo",
+        "Step JA Combo",
+        "ステップJAコンボ"
+      ],
+      "desc": [
+        ["Passive\nMakes Perfect-Attack timing apply during a Sidestep."],
+        ["Passive\nThe JA circle appears during Step."],
+        ["ステップ時にJAタイミングが発生するようになる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 2],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    }
+  ]
+}

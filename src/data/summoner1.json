@@ -1,0 +1,1517 @@
+{
+  "id": 8,
+  "version": 1,
+  "name": ["Summoner", "Summoner", "サモナー"],
+  "abrvName": "SU",
+  "img": "class8",
+  "mainOnly": false,
+  "hasSub": true,
+  "boost": [10, 0, 0, 0, 0, 0, 40, 40, 40],
+  "stats": [
+    [180, 100, 85, 85, 85, 96, 78, 78, 78],
+    [185, 100, 95, 95, 95, 102, 88, 88, 88],
+    [190, 100, 105, 105, 105, 108, 98, 98, 98],
+    [195, 100, 115, 115, 115, 113, 108, 108, 108],
+    [200, 100, 125, 125, 125, 119, 118, 118, 118],
+    [205, 100, 135, 135, 135, 125, 128, 128, 128],
+    [210, 100, 145, 145, 145, 130, 138, 138, 138],
+    [215, 100, 155, 155, 155, 136, 148, 148, 148],
+    [220, 100, 165, 165, 165, 142, 158, 158, 158],
+    [225, 100, 175, 175, 175, 148, 168, 168, 168],
+    [230, 100, 185, 185, 185, 153, 178, 178, 178],
+    [235, 100, 195, 195, 195, 159, 188, 188, 188],
+    [240, 100, 205, 205, 205, 165, 198, 198, 198],
+    [245, 100, 215, 215, 215, 170, 208, 208, 208],
+    [250, 100, 225, 225, 225, 176, 218, 218, 218],
+    [255, 100, 235, 235, 235, 182, 228, 228, 228],
+    [260, 100, 245, 245, 245, 187, 238, 238, 238],
+    [265, 100, 255, 255, 255, 193, 248, 248, 248],
+    [270, 100, 265, 265, 265, 199, 258, 258, 258],
+    [275, 100, 275, 275, 275, 205, 268, 268, 268],
+    [280, 100, 279, 279, 279, 207, 271, 271, 271],
+    [285, 100, 283, 283, 283, 210, 274, 274, 274],
+    [290, 100, 287, 287, 287, 213, 277, 277, 277],
+    [295, 100, 291, 291, 291, 216, 280, 280, 280],
+    [300, 100, 295, 295, 295, 219, 283, 283, 283],
+    [305, 100, 299, 299, 299, 222, 286, 286, 286],
+    [310, 100, 303, 303, 303, 224, 289, 289, 289],
+    [315, 100, 307, 307, 307, 227, 292, 292, 292],
+    [320, 100, 311, 311, 311, 230, 295, 295, 295],
+    [325, 100, 315, 315, 315, 233, 298, 298, 298],
+    [330, 100, 318, 318, 318, 236, 301, 301, 301],
+    [335, 100, 321, 321, 321, 239, 304, 304, 304],
+    [340, 100, 324, 324, 324, 242, 307, 307, 307],
+    [345, 100, 327, 327, 327, 244, 310, 310, 310],
+    [350, 100, 330, 330, 330, 247, 313, 313, 313],
+    [355, 100, 333, 333, 333, 250, 316, 316, 316],
+    [360, 100, 336, 336, 336, 253, 319, 319, 319],
+    [365, 100, 339, 339, 339, 256, 322, 322, 322],
+    [370, 100, 342, 342, 342, 259, 325, 325, 325],
+    [375, 100, 345, 345, 345, 262, 328, 328, 328],
+    [380, 100, 348, 348, 348, 264, 331, 331, 331],
+    [385, 100, 351, 351, 351, 267, 334, 334, 334],
+    [390, 100, 354, 354, 354, 270, 337, 337, 337],
+    [395, 100, 357, 357, 357, 273, 340, 340, 340],
+    [400, 100, 360, 360, 360, 276, 343, 343, 343],
+    [405, 100, 363, 363, 363, 279, 346, 346, 346],
+    [410, 100, 366, 366, 366, 281, 349, 349, 349],
+    [415, 100, 369, 369, 369, 284, 352, 352, 352],
+    [420, 100, 372, 372, 372, 287, 355, 355, 355],
+    [425, 100, 375, 375, 375, 290, 358, 358, 358],
+    [430, 100, 378, 378, 378, 293, 361, 361, 361],
+    [435, 100, 381, 381, 381, 296, 364, 364, 364],
+    [440, 100, 384, 384, 384, 299, 367, 367, 367],
+    [445, 100, 387, 387, 387, 302, 370, 370, 370],
+    [450, 100, 390, 390, 390, 305, 373, 373, 373],
+    [455, 100, 393, 393, 393, 308, 376, 376, 376],
+    [460, 100, 396, 396, 396, 311, 379, 379, 379],
+    [465, 100, 399, 399, 399, 314, 382, 382, 382],
+    [470, 100, 402, 402, 402, 317, 385, 385, 385],
+    [475, 100, 405, 405, 405, 320, 388, 388, 388],
+    [480, 100, 409, 409, 409, 323, 391, 391, 391],
+    [485, 100, 413, 413, 413, 326, 394, 394, 394],
+    [490, 100, 417, 417, 417, 329, 397, 397, 397],
+    [495, 100, 421, 421, 421, 332, 400, 400, 400],
+    [500, 100, 425, 425, 425, 335, 403, 403, 403],
+    [505, 100, 429, 429, 429, 338, 406, 406, 406],
+    [510, 100, 433, 433, 433, 341, 409, 409, 409],
+    [515, 100, 437, 437, 437, 344, 412, 412, 412],
+    [520, 100, 441, 441, 441, 347, 415, 415, 415],
+    [525, 100, 445, 445, 445, 350, 418, 418, 418],
+    [530, 100, 449, 449, 449, 353, 421, 421, 421],
+    [535, 100, 453, 453, 453, 356, 424, 424, 424],
+    [540, 100, 457, 457, 457, 359, 427, 427, 427],
+    [545, 100, 461, 461, 461, 362, 430, 430, 430],
+    [550, 100, 465, 465, 465, 365, 433, 433, 433],
+    [555, 100, 469, 469, 469, 368, 436, 436, 436],
+    [560, 100, 473, 473, 473, 371, 439, 439, 439],
+    [565, 100, 477, 477, 477, 374, 442, 442, 442],
+    [570, 100, 481, 481, 481, 377, 445, 445, 445],
+    [575, 100, 485, 485, 485, 380, 448, 448, 448],
+    [580, 100, 489, 489, 489, 383, 451, 451, 451],
+    [585, 100, 493, 493, 493, 386, 454, 454, 454],
+    [590, 100, 497, 497, 497, 389, 457, 457, 457],
+    [595, 100, 501, 501, 501, 392, 460, 460, 460],
+    [600, 100, 505, 505, 505, 395, 463, 463, 463],
+    [605, 100, 509, 509, 509, 398, 466, 466, 466],
+    [610, 100, 513, 513, 513, 401, 469, 469, 469],
+    [615, 100, 517, 517, 517, 404, 472, 472, 472],
+    [620, 100, 521, 521, 521, 407, 475, 475, 475],
+    [625, 100, 525, 525, 525, 410, 478, 478, 478],
+    [630, 100, 529, 529, 529, 413, 481, 481, 481],
+    [635, 100, 533, 533, 533, 416, 484, 484, 484],
+    [640, 100, 537, 537, 537, 419, 487, 487, 487],
+    [645, 100, 541, 541, 541, 422, 490, 490, 490],
+    [650, 100, 545, 545, 545, 425, 493, 493, 493],
+    [655, 100, 549, 549, 549, 428, 496, 496, 496],
+    [660, 100, 553, 553, 553, 431, 499, 499, 499],
+    [665, 100, 557, 557, 557, 434, 502, 502, 502],
+    [670, 100, 561, 561, 561, 437, 505, 505, 505],
+    [675, 100, 565, 565, 565, 440, 508, 508, 508]
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "name": ["Blind Escape", "Mirage Escape", "ミラージュエスケープ"],
+      "desc": [
+        [
+          "Allows you to move a set distance in an invulnerable state after disrupting the enemy's vision."
+        ],
+        [
+          "Active\nDisturb visual information and move a fixed distance while invulnerable."
+        ],
+        ["視覚情報を撹乱し、無敵状態で一定距離を移動する"]
+      ],
+      "img": "skill_force-a_0003",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[1, 0]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 1,
+      "name": ["Perfect Recovery", "Just Reversal", "ジャストリバーサル"],
+      "desc": [
+        [
+          "Allows you to quickly jump up after being knocked back onto the ground."
+        ],
+        [
+          "Passive\nPress the jump button to quickly recover when knocked down."
+        ],
+        ["吹き飛ばされてダウンしたときにジャンプ操作で素早く起き上がる"]
+      ],
+      "img": "skill_force-p_0003",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 0],
+      "unlocks": null
+    },
+    {
+      "id": 2,
+      "name": [
+        "Sub-Class Growth Up",
+        "Sub Class Grow Up",
+        "サブクラスグロウアップ"
+      ],
+      "desc": [
+        [
+          "Grants a double bonus to EXP earned by your selected Sub-Class during a quest. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nGain a bonus to your subclass's EXP gain during quests. ",
+          "Main class only."
+        ],
+        [
+          "設定しているサブクラスがクエスト中に入手する経験値に倍率ボーナスを得る。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-p_0009",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["EXP Multiplier", "EXP Increase", "経験値倍率"],
+          "stats": ["100%"]
+        }
+      ],
+      "loc": [5, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 3,
+      "name": ["HP Up", "HP Up", "HPアップ"],
+      "desc": [
+        ["Boosts your max HP."],
+        ["Passive\nIncrease your maximum HP."],
+        ["HP最大値が上昇する"]
+      ],
+      "img": "skill_common_0000",
+      "min": 0,
+      "max": 5,
+      "stat": [[0, 5]],
+      "effects": [
+        {
+          "header": ["Max HP", "Maximum HP", "HP最大値"],
+          "stats": ["+20", "+25", "+30", "+35", "+50"]
+        }
+      ],
+      "loc": [1, 1],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [4, 1],
+        [5, 1],
+        [6, 1]
+      ],
+      "unlockImg": "summonermain"
+    },
+    {
+      "id": 4,
+      "name": ["Pet Switch Shot", "Pet Switch Shoot", "ペットスイッチシュート"],
+      "desc": [
+        [
+          "Converts your pet's attacks so that they're carried out with Ranged Power. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Active\nChange your pet's attacks to use R-ATK. ",
+          "Main class only."
+        ],
+        [
+          "ペットによる攻撃を射撃力で行うように切り替える。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-a_0004",
+      "min": 0,
+      "max": 1,
+      "loc": [3, 4],
+      "mobileLoc": [],
+      "prereqs": [3, 1],
+      "unlocks": null
+    },
+    {
+      "id": 5,
+      "name": [
+        "Pet Switch Strike",
+        "Pet Switch Strike",
+        "ペットスイッチストライク"
+      ],
+      "desc": [
+        [
+          "Converts your pet's attacks so that they're carried out with Melee Power. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Active\nChange your pet's attacks to use S-ATK. ",
+          "Main class only."
+        ],
+        [
+          "ペットによる攻撃を打撃力で行うように切り替える。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-a_0003",
+      "min": 0,
+      "max": 1,
+      "loc": [2, 4],
+      "mobileLoc": [],
+      "prereqs": [3, 1],
+      "unlocks": null
+    },
+    {
+      "id": 6,
+      "name": ["HP Restorate", "HP Restorate", "HPリストレイト"],
+      "desc": [
+        [
+          "Causes you to recover HP gradually when your HP falls below a certain threshold."
+        ],
+        [
+          "Passive\nGradually recover HP once your HP fall below the threshold."
+        ],
+        ["プレイヤーのHPが一定以下になると、HPが徐々に回復するようになる"]
+      ],
+      "img": "skill_summoner-p_0005",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["HP Threshold", "HP Threshold", "発動HP"],
+          "stats": [
+            "50%",
+            "55%",
+            "60%",
+            "70%",
+            "75%",
+            "80%",
+            "85%",
+            "90%",
+            "95%",
+            "100%"
+          ]
+        },
+        {
+          "header": ["Recovery Interval", "Recovery Interval", "回復間隔"],
+          "stats": [
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s"
+          ]
+        },
+        {
+          "header": ["Recovery", "Recovery", "回復量"],
+          "stats": [
+            "5%",
+            "5%",
+            "5%",
+            "5%",
+            "5%",
+            "5.5%",
+            "6%",
+            "6.5%",
+            "7%",
+            "7.5%"
+          ]
+        }
+      ],
+      "loc": [1, 5],
+      "mobileLoc": [],
+      "prereqs": [3, 1],
+      "unlocks": [
+        [7, 1],
+        [8, 1],
+        [9, 1]
+      ],
+      "unlockImg": "forkrightthree"
+    },
+    {
+      "id": 7,
+      "name": ["Unstoppable Recovery", "Massive Mate", "マッシブメイト"],
+      "desc": [
+        [
+          "Eliminates recoil and reduces damage taken when you use a Recovery Item."
+        ],
+        [
+          "Passive\nReduce damage taken and prevent flinching while using a recovery item."
+        ],
+        ["回復アイテム使用時にひるまなくなり、被ダメージが減少する"]
+      ],
+      "img": "skill_summoner-p_0006",
+      "min": 0,
+      "max": 1,
+      "loc": [3, 6],
+      "mobileLoc": [],
+      "prereqs": [6, 1],
+      "unlocks": null
+    },
+    {
+      "id": 8,
+      "name": ["Quick Recovery", "Quick Recovery", "クイックリカバリー"],
+      "desc": [
+        [
+          "Reduces the duration of your Jellen. Blight Rounds, and status ailments."
+        ],
+        [
+          "Passive\nReduce the time you are affected by status abnormalities, Weak Bullet and Jellen."
+        ],
+        ["プレイヤーが受けた状態異常とウィークバレットとジェルンを短縮する"]
+      ],
+      "img": "skill_summoner-p_0008",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": [
+            "Status Ailment Duration",
+            "Status Abnormality Duration",
+            "状態異常時間"
+          ],
+          "stats": ["75%", "65%", "50%", "40%", "30%"]
+        }
+      ],
+      "loc": [2, 6],
+      "mobileLoc": [],
+      "prereqs": [6, 1],
+      "unlocks": null
+    },
+    {
+      "id": 9,
+      "name": [
+        "All Attack Bonus 1",
+        "All Attack Bonus 1",
+        "オールアタックボーナス1"
+      ],
+      "desc": [
+        ["Grants a bonus to damage dealt by the player and pets."],
+        ["Passive\nGain a bonus to your and your pet's damage."],
+        ["ペットとプレイヤーが与えるダメージにボーナスを得る"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["103%", "106%", "109%", "112%", "115%"]
+        }
+      ],
+      "loc": [1, 6],
+      "mobileLoc": [],
+      "prereqs": [6, 1],
+      "unlocks": [
+        [10, 1],
+        [11, 5]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 10,
+      "name": ["Dia Master", "Dear Master", "ディアマスター"],
+      "desc": [
+        [
+          "Adds a chance of incapacitating damage being taken by your pet instead. A period of invulnerability occurs after activation. Can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen taking damage that would kill you, your pet receives the damage instead. ",
+          "Main class only."
+        ],
+        [
+          "戦闘不能となるダメージを受けたとき、ペットが受けてくれることがある。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-p_0004",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["30%", "50%", "70%", "90%", "100%"]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["2 s", "3 s", "4 s", "5 s", "6 s"]
+        }
+      ],
+      "loc": [2, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 1],
+      "unlocks": null
+    },
+    {
+      "id": 11,
+      "name": ["Pet Sympathy", "Pet Sympathy", "ペットシンパシー"],
+      "desc": [
+        [
+          "Boosts pet recovery and damage dealt for a set time when you respond to a request by your pet for Shifta or Resta. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Active\nWhen casting Shifta and Resta at your pet's request, your pet's damage and recovery is increased for a fixed period of time. ",
+          "Main class only."
+        ],
+        [
+          "ペットが求めるシフタやレスタに応じると、ペットの与えるダメージや回復量が一定時間上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-a_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "30 s",
+            "36 s",
+            "42 s",
+            "48 s",
+            "54 s",
+            "60 s",
+            "66 s",
+            "72 s",
+            "80 s",
+            "90 s"
+          ]
+        },
+        {
+          "header": ["Potency", "Pet Power", "ペット威力"],
+          "stats": [
+            "120%",
+            "120%",
+            "120%",
+            "120%",
+            "120%",
+            "120%",
+            "120%",
+            "120%",
+            "120%",
+            "120%"
+          ]
+        },
+        {
+          "header": ["HP Recovery Rate", "HP Recovery Rate", "HP回復率"],
+          "stats": [
+            "200%",
+            "200%",
+            "200%",
+            "200%",
+            "200%",
+            "200%",
+            "200%",
+            "200%",
+            "200%",
+            "200%"
+          ]
+        }
+      ],
+      "loc": [1, 7],
+      "mobileLoc": [],
+      "prereqs": [9, 5],
+      "unlocks": [
+        [12, 1],
+        [13, 1],
+        [14, 1],
+        [15, 3],
+        [33, 1]
+      ],
+      "unlockImg": "forkrightfour"
+    },
+    {
+      "id": 12,
+      "name": ["Easy Sympathy", "Easy Sympathy", "イージーシンパシー"],
+      "desc": [
+        [
+          "Extends the receptive period of Pet Sympathy. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nExtend the acceptance window of Pet Sympathy. ",
+          "Main class only."
+        ],
+        [
+          "ペットシンパシーの受付時間を延長する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-p_0013",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Reception Time", "Acceptance Window", "受付時間"],
+          "stats": ["10 s"]
+        }
+      ],
+      "loc": [4, 8],
+      "mobileLoc": [],
+      "prereqs": [11, 1],
+      "unlocks": null
+    },
+    {
+      "id": 13,
+      "name": ["Sympathy Time", "Sympathy Time", "シンパシータイム"],
+      "desc": [
+        [
+          "Extends the Pet Sympathy effect duration. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nExtend the effect period of Pet Sympathy. ",
+          "Main class only."
+        ],
+        [
+          "ペットシンパシーの効果時間が延長される。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-p_0013",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["120%", "140%", "160%", "180%", "200%"]
+        }
+      ],
+      "loc": [3, 8],
+      "mobileLoc": [],
+      "prereqs": [11, 1],
+      "unlocks": null
+    },
+    {
+      "id": 14,
+      "name": ["Harmonize Up", "Harmonize Up", "ハーモナイズアップ"],
+      "desc": [
+        [
+          "Boosts the probability of Pet Sympathy signs emerging. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nIncrease the chance of Pet Sympathy requests. ",
+          "Main class only."
+        ],
+        [
+          "ペットシンパシーの合図が出る確率が上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-p_0013",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["200%", "220%", "240%", "260%", "300%"]
+        }
+      ],
+      "loc": [2, 8],
+      "mobileLoc": [],
+      "prereqs": [11, 1],
+      "unlocks": null
+    },
+    {
+      "id": 15,
+      "name": [
+        "All Attack Bonus 2",
+        "All Attack Bonus 2",
+        "オールアタックボーナス2"
+      ],
+      "desc": [
+        ["Grants a bonus to damage dealt by the player and pets."],
+        ["Passive\nGain a bonus to your and your pet's damage."],
+        ["ペットとプレイヤーが与えるダメージにボーナスを得る"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["103%", "106%", "109%", "112%", "115%"]
+        }
+      ],
+      "loc": [1, 8],
+      "mobileLoc": [],
+      "prereqs": [11, 3],
+      "unlocks": [
+        [16, 1],
+        [17, 5]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 16,
+      "name": [
+        "Pet Photon Barrier",
+        "Pet Photon Barrier",
+        "ペットフォトンバリア"
+      ],
+      "desc": [
+        [
+          "Gives a set probability of neutralizing damage sustained by a pet. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen your pet receives damage, there is a chance to negate it instead. ",
+          "Main class only."
+        ],
+        [
+          "ペットがダメージを受けた際に一定確率で無効化する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-p_0003",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": ["4%", "5%", "6%", "7%", "10%"]
+        }
+      ],
+      "loc": [2, 9],
+      "mobileLoc": [],
+      "prereqs": [15, 1],
+      "unlocks": null
+    },
+    {
+      "id": 17,
+      "name": ["Summoner's Mark", "Point Assist", "ポイントアシスト"],
+      "desc": [
+        [
+          "Confers a marker that increases the damage dealt to enemies by you and your pet."
+        ],
+        [
+          "Active\nMarks enemies that will take increased from pets and players."
+        ],
+        ["エネミーにペットが与えるダメージを高めるマークを付与する"]
+      ],
+      "img": "skill_summoner-a_0000",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "12 s",
+            "16 s",
+            "20 s",
+            "24 s",
+            "28 s",
+            "32 s",
+            "36 s",
+            "40 s",
+            "40 s",
+            "40 s"
+          ]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "20 s",
+            "20 s",
+            "20 s",
+            "19 s",
+            "18 s",
+            "17 s",
+            "16 s",
+            "15 s",
+            "10 s",
+            "5 s"
+          ]
+        },
+        {
+          "header": ["Potency", "Pet Power", "ペット威力"],
+          "stats": [
+            "115%",
+            "115%",
+            "115%",
+            "115%",
+            "115%",
+            "115%",
+            "115%",
+            "115%",
+            "115%",
+            "115%"
+          ]
+        }
+      ],
+      "loc": [1, 9],
+      "mobileLoc": [],
+      "prereqs": [15, 5],
+      "unlocks": [
+        [18, 3],
+        [19, 3],
+        [20, 3]
+      ],
+      "unlockImg": "forkrightdouble"
+    },
+    {
+      "id": 18,
+      "name": ["Enhanced Mark", "Support Fire", "サポートファイア"],
+      "desc": [
+        [
+          "Boosts damage you deal to any area of an enemy that has a Summoner's Mark attached."
+        ],
+        [
+          "Passive\nIncrease your own and your pet's damage inflicted to all body parts of an enemy marked by Point Assist."
+        ],
+        [
+          "ポイントアシストが付いてるエネミーの全身にペットが与えるダメージが上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-p_0010",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Potency", "Pet Power", "ペット威力"],
+          "stats": ["110%"]
+        }
+      ],
+      "loc": [2, 10],
+      "mobileLoc": [],
+      "prereqs": [17, 3],
+      "unlocks": null
+    },
+    {
+      "id": 19,
+      "name": ["Reserve Recovery", "Reserve Recovery", "リザーブリカバリー"],
+      "desc": [
+        [
+          "Boosts the rate of recovery of pets that aren't equipped and are included in the Weapon Palette."
+        ],
+        [
+          "Passive\nIncrease the recovery rate of inactive pets on your weapon palette."
+        ],
+        ["武器パレットに入っている装備していないペットの回復速度が上昇する"]
+      ],
+      "img": "skill_summoner-p_0011",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["HP Recovery", "HP Recovery", "HP回復量"],
+          "stats": ["7.5%"]
+        }
+      ],
+      "loc": [2, 11],
+      "mobileLoc": [],
+      "prereqs": [17, 3],
+      "unlocks": null
+    },
+    {
+      "id": 20,
+      "name": ["Pet Recovery", "Pet Recovery", "ペットリカバリー"],
+      "desc": [
+        [
+          "Allows deployed pets to gradually recover their HP. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nGradually recover your active pet's HP. ",
+          "Main class only."
+        ],
+        [
+          "出しているペットのHPが徐々に回復するようになる。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-p_0012",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Recovery", "Recovery", "回復量"],
+          "stats": ["1%", "1.5%", "2%", "2.5%", "3%"]
+        },
+        {
+          "header": ["Recovery Interval", "Recovery Interval", "回復間隔"],
+          "stats": ["5 s", "5 s", "5 s", "5 s", "5 s"]
+        }
+      ],
+      "loc": [1, 11],
+      "mobileLoc": [],
+      "prereqs": [17, 3],
+      "unlocks": [
+        [21, 3],
+        [22, 3],
+        [23, 3],
+        [25, 3],
+        [27, 3],
+        [29, 3],
+        [30, 3],
+        [31, 3]
+      ],
+      "unlockImg": "petrecovery"
+    },
+    {
+      "id": 21,
+      "name": [
+        "Pet Elemental PP Restorate",
+        "Pet Element PP Restorate",
+        "ペットエレメントPPリストレイト"
+      ],
+      "desc": [
+        [
+          "Boosts PP recovery when a pet hits the enemy with a Normal Attack that exploits the latter’s Elemental Weakness. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nIncrease your PP recovery rate when your pet normally attacks enemies using their attribute weakness. ",
+          "Main class only."
+        ],
+        [
+          "エネミーの弱点属性でペットが通常攻撃を当てたときのPP回復量が上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-p_0016",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["PP Increase Rate", "PP Increase Rate", "PP増加率"],
+          "stats": ["110%", "120%", "130%", "140%", "150%"]
+        }
+      ],
+      "loc": [3, 12],
+      "mobileLoc": [],
+      "prereqs": [20, 3],
+      "unlocks": null
+    },
+    {
+      "id": 22,
+      "name": [
+        "Pet Elemental Precision Hit",
+        "Pet Element Weak Hit",
+        "ペットエレメントウィークヒット"
+      ],
+      "desc": [
+        [
+          "Boosts damage dealt when exploiting an Elemental Weakness. Greatly boosts the damage dealt by a pet."
+        ],
+        [
+          "Passive\nIncrease your damage using attribute weaknesses. The increase is greater for your pet."
+        ],
+        ["弱点属性へのダメージを上昇させる。ペットの場合は大きく上昇する"]
+      ],
+      "img": "skill_summoner-p_0015",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Pet Power", "ペット威力"],
+          "stats": ["106%", "107%", "108%", "109%", "110%"]
+        },
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [2, 12],
+      "mobileLoc": [],
+      "prereqs": [20, 3],
+      "unlocks": null
+    },
+    {
+      "id": 23,
+      "name": [
+        "Total Defense / Dexterity Up",
+        "All Defenses and Dexterity Up",
+        "全防御・技量アップ"
+      ],
+      "desc": [
+        [
+          "Boosts your Melee Defense, Ranged Defense, and Technique Defense, as well as your Dexterity."
+        ],
+        ["Passive\nIncrease your S-DEF, R-DEF, T-DEF and DEX."],
+        ["打・射・法防御力と技量が上昇する"]
+      ],
+      "img": "skill_summoner-p_0002",
+      "min": 0,
+      "max": 5,
+      "stat": [
+        [5, 2],
+        [6, 6],
+        [7, 6],
+        [8, 6]
+      ],
+      "effects": [
+        {
+          "header": ["DEF", "DEF", "防御"],
+          "stats": ["+20", "+25", "+30", "+35", "+50"]
+        },
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": ["+10", "+13", "+15", "+18", "+25"]
+        }
+      ],
+      "loc": [5, 13],
+      "mobileLoc": [],
+      "prereqs": [20, 3],
+      "unlocks": [[24, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 24,
+      "name": [
+        "Total Defense / Dexterity Mega-Up",
+        "All Defenses and Dexterity High Up",
+        "全防御・技量ハイアップ"
+      ],
+      "desc": [
+        [
+          "Greatly boosts your Melee Defense, Ranged Defense, and Technique Defense, as well as your Dexterity."
+        ],
+        ["Passive\nIncrease your S-DEF, R-DEF, T-DEF and DEX greatly."],
+        ["打・射・法防御力と技量が大きく上昇する"]
+      ],
+      "img": "skill_summoner-p_0002",
+      "min": 0,
+      "max": 10,
+      "stat": [
+        [5, 2],
+        [6, 6],
+        [7, 6],
+        [8, 6]
+      ],
+      "effects": [
+        {
+          "header": ["DEF", "DEF", "防御"],
+          "stats": [
+            "+20",
+            "+25",
+            "+30",
+            "+35",
+            "+50",
+            "+65",
+            "+80",
+            "+100",
+            "+120",
+            "+150"
+          ]
+        },
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+10",
+            "+13",
+            "+15",
+            "+18",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [5, 14],
+      "mobileLoc": [],
+      "prereqs": [23, 3],
+      "unlocks": null
+    },
+    {
+      "id": 25,
+      "name": ["Total Attack Up", "All Attacks Up", "全攻撃アップ"],
+      "desc": [
+        ["Boosts your Melee Power, Ranged Power, and Technique Power."],
+        ["Passive\nIncrease your S-ATK, R-ATK and T-ATK."],
+        ["打・射・法撃力が上昇する"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 5,
+      "stat": [
+        [2, 6],
+        [3, 6],
+        [4, 6]
+      ],
+      "effects": [
+        {
+          "header": ["ATK", "ATK", "攻撃力"],
+          "stats": ["+20", "+25", "+30", "+35", "+50"]
+        }
+      ],
+      "loc": [4, 13],
+      "mobileLoc": [],
+      "prereqs": [20, 3],
+      "unlocks": [[26, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 26,
+      "name": [
+        "Total Attack Mega-Up",
+        "All Attacks High Up",
+        "全攻撃ハイアップ"
+      ],
+      "desc": [
+        ["Greatly boosts your Melee Power, Ranged Power, and Technique Power."],
+        ["Passive\nIncrease your S-ATK, R-ATK and T-ATK greatly."],
+        ["打・射・法撃力が大きく上昇する"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 10,
+      "stat": [
+        [2, 6],
+        [3, 6],
+        [4, 6]
+      ],
+      "effects": [
+        {
+          "header": ["ATK", "ATK", "攻撃力"],
+          "stats": [
+            "+20",
+            "+25",
+            "+30",
+            "+35",
+            "+50",
+            "+65",
+            "+80",
+            "+100",
+            "+120",
+            "+150"
+          ]
+        }
+      ],
+      "loc": [4, 14],
+      "mobileLoc": [],
+      "prereqs": [25, 3],
+      "unlocks": null
+    },
+    {
+      "id": 27,
+      "name": ["PP Up 1", "PP Up 1", "PPアップ1"],
+      "desc": [
+        ["Boosts your Max PP."],
+        ["Passive\nIncrease your maximum PP."],
+        ["PP最大値が上昇する"]
+      ],
+      "img": "skill_common_0001",
+      "min": 0,
+      "max": 5,
+      "stat": [[1, 0]],
+      "effects": [
+        {
+          "header": ["Max PP", "Maximum PP", "PP最大値"],
+          "stats": ["+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10"]
+        }
+      ],
+      "loc": [3, 13],
+      "mobileLoc": [],
+      "prereqs": [20, 3],
+      "unlocks": [[28, 3]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 28,
+      "name": ["PP Up 2", "PP Up 2", "PPアップ2"],
+      "desc": [
+        ["Boosts your Max PP."],
+        ["Passive\nIncrease your maximum PP."],
+        ["PP最大値が上昇する"]
+      ],
+      "img": "skill_common_0001",
+      "min": 0,
+      "max": 10,
+      "stat": [[1, 0]],
+      "effects": [
+        {
+          "header": ["Max PP", "Maximum PP", "PP最大値"],
+          "stats": ["+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10"]
+        }
+      ],
+      "loc": [3, 14],
+      "mobileLoc": [],
+      "prereqs": [27, 3],
+      "unlocks": null
+    },
+    {
+      "id": 29,
+      "name": ["HP Mega-Up", "HP High Up", "HPハイアップ"],
+      "desc": [
+        ["Greatly boosts your Max HP."],
+        ["Passive\nIncrease your maximum HP greatly."],
+        ["HP最大値が大きく上昇する"]
+      ],
+      "img": "skill_common_0000",
+      "min": 0,
+      "max": 10,
+      "stat": [[0, 5]],
+      "effects": [
+        {
+          "header": ["Max HP", "Maximum HP", "HP最大値"],
+          "stats": [
+            "+20",
+            "+25",
+            "+30",
+            "+35",
+            "+50",
+            "+60",
+            "+70",
+            "+80",
+            "+90",
+            "+100"
+          ]
+        }
+      ],
+      "loc": [2, 14],
+      "mobileLoc": [],
+      "prereqs": [20, 3],
+      "unlocks": null
+    },
+    {
+      "id": 30,
+      "name": ["Alter Ego", "Alter Ego", "アルターエゴ"],
+      "desc": [
+        [
+          "Grants a damage bonus for a set time in exchange for the player also taking damage whenever a pet takes damage. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Active\nGain a damage bonus and also receive the same damage your pet receives for a fixed period of time. ",
+          "Main class only."
+        ],
+        [
+          "一定時間ペットがダメージを受けるとプレイヤーも受ける代わりにダメージボーナスを得る。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-a_0002",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Pet Power", "ペット威力"],
+          "stats": [
+            "105%",
+            "105%",
+            "110%",
+            "110%",
+            "115%",
+            "116%",
+            "117%",
+            "118%",
+            "119%",
+            "120%"
+          ]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "10 s",
+            "15 s",
+            "20 s",
+            "25 s",
+            "30 s",
+            "35 s",
+            "40 s",
+            "45 s",
+            "50 s",
+            "60 s"
+          ]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "60 s",
+            "60 s",
+            "60 s",
+            "60 s",
+            "60 s",
+            "65 s",
+            "70 s",
+            "75 s",
+            "80 s",
+            "90 s"
+          ]
+        },
+        {
+          "header": ["Damage Rate", "Received Damage", "被ダメージ率"],
+          "stats": [
+            "100%",
+            "95%",
+            "90%",
+            "85%",
+            "80%",
+            "80%",
+            "80%",
+            "80%",
+            "80%",
+            "80%"
+          ]
+        }
+      ],
+      "loc": [2, 15],
+      "mobileLoc": [],
+      "prereqs": [20, 3],
+      "unlocks": null
+    },
+    {
+      "id": 31,
+      "name": ["Advanced Photon Blast", "PB Advance", "PBアドバンス"],
+      "desc": [
+        ["Boosts Photon Blast damage."],
+        ["Passive\nIncrease the damage of Photon Blasts."],
+        ["フォトンブラストのダメージが上昇する"]
+      ],
+      "img": "skill_summoner-p_0014",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["110%", "115%", "120%", "125%", "130%"]
+        }
+      ],
+      "loc": [1, 15],
+      "mobileLoc": [],
+      "prereqs": [20, 3],
+      "unlocks": null
+    },
+    {
+      "id": 32,
+      "name": ["Assist Share", "Assist Share", "アシストシェア"],
+      "desc": [
+        [
+          "When you switch pets, allows the pet you switch to to inherit Pet Sympathy effects, as well as other effect such as Shifta and Deband. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Active\nWhen switching pets, the effects of sympathy, shifta, deband, etc. will be applied to the second pet. ",
+          "Main class only."
+        ],
+        [
+          "ペットを切り替えたとき、切り替え先のペットにシンパシー効果やシフタ、デバンドなどの効果を引き継ぐ。 このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-a_0005",
+      "min": 0,
+      "max": 1,
+      "loc": [4, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 33,
+      "name": [
+        "Long Distance Love",
+        "Long Distance Love",
+        "ロングディスタンスラブ"
+      ],
+      "desc": [
+        [
+          "Allows Shifta and Resta requested by your pet to remain in effect even when your pet leaves your side. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nThe shifta and resta that the pet gives is applied even if the pet is away. ",
+          "Main class only."
+        ],
+        [
+          "ペットが求めるシフタやレスタは、ペットが離れていても効果が得られる。 このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_summoner-p_0017",
+      "min": 0,
+      "max": 1,
+      "loc": [5, 8],
+      "mobileLoc": [],
+      "prereqs": [11, 1],
+      "unlocks": null
+    },
+    {
+      "id": 34,
+      "name": [
+        "High Level Bonus Su",
+        "High Level Bonus Su",
+        "ハイレベルボーナスSu"
+      ],
+      "desc": [
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["プレイヤーが与えるダメージにボーナスを得る"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [3, 2],
+      "req": 80,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 35,
+      "name": [
+        "Alter Ego Harmony",
+        "Alter Ego Harmony",
+        "アルターエゴハーモニー"
+      ],
+      "desc": [
+        [
+          "Passive\nDuring Alter Ego, received damage is reduced and status abnormalities have no effect while you have a pet active. ",
+          "Main class only."
+        ],
+        [
+          "Passive\nDuring Alter Ego, received damage is reduced and status abnormalities have no effect while you have a pet active. ",
+          "Main class only."
+        ],
+        [
+          "アルターエゴ発動中、ペットを出している間は被ダメージを軽減し状態異常が無効になる。このスキルはメインクラスのみ適用される。"
+        ]
+      ],
+      "img": "SuAlterEgoHarmony",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 2],
+      "req": 85,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 36,
+      "name": [
+        "First Arts Perfect Attack Addition",
+        "First Arts JA Addition",
+        "ファーストアーツJAアディション"
+      ],
+      "desc": [
+        [
+          "Passive\nTurns your first attack into a Perfect Attack. A cooldown is applied after activation. Doesn't affect Harmonizer attacks, pet attacks, or Techniques."
+        ],
+        [
+          "Passive\nFirst attack becomes a Just Attack. Cooldown begins after activation. Takt, Pet Attacks and Techs do not apply."
+        ],
+        [
+          "最初に放つ攻撃が、ジャストアタックになる。発動後にリキャストが発生する。タクトやペットの攻撃とテクニックは無効"
+        ]
+      ],
+      "img": "UISkillFirstArtsJustAttack",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["0.25 s"]
+        }
+      ],
+      "loc": [3, 1],
+      "req": 20,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 37,
+      "name": ["Double Jump", "Next Jump", "ネクストジャンプ"],
+      "desc": [
+        ["Passive\nEnables two-stage jumping."],
+        ["Passive\nEnables two-stage jumping."],
+        ["２段ジャンプが可能になる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 1],
+      "req": 40,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 38,
+      "name": ["Sidestep Jump", "Step Jump", "ステップジャンプ"],
+      "desc": [
+        ["Passive\nJumping during a Dodge Action transitions you into a dash."],
+        ["Passive\nJumping during a recovery action switches to sprinting."],
+        ["回避アクション中にジャンプを行うことでダッシユ状態へ移行する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 1],
+      "req": 10,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 39,
+      "name": ["Air Reversal", "Air Reversal", "エアリバーサル"],
+      "desc": [
+        ["Passive\nAllows you to perform a break-fall while in the air."],
+        ["Passive\nEnables recovery midair."],
+        ["空中で受け身がとれるようになる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 40,
+      "name": [
+        "Perf. Recovery & ATK Combo",
+        "J Reversal JA Combo",
+        "JリバーサルJAコンボ"
+      ],
+      "desc": [
+        [
+          "Passive\nMakes Perfect-Attack timing apply after a Perfect Recovery."
+        ],
+        ["Passive\nThe Just Attack circle appears after Just Reversal."],
+        ["ジャストリバーサル後にジャストアタックタイミングが発生"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 41,
+      "name": [
+        "Sidestep & Perf. ATK Combo",
+        "Step JA Combo",
+        "ステップJAコンボ"
+      ],
+      "desc": [
+        ["Passive\nMakes Perfect-Attack timing apply during a Sidestep."],
+        ["Passive\nThe JA circle appears during Step."],
+        ["ステップ時にJAタイミングが発生するようになる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 2],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    }
+  ]
+}

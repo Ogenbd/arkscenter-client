@@ -1,0 +1,1617 @@
+{
+  "id": 4,
+  "version": 1,
+  "name": ["Force", "Force", "フォース"],
+  "abrvName": "FO",
+  "img": "class4",
+  "mainOnly": false,
+  "hasSub": true,
+  "boost": [0, 0, 0, 15, 20, 0, 0, 0, 40],
+  "stats": [
+    [160, 100, 72, 81, 90, 91, 72, 72, 90],
+    [164, 100, 80, 90, 100, 97, 80, 80, 100],
+    [168, 100, 88, 99, 110, 103, 88, 88, 110],
+    [172, 100, 96, 108, 120, 108, 96, 96, 120],
+    [176, 100, 104, 117, 130, 114, 104, 104, 130],
+    [180, 100, 112, 126, 140, 120, 112, 112, 140],
+    [184, 100, 120, 135, 150, 125, 120, 120, 150],
+    [188, 100, 128, 144, 160, 131, 128, 128, 160],
+    [192, 100, 136, 153, 170, 137, 136, 136, 170],
+    [196, 100, 144, 162, 180, 143, 144, 144, 180],
+    [200, 100, 152, 171, 190, 148, 152, 152, 190],
+    [204, 100, 160, 180, 200, 154, 160, 160, 200],
+    [208, 100, 168, 189, 210, 160, 168, 168, 210],
+    [212, 100, 176, 198, 220, 165, 176, 176, 220],
+    [216, 100, 184, 207, 230, 171, 184, 184, 230],
+    [220, 100, 192, 216, 240, 177, 192, 192, 240],
+    [224, 100, 200, 225, 250, 182, 200, 200, 250],
+    [228, 100, 208, 234, 260, 188, 208, 208, 260],
+    [232, 100, 216, 243, 270, 194, 216, 216, 270],
+    [236, 100, 224, 252, 280, 200, 224, 224, 280],
+    [240, 100, 227, 256, 284, 202, 227, 227, 284],
+    [244, 100, 230, 259, 288, 205, 230, 230, 288],
+    [248, 100, 234, 263, 292, 208, 234, 234, 292],
+    [252, 100, 237, 266, 296, 211, 237, 237, 296],
+    [256, 100, 240, 270, 300, 214, 240, 240, 300],
+    [260, 100, 243, 274, 304, 217, 243, 243, 304],
+    [264, 100, 246, 277, 308, 219, 246, 246, 308],
+    [268, 100, 250, 281, 312, 222, 250, 250, 312],
+    [272, 100, 253, 284, 316, 225, 253, 253, 316],
+    [276, 100, 256, 288, 320, 228, 256, 256, 320],
+    [280, 100, 259, 292, 324, 231, 259, 259, 324],
+    [284, 100, 262, 295, 328, 234, 262, 262, 328],
+    [288, 100, 266, 299, 332, 237, 266, 266, 332],
+    [292, 100, 269, 302, 336, 239, 269, 269, 336],
+    [296, 100, 272, 306, 340, 242, 272, 272, 340],
+    [300, 100, 275, 310, 344, 245, 275, 275, 344],
+    [304, 100, 278, 313, 348, 248, 278, 278, 348],
+    [308, 100, 282, 317, 352, 251, 282, 282, 352],
+    [312, 100, 285, 320, 356, 254, 285, 285, 356],
+    [316, 100, 288, 324, 360, 257, 288, 288, 360],
+    [320, 100, 291, 328, 364, 259, 291, 291, 364],
+    [324, 100, 294, 331, 368, 262, 294, 294, 368],
+    [328, 100, 298, 335, 372, 265, 298, 298, 372],
+    [332, 100, 301, 338, 376, 268, 301, 301, 376],
+    [336, 100, 304, 342, 380, 271, 304, 304, 380],
+    [340, 100, 307, 346, 384, 274, 307, 307, 384],
+    [344, 100, 310, 349, 388, 276, 310, 310, 388],
+    [348, 100, 314, 353, 392, 279, 314, 314, 392],
+    [352, 100, 317, 356, 396, 282, 317, 317, 396],
+    [356, 100, 320, 360, 400, 285, 320, 320, 400],
+    [360, 100, 323, 364, 404, 288, 323, 323, 404],
+    [364, 100, 326, 368, 408, 291, 326, 326, 408],
+    [368, 100, 329, 372, 412, 294, 329, 329, 412],
+    [372, 100, 332, 376, 416, 297, 332, 332, 416],
+    [376, 100, 335, 380, 420, 300, 335, 335, 420],
+    [380, 100, 338, 384, 424, 303, 338, 338, 424],
+    [384, 100, 341, 388, 428, 306, 341, 341, 428],
+    [388, 100, 344, 392, 432, 309, 344, 344, 432],
+    [392, 100, 347, 396, 436, 312, 347, 347, 436],
+    [396, 100, 350, 400, 440, 315, 350, 350, 440],
+    [400, 100, 353, 404, 444, 318, 353, 353, 444],
+    [404, 100, 356, 408, 448, 321, 356, 356, 448],
+    [408, 100, 359, 412, 452, 324, 359, 359, 452],
+    [412, 100, 362, 416, 456, 327, 362, 362, 456],
+    [416, 100, 365, 420, 460, 330, 365, 365, 460],
+    [420, 100, 368, 424, 464, 333, 368, 368, 464],
+    [424, 100, 371, 428, 468, 336, 371, 371, 468],
+    [428, 100, 374, 432, 472, 339, 374, 374, 472],
+    [432, 100, 377, 436, 476, 342, 377, 377, 476],
+    [436, 100, 380, 440, 480, 345, 380, 380, 480],
+    [440, 100, 383, 444, 484, 348, 383, 383, 484],
+    [444, 100, 386, 448, 488, 351, 386, 386, 488],
+    [448, 100, 389, 452, 492, 354, 389, 389, 492],
+    [452, 100, 392, 456, 496, 357, 392, 392, 496],
+    [456, 100, 395, 460, 500, 360, 395, 395, 500],
+    [460, 100, 398, 464, 504, 363, 398, 398, 504],
+    [464, 100, 401, 468, 508, 366, 401, 401, 508],
+    [468, 100, 404, 472, 512, 369, 404, 404, 512],
+    [472, 100, 407, 476, 516, 372, 407, 407, 516],
+    [476, 100, 410, 480, 520, 375, 410, 410, 520],
+    [480, 100, 413, 484, 524, 378, 413, 413, 524],
+    [484, 100, 416, 488, 528, 381, 416, 416, 528],
+    [488, 100, 419, 492, 532, 384, 419, 419, 532],
+    [492, 100, 422, 496, 536, 387, 422, 422, 536],
+    [496, 100, 425, 500, 540, 390, 425, 425, 540],
+    [500, 100, 428, 504, 544, 393, 428, 428, 544],
+    [504, 100, 431, 508, 548, 396, 431, 431, 548],
+    [508, 100, 434, 512, 552, 399, 434, 434, 552],
+    [512, 100, 437, 516, 556, 402, 437, 437, 556],
+    [516, 100, 440, 520, 560, 405, 440, 440, 560],
+    [520, 100, 443, 524, 564, 408, 443, 443, 564],
+    [524, 100, 446, 528, 568, 411, 446, 446, 568],
+    [528, 100, 449, 532, 572, 414, 449, 449, 572],
+    [532, 100, 452, 536, 576, 417, 452, 452, 576],
+    [536, 100, 455, 540, 580, 420, 455, 455, 580],
+    [540, 100, 458, 544, 584, 423, 458, 458, 584],
+    [544, 100, 461, 548, 588, 426, 461, 461, 588],
+    [548, 100, 464, 552, 592, 429, 464, 464, 592],
+    [552, 100, 467, 556, 596, 432, 467, 467, 596],
+    [556, 100, 470, 560, 600, 435, 470, 470, 600]
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "name": ["Blind Escape", "Mirage Escape", "ミラージュエスケープ"],
+      "desc": [
+        [
+          "Allows you to move a set distance in an invulnerable state after disrupting the enemy's vision."
+        ],
+        [
+          "Active\nDisturb visual information and move a fixed distance while invulnerable."
+        ],
+        ["視覚情報を撹乱し、無敵状態で一定距離を移動する"]
+      ],
+      "img": "skill_force-a_0003",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [[1, 0]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 1,
+      "name": ["Perfect Recovery", "Just Reversal", "ジャストリバーサル"],
+      "desc": [
+        [
+          "Allows you to quickly jump up after being knocked back onto the ground."
+        ],
+        [
+          "Passive\nPress the jump button to quickly recover when knocked down."
+        ],
+        ["吹き飛ばされてダウンしたときにジャンプ操作で素早く起き上がる"]
+      ],
+      "img": "skill_force-p_0003",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 4],
+      "mobileLoc": [],
+      "prereqs": [0, 0],
+      "unlocks": null
+    },
+    {
+      "id": 2,
+      "name": [
+        "Arms Enthusiast: Force",
+        "Rare Mastery Force",
+        "レアマスタリーフォース"
+      ],
+      "desc": [
+        [
+          "Boosts the damage you deal when a weapon of Rarity 10★ or greater is equipped. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen equipped with a ★10 or higher weapon or crafted weapon, gain a damage bonus. ",
+          "Main class only."
+        ],
+        [
+          "レアリティ★10以上の武器を装備していると、法撃力が上昇する。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_force-p_0005",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 3,
+      "name": ["Talis Tech Bonus", "Talis Tech Bonus", "タリステックボーナス"],
+      "desc": [
+        ["Grants a potency bonus to Techniques activated from a thrown Talis."],
+        [
+          "Passive\nGain a power bonus to techniques invoked from a thrown Talis."
+        ],
+        ["投げたタリスから発動するテクニックに威力ボーナスを得る"]
+      ],
+      "img": "skill_force-p_0010",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        { "header": ["Potency", "Power", "威力"], "stats": ["120%"] }
+      ],
+      "loc": [5, 4],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 4,
+      "name": [
+        "Element Conversion",
+        "Element Conversion",
+        "エレメントコンバージョン"
+      ],
+      "desc": [
+        [
+          "Converts your weapon's Element Level into a Technique damage bonus. The combined bonus is maximized when the weapon and Technique Elements are aligned. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nYour weapon's attribute value is transformed into a damage bonus for techniques. When the attributes are identical, the effect is maximized. ",
+          "Main class only."
+        ],
+        [
+          "武器の属性値をテクニックのダメージボーナスに変換する。属性が一致すると最大値となる。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_common_0004",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": [
+            "Same Element Level",
+            "Same Attribute Conversion Rate",
+            "同属性変換率"
+          ],
+          "stats": ["50%", "50%", "50%", "50%", "50%"]
+        },
+        {
+          "header": [
+            "Different Element Level",
+            "Different Attribute Conversion Rate",
+            "他属性変換率"
+          ],
+          "stats": ["35%", "37%", "39%", "42%", "45%"]
+        }
+      ],
+      "loc": [5, 6],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 5,
+      "name": [
+        "Technique DEF Up 1",
+        "Technique Defense Up 1",
+        "法撃防御アップ1"
+      ],
+      "desc": [
+        ["Boosts your Technique Defense."],
+        ["Passive\nIncrease your T-DEF."],
+        ["法撃防御力が上昇する"]
+      ],
+      "img": "skill_common_0008",
+      "min": 0,
+      "max": 10,
+      "stat": [[7, 1]],
+      "effects": [
+        {
+          "header": ["TEC Def", "T-DEF", "法撃防御"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [4, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 6,
+      "name": ["HP Up 1", "HP Up 1", "HPアップ1"],
+      "desc": [
+        ["Boosts your max HP."],
+        ["Passive\nIncrease your maximum HP."],
+        ["HP最大値が上昇する"]
+      ],
+      "img": "skill_common_0000",
+      "min": 0,
+      "max": 10,
+      "stat": [[0, 1]],
+      "effects": [
+        {
+          "header": ["Max HP", "Maximum HP", "HP最大値"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [4, 4],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 7,
+      "name": ["PP Up 1", "PP Up 1", "PPアップ1"],
+      "desc": [
+        ["Boosts your Max PP."],
+        ["Passive\nIncrease your maximum PP."],
+        ["PP最大値が上昇する"]
+      ],
+      "img": "skill_common_0001",
+      "min": 0,
+      "max": 10,
+      "stat": [[1, 0]],
+      "effects": [
+        {
+          "header": ["Max PP", "Maximum PP", "PP最大値"],
+          "stats": ["+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10"]
+        }
+      ],
+      "loc": [3, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 8,
+      "name": ["PP Up 2", "PP Up 2", "PPアップ2"],
+      "desc": [
+        ["Boosts your Max PP."],
+        ["Passive\nIncrease your maximum PP."],
+        ["PP最大値が上昇する"]
+      ],
+      "img": "skill_common_0001",
+      "min": 0,
+      "max": 10,
+      "stat": [[1, 0]],
+      "effects": [
+        {
+          "header": ["Max PP", "Maximum PP", "PP最大値"],
+          "stats": ["+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10"]
+        }
+      ],
+      "loc": [3, 4],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 9,
+      "name": ["Dexterity Up 1", "Dexterity Up 1", "技量アップ1"],
+      "desc": [
+        ["Boosts your Dexterity."],
+        ["Passive\nIncrease your DEX."],
+        ["技量が上昇する"]
+      ],
+      "img": "skill_common_0005",
+      "min": 0,
+      "max": 10,
+      "stat": [[5, 1]],
+      "effects": [
+        {
+          "header": ["DEX", "DEX", "技量"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [2, 3],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 10,
+      "name": ["Tech. Power Up 1", "Technique Up 1", "法撃アップ1"],
+      "desc": [
+        ["Boosts your Technique Power."],
+        ["Passive\nIncrease your T-ATK."],
+        ["法撃力が上昇する"]
+      ],
+      "img": "skill_common_0004",
+      "min": 0,
+      "max": 10,
+      "stat": [[4, 1]],
+      "effects": [
+        {
+          "header": ["TEC Pwr", "T-ATK", "法撃力"],
+          "stats": [
+            "+3",
+            "+6",
+            "+10",
+            "+14",
+            "+18",
+            "+23",
+            "+28",
+            "+34",
+            "+40",
+            "+50"
+          ]
+        }
+      ],
+      "loc": [1, 1],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": [
+        [11, 2],
+        [12, 3],
+        [13, 3],
+        [14, 3],
+        [15, 3],
+        [16, 3],
+        [17, 1],
+        [18, 1],
+        [19, 2],
+        [23, 3],
+        [27, 3],
+        [33, 3]
+      ],
+      "unlockImg": "forcemain"
+    },
+    {
+      "id": 11,
+      "name": ["Tech. Power Up 2", "Technique Up 2", "法撃アップ2"],
+      "desc": [
+        ["Boosts your Technique Power."],
+        ["Passive\nIncrease your T-ATK."],
+        ["法撃力が上昇する"]
+      ],
+      "img": "skill_common_0004",
+      "min": 0,
+      "max": 10,
+      "stat": [[4, 2]],
+      "effects": [
+        {
+          "header": ["TEC Pwr", "T-ATK", "法撃力"],
+          "stats": [
+            "+4",
+            "+9",
+            "+14",
+            "+19",
+            "+25",
+            "+31",
+            "+39",
+            "+50",
+            "+62",
+            "+75"
+          ]
+        }
+      ],
+      "loc": [2, 4],
+      "mobileLoc": [],
+      "prereqs": [10, 2],
+      "unlocks": null
+    },
+    {
+      "id": 12,
+      "name": [
+        "Technique Power Mega-Up",
+        "Technique High Up",
+        "法撃ハイアップ"
+      ],
+      "desc": [
+        [
+          "Boosts your Technique Power. Produces a stronger effect than a Technique Power Up."
+        ],
+        ["Passive\nIncreases T-ATK. More efficient than Technique Up."],
+        ["法撃力が上昇する。法撃アップより効果が高い"]
+      ],
+      "img": "skill_common_0004",
+      "min": 0,
+      "max": 5,
+      "stat": [[4, 4]],
+      "effects": [
+        {
+          "header": ["TEC Pwr", "T-ATK", "法撃力"],
+          "stats": ["+40", "+60", "+80", "+100", "+120"]
+        }
+      ],
+      "loc": [2, 6],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": null
+    },
+    {
+      "id": 13,
+      "name": [
+        "Advanced Tech. Perfect Attacks",
+        "Tech JA Advance",
+        "テックJAアドバンス"
+      ],
+      "desc": [
+        ["Grants a damage bonus to Technique Perfect Attacks."],
+        [
+          "Passive\nIncreases the damage of techniques when performing Just Attacks."
+        ],
+        ["テクニックのジャストアタックにダメージボーナスを得る"]
+      ],
+      "img": "skill_common_0004",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        }
+      ],
+      "loc": [5, 7],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": null
+    },
+    {
+      "id": 14,
+      "name": [
+        "Charge PP Revival",
+        "Charge PP Revival",
+        "チャージPPリバイバル"
+      ],
+      "desc": [
+        ["Recovers PP while a Technique is being charged."],
+        ["Passive\nRecovers PP while charging."],
+        ["テクニックのチャージ中にPPが回復する"]
+      ],
+      "img": "skill_common_0001",
+      "min": 0,
+      "max": 1,
+      "loc": [4, 7],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": null
+    },
+    {
+      "id": 15,
+      "name": ["Charged Escape", "Charge Escape", "チャージエスケープ"],
+      "desc": [
+        [
+          "Temporarily maintains charging when you perform a Dodge Action while charging a Technique. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nWhen performing a recovery action during a technique charge, the state of the charge is temporarily kept. ",
+          "Main class only."
+        ],
+        [
+          "テクニックチャージ中に回避アクションを使用すると、一時的にチャージ中の状態をキープする。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_force-p_0019",
+      "min": 0,
+      "max": 1,
+      "loc": [3, 7],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": [[37, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 16,
+      "name": [
+        "Advanced Normal Tech",
+        "Normal Tech Advance",
+        "ノーマルテックアドバンス"
+      ],
+      "desc": [
+        ["Boosts damage dealt by uncharged Techniques."],
+        ["Passive\nIncreases the damage of uncharged techniques."],
+        ["チャージしていないテクニックのダメージが上昇する"]
+      ],
+      "img": "skill_common_0004",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        }
+      ],
+      "loc": [2, 7],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": null
+    },
+    {
+      "id": 17,
+      "name": [
+        "Advanced Tech Charge 1",
+        "Tech Charge Advance 1",
+        "テックチャージアドバンス1"
+      ],
+      "desc": [
+        ["Boosts damage dealt using Charged Techniques."],
+        ["Passive\nIncreases the damage of charged techniques."],
+        ["チャージテクニックのダメージが上昇する"]
+      ],
+      "img": "skill_common_0004",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        }
+      ],
+      "loc": [2, 9],
+      "mobileLoc": [],
+      "prereqs": [10, 1],
+      "unlocks": null
+    },
+    {
+      "id": 18,
+      "name": [
+        "Advanced Tech Charge 2",
+        "Tech Charge Advance 2",
+        "テックチャージアドバンス2"
+      ],
+      "desc": [
+        ["Boosts damage dealt using Charged Techniques."],
+        ["Passive\nIncreases the damage of charged techniques."],
+        ["チャージテクニックのダメージが上昇する"]
+      ],
+      "img": "skill_common_0004",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["101%", "103%", "105%", "107%", "110%"]
+        }
+      ],
+      "loc": [3, 9],
+      "mobileLoc": [],
+      "prereqs": [10, 1],
+      "unlocks": null
+    },
+    {
+      "id": 19,
+      "name": ["Photon Flare", "Photon Flare", "フォトンフレア"],
+      "desc": [
+        ["Temporarily boosts your Technique Power."],
+        ["Active\nIncreases T-ATK for a short period of time."],
+        ["一時的に法撃力を上昇させる"]
+      ],
+      "img": "skill_force-a_0000",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["TEC Pwr", "T-ATK", "法撃力"],
+          "stats": [
+            "+20",
+            "+40",
+            "+60",
+            "+80",
+            "+100",
+            "+120",
+            "+140",
+            "+160",
+            "+180",
+            "+200"
+          ]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": [
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s",
+            "45 s"
+          ]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "100 s",
+            "100 s",
+            "100 s",
+            "100 s",
+            "100 s",
+            "100 s",
+            "100 s",
+            "100 s",
+            "100 s",
+            "100 s"
+          ]
+        }
+      ],
+      "loc": [2, 10],
+      "mobileLoc": [],
+      "prereqs": [10, 2],
+      "unlocks": [
+        [20, 2],
+        [21, 3]
+      ],
+      "unlockImg": "forkright"
+    },
+    {
+      "id": 20,
+      "name": [
+        "Photon Flare Afterburst",
+        "Photon Flare After Burst",
+        "フォトンフレアアフターバースト"
+      ],
+      "desc": [
+        [
+          "Boosts your Technique Power for 30 seconds after the end of a Photon Flare effect."
+        ],
+        ["Passive\nIncreases T-ATK after Photon Flare has ended."],
+        ["フォトンフレアの効果終了後、30秒間法撃力が上昇する"]
+      ],
+      "img": "skill_force-p_0004",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        { "header": ["TEC Pwr", "T-ATK", "法撃力"], "stats": ["+100"] },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["30 s"]
+        }
+      ],
+      "loc": [3, 11],
+      "mobileLoc": [],
+      "prereqs": [19, 2],
+      "unlocks": null
+    },
+    {
+      "id": 21,
+      "name": [
+        "Advanced Photon Flare",
+        "Photon Flare Advance",
+        "フォトンフレアアドバンス"
+      ],
+      "desc": [
+        ["Further boosts your Technique Power when Photon Flare is activated."],
+        ["Passive\nIncreases T-ATK when activating Photon Flare."],
+        ["フォトンフレア発動時に、さらに法撃力が上昇する"]
+      ],
+      "img": "skill_force-p_0004",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["TEC Pwr", "T-ATK", "法撃力"],
+          "stats": [
+            "+20",
+            "+40",
+            "+60",
+            "+80",
+            "+100",
+            "+120",
+            "+140",
+            "+160",
+            "+180",
+            "+200"
+          ]
+        }
+      ],
+      "loc": [2, 11],
+      "mobileLoc": [],
+      "prereqs": [19, 3],
+      "unlocks": [[22, 1]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 22,
+      "name": [
+        "Photon Flare Boost",
+        "Photon Flare Boost",
+        "フォトンフレアブースト"
+      ],
+      "desc": [
+        [
+          "Boosts the chance of inflicting a status ailment when Photon Flare is activated."
+        ],
+        [
+          "Passive\nIncreases the chance to inflict status abnormalities while Photon Flare is in effect."
+        ],
+        ["フォトンフレア発動時に、状態異常を与える確率が上昇する"]
+      ],
+      "img": "skill_force-p_0006",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "110%",
+            "116%",
+            "122%",
+            "128%",
+            "134%",
+            "140%",
+            "146%",
+            "153%",
+            "160%",
+            "170%"
+          ]
+        }
+      ],
+      "loc": [2, 12],
+      "mobileLoc": [],
+      "prereqs": [21, 1],
+      "unlocks": null
+    },
+    {
+      "id": 23,
+      "name": ["Lightning Mastery 1", "Bolt Mastery 1", "ボルトマスタリー1"],
+      "desc": [
+        ["Boosts the potency of Lightning Techniques."],
+        ["Passive\nIncreases the power of thunder techniques."],
+        ["雷系テクニックの威力が上昇する"]
+      ],
+      "img": "skill_force-p_0002",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "105%",
+            "108%",
+            "110%",
+            "112%",
+            "114%",
+            "116%",
+            "117%",
+            "118%",
+            "119%",
+            "120%"
+          ]
+        }
+      ],
+      "loc": [5, 13],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": [
+        [24, 5],
+        [25, 3],
+        [26, 2]
+      ],
+      "unlockImg": "forkrightdouble"
+    },
+    {
+      "id": 24,
+      "name": [
+        "Lightning Tech PP Preservation",
+        "Bolt Tech PP Save",
+        "ボルトテックPPセイブ"
+      ],
+      "desc": [
+        ["Reduces the amount of PP consumed by Lightning Techniques."],
+        ["Passive\nDecreases the PP consumption of thunder techniques."],
+        ["雷系テクニックのPP消費量が減少する"]
+      ],
+      "img": "skill_force-p_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["PP Consumption Rate", "PP Consumption", "PP消費量"],
+          "stats": ["-2", "-4", "-6", "-8", "-10"]
+        }
+      ],
+      "loc": [6, 14],
+      "mobileLoc": [],
+      "prereqs": [23, 5],
+      "unlocks": null
+    },
+    {
+      "id": 25,
+      "name": ["Shock Boost", "Shock Boost", "ショックブースト"],
+      "desc": [
+        ["Boosts the chance of Inflicting a Shock status ailment."],
+        ["Passive\nIncreases the chance of inflicting shock status."],
+        ["ショック確率が上昇する"]
+      ],
+      "img": "skill_force-p_0002",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        }
+      ],
+      "loc": [6, 15],
+      "mobileLoc": [],
+      "prereqs": [23, 3],
+      "unlocks": null
+    },
+    {
+      "id": 26,
+      "name": ["Lightning Mastery 2", "Bolt Mastery 2", "ボルトマスタリー2"],
+      "desc": [
+        ["Boosts the potency of Lightning Techniques."],
+        ["Passive\nIncreases the power of thunder techniques."],
+        ["雷系テクニックの威力が上昇する"]
+      ],
+      "img": "skill_force-p_0002",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["110%", "114%", "116%", "118%", "120%"]
+        }
+      ],
+      "loc": [5, 15],
+      "mobileLoc": [],
+      "prereqs": [23, 2],
+      "unlocks": null
+    },
+    {
+      "id": 27,
+      "name": ["Freeze Mastery 1", "Ice Mastery 1", "アイスマスタリー1"],
+      "desc": [
+        ["Boosts the potency of Ice Techniques."],
+        ["Passive\nIncreases the power of ice techniques."],
+        ["氷系テクニックの威力が上昇する"]
+      ],
+      "img": "skill_force-p_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "105%",
+            "108%",
+            "110%",
+            "112%",
+            "114%",
+            "116%",
+            "117%",
+            "118%",
+            "119%",
+            "120%"
+          ]
+        }
+      ],
+      "loc": [3, 13],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": [
+        [28, 2],
+        [29, 3],
+        [30, 5],
+        [32, 2]
+      ],
+      "unlockImg": "forkrighttriple"
+    },
+    {
+      "id": 28,
+      "name": ["Deep Freeze", "Freeze Keep", "フリーズキープ"],
+      "desc": [
+        [
+          "Boosts resistance to the Freeze status ailment and makes it harder to undo with attacks."
+        ],
+        [
+          "Passive\nIncreases the duration of freeze status and makes it more difficult to break it by attacking."
+        ],
+        ["状態異常フリーズの耐久力が上昇し、攻撃によって解除されにくくなる"]
+      ],
+      "img": "skill_force-p_0009",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": [
+            "Freeze Resistance",
+            "Freeze Durability",
+            "フリーズ耐久力"
+          ],
+          "stats": ["200%", "300%", "400%", "500%", "600%"]
+        }
+      ],
+      "loc": [4, 14],
+      "mobileLoc": [],
+      "prereqs": [27, 2],
+      "unlocks": null
+    },
+    {
+      "id": 29,
+      "name": ["Freeze Boost", "Freeze Boost", "フリーズブースト"],
+      "desc": [
+        ["Boosts the chance of inflicting a Freeze status ailment."],
+        ["Passive\nIncreases the chance of inflicting freeze status."],
+        ["フリーズ確率が上昇する"]
+      ],
+      "img": "skill_force-p_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        }
+      ],
+      "loc": [4, 15],
+      "mobileLoc": [],
+      "prereqs": [27, 3],
+      "unlocks": null
+    },
+    {
+      "id": 30,
+      "name": [
+        "Freeze Detonation",
+        "Freeze Ignition",
+        "フリーズイグニッション"
+      ],
+      "desc": [
+        ["Deals major damage with an explosive blast to frozen enemies."],
+        ["Active\nDetonates frozen enemies."],
+        ["フリーズ状態のエネミーを爆破し、大きなダメージを与える"]
+      ],
+      "img": "skill_force-a_0001",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "10%",
+            "40%",
+            "80%",
+            "100%",
+            "120%",
+            "140%",
+            "160%",
+            "180%",
+            "190%",
+            "200%"
+          ]
+        },
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": [
+            "60 s",
+            "57 s",
+            "54 s",
+            "51 s",
+            "48 s",
+            "45 s",
+            "42 s",
+            "38 s",
+            "34 s",
+            "30 s"
+          ]
+        }
+      ],
+      "loc": [4, 16],
+      "mobileLoc": [],
+      "prereqs": [27, 5],
+      "unlocks": [[31, 2]],
+      "unlockImg": "basic"
+    },
+    {
+      "id": 31,
+      "name": [
+        "F Detonation Boost",
+        "F Ignition Boost",
+        "Fイグニッションブースト"
+      ],
+      "desc": [
+        ["Boosts the potency and area of effect of Frozen Detonation."],
+        ["Passive\nIncreases the area of effect and power of Freeze Ignition."],
+        ["フリーズイグニッションの効果範囲と威力が上昇する"]
+      ],
+      "img": "skill_force-p_0015",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency Boost Rate", "Power Increase Rate", "威力上昇率"],
+          "stats": ["120%", "140%", "160%", "180%", "200%"]
+        }
+      ],
+      "loc": [4, 17],
+      "mobileLoc": [],
+      "prereqs": [30, 2],
+      "unlocks": null
+    },
+    {
+      "id": 32,
+      "name": ["Freeze Mastery 2", "Ice Mastery 2", "アイスマスタリー2"],
+      "desc": [
+        ["Boosts the potency of Ice Techniques."],
+        ["Passive\nIncreases the power of ice techniques."],
+        ["氷系テクニックの威力が上昇する"]
+      ],
+      "img": "skill_force-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["110%", "114%", "116%", "118%", "120%"]
+        }
+      ],
+      "loc": [3, 16],
+      "mobileLoc": [],
+      "prereqs": [27, 2],
+      "unlocks": null
+    },
+    {
+      "id": 33,
+      "name": ["Flame Mastery 1", "Flame Mastery 1", "フレイムマスタリー1"],
+      "desc": [
+        ["Boosts the potency of Fire Techniques."],
+        ["Passive\nIncreases the power of flame techniques."],
+        ["炎系テクニックの威力が上昇する"]
+      ],
+      "img": "skill_force-p_0000",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": [
+            "105%",
+            "108%",
+            "110%",
+            "112%",
+            "114%",
+            "116%",
+            "117%",
+            "118%",
+            "119%",
+            "120%"
+          ]
+        }
+      ],
+      "loc": [1, 13],
+      "mobileLoc": [],
+      "prereqs": [10, 3],
+      "unlocks": [
+        [34, 5],
+        [35, 3],
+        [36, 2]
+      ],
+      "unlockImg": "forkrightdouble"
+    },
+    {
+      "id": 34,
+      "name": [
+        "Flame Tech Short Charge",
+        "Flame Tech S Charge",
+        "フレイムテックSチャージ"
+      ],
+      "desc": [
+        ["Reduces the charging time of Fire Techniques."],
+        ["Passive\nReduces the charge time of flame techniques."],
+        ["炎系テクニックのチャージ時間を短縮する"]
+      ],
+      "img": "skill_force-p_0000",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Reduction Rate", "Reduction Rate", "減少率"],
+          "stats": ["90%", "80%", "70%", "60%", "50%"]
+        }
+      ],
+      "loc": [2, 14],
+      "mobileLoc": [],
+      "prereqs": [33, 5],
+      "unlocks": null
+    },
+    {
+      "id": 35,
+      "name": ["Burn Boost", "Burn Boost", "バーンブースト"],
+      "desc": [
+        ["Boosts the chance of inflicting a Burn status ailment."],
+        ["Passive\nIncreases the chance of inflicting burn status."],
+        ["バーン確率が上昇する"]
+      ],
+      "img": "skill_force-p_0000",
+      "min": 0,
+      "max": 10,
+      "effects": [
+        {
+          "header": ["Activation Rate", "Chance", "発動率"],
+          "stats": [
+            "101%",
+            "102%",
+            "103%",
+            "104%",
+            "105%",
+            "106%",
+            "107%",
+            "108%",
+            "109%",
+            "110%"
+          ]
+        }
+      ],
+      "loc": [2, 15],
+      "mobileLoc": [],
+      "prereqs": [33, 3],
+      "unlocks": null
+    },
+    {
+      "id": 36,
+      "name": ["Flame Mastery 2", "Flame Mastery 2", "フレイムマスタリー2"],
+      "desc": [
+        ["Boosts the potency of Fire Techniques."],
+        ["Passive\nIncreases the power of flame techniques."],
+        ["炎系テクニックの威力が上昇する"]
+      ],
+      "img": "skill_force-p_0000",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["110%", "114%", "116%", "118%", "120%"]
+        }
+      ],
+      "loc": [1, 15],
+      "mobileLoc": [],
+      "prereqs": [33, 2],
+      "unlocks": null
+    },
+    {
+      "id": 37,
+      "name": [
+        "Rod Preseveration Bonus",
+        "Rod Keep Bonus",
+        "ロッドキープボーナス"
+      ],
+      "desc": [
+        [
+          "While a Rod is equipped, allows you to use a Technique maintained with Charged Escape without consuming PP."
+        ],
+        [
+          "Passive\nWhen equipped with a rod, the technique kept with Charge Escape can be used without PP consumption."
+        ],
+        [
+          "ロッド装備時、PPを消費せずにチャージエスケープでキープしたテクニックを使用出来る"
+        ]
+      ],
+      "img": "skill_force-p_0021",
+      "min": 0,
+      "max": 1,
+      "loc": [3, 8],
+      "mobileLoc": [],
+      "prereqs": [15, 1],
+      "unlocks": null
+    },
+    {
+      "id": 38,
+      "name": ["Talis Fast Throw", "Talis Fast Throw", "タリスファストスロー"],
+      "desc": [
+        [
+          "Boosts you Talis speed. ",
+          "This skill can only be used with a Main Class."
+        ],
+        ["Active\nIncreases your talis throw speed. ", "Main class only."],
+        ["タリスの速度が上昇する。このスキルはメインクラスのみ適用される"]
+      ],
+      "img": "skill_force-p_0022",
+      "min": 0,
+      "max": 1,
+      "loc": [5, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 39,
+      "name": ["Rod Shot", "Rod Shoot", "ロッドシュート"],
+      "desc": [
+        [
+          "Adds a Technique round when you perform a Normal Attack with a Rod. ",
+          "This skill can only be used with a Main Class."
+        ],
+        [
+          "Passive\nNormal attacks with a rod shoot an additional tech bullet. ",
+          "Main class only."
+        ],
+        [
+          "ロッド通常攻撃時に法撃弾が追加される。このスキルはメインクラスのみ適用される"
+        ]
+      ],
+      "img": "skill_force-p_0023",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["100%", "150%", "300%", "650%", "1000%"]
+        },
+        {
+          "header": ["PP Recovery", "PP Recovery Amount", "PP回復量"],
+          "stats": ["+5", "+8", "+10", "+10", "+10"]
+        }
+      ],
+      "loc": [6, 5],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 40,
+      "name": [
+        "Tech Charge JA Addition",
+        "Tech Charge JA Addition",
+        "テックチャージJAアディション"
+      ],
+      "desc": [
+        [
+          "Passive\nCharge techniques gain the effect of a Just Attack. The cooldown starts after activation."
+        ],
+        [
+          "Passive\nCharge techniques gain the effect of a Just Attack. The cooldown starts after activation."
+        ],
+        [
+          "チャージテクニックがジャストアタックになる効果を得る。発動後にリキャストが発生する"
+        ]
+      ],
+      "img": "FoTechChargeJAAddition",
+      "min": 0,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["0.5 s"]
+        }
+      ],
+      "loc": [6, 6],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 41,
+      "name": [
+        "High Level Bonus Fo",
+        "High Level Bonus Fo",
+        "ハイレベルボーナスFo"
+      ],
+      "desc": [
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["Passive\nGain a bonus to damage inflicted."],
+        ["プレイヤーが与えるダメージにボーナスを得る"]
+      ],
+      "img": "skill_summoner-p_0001",
+      "min": 0,
+      "max": 5,
+      "effects": [
+        {
+          "header": ["Potency", "Power", "威力"],
+          "stats": ["101%", "102%", "103%", "104%", "105%"]
+        }
+      ],
+      "loc": [3, 2],
+      "req": 80,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 42,
+      "name": [
+        "Photon Flare Rod SC",
+        "Photon Flare Rod SC",
+        "フォトンフレアロッドSC"
+      ],
+      "desc": [
+        [
+          "Passive\nFor 20 seconds after activating Photon Flare, the charge time of techniques while wielding a rod is decreased. ",
+          "Main class only."
+        ],
+        [
+          "Passive\nFor 20 seconds after activating Photon Flare, the charge time of techniques while wielding a rod is decreased. ",
+          "Main class only."
+        ],
+        [
+          "フォトンフレア発動から20秒間、ロッドのテクニックチャージ時間を短縮する。このスキルはメインクラスのみ適用される。"
+        ]
+      ],
+      "img": "FoPhotonFlareRodSC",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Charge Reduction", "Charge Reduction", "チャージ軽減"],
+          "stats": ["60%"]
+        },
+        {
+          "header": ["Effect Duration", "Duration", "効果時間"],
+          "stats": ["20 s"]
+        }
+      ],
+      "loc": [2, 2],
+      "req": 85,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 43,
+      "name": [
+        "First Arts Perfect Attack Addition",
+        "First Arts JA Addition",
+        "ファーストアーツJAアディション"
+      ],
+      "desc": [
+        [
+          "Passive\nTurns your first attack into a Perfect Attack. A cooldown is applied after activation. Doesn't affect Harmonizer attacks, pet attacks, or Techniques."
+        ],
+        [
+          "Passive\nFirst attack becomes a Just Attack. Cooldown begins after activation. Takt, Pet Attacks and Techs do not apply."
+        ],
+        [
+          "最初に放つ攻撃が、ジャストアタックになる。発動後にリキャストが発生する。タクトやペットの攻撃とテクニックは無効"
+        ]
+      ],
+      "img": "UISkillFirstArtsJustAttack",
+      "min": 1,
+      "max": 1,
+      "effects": [
+        {
+          "header": ["Cooldown", "Cooldown", "リキャスト"],
+          "stats": ["0.25 s"]
+        }
+      ],
+      "loc": [3, 1],
+      "req": 20,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 44,
+      "name": ["Double Jump", "Next Jump", "ネクストジャンプ"],
+      "desc": [
+        ["Passive\nEnables two-stage jumping."],
+        ["Passive\nEnables two-stage jumping."],
+        ["２段ジャンプが可能になる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 1],
+      "req": 40,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 45,
+      "name": ["Sidestep Jump", "Step Jump", "ステップジャンプ"],
+      "desc": [
+        ["Passive\nJumping during a Dodge Action transitions you into a dash."],
+        ["Passive\nJumping during a recovery action switches to sprinting."],
+        ["回避アクション中にジャンプを行うことでダッシユ状態へ移行する"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [2, 1],
+      "req": 10,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 46,
+      "name": ["Air Reversal", "Air Reversal", "エアリバーサル"],
+      "desc": [
+        ["Passive\nAllows you to perform a break-fall while in the air."],
+        ["Passive\nEnables recovery midair."],
+        ["空中で受け身がとれるようになる"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [4, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 47,
+      "name": [
+        "Perf. Recovery & ATK Combo",
+        "J Reversal JA Combo",
+        "JリバーサルJAコンボ"
+      ],
+      "desc": [
+        [
+          "Passive\nMakes Perfect-Attack timing apply after a Perfect Recovery."
+        ],
+        ["Passive\nThe Just Attack circle appears after Just Reversal."],
+        ["ジャストリバーサル後にジャストアタックタイミングが発生"]
+      ],
+      "img": "UISkillNextJump",
+      "min": 1,
+      "max": 1,
+      "loc": [5, 1],
+      "req": 30,
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    },
+    {
+      "id": 48,
+      "name": [
+        "Sidestep & Perf. ATK Combo",
+        "Step JA Combo",
+        "ステップJAコンボ"
+      ],
+      "desc": [
+        ["Passive\nMakes Perfect-Attack timing apply during a Sidestep."],
+        ["Passive\nThe JA circle appears during Step."],
+        ["ステップ時にJAタイミングが発生するようになる"]
+      ],
+      "img": "skill_hunter-p_0004",
+      "min": 1,
+      "max": 1,
+      "loc": [6, 2],
+      "mobileLoc": [],
+      "prereqs": null,
+      "unlocks": null
+    }
+  ]
+}

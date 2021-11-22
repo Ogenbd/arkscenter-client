@@ -1,0 +1,32 @@
+@import "../../variables.scss";
+.container {
+  border: 1px solid $windowBorderColor;
+  background-color: $windowBackgroundColor;
+  padding: 10px 20px;
+  h1 {
+    margin-bottom: 20px;
+  }
+}
+
+.google {
+  width: 250px;
+}
+
+.signInButton {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  height: 38px;
+  width: 150px;
+  margin-right: 5px;
+  background-image: url("../../assets/images/general/darkbutton.png");
+  background-repeat: no-repeat;
+  background-size: 150px 38px;
+  cursor: pointer;
+  &:hover {
+    // box-shadow: inset 0px 0px 7px 5px #5bc3ff;
+
+    background-image: url("../../assets/images/general/brightbutton.png");
+  }
+}
